@@ -1,0 +1,1026 @@
+﻿{
+    "schema_version":  "1.0",
+    "package_id":  "PKG_BUD_KDT_EP004",
+    "episode_id":  "EP_BUD_KDT_004",
+    "domain_id":  "BUD",
+    "series_id":  "SB_BUD_001",
+    "episode_number":  4,
+    "title":  "Cung Trời Đao Lợi - Khi Đức Phật Giảng Kinh Vì Mẹ, Và Bài Học Hiếu Đạo Bị Lãng Quên",
+    "language":  "vi",
+    "production_profile":  "YOUTUBE_LONG_FORM",
+    "version":  "0.1.0",
+    "package_status":  "READY_FOR_REVIEW",
+    "current_gate":  "READY_FOR_SCRIPT_REVIEW",
+    "canonical_assets":  {
+                             "research_brief":  "AST_EP004_RESEARCH_BRIEF",
+                             "episode_planner":  "AST_EP004_EPISODE_PLANNER",
+                             "audio_script_master":  "AST_EP004_AUDIO_MASTER",
+                             "visual_brief":  "AST_EP004_VISUAL_BRIEF",
+                             "metadata":  "AST_EP004_METADATA",
+                             "qa_report":  "AST_EP004_QA_REPORT",
+                             "production_summary":  "AST_EP004_PRODUCTION_SUMMARY"
+                         },
+    "assets":  [
+                   {
+                       "asset_id":  "AST_EP004_RESEARCH_BRIEF",
+                       "asset_type":  "research_brief",
+                       "path":  "01_RESEARCH_BRIEF.md",
+                       "canonical":  true,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "ECEAA627997A6BC2CDF907127D8E4D0C4CE93A3A102F039789ECB9058E4E723C",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_EPISODE_PLANNER",
+                       "asset_type":  "episode_planner",
+                       "path":  "02_EPISODE_PLANNER.md",
+                       "canonical":  true,
+                       "derived_from":  [
+                                            "AST_EP004_RESEARCH_BRIEF"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "27046CDDC49412AEEA0114EED6745DD3F6B9FB063A46899518996A0E67A0C2B2",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_AUDIO_SCRIPT_LEGACY",
+                       "asset_type":  "legacy_audio_script_source",
+                       "path":  "03_AUDIO_SCRIPT.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "C7AA0D068A248A9EFB69F44A74BE862DB12036B215CFA4C0A095666AD4F441D0",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_AUDIO_MASTER",
+                       "asset_type":  "audio_script_master",
+                       "path":  "03_AUDIO_SCRIPT_MASTER.md",
+                       "canonical":  true,
+                       "derived_from":  [
+                                            "AST_EP004_AUDIO_SCRIPT_LEGACY"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "C05FCC10240704D05E1ADDCD33AE3A7C1D8D2E60AC5B6B5D113A32178B29D3A7",
+                       "word_count":  5222,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_AUDIO_TTS",
+                       "asset_type":  "audio_script_tts",
+                       "path":  "03_AUDIO_SCRIPT_TTS.txt",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_AUDIO_MASTER"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "AE16D2013B44AB3863C12A0A181613EA7A9BB1B46663E2C0BA22BA23A639B151",
+                       "word_count":  5222,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_SUBTITLE_SEGMENTS",
+                       "asset_type":  "subtitle_segments",
+                       "path":  "03_SUBTITLE_SEGMENTS.json",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_AUDIO_MASTER",
+                                            "AST_EP004_AUDIO_TTS"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "IN_PROGRESS",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "B72FCC8DEE9ADC6525BC53ED525FEFA5A17C250DC2F1EF87784C17D8F615BF5B",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_VISUAL_BRIEF",
+                       "asset_type":  "visual_brief",
+                       "path":  "04_VISUAL_BRIEF.md",
+                       "canonical":  true,
+                       "derived_from":  [
+                                            "AST_EP004_AUDIO_MASTER"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_FOR_VIDEO"
+                                              ],
+                       "checksum_sha256":  "5E1B4941875DFDA0DC21CC052CF819FC49038FBE192A8051E8F73B185691255F",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_METADATA",
+                       "asset_type":  "metadata",
+                       "path":  "05_METADATA.md",
+                       "canonical":  true,
+                       "derived_from":  [
+                                            "AST_EP004_AUDIO_MASTER"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_TO_PUBLISH"
+                                              ],
+                       "checksum_sha256":  "DA9DD4FD33AAF54C79DCB9CC87DF4FF14EB6B6CF8F42F95C284F0B6A19017CF9",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_METADATA_DRAFT_LEGACY",
+                       "asset_type":  "legacy_metadata_draft",
+                       "path":  "05_METADATA_DRAFT.md",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_METADATA"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "CFC9B0E92685EC4FB3C2AA700C2AE1933C2114BD2AFB9829BAFC373232B5EA77",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_QA_REPORT",
+                       "asset_type":  "qa_report",
+                       "path":  "06_QA_REPORT.md",
+                       "canonical":  true,
+                       "derived_from":  [
+                                            "AST_EP004_AUDIO_MASTER",
+                                            "AST_EP004_AUDIO_TTS",
+                                            "AST_EP004_SUBTITLE_SEGMENTS"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "75831BA09B87B03979E12D634B138DDA440D7473DE8EF0E33BC01BCEB0A824C0",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_PRODUCTION_SUMMARY",
+                       "asset_type":  "production_summary",
+                       "path":  "07_PRODUCTION_SUMMARY.md",
+                       "canonical":  true,
+                       "derived_from":  [
+                                            "AST_EP004_QA_REPORT"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS_WITH_ADVISORIES",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW"
+                                              ],
+                       "checksum_sha256":  "A249698BD337D6D06D3DCA0B54531890431DF51F42A7CFA97424D14356F0A058",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_README",
+                       "asset_type":  "readme",
+                       "path":  "README.md",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_MANIFEST"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW"
+                                              ],
+                       "checksum_sha256":  "7DA6A5B137E90FFB8AD2C903AB12A90D258AECBA756455061532B5A492EF2444",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_STATUS",
+                       "asset_type":  "status_dashboard",
+                       "path":  "status.md",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_MANIFEST"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW"
+                                              ],
+                       "checksum_sha256":  "4027EFFCDD99316BC48BEF39C26CCF1F5F2DEE0FF0AA6F4100C6BDD63736DFA1",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_MANIFEST",
+                       "asset_type":  "production_manifest",
+                       "path":  "manifest.json",
+                       "canonical":  true,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "READY_FOR_REVIEW",
+                       "qa_status":  "NOT_RUN",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW",
+                                                  "READY_FOR_VOICE"
+                                              ],
+                       "checksum_sha256":  "140C2E71D84B5727F8A8E7EF4CBEDBF963D84A2E3F153DC3CE12E9BAEE90E694",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_PACKAGE_AUDIT_REPORT",
+                       "asset_type":  "package_audit_report",
+                       "path":  "PACKAGE_AUDIT_REPORT.md",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_MANIFEST"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "NOT_STARTED",
+                       "qa_status":  "NOT_RUN",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW"
+                                              ],
+                       "checksum_sha256":  "E821365961BB0F3C2C356F2D8AF88728E92DE78243294EE9A6340DF194814B9F",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_PACKAGE_AUDIT_RESULT",
+                       "asset_type":  "package_audit_result",
+                       "path":  "PACKAGE_AUDIT_RESULT.json",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_MANIFEST"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "NOT_STARTED",
+                       "qa_status":  "NOT_RUN",
+                       "required_for_gates":  [
+                                                  "READY_FOR_SCRIPT_REVIEW"
+                                              ],
+                       "checksum_sha256":  "6C138F8529BB211B2104CC128C0847045C6CBAF0BFE6A3E932D28199495C8BEE",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_MIGRATION_REPORT",
+                       "asset_type":  "production_migration_report",
+                       "path":  "PRODUCTION_MIGRATION_REPORT.md",
+                       "canonical":  false,
+                       "derived_from":  [
+                                            "AST_EP004_MANIFEST"
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "IN_PROGRESS",
+                       "qa_status":  "NOT_RUN",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "11217F804C2247111AD0484DB9AEDC56BA856E430F00595E712E8FC6FDC35F13",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_MIGRATION_BACKUP_MANIFEST",
+                       "asset_type":  "backup_manifest",
+                       "path":  "PRODUCTION_MIGRATION_BACKUP_MANIFEST.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "6736E30813B98D97C82CB3D830BBA349B58796BF1E4F7CFE20CD877D047261D8",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_ASSET_RESOLUTION_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_ASSET_RESOLUTION.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "D933D9342B1DF0EFAA4F36D0FA56B17577BB30BDFEE0D1F7E2A1AA60D3FB51AD",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_BACKUP_MANIFEST_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_BACKUP_MANIFEST.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "FB6A8C18F0E9317494188CB501A75CD0927564042F55F90F889606E378CD4F93",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_CHARACTER_USAGE_PLAN_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_CHARACTER_USAGE_PLAN.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "32764A755BD141F7602AB338408A15539A13C44F927209F9114135358B836A70",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_EPISODE_PLAN_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_EPISODE_PLAN.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "A4607C3AF64F1AA619DC671082FE847A064EF7CBEA3E95F6EEA0D818E610C076",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_MANIFEST_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_MANIFEST.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "E1E31E6A692D6556D48C9F17A4358FA91157AC486489EE91B2236230DBEF06EE",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_QA_PLAN_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_QA_PLAN.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "91240FACFB44739CF0DBED8438F8A9F8D9658E976CB517A5353C8485B20D3E41",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_READINESS_REPORT_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_READINESS_REPORT.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "A4B7D742423097974A051C2D1527997809E17191A60BA00ABCFC36480D1020C9",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_RESEARCH_BRIEF_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_RESEARCH_BRIEF.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "78698EBBF9EDA33016373A891051BBE6218F0795676EDE1A6987CE4D6624A187",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_RESEARCH_GAPS_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_RESEARCH_GAPS.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "5A422CE62D8537BADB413B34F7CB241A13A4B975034A9E97BFFB13B5246A989C",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_SOURCE_CLAIM_MATRIX_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_SOURCE_CLAIM_MATRIX.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "563C60D10EE009A55CB9A6F63C7F87F00A24F6C096CE42AC615021F66B1A806D",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_TERMINOLOGY_MAP_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_TERMINOLOGY_MAP.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "9C7F875206E60CA6FD6ED59FE73FEE27829CDACBE592E3D5F079F81BADEC6000",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   },
+                   {
+                       "asset_id":  "AST_EP004_COMPAT_EP004_VISUAL_RESEARCH_REQUIREMENTS_MD",
+                       "asset_type":  "compatibility_planning_asset",
+                       "path":  "EP004_VISUAL_RESEARCH_REQUIREMENTS.md",
+                       "canonical":  false,
+                       "derived_from":  [
+
+                                        ],
+                       "version":  "0.1.0",
+                       "workflow_status":  "APPROVED",
+                       "qa_status":  "PASS",
+                       "required_for_gates":  [
+
+                                              ],
+                       "checksum_sha256":  "DD2B584BED17BB907A703E1088E7BD9A80741A80DADCC71629235B73C22E3F8E",
+                       "word_count":  null,
+                       "encoding":  "UTF-8",
+                       "exists":  true,
+                       "owner":  {
+                                     "domain_owner":  "BUD",
+                                     "episode_owner":  "EP_BUD_KDT_004",
+                                     "package_owner":  "PKG_BUD_KDT_EP004"
+                                 },
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   }
+               ],
+    "dependencies":  [
+                         {
+                             "dependency_id":  "DEP_EP004_BUD_GUIDE",
+                             "asset_id":  "BUD_GUIDE",
+                             "path":  "DOMAINS/BUDDHISM/BUDDHIST_GUIDE.md",
+                             "required":  true
+                         },
+                         {
+                             "dependency_id":  "DEP_EP004_KP",
+                             "asset_id":  "KP_BUD_001",
+                             "path":  "DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md",
+                             "required":  true
+                         },
+                         {
+                             "dependency_id":  "DEP_EP004_CK",
+                             "asset_id":  "CK_BUD_001",
+                             "path":  "DOMAINS/BUDDHISM/CREATIVE_KNOWLEDGE/CK_BUD_001_Kinh_Dia_Tang.md",
+                             "required":  true
+                         },
+                         {
+                             "dependency_id":  "DEP_EP004_SB",
+                             "asset_id":  "SB_BUD_001",
+                             "path":  "DOMAINS/BUDDHISM/SERIES_BIBLES/SB_BUD_001_Kinh_Dia_Tang.md",
+                             "required":  true
+                         },
+                         {
+                             "dependency_id":  "DEP_EP004_CB",
+                             "asset_id":  "CB_BUD_001",
+                             "path":  "DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md",
+                             "required":  true
+                         }
+                     ],
+    "metrics":  {
+                    "master_word_count":  5222,
+                    "tts_word_count":  5222,
+                    "estimated_duration_seconds":  2021,
+                    "estimation_words_per_minute":  155,
+                    "subtitle_segment_count":  463,
+                    "final_audio_duration_seconds":  null,
+                    "master_to_tts_exact_match_percentage":  100,
+                    "semantic_coverage_percentage":  100,
+                    "normalization_count":  0,
+                    "missing_segments":  [
+
+                                         ],
+                    "extra_segments":  [
+
+                                       ]
+                },
+    "lifecycle":  {
+                      "Research":  {
+                                       "workflow_status":  "READY_FOR_REVIEW",
+                                       "qa_status":  "PASS_WITH_ADVISORIES",
+                                       "blocking_issues":  [
+                                                               "citation/copyright human review before publish"
+                                                           ],
+                                       "dependencies":  [
+                                                            "AST_EP004_RESEARCH_BRIEF"
+                                                        ],
+                                       "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                   },
+                      "Planner":  {
+                                      "workflow_status":  "READY_FOR_REVIEW",
+                                      "qa_status":  "PASS",
+                                      "blocking_issues":  [
+
+                                                          ],
+                                      "dependencies":  [
+                                                           "AST_EP004_EPISODE_PLANNER"
+                                                       ],
+                                      "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                  },
+                      "Script":  {
+                                     "workflow_status":  "READY_FOR_REVIEW",
+                                     "qa_status":  "PASS_WITH_ADVISORIES",
+                                     "blocking_issues":  [
+                                                             "human review before voice approval"
+                                                         ],
+                                     "dependencies":  [
+                                                          "AST_EP004_AUDIO_MASTER"
+                                                      ],
+                                     "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                 },
+                      "TTS":  {
+                                  "workflow_status":  "READY_FOR_REVIEW",
+                                  "qa_status":  "PASS",
+                                  "blocking_issues":  [
+
+                                                      ],
+                                  "dependencies":  [
+                                                       "AST_EP004_AUDIO_TTS"
+                                                   ],
+                                  "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                              },
+                      "Voice":  {
+                                    "workflow_status":  "NOT_STARTED",
+                                    "qa_status":  "NOT_RUN",
+                                    "blocking_issues":  [
+                                                            "audio not rendered"
+                                                        ],
+                                    "dependencies":  [
+                                                         "AST_EP004_AUDIO_TTS"
+                                                     ],
+                                    "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                },
+                      "Subtitle":  {
+                                       "workflow_status":  "IN_PROGRESS",
+                                       "qa_status":  "PASS_WITH_ADVISORIES",
+                                       "blocking_issues":  [
+                                                               "awaiting audio alignment"
+                                                           ],
+                                       "dependencies":  [
+                                                            "AST_EP004_SUBTITLE_SEGMENTS"
+                                                        ],
+                                       "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                   },
+                      "Visual":  {
+                                     "workflow_status":  "READY_FOR_REVIEW",
+                                     "qa_status":  "PASS_WITH_ADVISORIES",
+                                     "blocking_issues":  [
+                                                             "Buddha/Maya visual review"
+                                                         ],
+                                     "dependencies":  [
+                                                          "AST_EP004_VISUAL_BRIEF"
+                                                      ],
+                                     "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                 },
+                      "Metadata":  {
+                                       "workflow_status":  "READY_FOR_REVIEW",
+                                       "qa_status":  "PASS_WITH_ADVISORIES",
+                                       "blocking_issues":  [
+                                                               "citation/copyright review before publish"
+                                                           ],
+                                       "dependencies":  [
+                                                            "AST_EP004_METADATA"
+                                                        ],
+                                       "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                   },
+                      "Package QA":  {
+                                         "workflow_status":  "READY_FOR_REVIEW",
+                                         "qa_status":  "PASS",
+                                         "blocking_issues":  [
+
+                                                             ],
+                                         "dependencies":  [
+                                                              "AST_EP004_MANIFEST"
+                                                          ],
+                                         "last_updated":  "2026-07-14T11:33:54.7761739+07:00"
+                                     },
+                      "Human Review":  {
+                                           "workflow_status":  "IN_PROGRESS",
+                                           "qa_status":  "NOT_RUN",
+                                           "blocking_issues":  [
+                                                                   "human review pending"
+                                                               ],
+                                           "dependencies":  [
+
+                                                            ],
+                                           "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                       },
+                      "Video":  {
+                                    "workflow_status":  "NOT_STARTED",
+                                    "qa_status":  "NOT_APPLICABLE",
+                                    "blocking_issues":  [
+                                                            "no audio/video"
+                                                        ],
+                                    "dependencies":  [
+
+                                                     ],
+                                    "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                },
+                      "Publish":  {
+                                      "workflow_status":  "NOT_STARTED",
+                                      "qa_status":  "NOT_APPLICABLE",
+                                      "blocking_issues":  [
+                                                              "not publish-ready"
+                                                          ],
+                                      "dependencies":  [
+
+                                                       ],
+                                      "last_updated":  "2026-07-14T11:29:49.3674583+07:00"
+                                  }
+                  },
+    "qa":  {
+               "content_qa":  "PASS_WITH_ADVISORIES",
+               "asset_qa":  "PASS",
+               "derivation_qa":  "PASS",
+               "package_qa":  "PASS",
+               "tts_normalization_log":  [
+
+                                         ],
+               "human_review_required":  [
+                                             "citation/copyright",
+                                             "final source citation",
+                                             "visual representation of Buddha and Maya"
+                                         ]
+           },
+    "production":  {
+                       "audio_rendered":  false,
+                       "audio_asset_path":  null,
+                       "subtitle_draft_status":  "NOT_CREATED",
+                       "subtitle_final_status":  "NOT_STARTED",
+                       "subtitle_final_reason":  "audio_not_rendered",
+                       "video_rendered":  false,
+                       "publish_ready":  false
+                   },
+    "timestamps":  {
+                       "created_at":  "2026-07-14T11:29:49.3674583+07:00",
+                       "updated_at":  "2026-07-14T11:33:54.7811725+07:00",
+                       "migrated_at":  "2026-07-14T11:29:49.3674583+07:00"
+                   }
+}

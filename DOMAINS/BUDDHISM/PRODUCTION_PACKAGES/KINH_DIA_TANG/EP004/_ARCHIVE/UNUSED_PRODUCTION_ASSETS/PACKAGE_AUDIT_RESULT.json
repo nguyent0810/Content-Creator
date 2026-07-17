@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "package_id": "PKG_BUD_KDT_EP004",
+  "audit_timestamp": "2026-07-14T11:34:35.840704",
+  "audit_mode": "automated",
+  "result": "PASS",
+  "current_gate": "READY_FOR_SCRIPT_REVIEW",
+  "next_eligible_gate": "READY_FOR_VOICE",
+  "blocking_errors": 0,
+  "warnings": 0,
+  "checks": [
+    {
+      "check_id": "PKG-SCHEMA-001",
+      "category": "schema",
+      "name": "manifest.json parses",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "DOMAINS\\BUDDHISM\\PRODUCTION_PACKAGES\\KINH_DIA_TANG\\EP004\\manifest.json",
+      "remediation": ""
+    },
+    {
+      "check_id": "PKG-SCHEMA-002",
+      "category": "schema",
+      "name": "required manifest fields",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "missing=[]",
+      "remediation": "Add required fields."
+    },
+    {
+      "check_id": "PKG-SCHEMA-003",
+      "category": "schema",
+      "name": "production profile valid",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "YOUTUBE_LONG_FORM",
+      "remediation": "Use supported profile."
+    },
+    {
+      "check_id": "PKG-SCHEMA-004",
+      "category": "schema",
+      "name": "current gate valid",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "READY_FOR_SCRIPT_REVIEW",
+      "remediation": "Use supported gate."
+    },
+    {
+      "check_id": "PKG-ASSET-001",
+      "category": "asset",
+      "name": "asset IDs unique",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "duplicates=[]",
+      "remediation": "Remove duplicate asset IDs."
+    },
+    {
+      "check_id": "PKG-ASSET-002",
+      "category": "asset",
+      "name": "declared asset paths exist",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "missing=[]",
+      "remediation": "Create or remove missing asset declarations."
+    },
+    {
+      "check_id": "PKG-ASSET-003",
+      "category": "asset",
+      "name": "declared assets non-empty",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "empty=[]",
+      "remediation": "Populate empty assets."
+    },
+    {
+      "check_id": "PKG-ASSET-004",
+      "category": "asset",
+      "name": "checksums generated",
+      "status": "PASS",
+      "severity": "LOW",
+      "evidence": "mismatches=[]",
+      "remediation": "Refresh checksums after final file writes."
+    },
+    {
+      "check_id": "PKG-CANON-001",
+      "category": "canonical",
+      "name": "exactly one canonical master narration",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "count=1",
+      "remediation": "Declare exactly one canonical audio_script_master."
+    },
+    {
+      "check_id": "PKG-CANON-002",
+      "category": "canonical",
+      "name": "derived assets not canonical",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "derived_canonical=[]",
+      "remediation": "Mark derived assets canonical=false."
+    },
+    {
+      "check_id": "PKG-TTS-001",
+      "category": "tts",
+      "name": "master narration markers exist",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "03_AUDIO_SCRIPT_MASTER.md",
+      "remediation": "Add narration markers."
+    },
+    {
+      "check_id": "PKG-TTS-002",
+      "category": "tts",
+      "name": "TTS plain text cleanliness",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "03_AUDIO_SCRIPT_TTS.txt",
+      "remediation": "Remove metadata/Markdown from TTS."
+    },
+    {
+      "check_id": "PKG-DERIVE-001",
+      "category": "derivation",
+      "name": "MASTER-to-TTS exact coverage",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "exact_match=True",
+      "remediation": "Regenerate TTS from master narration."
+    },
+    {
+      "check_id": "PKG-SUB-001",
+      "category": "subtitle",
+      "name": "subtitle segment JSON valid",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "segments=463",
+      "remediation": ""
+    },
+    {
+      "check_id": "PKG-SUB-002",
+      "category": "subtitle",
+      "name": "line constraints advisory",
+      "status": "PASS",
+      "severity": "LOW",
+      "evidence": "over_hard_max=0",
+      "remediation": "Review long semantic subtitle lines before render."
+    },
+    {
+      "check_id": "PKG-SUB-003",
+      "category": "subtitle",
+      "name": "timing status truthful",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "AWAITING_AUDIO_ALIGNMENT",
+      "remediation": "Use a valid timing status."
+    },
+    {
+      "check_id": "PKG-SUB-004",
+      "category": "subtitle",
+      "name": "no fake final SRT without audio",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "final_exists=False, audio_rendered=False",
+      "remediation": "Remove final SRT or provide audio/alignment evidence."
+    },
+    {
+      "check_id": "PKG-LIFE-001",
+      "category": "lifecycle",
+      "name": "status.md synchronized with manifest",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "package_id/current_gate/package_status present",
+      "remediation": "Regenerate status.md from manifest."
+    },
+    {
+      "check_id": "PKG-DEP-001",
+      "category": "dependency",
+      "name": "dependency paths exist",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "missing=[]",
+      "remediation": "Fix dependency paths."
+    }
+  ]
+}

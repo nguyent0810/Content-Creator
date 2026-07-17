@@ -1,0 +1,210 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_BUD_KDT_EP005_SHORT_06",
+  "audit_timestamp": "2026-07-17T08:02:35.554519",
+  "audit_mode": "automated",
+  "result": "PASS",
+  "content_status": "READY_FOR_TTS_HANDOFF",
+  "blocking_errors": 0,
+  "warnings": 0,
+  "checks": [
+    {
+      "check_id": "PKG-SCHEMA-001",
+      "category": "schema",
+      "name": "manifest.json parses",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "DOMAINS\\BUDDHISM\\PRODUCTION_PACKAGES\\KINH_DIA_TANG\\EP005\\Short\\EP005_SHORT_06\\_INTERNAL\\manifest.json",
+      "remediation": ""
+    },
+    {
+      "check_id": "PKG-SCHEMA-002",
+      "category": "schema",
+      "name": "required manifest fields",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "missing=[]",
+      "remediation": "Add required fields per PRODUCTION_PACKAGE_MANIFEST_SCHEMA.json."
+    },
+    {
+      "check_id": "PKG-SCHEMA-003",
+      "category": "schema",
+      "name": "schema_version is 2.0",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "2.0",
+      "remediation": "Migrate manifest to schema_version 2.0."
+    },
+    {
+      "check_id": "PKG-SCHEMA-004",
+      "category": "schema",
+      "name": "content_status valid",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "READY_FOR_TTS_HANDOFF",
+      "remediation": "Use a supported content_status value."
+    },
+    {
+      "check_id": "PKG-SCHEMA-005",
+      "category": "schema",
+      "name": "qa_status valid",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "PASS_WITH_ADVISORIES",
+      "remediation": "Use a supported qa_status value."
+    },
+    {
+      "check_id": "PKG-SCHEMA-006",
+      "category": "schema",
+      "name": "canonical_master is the fixed contract path",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+      "remediation": "canonical_master must be _INTERNAL/03_AUDIO_SCRIPT_MASTER.md."
+    },
+    {
+      "check_id": "PKG-SCHEMA-007",
+      "category": "schema",
+      "name": "tts_output is the fixed contract path",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+      "remediation": "tts_output must be OUTPUT/03_AUDIO_SCRIPT_TTS.txt."
+    },
+    {
+      "check_id": "PKG-ASSET-001",
+      "category": "asset",
+      "name": "required assets exist",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "missing=[]",
+      "remediation": "Create the asset or remove it from the manifest."
+    },
+    {
+      "check_id": "PKG-ASSET-002",
+      "category": "asset",
+      "name": "required assets non-empty",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "empty=[]",
+      "remediation": "Populate empty assets."
+    },
+    {
+      "check_id": "PKG-DEP-001",
+      "category": "dependency",
+      "name": "dependency paths exist",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "missing=[]",
+      "remediation": "Fix dependency paths."
+    },
+    {
+      "check_id": "PKG-DEP-002",
+      "category": "dependency",
+      "name": "no dependency points at an archive/backup path",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "archived=[]",
+      "remediation": "Point dependencies at active canonical paths, not archived/backup copies."
+    },
+    {
+      "check_id": "PKG-REG-001",
+      "category": "registry",
+      "name": "dependency asset_id known in ASSET_REGISTRY",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "unknown=[]",
+      "remediation": "Register the asset in REGISTRIES/ASSET_REGISTRY.md or fix the asset_id."
+    },
+    {
+      "check_id": "PKG-REG-002",
+      "category": "registry",
+      "name": "dependency path matches registry canonical path",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "mismatched=[]",
+      "remediation": "Update the dependency path to match the registry's canonical path."
+    },
+    {
+      "check_id": "PKG-REG-003",
+      "category": "registry",
+      "name": "dependency asset is active in registry",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "evidence": "inactive=[]",
+      "remediation": "Do not depend on non-active registry assets."
+    },
+    {
+      "check_id": "PKG-TTS-001",
+      "category": "tts",
+      "name": "master narration markers exist",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+      "remediation": "Wrap narration in <!-- NARRATION_START/END --> markers."
+    },
+    {
+      "check_id": "PKG-TTS-002",
+      "category": "tts",
+      "name": "TTS plain text cleanliness",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+      "remediation": "Remove metadata/Markdown from the TTS output."
+    },
+    {
+      "check_id": "PKG-DERIVE-001",
+      "category": "derivation",
+      "name": "MASTER-to-TTS coverage >= 99.5%",
+      "status": "PASS",
+      "severity": "CRITICAL",
+      "evidence": "measured=100.0%",
+      "remediation": "Regenerate the TTS output from the master narration."
+    },
+    {
+      "check_id": "PKG-DERIVE-002",
+      "category": "derivation",
+      "name": "declared coverage percentage is honest",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "evidence": "declared=100.0%, measured=100.0%",
+      "remediation": "Recompute master_to_tts_coverage_percentage after edits."
+    },
+    {
+      "check_id": "PKG-STRUCT-001",
+      "category": "structure",
+      "name": "package root contains only README.md, OUTPUT/, _INTERNAL/, _ARCHIVE/",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "evidence": "extra=[]",
+      "remediation": "Move stray files into _INTERNAL/, OUTPUT/, or _ARCHIVE/."
+    },
+    {
+      "check_id": "PKG-ARCHIVE-001",
+      "category": "archive",
+      "name": "archived files listed in ARCHIVE_MANIFEST.md",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "evidence": "unlisted=[]",
+      "remediation": "Add missing rows to _ARCHIVE/ARCHIVE_MANIFEST.md."
+    },
+    {
+      "check_id": "PKG-ARCHIVE-002",
+      "category": "archive",
+      "name": "no archived file still marked as an active dependency",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "active_dependency_remaining=[]",
+      "remediation": "Resolve or remove the active dependency before archiving the file."
+    },
+    {
+      "check_id": "PKG-SCOPE-001",
+      "category": "scope",
+      "name": "voice_render/video_render/publish remain OUT_OF_SCOPE",
+      "status": "PASS",
+      "severity": "HIGH",
+      "evidence": "{'voice_render': 'OUT_OF_SCOPE', 'video_render': 'OUT_OF_SCOPE', 'publish': 'OUT_OF_SCOPE'}",
+      "remediation": "This audit only covers packages through TTS handoff; do not mark render/publish stages complete here."
+    }
+  ]
+}

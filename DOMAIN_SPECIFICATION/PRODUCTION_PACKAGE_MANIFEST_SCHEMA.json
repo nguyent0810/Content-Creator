@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content Production Package Manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "package_id",
+    "episode_id",
+    "domain_id",
+    "series_id",
+    "title",
+    "language",
+    "version",
+    "content_status",
+    "canonical_master",
+    "tts_output",
+    "word_count",
+    "qa_status",
+    "master_to_tts_coverage_percentage",
+    "normalization_count",
+    "external_processes",
+    "dependencies",
+    "active_internal_assets",
+    "archived_assets",
+    "updated_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "domain_id": {
+      "type": "string"
+    },
+    "series_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "content_status": {
+      "enum": [
+        "DRAFTING",
+        "READY_FOR_CONTENT_REVIEW",
+        "CONTENT_REVISION_REQUIRED",
+        "CONTENT_APPROVED",
+        "READY_FOR_TTS_HANDOFF",
+        "CONTENT_PACKAGE_COMPLETE",
+        "BLOCKED"
+      ]
+    },
+    "canonical_master": {
+      "const": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md"
+    },
+    "tts_output": {
+      "const": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt"
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "qa_status": {
+      "enum": [
+        "NOT_RUN",
+        "PASS",
+        "PASS_WITH_ADVISORIES",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "master_to_tts_coverage_percentage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "normalization_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "external_processes": {
+      "type": "object",
+      "required": [
+        "voice_render",
+        "video_render",
+        "publish"
+      ],
+      "properties": {
+        "voice_render": {
+          "const": "OUT_OF_SCOPE"
+        },
+        "video_render": {
+          "const": "OUT_OF_SCOPE"
+        },
+        "publish": {
+          "const": "OUT_OF_SCOPE"
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dependency"
+      }
+    },
+    "active_internal_assets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^_INTERNAL/"
+      },
+      "contains": {
+        "const": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md"
+      }
+    },
+    "archived_assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/archived_asset"
+      }
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "dependency": {
+      "type": "object",
+      "required": [
+        "asset_id",
+        "path",
+        "scope"
+      ],
+      "properties": {
+        "asset_id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        }
+      }
+    },
+    "archived_asset": {
+      "type": "object",
+      "required": [
+        "path",
+        "active_dependency_remaining"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^_ARCHIVE/"
+        },
+        "active_dependency_remaining": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

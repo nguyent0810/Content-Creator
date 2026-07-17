@@ -1,0 +1,181 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_BUD_KDT_EP004",
+  "episode_id": "EP_BUD_KDT_004",
+  "domain_id": "BUD",
+  "series_id": "SB_BUD_001",
+  "title": "Cung Trời Đao Lợi - Khi Đức Phật Giảng Kinh Vì Mẹ, Và Bài Học Hiếu Đạo Bị Lãng Quên",
+  "language": "vi",
+  "version": "0.1.0",
+  "content_status": "READY_FOR_TTS_HANDOFF",
+  "canonical_master": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+  "tts_output": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+  "word_count": 5222,
+  "qa_status": "PASS",
+  "master_to_tts_coverage_percentage": 100,
+  "normalization_count": 0,
+  "external_processes": {
+    "voice_render": "OUT_OF_SCOPE",
+    "video_render": "OUT_OF_SCOPE",
+    "publish": "OUT_OF_SCOPE",
+    "video_prompt_generation": "IN_SCOPE"
+  },
+  "dependencies": [
+    {
+      "asset_id": "BUD_GUIDE",
+      "path": "DOMAINS/BUDDHISM/BUDDHIST_GUIDE.md",
+      "scope": "shared_domain_dependency"
+    },
+    {
+      "asset_id": "KP_BUD_001",
+      "path": "DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "knowledge_dependency"
+    },
+    {
+      "asset_id": "SB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/SERIES_BIBLES/SB_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "series_dependency"
+    },
+    {
+      "asset_id": "CB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md",
+      "scope": "character_dependency"
+    }
+  ],
+  "active_internal_assets": [
+    "_INTERNAL/01_RESEARCH_BRIEF.md",
+    "_INTERNAL/02_EPISODE_PLANNER.md",
+    "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+    "_INTERNAL/06_QA_REPORT.md",
+    "_INTERNAL/REVIEW_SUMMARY.md",
+    "_INTERNAL/SOURCE_CLAIM_MATRIX.md",
+    "_INTERNAL/RESEARCH_GAPS.md",
+    "_INTERNAL/TERMINOLOGY_MAP.md",
+    "_INTERNAL/CHARACTER_USAGE_PLAN.md",
+    "_INTERNAL/04A_SEMANTIC_BEATS.md",
+    "_INTERNAL/04B_VISUAL_OBLIGATIONS.md",
+    "_INTERNAL/04C_SHOT_PLAN.md",
+    "_INTERNAL/04D_SHOT_TIMING_AND_PRODUCTION_FILL.md",
+    "_INTERNAL/04E_FINAL_VIDEO_PROMPTS.md",
+    "_INTERNAL/04_VIDEO_PROMPT_TIMELINE.json"
+  ],
+  "archived_assets": [
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/EP004_BACKUP_MANIFEST.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/EP004_MANIFEST.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/PRODUCTION_MIGRATION_BACKUP_MANIFEST.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/PRODUCTION_MIGRATION_REPORT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_ASSET_RESOLUTION.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_EPISODE_PLAN.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_QA_PLAN.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_READINESS_REPORT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_RESEARCH_BRIEF.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_VISUAL_RESEARCH_REQUIREMENTS.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/SUPERSEDED_FILES/03_AUDIO_SCRIPT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/SUPERSEDED_FILES/manifest.v1.json",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/03_SUBTITLE_SEGMENTS.json",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/04_VISUAL_BRIEF.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/05_METADATA.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/05_METADATA_DRAFT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/07_PRODUCTION_SUMMARY.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/PACKAGE_AUDIT_REPORT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/PACKAGE_AUDIT_RESULT.json",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/status.md",
+      "active_dependency_remaining": false
+    }
+  ],
+  "updated_at": "2026-07-15T11:53:00",
+  "video_prompt_generation": "IN_SCOPE",
+  "video_prompt_output": "OUTPUT/04_VIDEO_CREATE_PROMPTS.txt",
+  "video_prompt_timeline": "_INTERNAL/04_VIDEO_PROMPT_TIMELINE.json",
+  "video_prompt_pipeline_version": "PHASE_A_TO_E_SEMANTIC_BEAT_SHOT_PLAN_PIPELINE",
+  "video_prompt_visual_pipeline": "SEMANTIC_BEAT (04A) -> VISUAL_OBLIGATION (04B) -> SHOT_PLAN (04C) -> SHOT_TIMING_AND_PRODUCTION_FILL (04D) -> FINAL_VIDEO_PROMPT (04E)",
+  "video_prompt_shot_count": 100,
+  "video_prompt_count": 100,
+  "video_prompt_shot_to_prompt_mapping": "100/100 STRICT_1_TO_1",
+  "video_prompt_timeline_type": "ESTIMATED_FROM_NARRATION",
+  "video_prompt_total_audio_duration_seconds": 2410.154,
+  "video_prompt_total_semantic_beats": 128,
+  "video_prompt_total_visual_obligations": 128,
+  "video_prompt_narration_coverage_percentage": 100,
+  "video_prompt_domain_approval_gate_applied": true,
+  "video_prompt_qa_computation_method": "INDEPENDENTLY_SCRIPT_COMPUTED",
+  "video_prompt_qa_report_ref": "_INTERNAL/06_QA_REPORT.md",
+  "video_prompt_missing_shot_ids": 0,
+  "video_prompt_duplicate_shot_ids": 0,
+  "video_prompt_timeline_gaps": 0,
+  "video_prompt_timeline_overlaps": 0,
+  "video_prompt_meta_template_count": 0,
+  "video_prompt_scene_pool_reuse_across_unrelated_shots_count": 0,
+  "video_prompt_unnatural_english_count": 0,
+  "video_prompt_multi_action_prompt_count": 0,
+  "video_prompt_religious_constraint_violation_count": 0,
+  "video_prompt_source_evidence_mismatch_count": 0,
+  "video_prompt_unsupported_addition_count": 0,
+  "video_prompt_forbidden_depiction_count": 0,
+  "video_prompt_overall_status": "PASS_READY_FOR_HUMAN_PROMPT_REVIEW",
+  "video_prompt_04e_backup_timestamp": "20260715_114132",
+  "video_prompt_04e_backup_path": "_ARCHIVE/PIPELINE_BACKUPS/",
+  "video_render": "OUT_OF_SCOPE",
+  "active_output_assets": [
+    "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+    "OUTPUT/04_VIDEO_CREATE_PROMPTS.txt"
+  ]
+}

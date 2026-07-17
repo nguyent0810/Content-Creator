@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "package_id": "{{PACKAGE_ID}}",
+  "episode_id": "{{EPISODE_ID}}",
+  "domain_id": "{{DOMAIN_ID}}",
+  "series_id": "{{SERIES_ID}}",
+  "title": "{{TITLE}}",
+  "language": "{{LANGUAGE}}",
+  "version": "0.1.0",
+  "content_status": "DRAFTING",
+  "canonical_master": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+  "tts_output": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+  "word_count": 0,
+  "qa_status": "NOT_RUN",
+  "master_to_tts_coverage_percentage": 0,
+  "normalization_count": 0,
+  "external_processes": {
+    "voice_render": "OUT_OF_SCOPE",
+    "video_render": "OUT_OF_SCOPE",
+    "publish": "OUT_OF_SCOPE"
+  },
+  "dependencies": [],
+  "active_internal_assets": [
+    "_INTERNAL/01_RESEARCH_BRIEF.md",
+    "_INTERNAL/02_EPISODE_PLANNER.md",
+    "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+    "_INTERNAL/06_QA_REPORT.md",
+    "_INTERNAL/REVIEW_SUMMARY.md"
+  ],
+  "archived_assets": [],
+  "updated_at": "{{UPDATED_AT}}"
+}

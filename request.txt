@@ -1,0 +1,288 @@
+Hãy tiếp tục sửa bộ video prompt EP004 tại:
+
+```text
+OUTPUT/04_VIDEO_CREATE_PROMPTS.txt
+_INTERNAL/04_VIDEO_PROMPT_TIMELINE.json
+```
+
+Giữ nguyên:
+
+```text
+402 prompt
+6 giây mỗi prompt
+timeline liên tục
+SEMANTIC_BEAT_FIRST
+VISUAL_BEAT_DECOMPOSITION
+context overlap được phép
+canonical narration và TTS không thay đổi
+```
+
+Không regenerate mù toàn bộ nếu prompt đã tốt.
+
+Thực hiện:
+
+```text
+AUDIT
+→ IDENTIFY_BAD_PROMPTS
+→ TARGETED_REWRITE
+→ GLOBAL_VALIDATION
+```
+
+# 1. Các lỗi cần tìm
+
+Đánh dấu prompt cần sửa nếu có ít nhất một lỗi:
+
+```text
+- Visual obligation quá chung chung.
+- Visual obligation không được suy ra trực tiếp từ narration.
+- Main subject hoặc Main action không liên quan narration.
+- Narration có chi tiết cụ thể nhưng visual bỏ qua.
+- Cùng một scene template bị tái sử dụng ở nhiều semantic beat không liên quan.
+- Prompt chỉ thay camera nhưng nội dung hình ảnh không thay đổi.
+- Visual thể hiện ngược hoặc làm yếu ý nghĩa narration.
+- Prompt dùng placeholder như:
+  “ý chính của đoạn narration”
+  “concrete emotional center”
+  “one visible detail changes”
+- Prompt chỉ dùng các nhãn chung như:
+  “cha mẹ / người thân”
+  “hiếu đạo / biết ơn / báo ân”
+  “gia đình có tổn thương”
+  mà không chuyển thành cảnh cụ thể.
+```
+
+# 2. Visual obligation phải cụ thể
+
+Mỗi visual obligation phải mô tả được một cảnh hoặc hành động nhìn thấy được.
+
+Không dùng:
+
+```text
+Visual obligation: hiếu đạo
+Visual obligation: cha mẹ
+Visual obligation: ý chính của đoạn narration
+```
+
+Phải dùng dạng cụ thể:
+
+```text
+người con đặt điện thoại xuống sau khi trì hoãn cuộc gọi
+người chăm sóc dừng tay vì kiệt sức bên khay thuốc
+người sống xa quê gọi video cho cha mẹ từ phòng trọ ban đêm
+người con giữ khoảng cách an toàn sau cánh cửa đóng
+bàn tay run nhẹ khi gấp lá thư xin lỗi chưa gửi
+```
+
+# 3. Derive obligation từ narration
+
+Với mỗi semantic beat, trích:
+
+```text
+who
+what action
+what object
+where
+emotional tension
+contrast
+what changes during the beat
+```
+
+Sau đó tạo obligation riêng cho từng clip.
+
+Không chọn obligation từ một danh sách cố định nếu narration có chi tiết riêng.
+
+# 4. Global template reuse check
+
+Không chỉ kiểm tra hai prompt liên tiếp.
+
+Phải kiểm tra toàn bộ 402 prompt.
+
+FAIL nếu cùng một tổ hợp:
+
+```text
+Main subject
+Main action
+Location
+Visual obligation
+```
+
+xuất hiện lặp lại ở nhiều semantic beat không liên quan.
+
+Một motif có thể quay lại, nhưng phải có lý do narrative rõ và được biến đổi theo context.
+
+Ví dụ chiếc ghế có thể tái xuất, nhưng phải khác chức năng:
+
+```text
+opening familiarity
+absence
+regret
+memory
+closing acceptance
+```
+
+Không được copy cùng một prompt rồi đổi shot type.
+
+# 5. Concrete-detail coverage
+
+Nếu narration có chi tiết cụ thể, ít nhất một prompt trong beat phải thể hiện nó.
+
+Ví dụ:
+
+```text
+ở xa quê
+làm việc nhiều giờ
+sống ở nước ngoài
+không đủ điều kiện về thăm
+```
+
+thì visual phải có ít nhất một trong:
+
+```text
+phòng trọ xa nhà
+cuộc gọi video
+hai múi giờ
+vali chưa mở
+ca làm đêm
+khung cửa sổ thành phố xa lạ
+```
+
+Không thay bằng bàn tay, bát cơm hoặc chiếc đèn chung chung.
+
+# 6. Meaning alignment
+
+Visual phải phản ánh đúng polarity của narration.
+
+Ví dụ narration nói về:
+
+```text
+tổn thương gia đình
+nỗi sợ
+kiệt sức
+ranh giới an toàn
+sự trì hoãn
+hối tiếc
+```
+
+thì không được minh họa chỉ bằng cảnh chăm sóc ấm áp hoặc gratitude chung chung.
+
+Hình ảnh phải thể hiện đúng sự phức tạp, nhưng không melodrama.
+
+# 7. Targeted rewrite
+
+Giữ nguyên prompt đạt chất lượng.
+
+Chỉ rewrite prompt bị đánh dấu lỗi.
+
+Prompt 1–15 có thể dùng làm quality reference về:
+
+```text
+obligation cụ thể
+chi tiết bám narration
+visual progression
+scene continuity
+không chỉ đổi camera
+```
+
+Không được mặc định mọi prompt 1–15 đều hoàn hảo; vẫn audit bình thường.
+
+# 8. Internal JSON
+
+Với mỗi prompt, cập nhật:
+
+```json
+{
+  "visual_obligation": "",
+  "obligation_source_phrases": [],
+  "required_narration_details": [],
+  "details_covered": [],
+  "global_template_id": "",
+  "template_reuse_justified": false,
+  "visual_narration_alignment": "PASS"
+}
+```
+
+`obligation_source_phrases` phải chứa phrase thực tế từ narration.
+
+Không để obligation không có source phrase.
+
+# 9. QA mới
+
+Thêm các validation:
+
+```text
+generic obligation count
+placeholder prompt count
+global repeated-template count
+unjustified template reuse count
+visual–narration mismatch count
+missing concrete-detail count
+meaning-polarity mismatch count
+obligation-without-source count
+prompts reviewed
+prompts rewritten
+prompts retained
+```
+
+Điều kiện PASS:
+
+```text
+generic obligation count: 0
+placeholder prompt count: 0
+unjustified template reuse count: 0
+visual–narration mismatch count: 0
+missing concrete-detail count: 0
+meaning-polarity mismatch count: 0
+obligation-without-source count: 0
+timeline gaps: 0
+timeline overlaps: 0
+narration coverage: 100%
+```
+
+Không yêu cầu mọi prompt phải hoàn toàn khác nhau.
+
+Continuity motif được phép tái sử dụng khi có lý do narrative.
+
+# 10. Chỉ cập nhật
+
+```text
+OUTPUT/04_VIDEO_CREATE_PROMPTS.txt
+_INTERNAL/04_VIDEO_PROMPT_TIMELINE.json
+_INTERNAL/manifest.json
+_INTERNAL/06_QA_REPORT.md
+_INTERNAL/REVIEW_SUMMARY.md
+```
+
+Tạo backup trước khi sửa.
+
+Không tạo report mới.
+
+Không sửa canonical narration.
+
+Không sửa TTS.
+
+Không render video.
+
+Không khởi tạo Git.
+
+# 11. Kết quả trả về
+
+Chỉ báo:
+
+```text
+overall status
+prompts reviewed
+prompts retained
+prompts rewritten
+generic obligation count
+placeholder prompt count
+global repeated-template count
+unjustified template reuse count
+visual–narration mismatch count
+missing concrete-detail count
+meaning-polarity mismatch count
+obligation-without-source count
+timeline gaps
+timeline overlaps
+narration coverage
+backup path
+```

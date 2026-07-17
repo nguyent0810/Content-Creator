@@ -1,0 +1,20 @@
+﻿# Version Registry
+
+| Asset ID | Version | Previous version | Current path | Change type | Canonical-body changed | Metadata changed | Migration timestamp | Review status |
+|---|---|---|---|---|---|---|---|---|
+| KP_BUD_001 | migrated-20260714 | legacy-root | DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md | compatibility-copy | no | no | 2026-07-14 | HUMAN_REVIEW_REQUIRED |
+| CK_BUD_001 | migrated-20260714 | legacy-root | DOMAINS/BUDDHISM/CREATIVE_KNOWLEDGE/CK_BUD_001_Kinh_Dia_Tang.md | compatibility-copy | no | no | 2026-07-14 | HUMAN_REVIEW_REQUIRED |
+| SB_BUD_001 | migrated-20260714 | legacy-root | DOMAINS/BUDDHISM/SERIES_BIBLES/SB_BUD_001_Kinh_Dia_Tang.md | compatibility-copy | no | no | 2026-07-14 | HUMAN_REVIEW_REQUIRED |
+| CB_BUD_001 | migrated-20260714 | legacy-root | DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md | compatibility-copy | no | no | 2026-07-14 | HUMAN_REVIEW_REQUIRED |
+| AST_EP004_MANIFEST | 0.1.0 | production-lifecycle-migration | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/manifest.json | output-restructure | no | yes | 2026-07-14 | READY_FOR_TTS_HANDOFF |
+| AST_EP004_RESEARCH_BRIEF | 0.1.0 | ep004-planning-v1 | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/01_RESEARCH_BRIEF.md | moved-to-internal | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_EPISODE_PLANNER | 0.1.0 | ep004-planning-v1 | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/02_EPISODE_PLANNER.md | moved-to-internal | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_AUDIO_MASTER | 0.1.0 | production-lifecycle-migration | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/03_AUDIO_SCRIPT_MASTER.md | moved-to-internal | no | yes | 2026-07-14 | PASS |
+| AST_EP004_AUDIO_TTS | 0.1.0 | production-lifecycle-migration | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/OUTPUT/03_AUDIO_SCRIPT_TTS.txt | moved-to-output | no | yes | 2026-07-14 | READY_FOR_TTS_HANDOFF |
+| AST_EP004_QA_REPORT | 0.1.0 | production-lifecycle-migration | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/06_QA_REPORT.md | moved-to-internal | no | yes | 2026-07-14 | PASS |
+| AST_EP004_REVIEW_SUMMARY | 0.1.0 | none | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/REVIEW_SUMMARY.md | created-summary | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_ARCHIVE_MANIFEST | 0.1.0 | none | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_ARCHIVE/ARCHIVE_MANIFEST.md | created-archive-record | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_SOURCE_CLAIM_MATRIX | 0.1.0 | ep004-planning-v1 | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/SOURCE_CLAIM_MATRIX.md | moved-to-internal | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_RESEARCH_GAPS | 0.1.0 | ep004-planning-v1 | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/RESEARCH_GAPS.md | moved-to-internal | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_TERMINOLOGY_MAP | 0.1.0 | ep004-planning-v1 | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/TERMINOLOGY_MAP.md | moved-to-internal | no | yes | 2026-07-14 | ACTIVE |
+| AST_EP004_CHARACTER_USAGE_PLAN | 0.1.0 | ep004-planning-v1 | DOMAINS/BUDDHISM/PRODUCTION_PACKAGES/KINH_DIA_TANG/EP004/_INTERNAL/CHARACTER_USAGE_PLAN.md | moved-to-internal | no | yes | 2026-07-14 | ACTIVE |

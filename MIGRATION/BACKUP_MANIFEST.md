@@ -1,0 +1,30 @@
+﻿# Backup Manifest
+
+Backup location: D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829
+
+Note: An earlier zero-file attempt exists at D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092806 and is non-canonical. The valid backup snapshot is recorded here.
+
+| Original path | Backup path | File size | SHA-256 | Detected asset type | Canonical status | Planned action | Backup status |
+|---|---|---:|---|---|---|---|---|
+| 01_BRAND_BIBLE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\01_BRAND_BIBLE.md | 65527 | 047B6DE582E8A191C6335D2FEEFBF27A9F3C3979E6EAFEF3F6C6E0569F46B7AE | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 02_BUDDHIST_GUIDE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\02_BUDDHIST_GUIDE.md | 74526 | 0DF3428F9ADE5800A3C79B3347926002400BFEE24725A4CDBA45899FFF1B6B9F | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 03_CONTENT_ARCHITECTURE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\03_CONTENT_ARCHITECTURE.md | 77175 | E06F4EB6A8BA0FA8AD418E631AB88ACFB7C60079852847170B74010C8B02E0CB | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 04_CONTENT_ENGINE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\04_CONTENT_ENGINE.md | 110720 | C4EA891CE07243F336E4ED93E10B75766B87C1AB3292CA32A81F82C2F6F4FAF7 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 05_RESEARCH_ENGINE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\05_RESEARCH_ENGINE.md | 116086 | 6F2A25CCB48667AD24CEA26E0CD8D31435DD957AB6C0D659DDBDE301C08F5B1A | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 06_VISUAL_ENGINE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\06_VISUAL_ENGINE.md | 114414 | 33CABF61052A3EC0B0EB35681F181CE27479F94FFB6A2F478296D3AAD1A54420 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 07_PRODUCTION_ENGINE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\07_PRODUCTION_ENGINE.md | 121409 | C61A6AD906A9EABCCCD2265D03377BBA13AD131163AB646DC6B5513B16E53F91 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 08_GROWTH_ENGINE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\08_GROWTH_ENGINE.md | 129229 | 2943FB9256291C21DCDDF04C8A5C2E538074F3F7676E270376EFD9740BF3B743 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 09_QA_ENGINE.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\09_QA_ENGINE.md | 132875 | 3902E2D6511F72223BE95C764B345DFB85F55162E871EF320E5EDFDF0C560C4E | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 10_MASTER_AGENT.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\10_MASTER_AGENT.md | 145496 | 357D1E0E36BF7513841160608BED79E3C85D70D589084709FCED64CD74C3D2C9 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| 11_KNOWLEDGE_MODEL.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\11_KNOWLEDGE_MODEL.md | 132229 | 7E2D7740D44325F10CFC9525944B2361F0873F5708E6BEBE21A161A6BEFDD98F | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| CHARACTER_BIBLE_Dia_Tang_Bo_Tat.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\CHARACTER_BIBLE_Dia_Tang_Bo_Tat.md | 136097 | F8408734BF76D830F4CF75DF3A1654D5780CBB7D568E2D17585B901DBAEBE7D8 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| CK_001_Kinh_Dia_Tang.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\CK_001_Kinh_Dia_Tang.md | 124213 | CE4F4FD127B23D6DB46CE24DDF3F33BF9E5439EA7AAD4A29F01555EB934094C3 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| EPISODE_BLUEPRINT_LIBRARY.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\EPISODE_BLUEPRINT_LIBRARY.md | 173253 | 28A61E763081B5938246F3879E4107259F9B25AE3C47FB34DC2C74D97632EE79 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| kinh-dia-tang-1.txt | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\kinh-dia-tang-1.txt | 35921 | 544324AE1132AEE529AC89AABEBB9E49D05427E6783FE5FDEF768F406906CC3C | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| kinh-dia-tang-2.txt | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\kinh-dia-tang-2.txt | 32256 | 6316396A57C6E9670FA580F625DFCE6A879C4224B94860254633C784FF46479F | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| kinh-dia-tang-3.txt | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\kinh-dia-tang-3.txt | 40226 | 7561675E0FEA82F4025506DE4D707254E781208423205888DB562152B33A0D8C | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| KP_001_Kinh_Dia_Tang.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\KP_001_Kinh_Dia_Tang.md | 106023 | 307462B853A1862BAA249F9C5A11BD2B32A5AC755E74A0508C128D5F225D176A | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| NARRATIVE_PATTERN_LIBRARY.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\NARRATIVE_PATTERN_LIBRARY.md | 189374 | 70F224010704A78576FA609DEF1E3CDD584257F3A6261E9A8FBB6DE014F2625B | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| PROJECT_PRD.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\PROJECT_PRD.md | 86003 | 1EBE5C6891F642EE744DC74CC10E52CBE781662CC0D6A871A0B83C9636E3AF71 | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| request.txt | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\request.txt | 47073 | 09E289F12034B13B315B691EAE6787D339CDD38CF8BC5C39582D14498929C87B | text | legacy-canonical-or-source | backup snapshot before migration | copied |
+| SERIES_BIBLE_Kinh_Dia_Tang.md | D:\Media\TTS\Kinh địa tạng_BACKUP_20260714_092829\SERIES_BIBLE_Kinh_Dia_Tang.md | 128881 | 023C5769338E08700DD9BB8E844E7B828BF86F24678B7639A0B15AF1AEF7E04D | text | legacy-canonical-or-source | backup snapshot before migration | copied |

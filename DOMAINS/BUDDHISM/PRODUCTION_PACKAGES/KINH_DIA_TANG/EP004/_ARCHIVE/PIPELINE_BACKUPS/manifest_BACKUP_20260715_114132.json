@@ -1,0 +1,200 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_BUD_KDT_EP004",
+  "episode_id": "EP_BUD_KDT_004",
+  "domain_id": "BUD",
+  "series_id": "SB_BUD_001",
+  "title": "Cung Trời Đao Lợi - Khi Đức Phật Giảng Kinh Vì Mẹ, Và Bài Học Hiếu Đạo Bị Lãng Quên",
+  "language": "vi",
+  "version": "0.1.0",
+  "content_status": "READY_FOR_TTS_HANDOFF",
+  "canonical_master": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+  "tts_output": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+  "word_count": 5222,
+  "qa_status": "PASS",
+  "master_to_tts_coverage_percentage": 100,
+  "normalization_count": 0,
+  "external_processes": {
+    "voice_render": "OUT_OF_SCOPE",
+    "video_render": "OUT_OF_SCOPE",
+    "publish": "OUT_OF_SCOPE",
+    "video_prompt_generation": "IN_SCOPE"
+  },
+  "dependencies": [
+    {
+      "asset_id": "BUD_GUIDE",
+      "path": "DOMAINS/BUDDHISM/BUDDHIST_GUIDE.md",
+      "scope": "shared_domain_dependency"
+    },
+    {
+      "asset_id": "KP_BUD_001",
+      "path": "DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "knowledge_dependency"
+    },
+    {
+      "asset_id": "SB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/SERIES_BIBLES/SB_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "series_dependency"
+    },
+    {
+      "asset_id": "CB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md",
+      "scope": "character_dependency"
+    }
+  ],
+  "active_internal_assets": [
+    "_INTERNAL/01_RESEARCH_BRIEF.md",
+    "_INTERNAL/02_EPISODE_PLANNER.md",
+    "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+    "_INTERNAL/06_QA_REPORT.md",
+    "_INTERNAL/REVIEW_SUMMARY.md",
+    "_INTERNAL/SOURCE_CLAIM_MATRIX.md",
+    "_INTERNAL/RESEARCH_GAPS.md",
+    "_INTERNAL/TERMINOLOGY_MAP.md",
+    "_INTERNAL/CHARACTER_USAGE_PLAN.md",
+    "_INTERNAL/04_VIDEO_PROMPT_TIMELINE.json"
+  ],
+  "archived_assets": [
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/EP004_BACKUP_MANIFEST.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/EP004_MANIFEST.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/PRODUCTION_MIGRATION_BACKUP_MANIFEST.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/MIGRATION_HISTORY/PRODUCTION_MIGRATION_REPORT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_ASSET_RESOLUTION.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_EPISODE_PLAN.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_QA_PLAN.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_READINESS_REPORT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_RESEARCH_BRIEF.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/REVIEW_HISTORY/EP004_VISUAL_RESEARCH_REQUIREMENTS.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/SUPERSEDED_FILES/03_AUDIO_SCRIPT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/SUPERSEDED_FILES/manifest.v1.json",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/03_SUBTITLE_SEGMENTS.json",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/04_VISUAL_BRIEF.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/05_METADATA.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/05_METADATA_DRAFT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/07_PRODUCTION_SUMMARY.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/PACKAGE_AUDIT_REPORT.md",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/PACKAGE_AUDIT_RESULT.json",
+      "active_dependency_remaining": false
+    },
+    {
+      "path": "_ARCHIVE/UNUSED_PRODUCTION_ASSETS/status.md",
+      "active_dependency_remaining": false
+    }
+  ],
+  "updated_at": "2026-07-14T15:36:16",
+  "video_prompt_generation": "IN_SCOPE",
+  "video_prompt_output": "OUTPUT/04_VIDEO_CREATE_PROMPTS.txt",
+  "video_prompt_timeline": "_INTERNAL/04_VIDEO_PROMPT_TIMELINE.json",
+  "video_prompt_duration_seconds": 6,
+  "video_prompt_count": 402,
+  "video_prompt_timeline_type": "ESTIMATED",
+  "video_prompt_total_audio_duration_seconds": 2410.154,
+  "video_prompt_rounded_visual_duration_seconds": 2412,
+  "video_prompt_qa_status": "PASS",
+  "video_render": "OUT_OF_SCOPE",
+  "active_output_assets": [
+    "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+    "OUTPUT/04_VIDEO_CREATE_PROMPTS.txt"
+  ],
+  "video_prompt_segmentation_type": "SEMANTIC_BEAT_FIRST",
+  "video_prompt_semantic_beat_count": 130,
+  "video_prompt_semantic_context_overlap_allowed": true,
+  "video_prompt_exact_word_distribution_required": false,
+  "video_prompt_visual_pipeline": "SEMANTIC_BEAT_FIRST -> VISUAL_BEAT_DECOMPOSITION -> DISTINCT_VISUAL_OBLIGATION_PER_CLIP -> VIDEO_PROMPT",
+  "video_prompt_visual_obligation_count": 402,
+  "video_prompt_concrete_detail_coverage_percentage": 100,
+  "video_prompt_consecutive_template_repetition_count": 0,
+  "video_prompt_visual_narration_mismatch_count": 0,
+  "video_prompt_beats_split_during_revision": 1,
+  "video_prompt_prompts_materially_rewritten": 371,
+  "video_prompt_targeted_audit_prompts_reviewed": 402,
+  "video_prompt_targeted_audit_prompts_rewritten": 371,
+  "video_prompt_targeted_audit_prompts_retained": 31,
+  "video_prompt_generic_obligation_count": 0,
+  "video_prompt_placeholder_prompt_count": 0,
+  "video_prompt_global_repeated_template_count": 0,
+  "video_prompt_unjustified_template_reuse_count": 0,
+  "video_prompt_missing_concrete_detail_count": 0,
+  "video_prompt_meaning_polarity_mismatch_count": 0,
+  "video_prompt_obligation_without_source_count": 0,
+  "video_prompt_timeline_gaps": 0,
+  "video_prompt_timeline_overlaps": 0,
+  "video_prompt_narration_coverage_percentage": 100,
+  "video_prompt_safe_rollback_source": "D:\\Media\\TTS\\Kinh ??a t?ng_EP004_VISUAL_BEAT_DECOMP_BACKUP_20260714_131653",
+  "video_prompt_safe_rewrite_backup": "D:\\Media\\TTS\\Kinh ??a t?ng_EP004_SAFE_ROLLBACK_BACKUP_20260714_140843",
+  "video_prompt_batch_size_max": 25,
+  "video_prompt_batch_gate_status": "PASS",
+  "video_prompt_prompts_reviewed": 402,
+  "video_prompt_prompts_retained": 11,
+  "video_prompt_prompts_rewritten": 391,
+  "video_prompt_meta_template_count": 0,
+  "video_prompt_mixed_language_prompt_count": 0,
+  "video_prompt_source_visual_mismatch_count": 0,
+  "video_prompt_unjustified_scene_template_reuse_count": 0,
+  "video_prompt_random_continuity_detail_count": 0,
+  "video_prompt_narration_visual_mismatch_count": 0,
+  "video_prompt_anachronistic_object_count": 0,
+  "video_prompt_english_grammar_issue_count": 0,
+  "video_prompt_no_random_continuity_backup": "D:\\Media\\TTS\\Kinh ??a t?ng_EP004_NO_RANDOM_CONTINUITY_BACKUP_20260714_145523",
+  "video_prompt_max_batch_size": 25,
+  "video_prompt_vietnamese_fragment_in_english_count": 0,
+  "video_prompt_unnatural_english_count": 0,
+  "video_prompt_unjustified_scene_reuse_count": 0,
+  "video_prompt_multi_action_in_six_seconds_count": 0,
+  "video_prompt_remove_meta_template_backup": "D:\\Media\\TTS\\Kinh ??a t?ng_EP004_REMOVE_META_TEMPLATE_BACKUP_20260714_152410"
+}

@@ -1,0 +1,2614 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_BUD_KDT_EP004",
+  "pipeline_stage": "04E_FINAL_VIDEO_PROMPTS",
+  "source_files": {
+    "semantic_beats": "04A_SEMANTIC_BEATS.md",
+    "visual_obligations": "04B_VISUAL_OBLIGATIONS.md",
+    "shot_plan": "04C_SHOT_PLAN.md",
+    "shot_timing_and_production_fill": "04D_SHOT_TIMING_AND_PRODUCTION_FILL.md",
+    "tts_script": "../OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+    "output_prompt_file": "../OUTPUT/04_VIDEO_CREATE_PROMPTS.txt"
+  },
+  "segmentation_type": "SEMANTIC_BEAT_AND_VISUAL_OBLIGATION_DRIVEN",
+  "timing_status": "ESTIMATED_FROM_NARRATION",
+  "timing_methodology": "word-count-proportional (5222 words / 2410.154s = 0.4616 s/word); NOT audio-aligned",
+  "total_duration_seconds": 2410.154,
+  "total_shots": 100,
+  "total_prompts": 100,
+  "total_semantic_beats": 128,
+  "total_visual_obligations": 128,
+  "mapping": "STRICT_1_TO_1_SHOT_TO_PROMPT",
+  "domain_approval_gate_applied": true,
+  "qa_report_ref": "06_QA_REPORT.md",
+  "qa_note": "QA is independently computed in 06_QA_REPORT.md, not self-attested per prompt. No per-prompt qa_status field is stored here by design.",
+  "overall_status": "PASS_READY_FOR_HUMAN_PROMPT_REVIEW",
+  "prompts": [
+    {
+      "prompt_number": 1,
+      "shot_id": "S001",
+      "start_ms": 0,
+      "end_ms": 7846,
+      "duration_seconds": 7.846,
+      "timeline": {
+        "start": "00:00:00.000",
+        "end": "00:00:07.846"
+      },
+      "covered_beats": [
+        "BEAT_001"
+      ],
+      "covered_obligations": [
+        "OBL_001"
+      ],
+      "shot_function": "ESTABLISH",
+      "narration_context": "Có một chiếc ghế trong nhà mà ta cứ nghĩ lúc nào cũng còn người ngồi đó.",
+      "required_source_evidence": "chiếc ghế trống; không người ngồi",
+      "approved_production_fill": "chất liệu ghế (gỗ), không gian phòng cụ thể, thời điểm trong ngày",
+      "forbidden_additions": "không người ngồi/vừa rời ghế; không đạo cụ phụ trợ (ảnh, hoa, đồ vật khác) chưa được 04A/04B xác nhận",
+      "continuity_in": "— (mở đầu thread T1)",
+      "continuity_out": "→ S002 (cùng ghế)",
+      "video_prompt": "A single wooden chair stands empty in a modest Vietnamese home, positioned near a window. No one is seated, and no one has just left. The shot is still and unhurried, contemplative in its quiet. Warm late-afternoon light falls softly across the chair, casting a gentle amber tone through the room. The mood is quiet and unresolved, neither sad nor comforting. No text, no logos, no watermarks, no photographs or flowers added near the chair."
+    },
+    {
+      "prompt_number": 2,
+      "shot_id": "S002",
+      "start_ms": 7846,
+      "end_ms": 16338,
+      "duration_seconds": 8.492,
+      "timeline": {
+        "start": "00:00:07.846",
+        "end": "00:00:16.338"
+      },
+      "covered_beats": [
+        "BEAT_002"
+      ],
+      "covered_obligations": [
+        "OBL_002"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một chiếc ghế cạnh bàn ăn. Một chiếc ghế gần cửa sổ. Một chiếc ghế nơi mẹ thường ngồi nhặt rau, nơi cha thường ngồi uống trà, nơi có khi ta đi ngang qua rất nhiều lần mà chẳng dừng lại lâu hơn một nhịp thở.",
+      "required_source_evidence": "ghế cạnh bàn ăn; mẹ nhặt rau (hồi tưởng/thường lệ)",
+      "approved_production_fill": "trang phục mẹ, loại rau, ánh sáng",
+      "forbidden_additions": "không đặc tả danh tính/ngoại hình cụ thể của mẹ; không thêm nhân vật khác",
+      "continuity_in": "← S001 (cùng ghế, cùng nhà)",
+      "continuity_out": "→ S003",
+      "video_prompt": "An elderly woman sits in the same wooden chair, now placed beside a simple dining table, sorting fresh vegetables with unhurried hands. The camera pushes in slowly, settling on the quiet rhythm of her work. Warm kitchen light glows around her, consistent with the late-afternoon tone of the home. Her face is kept generic, not shown in identifying close-up. No other family members appear in the frame."
+    },
+    {
+      "prompt_number": 3,
+      "shot_id": "S003",
+      "start_ms": 16338,
+      "end_ms": 29077,
+      "duration_seconds": 12.738,
+      "timeline": {
+        "start": "00:00:16.338",
+        "end": "00:00:29.077"
+      },
+      "covered_beats": [
+        "BEAT_002"
+      ],
+      "covered_obligations": [
+        "OBL_002"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một chiếc ghế cạnh bàn ăn. Một chiếc ghế gần cửa sổ. Một chiếc ghế nơi mẹ thường ngồi nhặt rau, nơi cha thường ngồi uống trà, nơi có khi ta đi ngang qua rất nhiều lần mà chẳng dừng lại lâu hơn một nhịp thở.",
+      "required_source_evidence": "ghế gần cửa sổ; cha uống trà (hồi tưởng/thường lệ)",
+      "approved_production_fill": "trang phục cha, loại tách trà, ánh sáng cửa sổ",
+      "forbidden_additions": "không đặc tả danh tính/ngoại hình cụ thể của cha",
+      "continuity_in": "← S002",
+      "continuity_out": "→ S004",
+      "video_prompt": "An elderly man sits in the same wooden chair, now placed near a window, drinking tea from a small cup. The camera drifts in a gentle lateral track past the window light toward him. Late-afternoon sun catches the steam rising from the cup. His posture is relaxed, unhurried, a private domestic moment with no urgency. His face stays generic and unnamed, and no other figures share the frame."
+    },
+    {
+      "prompt_number": 4,
+      "shot_id": "S004",
+      "start_ms": 29077,
+      "end_ms": 52615,
+      "duration_seconds": 23.538,
+      "timeline": {
+        "start": "00:00:29.077",
+        "end": "00:00:52.615"
+      },
+      "covered_beats": [
+        "BEAT_003",
+        "BEAT_004"
+      ],
+      "covered_obligations": [
+        "OBL_003",
+        "OBL_004"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Ta thường nghĩ mình còn thời gian. Hôm nay bận quá, mai gọi về cũng được. Tuần này nhiều việc quá, tháng sau về thăm cũng chưa muộn. Chỉ cần chuyển khoản đúng ngày, mua thuốc đúng toa, gửi quà đúng dịp, vậy là cũng đã làm tròn bổn phận rồi.",
+      "required_source_evidence": "hành vi chuyển khoản đại diện cho nghĩa vụ vật chất thay thế hiện diện",
+      "approved_production_fill": "không gian, trang phục, kiểu điện thoại/giao diện chuyển khoản (không hiển thị chữ/UI theo policy)",
+      "forbidden_additions": "không số tiền cụ thể; không thêm cảnh gọi điện/về thăm (đây là các hành vi KHÔNG xảy ra, không được hiển thị dương tính)",
+      "continuity_in": "— (nhân vật mới, không liên kết T1/T2/T3)",
+      "continuity_out": "—",
+      "video_prompt": "A grown son sits alone in a plain, softly lit room, completing a bank transfer on his phone. The camera holds in a static composition, close enough to read the quiet efficiency of the gesture without showing any screen text. Even, neutral indoor light fills the space. His expression is unremarkable, practiced, the routine motion of someone fulfilling an obligation rather than reaching out. No visible amount is shown on the phone, and no scene of a phone call or a visit is added — this moment is defined by what does not happen."
+    },
+    {
+      "prompt_number": 5,
+      "shot_id": "S005",
+      "start_ms": 52615,
+      "end_ms": 59077,
+      "duration_seconds": 6.462,
+      "timeline": {
+        "start": "00:00:52.615",
+        "end": "00:00:59.077"
+      },
+      "covered_beats": [
+        "BEAT_005"
+      ],
+      "covered_obligations": [
+        "OBL_005"
+      ],
+      "shot_function": "REVEAL",
+      "narration_context": "Nhưng đời sống không báo trước ngày nào chiếc ghế ấy trở nên trống.",
+      "required_source_evidence": "chiếc ghế chuyển sang trạng thái trống hẳn (không còn gắn với mẹ/cha)",
+      "approved_production_fill": "mức độ bụi, ánh sáng buổi chiều muộn",
+      "forbidden_additions": "không cảnh nguyên nhân mất mát (bệnh viện, tang lễ...)",
+      "continuity_in": "S003 (cùng ghế)",
+      "continuity_out": "S006",
+      "video_prompt": "The same wooden chair now stands completely empty, no longer beside anyone. A fine layer of dust has begun to settle on the seat. Nothing stirs in the frame; the camera simply watches the stillness. Late-afternoon light has grown dimmer, more amber than before, marking the passage of time. There is no hospital, no funeral, no explanation shown — only the absence itself. No text or logos appear in the frame."
+    },
+    {
+      "prompt_number": 6,
+      "shot_id": "S006",
+      "start_ms": 59077,
+      "end_ms": 80769,
+      "duration_seconds": 21.692,
+      "timeline": {
+        "start": "00:00:59.077",
+        "end": "00:01:20.769"
+      },
+      "covered_beats": [
+        "BEAT_006"
+      ],
+      "covered_obligations": [
+        "OBL_006"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Và khi nó trống rồi, con người ta mới nhận ra có những câu nói rất ngắn, rất bình thường, vậy mà cả đời vẫn chưa kịp nói. Con ăn rồi. Mẹ khỏe không. Cha có đau chỗ nào không. Con xin lỗi. Con thương cha mẹ.",
+      "required_source_evidence": "5 câu chưa kịp nói (chỉ mang qua giọng đọc, không hiển thị chữ)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không hiển thị chữ cho 5 câu chưa kịp nói",
+      "continuity_in": "S005 (T1)",
+      "continuity_out": "S007",
+      "video_prompt": "The camera remains fixed on the same empty chair, unmoving, as the room holds its silence. The dust and the fading light stay exactly as they were. Nothing changes in the frame; the stillness itself is the subject. A quiet, unresolved heaviness settles over the space, present but not exaggerated by anything happening on screen. No captions, no overlaid words appear anywhere in the shot."
+    },
+    {
+      "prompt_number": 7,
+      "shot_id": "S007",
+      "start_ms": 80769,
+      "end_ms": 114000,
+      "duration_seconds": 33.231,
+      "timeline": {
+        "start": "00:01:20.769",
+        "end": "00:01:54.000"
+      },
+      "covered_beats": [
+        "BEAT_007"
+      ],
+      "covered_obligations": [
+        "OBL_007"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Kinh Địa Tạng thường được nhiều người nhớ đến qua địa ngục, nghiệp báo, người đã mất, những cảnh giới tối tăm và lời nguyện lớn của Địa Tạng Bồ Tát. Ở những tập trước, chúng ta đã cùng nhau đi qua câu hỏi Địa Tạng là ai, vì sao gọi là Địa Tạng, và vì sao lời nguyện không bỏ rơi chúng sinh lại có sức lay động sâu như vậy.",
+      "required_source_evidence": "— (04B xác nhận Non-Visual)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng cảnh minh hoạ cho nội dung hồi cố series (địa ngục/nghiệp báo/Địa Tạng) — không có evidence",
+      "continuity_in": "S006 (T1)",
+      "continuity_out": "S008",
+      "video_prompt": "The camera continues to hold on the same still, empty chair, the frame unchanged from the shot before it. No new figure, symbol, or object enters. The light stays low and amber, the room silent. Nothing in the image points to hell, karma, or any specific religious figure — this is simply a continued, quiet observation of an empty room."
+    },
+    {
+      "prompt_number": 8,
+      "shot_id": "S008",
+      "start_ms": 114000,
+      "end_ms": 129231,
+      "duration_seconds": 15.231,
+      "timeline": {
+        "start": "00:01:54.000",
+        "end": "00:02:09.231"
+      },
+      "covered_beats": [
+        "BEAT_008",
+        "BEAT_009"
+      ],
+      "covered_obligations": [
+        "OBL_008",
+        "OBL_009"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Nhưng hôm nay, ta trở về đầu nguồn của bản kinh. Và điều lạ lùng là, bản kinh thường làm người ta nghĩ đến địa ngục lại mở ra trên một cõi trời.",
+      "required_source_evidence": "— (04B xác nhận Non-Visual cho cả hai beat)",
+      "approved_production_fill": "tốc độ/kiểu mờ dần — kỹ thuật chuyển cảnh, không phải nội dung mới; Source Fact vẫn là chiếc ghế đã thiết lập",
+      "forbidden_additions": "không dựng hình ảnh mới nào đại diện cho Đao Lợi ở shot này — việc mờ dần chỉ là kỹ thuật chuyển cảnh trên Source Fact đã có (chiếc ghế), không phải nội dung Đao Lợi được vẽ trước",
+      "continuity_in": "S007 (T1)",
+      "continuity_out": "S009 (chuyển sang Đao Lợi, T2)",
+      "video_prompt": "The image of the empty chair begins to dissolve slowly into darkness, the same room fading rather than cutting away. The camera holds static as the fade progresses, unhurried and deliberate. The warm amber tone dims gradually toward black. No new setting or figure appears within this shot — it exists only as a slow visual bridge out of the room."
+    },
+    {
+      "prompt_number": 9,
+      "shot_id": "S009",
+      "start_ms": 129231,
+      "end_ms": 161077,
+      "duration_seconds": 31.846,
+      "timeline": {
+        "start": "00:02:09.231",
+        "end": "00:02:41.077"
+      },
+      "covered_beats": [
+        "BEAT_010"
+      ],
+      "covered_obligations": [
+        "OBL_010"
+      ],
+      "shot_function": "ESTABLISH",
+      "narration_context": "Theo truyền thống Phật giáo Đại thừa, pháp hội của Kinh Địa Tạng được đặt tại Cung Trời Đao Lợi. Trong mạch trình bày của kinh, Đức Phật thuyết pháp nơi ấy trong liên hệ với thân mẫu của Ngài. Chính bối cảnh đó làm cho Kinh Địa Tạng được nhiều truyền thống Đông Á và Việt Nam tôn kính như một bản kinh gắn liền với hiếu đạo.",
+      "required_source_evidence": "Đức Phật thuyết pháp tại Cung Trời Đao Lợi, trong liên hệ với thân mẫu",
+      "approved_production_fill": "kiến trúc/không gian cụ thể của Đao Lợi (04A/04B không đặc tả — đây hoàn toàn là Production Fill, phải giữ mức biểu tượng/khiêm tốn theo chính sách an toàn tôn giáo của dự án, không tuyên bố là tái dựng lịch sử chính xác); sự hiện diện của một nhóm người dự pháp hội ở khoảng cách tôn kính (Production Fill cần thiết để hình ảnh hoá khái niệm \"pháp hội\" — bản thân từ \"pháp hội\" hàm ý một cuộc tụ họp, không thể hình ảnh hoá \"pháp hội\" mà không có ít nhất một gợi ý về người tham dự; số lượng/danh tính người tham dự không được đặc tả cụ thể)",
+      "forbidden_additions": "không lời thoại của Đức Phật/thân mẫu; không đặc tả khuôn mặt cận cảnh của các nhân vật thiêng liêng; không kiến trúc được tuyên bố là tái hiện lịch sử chính xác",
+      "continuity_in": "— (mở đầu thread T2)",
+      "continuity_out": "→ S010",
+      "video_prompt": "In a vast, softly lit hall suggestive of a heavenly assembly, a serene, dignified figure representing the Buddha is seen from a respectful medium-wide distance, teaching before a small gathering of onlookers kept indistinct in the distance. The camera performs a slow, controlled crane movement, rising gently to take in the scale of the space without approaching the figure's face. Diffuse gold-white light fills the hall evenly, with no harsh beams or dramatic shafts. The atmosphere is reverent and calm. No dialogue is implied, no facial close-up is shown, and the architecture is rendered as softly symbolic rather than a claim of historical accuracy."
+    },
+    {
+      "prompt_number": 10,
+      "shot_id": "S010",
+      "start_ms": 161077,
+      "end_ms": 199846,
+      "duration_seconds": 38.769,
+      "timeline": {
+        "start": "00:02:41.077",
+        "end": "00:03:19.846"
+      },
+      "covered_beats": [
+        "BEAT_011",
+        "BEAT_012",
+        "BEAT_013"
+      ],
+      "covered_obligations": [
+        "OBL_011",
+        "OBL_012",
+        "OBL_013"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Vậy vì sao một bản kinh có nhiều hình ảnh về địa ngục lại bắt đầu từ một hành động báo ân? Vì sao giữa không gian cao rộng của cõi trời, điều chạm đến trái tim con người lại là ký ức về mẹ? Và vì sao bài học hiếu đạo trong đạo Phật không thể bị thu nhỏ thành vài nghi lễ, vài mâm cỗ, vài lần cúng bái, hay một mệnh lệnh bắt người con phải phục tùng trong im lặng?",
+      "required_source_evidence": "(không có evidence riêng — 04B xác nhận cả 3 obligation Non-Visual)",
+      "approved_production_fill": "không có mới (kế thừa S009)",
+      "forbidden_additions": "không tự trả lời 3 câu hỏi tu từ bằng hình ảnh mới",
+      "continuity_in": "← S009",
+      "continuity_out": "→ S011",
+      "video_prompt": "The same wide, luminous hall holds still, the teaching figure and the distant gathering unchanged from the shot before. The camera stays static, letting the space breathe. The gold-white light remains steady and even. Nothing new enters the frame — the shot exists to let the reverent atmosphere continue without interruption."
+    },
+    {
+      "prompt_number": 11,
+      "shot_id": "S011",
+      "start_ms": 199846,
+      "end_ms": 238154,
+      "duration_seconds": 38.308,
+      "timeline": {
+        "start": "00:03:19.846",
+        "end": "00:03:58.154"
+      },
+      "covered_beats": [
+        "BEAT_014",
+        "BEAT_015"
+      ],
+      "covered_obligations": [
+        "OBL_014",
+        "OBL_015"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Chúng ta hãy đi thật chậm. Đi chậm, vì ở đây có kinh điển. Có truyền thống. Có ký ức gia đình. Có nỗi ân hận của những người đã mất cha mẹ. Có sự mệt mỏi của những người đang chăm sóc cha mẹ già. Có cả vết thương của những người nghe đến hai chữ hiếu đạo là thấy tim mình thắt lại, vì gia đình đối với họ không chỉ có yêu thương, mà còn có những điều rất đau.",
+      "required_source_evidence": "dấu hiệu gián tiếp cho các lý do \"đi chậm\" (mệt mỏi/trầm lặng — theo đúng Visualization Strategy Abstract của 04B)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả nhân vật cụ thể đại diện cho 1 trong 5 nhóm đã liệt kê (kinh điển/truyền thống/người mất cha mẹ/người chăm sóc/người tổn thương) — chỉ dùng MỘT dấu hiệu chung (trầm lặng) đại diện tổng quát, không chọn thiên vị một nhóm",
+      "continuity_in": "— (không liên kết thread nào)",
+      "continuity_out": "—",
+      "video_prompt": "A lone figure sits in a plain, dimly lit room, hands folded loosely, head bowed in quiet stillness. The camera stays perfectly still, taking in the quiet composition. The light is muted and low, neither warm nor cold, giving no strong indication of time of day. The mood is heavy but restrained, the fatigue of an unspecified private grief rather than any one identifiable story. No other figures or symbols are added to explain who this person is."
+    },
+    {
+      "prompt_number": 12,
+      "shot_id": "S012",
+      "start_ms": 238154,
+      "end_ms": 263538,
+      "duration_seconds": 25.385,
+      "timeline": {
+        "start": "00:03:58.154",
+        "end": "00:04:23.538"
+      },
+      "covered_beats": [
+        "BEAT_016"
+      ],
+      "covered_obligations": [
+        "OBL_016"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Cung Trời Đao Lợi, trong thế giới quan Phật giáo, là một cõi trời. Khi nhắc đến cõi trời, ta rất dễ tưởng tượng ra một nơi xa xôi, rực rỡ, tách khỏi đời sống của con người. Nhưng nếu chỉ nhìn như vậy, ta sẽ bỏ lỡ điểm rất sâu của pháp hội này.",
+      "required_source_evidence": "— (04B: cảnh báo nhận thức sai, không evidence dương tính)",
+      "approved_production_fill": "không có mới",
+      "forbidden_additions": "không dựng cảnh 'xa xôi rực rỡ tách biệt' (cách hiểu sai bị phê phán)",
+      "continuity_in": "S009 (T2)",
+      "continuity_out": "S013",
+      "video_prompt": "The same wide, softly lit hall from before holds steady, the teaching figure still visible at a respectful distance. The camera remains static. The space feels close and warm despite its scale, not distant or spectacular. Diffuse gold-white light continues to fill the hall evenly. No ornate or fantastical architecture is introduced — the setting stays as understated as it was first shown."
+    },
+    {
+      "prompt_number": 13,
+      "shot_id": "S013",
+      "start_ms": 263538,
+      "end_ms": 292154,
+      "duration_seconds": 28.615,
+      "timeline": {
+        "start": "00:04:23.538",
+        "end": "00:04:52.154"
+      },
+      "covered_beats": [
+        "BEAT_017"
+      ],
+      "covered_obligations": [
+        "OBL_017"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Bối cảnh ở cõi trời không làm câu chuyện trở nên xa con người. Ngược lại, nó làm nổi bật một điều rất gần. Dù pháp hội được đặt trong không gian rộng lớn của vũ trụ quan Phật giáo, trung tâm cảm xúc của nó vẫn là lòng biết ơn. Một bậc Giác ngộ vẫn không quên ân nghĩa sinh thành.",
+      "required_source_evidence": "thần thái điềm tĩnh/tôn kính của Đức Phật hướng về thân mẫu",
+      "approved_production_fill": "không có mới ngoài Production Fill đã dùng ở S009",
+      "forbidden_additions": "không cận cảnh khuôn mặt thiêng liêng; không lời thoại",
+      "continuity_in": "S012 (T2)",
+      "continuity_out": "S014",
+      "video_prompt": "Within the same hall, the teaching figure turns slightly, a quiet gesture extended toward a veiled, indistinct maternal presence just at the edge of the frame. The camera moves in a slow, gentle push, drawing a little closer without ever approaching a frontal close-up of the face. The gold-white light softens further around the gesture. A sense of quiet gratitude settles over the moment. No dialogue is suggested, and no facial detail is resolved on either figure."
+    },
+    {
+      "prompt_number": 14,
+      "shot_id": "S014",
+      "start_ms": 292154,
+      "end_ms": 325846,
+      "duration_seconds": 33.692,
+      "timeline": {
+        "start": "00:04:52.154",
+        "end": "00:05:25.846"
+      },
+      "covered_beats": [
+        "BEAT_018",
+        "BEAT_019"
+      ],
+      "covered_obligations": [
+        "OBL_018",
+        "OBL_019"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Điều này cần được hiểu cẩn trọng. Đạo Phật không nói rằng giác ngộ là lạnh lùng. Giác ngộ không phải cắt đứt trái tim khỏi mọi tình nghĩa. Giác ngộ cũng không phải là quên mẹ, quên cha, quên người đã nâng đỡ thân mạng này. Nhưng đạo Phật cũng không nói về tình thương theo nghĩa chấp trước hẹp hòi, bám víu, chiếm hữu hoặc đau khổ vì không thể buông.",
+      "required_source_evidence": "— (04B: luận đề trừu tượng, không minh hoạ)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không minh hoạ 'chấp trước/bám víu/chiếm hữu' (khái niệm bị phủ định)",
+      "continuity_in": "S013 (T2)",
+      "continuity_out": "S015",
+      "video_prompt": "The shot lingers on the same gesture, the teaching figure's hand still extended toward the veiled maternal presence. Nothing in the frame changes. The gold-white light remains soft and constant. The composition simply continues to hold, unhurried, without introducing any new symbol or figure to illustrate the surrounding teaching."
+    },
+    {
+      "prompt_number": 15,
+      "shot_id": "S015",
+      "start_ms": 325846,
+      "end_ms": 362308,
+      "duration_seconds": 36.462,
+      "timeline": {
+        "start": "00:05:25.846",
+        "end": "00:06:02.308"
+      },
+      "covered_beats": [
+        "BEAT_020",
+        "BEAT_021"
+      ],
+      "covered_obligations": [
+        "OBL_020",
+        "OBL_021"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Ở đây có một sự phân biệt rất quan trọng. Chấp trước là khi ta bám vào một người như tài sản của mình. Biết ơn là khi ta thấy rõ mình đã nhận ân. Báo ân là khi lòng biết ơn ấy trở thành hành động lành. Từ bi là khi tình thương ấy không dừng lại ở một người thân, mà mở ra với mọi chúng sinh cũng từng khổ đau, cũng từng mong được cứu giúp.",
+      "required_source_evidence": "— (04B: 4 định nghĩa khái niệm thuần tuý, không minh hoạ)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không minh hoạ 4 khái niệm (chấp trước/biết ơn/báo ân/từ bi) bằng hình ảnh/nhân vật cụ thể",
+      "continuity_in": "S014 (T2)",
+      "continuity_out": "S016",
+      "video_prompt": "The frame remains fixed on the same quiet gesture, unchanged from the shot before. The stillness continues, the light constant. No new imagery is introduced to stand in for the ideas being discussed — the shot holds its reverent quiet without illustration."
+    },
+    {
+      "prompt_number": 16,
+      "shot_id": "S016",
+      "start_ms": 362308,
+      "end_ms": 390923,
+      "duration_seconds": 28.615,
+      "timeline": {
+        "start": "00:06:02.308",
+        "end": "00:06:30.923"
+      },
+      "covered_beats": [
+        "BEAT_022"
+      ],
+      "covered_obligations": [
+        "OBL_022"
+      ],
+      "shot_function": "CALLBACK",
+      "narration_context": "Trong ánh sáng đó, hình ảnh Đức Phật thuyết pháp nơi Cung Trời Đao Lợi vì thân mẫu không nên bị hiểu như một câu chuyện tình cảm thông thường. Không phải là một người con còn bị trói buộc bởi nỗi nhớ theo nghĩa thế tục. Mà là một biểu hiện của lòng tri ân đã được trí tuệ soi sáng.",
+      "required_source_evidence": "hành vi thuyết pháp/hiện diện của Đức Phật trong liên hệ với thân mẫu — TÁI HIỆN đúng evidence đã có ở S009, không thêm hành vi mới",
+      "approved_production_fill": "không có mới — dùng lại chính xác Production Fill của S009",
+      "forbidden_additions": "không thêm hành động/lời thoại mới cho Đức Phật ngoài những gì đã ở S009",
+      "continuity_in": "S015 (T2)",
+      "continuity_out": "S017",
+      "video_prompt": "The view returns to the same wide framing of the hall, the teaching figure once again seen at a respectful medium-wide distance before the gathered assembly, exactly as first established. The camera holds static, deliberately echoing the earlier composition. The same even, gold-white light fills the space. Nothing new is added to the figure's action — this is a return to the same moment, not a new one."
+    },
+    {
+      "prompt_number": 17,
+      "shot_id": "S017",
+      "start_ms": 390923,
+      "end_ms": 400615,
+      "duration_seconds": 9.692,
+      "timeline": {
+        "start": "00:06:30.923",
+        "end": "00:06:40.615"
+      },
+      "covered_beats": [
+        "BEAT_023",
+        "BEAT_024"
+      ],
+      "covered_obligations": [
+        "OBL_023",
+        "OBL_024"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Giác ngộ không làm con người quên ân nghĩa. Trí tuệ sâu hơn làm lòng biết ơn trở nên rộng hơn.",
+      "required_source_evidence": "— (2 luận đề khẳng định, không evidence hình ảnh)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "None thêm",
+      "continuity_in": "S016 (T2)",
+      "continuity_out": "S018",
+      "video_prompt": "The wide framing of the hall continues to hold, unchanged from the previous shot. The gathering remains distant and still, the light steady. The camera stays static, allowing the scene to rest before the setting shifts away."
+    },
+    {
+      "prompt_number": 18,
+      "shot_id": "S018",
+      "start_ms": 400615,
+      "end_ms": 432462,
+      "duration_seconds": 31.846,
+      "timeline": {
+        "start": "00:06:40.615",
+        "end": "00:07:12.462"
+      },
+      "covered_beats": [
+        "BEAT_025"
+      ],
+      "covered_obligations": [
+        "OBL_025"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Có lẽ vì vậy mà từ pháp hội này, ta có thể bước vào bài học hiếu đạo một cách khác. Không phải bằng nỗi sợ. Không phải bằng câu hỏi: nếu ta không làm đủ, ta có bị xem là bất hiếu không. Mà bằng một câu hỏi yên lặng hơn: ta đã nhận những gì từ cuộc đời này, và ta đang đáp lại như thế nào?",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "—",
+      "continuity_out": "→ S019",
+      "video_prompt": "The frame is dark, holding briefly on nothing but soft, indistinct light as one scene prepares to give way to the next. The camera stays static through the transition. No figure or setting is defined yet in this brief bridging moment."
+    },
+    {
+      "prompt_number": 19,
+      "shot_id": "S019",
+      "start_ms": 432462,
+      "end_ms": 466154,
+      "duration_seconds": 33.692,
+      "timeline": {
+        "start": "00:07:12.462",
+        "end": "00:07:46.154"
+      },
+      "covered_beats": [
+        "BEAT_026"
+      ],
+      "covered_obligations": [
+        "OBL_026"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Một người con có thể mỗi tháng gửi tiền về rất đều. Điện thoại báo chuyển khoản thành công. Mẹ nhận được tiền. Cha nhận được thuốc. Mọi thứ bên ngoài có vẻ đầy đủ. Nhưng trong nhiều năm, người con ấy không có nổi một cuộc gọi đủ dài để nghe mẹ kể chuyện đau lưng, nghe cha nói về một buổi chiều mưa, nghe giọng hai người già đi từng chút.",
+      "required_source_evidence": "hành vi chuyển khoản + cuộc gọi ngắn, đại diện mẫu hình nhiều năm thiếu lắng nghe",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không hiển thị \"đau lưng của mẹ\"/\"chiều mưa của cha\" như hình ảnh dương tính — đây là nội dung KHÔNG xảy ra; không số tiền cụ thể",
+      "continuity_in": "—",
+      "continuity_out": "→S020 (cùng ví dụ, tiếp nối luận điểm, không phải continuity nhân vật)",
+      "video_prompt": "A young adult stands in a plain interior, phone still held to their ear for only a moment before lowering it, having just ended a call. The camera drifts in a gentle lateral track, observing the small, ordinary gesture. Even, unremarkable indoor light fills the room. The expression is neutral, practiced, someone who has done this many times. Nothing else about the absent parents' lives is shown or implied."
+    },
+    {
+      "prompt_number": 20,
+      "shot_id": "S020",
+      "start_ms": 466154,
+      "end_ms": 482308,
+      "duration_seconds": 16.154,
+      "timeline": {
+        "start": "00:07:46.154",
+        "end": "00:08:02.308"
+      },
+      "covered_beats": [
+        "BEAT_027",
+        "BEAT_028"
+      ],
+      "covered_obligations": [
+        "OBL_027",
+        "OBL_028"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Tiền có thể giúp cha mẹ mua thuốc. Nhưng tiền không thể thay ta lắng nghe. Vật chất có thể làm nhẹ một phần đời sống. Nhưng vật chất không thể thay ta có mặt.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S019",
+      "continuity_out": "→ S021",
+      "video_prompt": "Nothing moves in the frame; the same room holds, the phone now resting on a nearby surface where it was set down. The young adult remains in frame, quiet and still. The light and setting stay exactly as before. Nothing new happens in the shot."
+    },
+    {
+      "prompt_number": 21,
+      "shot_id": "S021",
+      "start_ms": 482308,
+      "end_ms": 509538,
+      "duration_seconds": 27.231,
+      "timeline": {
+        "start": "00:08:02.308",
+        "end": "00:08:29.538"
+      },
+      "covered_beats": [
+        "BEAT_029"
+      ],
+      "covered_obligations": [
+        "OBL_029"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Có những gia đình làm giỗ rất lớn. Bàn thờ sáng đèn. Mâm cỗ đầy. Khách khứa đông. Nhưng sau bữa ăn, anh em vẫn không nhìn mặt nhau. Những câu nói cũ vẫn đâm vào lòng nhau. Những hiểu lầm vẫn được truyền từ năm này sang năm khác, như một món nợ không ai chịu đặt xuống.",
+      "required_source_evidence": "bàn thờ sáng đèn, mâm cỗ đầy, khách khứa đông; anh em không nhìn mặt nhau sau bữa ăn",
+      "approved_production_fill": "quy mô mâm cỗ, số lượng khách, trang phục",
+      "forbidden_additions": "không số lượng người cụ thể; không nội dung xung đột cụ thể (loại \"câu nói cũ\" không được nêu)",
+      "continuity_in": "— (nhân vật/gia đình mới)",
+      "continuity_out": "—",
+      "video_prompt": "A crowded ancestral memorial fills a warmly lit room, an altar bright with candles and a table heavy with offerings, guests filling the space. Two brothers stand apart from each other, each looking away, careful not to meet the other's eyes. The camera performs a slow lateral track across the gathering before settling on the two men's distance. The lighting is warm but overly bright, almost theatrical in its abundance. The mood is one of quiet, unresolved tension beneath a surface of ceremony. No specific dialogue or number of guests is fixed in the frame."
+    },
+    {
+      "prompt_number": 22,
+      "shot_id": "S022",
+      "start_ms": 509538,
+      "end_ms": 538615,
+      "duration_seconds": 29.077,
+      "timeline": {
+        "start": "00:08:29.538",
+        "end": "00:08:58.615"
+      },
+      "covered_beats": [
+        "BEAT_030",
+        "BEAT_031"
+      ],
+      "covered_obligations": [
+        "OBL_030",
+        "OBL_031"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Nếu hiếu đạo chỉ còn là hình thức, nó rất dễ trở thành một sân khấu. Người sống trình diễn sự nhớ thương trước người đã khuất, nhưng lại tiếp tục làm tổn thương những người còn đang ngồi bên cạnh mình. Và nếu hiếu đạo bị hiểu như phục tùng mù quáng, nó có thể trở thành một gánh nặng rất đau.",
+      "required_source_evidence": "hành vi tưởng niệm mang tính phô diễn, đối lập ngầm với căng thẳng người sống",
+      "approved_production_fill": "không gian tưởng niệm, trang phục",
+      "forbidden_additions": "không dựng \"sân khấu\" nghĩa đen (rạp hát, ánh đèn sân khấu) — đây là ẩn dụ hành vi, không phải địa điểm; không đặc tả nhân vật cụ thể",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A lone figure stands before a home altar and a framed photograph, performing a memorial gesture with exaggerated formality, movements slightly too composed, too deliberate. The camera holds in a static, observational frame. Warm candlelight flickers gently across the altar. The mood carries a quiet irony, reverence performed rather than felt. No theater setting, no stage lighting is used — the excess is in the gesture alone, within an ordinary domestic space."
+    },
+    {
+      "prompt_number": 23,
+      "shot_id": "S023",
+      "start_ms": 538615,
+      "end_ms": 575538,
+      "duration_seconds": 36.923,
+      "timeline": {
+        "start": "00:08:58.615",
+        "end": "00:09:35.538"
+      },
+      "covered_beats": [
+        "BEAT_032"
+      ],
+      "covered_obligations": [
+        "OBL_032"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có những người chăm sóc mẹ già trong nhiều năm. Sáng dậy thay áo, đút cháo, đưa đi khám, lau từng vết đau trên thân thể người mẹ. Nhưng trong lòng họ có mệt mỏi. Có oán giận. Có tủi thân. Có cảm giác cuộc đời mình bị kẹt lại. Rồi họ xấu hổ vì nghĩ rằng một người con hiếu thảo thì không được mệt, không được buồn, không được có lúc muốn trốn đi vài giờ để thở.",
+      "required_source_evidence": "4 hành động chăm sóc (thay áo/đút cháo/đưa đi khám/lau vết đau); dấu hiệu mệt mỏi/căng thẳng",
+      "approved_production_fill": "không gian, trang phục, đạo cụ chăm sóc (bát cháo, thìa)",
+      "forbidden_additions": "không đặc tả bệnh cụ thể của mẹ già; không thêm chi tiết thời gian biểu ngoài 4 hành động đã nêu",
+      "continuity_in": "— (nhân vật mới)",
+      "continuity_out": "→ S024 (cùng nhân vật)",
+      "video_prompt": "A caregiver kneels beside an elderly woman, spooning porridge to her with patient, practiced care. The camera pushes in slowly, drawing close to the small act of feeding. Soft, warm domestic light fills the modest room. The caregiver's expression carries quiet fatigue beneath the tenderness. No specific illness is shown, and no other caregiving tasks are staged in this same shot."
+    },
+    {
+      "prompt_number": 24,
+      "shot_id": "S024",
+      "start_ms": 575538,
+      "end_ms": 601846,
+      "duration_seconds": 26.308,
+      "timeline": {
+        "start": "00:09:35.538",
+        "end": "00:10:01.846"
+      },
+      "covered_beats": [
+        "BEAT_033"
+      ],
+      "covered_obligations": [
+        "OBL_033"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Nếu bạn là một người như vậy, xin hãy nghe thật rõ. Mệt mỏi không làm bạn thành người bất hiếu. Kiệt sức không có nghĩa là bạn thiếu thương. Người chăm sóc cũng cần được chăm sóc. Lòng hiếu có trí tuệ không bắt con người đốt cạn chính mình rồi gọi đó là tình thương.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S023 (character continuity cục bộ)",
+      "continuity_out": "—",
+      "video_prompt": "The same caregiver now pauses, hand resting still, breathing out slowly in a brief moment of rest. The shot stays close and unmoving, resting on this stillness. The warm domestic light is unchanged. Nothing else happens — this is simply the exhale after effort."
+    },
+    {
+      "prompt_number": 25,
+      "shot_id": "S025",
+      "start_ms": 601846,
+      "end_ms": 640615,
+      "duration_seconds": 38.769,
+      "timeline": {
+        "start": "00:10:01.846",
+        "end": "00:10:40.615"
+      },
+      "covered_beats": [
+        "BEAT_034",
+        "BEAT_035"
+      ],
+      "covered_obligations": [
+        "OBL_034",
+        "OBL_035"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Cũng có những người nghe đến chữ cha, chữ mẹ, là trong lòng không hiện lên hình ảnh ấm áp. Có thể tuổi thơ của họ có bạo lực. Có sự lạnh lùng. Có những câu nói làm tổn thương kéo dài nhiều năm. Có những lần bị bỏ mặc. Có những vết thương mà người ngoài không thấy, nên người ngoài nói rất dễ: thôi, cha mẹ mà, bỏ qua đi. Nhưng đạo hiếu không nên được dùng để bịt miệng nỗi đau.",
+      "required_source_evidence": "dấu hiệu căng thẳng/né tránh khi nghe nhắc \"cha mẹ\"",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả chi tiết cụ thể của \"bạo lực\" quá khứ; không gán câu thoại \"cha mẹ mà, bỏ qua đi\" cho một nhân vật cha/mẹ xuất hiện trong khung hình",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A person sits alone in a plain room, body faintly tensed, eyes lowered at the mention of the words \"mother\" and \"father.\" The camera does not move, resting on the full scene. The light is neutral and even, without warmth. The mood is guarded, quietly defensive. No details of past harm are shown, and no other figure is placed in the frame to voice any dismissive remark."
+    },
+    {
+      "prompt_number": 26,
+      "shot_id": "S026",
+      "start_ms": 640615,
+      "end_ms": 678462,
+      "duration_seconds": 37.846,
+      "timeline": {
+        "start": "00:10:40.615",
+        "end": "00:11:18.462"
+      },
+      "covered_beats": [
+        "BEAT_036"
+      ],
+      "covered_obligations": [
+        "OBL_036"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Hiếu đạo trong ánh sáng của từ bi và trí tuệ không bắt một người phải quay lại nơi không an toàn. Không bắt họ phải cho phép tổn thương tiếp tục. Không bắt họ phải gọi sự chịu đựng là đức hạnh. Có khi một người giữ khoảng cách là để không nuôi thêm hận thù. Có khi một ranh giới bình an là cách duy nhất để cả hai bên không tiếp tục tạo thêm nghiệp đau khổ cho nhau.",
+      "required_source_evidence": "hành vi giữ khoảng cách/đặt ranh giới giữa hai người chung chung",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả nhân vật cụ thể hay lý do xung đột cụ thể",
+      "continuity_in": "S025",
+      "continuity_out": "S027",
+      "video_prompt": "Two figures stand facing each other in a plain room. One steps back, a single deliberate pace, raising a hand gently to mark the distance without hostility. The camera holds in a slow, static composition, watching the space between them settle. The light is even and unremarkable. There is no physical struggle, no raised voices implied — only a calm, chosen boundary."
+    },
+    {
+      "prompt_number": 27,
+      "shot_id": "S027",
+      "start_ms": 678462,
+      "end_ms": 711231,
+      "duration_seconds": 32.769,
+      "timeline": {
+        "start": "00:11:18.462",
+        "end": "00:11:51.231"
+      },
+      "covered_beats": [
+        "BEAT_037",
+        "BEAT_038"
+      ],
+      "covered_obligations": [
+        "OBL_037",
+        "OBL_038"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Điều này không làm mất đi lòng biết ơn. Nó làm lòng biết ơn trở nên thật hơn. Biết ơn không có nghĩa là phủ nhận điều đã xảy ra. Tôn trọng không có nghĩa là để người khác tiếp tục làm hại mình. Chăm sóc không có nghĩa là đánh mất thân tâm của chính mình. Và tha thứ, nếu có, cũng không thể bị ép bằng một lời giảng.",
+      "required_source_evidence": "— (luận đề + 4 phân biệt, không evidence hình ảnh mới)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng cảnh cụ thể cho 4 phân biệt (biết ơn/tôn trọng/chăm sóc/tha thứ)",
+      "continuity_in": "S026",
+      "continuity_out": "S028",
+      "video_prompt": "The two figures remain exactly where they settled, the distance between them unchanged. The camera stays perfectly still, resting on the quiet scene. Their posture softens slightly, tension easing without either one stepping closer. The light stays even. Nothing new occurs in the frame; the moment simply continues to rest."
+    },
+    {
+      "prompt_number": 28,
+      "shot_id": "S028",
+      "start_ms": 711231,
+      "end_ms": 733846,
+      "duration_seconds": 22.615,
+      "timeline": {
+        "start": "00:11:51.231",
+        "end": "00:12:13.846"
+      },
+      "covered_beats": [
+        "BEAT_039"
+      ],
+      "covered_obligations": [
+        "OBL_039"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Ở đây, bài học hiếu đạo của Kinh Địa Tạng cần được nghe bằng một trái tim trưởng thành. Nó không phải cây roi để đánh vào người con. Nó là ngọn đèn để soi lại mối quan hệ giữa ân nghĩa, trách nhiệm, nghiệp và sự chuyển hóa.",
+      "required_source_evidence": "hình ảnh ẩn dụ \"ngọn đèn\" (khẳng định) đối lập \"cây roi\" (phủ định)",
+      "approved_production_fill": "kiểu dáng đèn, chất liệu, không gian xung quanh",
+      "forbidden_additions": "không dựng cảnh đánh roi theo nghĩa đen (ẩn dụ bị phủ định); không thêm chi tiết đèn ngoài việc nó là \"ngọn đèn\" ổn định, ấm áp",
+      "continuity_in": "— (đây là lần dùng độc lập thứ nhất của từ \"đèn\" — KHÔNG lập continuity thread với OBL_117/OBL_121, theo sửa đổi 04B)",
+      "continuity_out": "—",
+      "video_prompt": "A small oil lamp burns steadily in a dim, quiet space, its flame neither flickering nor dimming. The image is still and quiet, close on the warm, even glow. Soft amber light spreads gently outward from the flame. The mood is calm and steady, quietly reassuring. No whip, no violent gesture, and no additional symbolic objects are placed near the lamp."
+    },
+    {
+      "prompt_number": 29,
+      "shot_id": "S029",
+      "start_ms": 733846,
+      "end_ms": 747254,
+      "duration_seconds": 13.408,
+      "timeline": {
+        "start": "00:12:13.846",
+        "end": "00:12:27.254"
+      },
+      "covered_beats": [
+        "BEAT_040"
+      ],
+      "covered_obligations": [
+        "OBL_040"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.",
+      "required_source_evidence": "người con nắm tay cha khóc",
+      "approved_production_fill": "nội thất phòng bệnh, trang phục bệnh nhân/người nhà",
+      "forbidden_additions": "không đặt tên nhân vật; không đặc tả bệnh lý cụ thể",
+      "continuity_in": "— (mở đầu chuỗi 3 shot cục bộ, không phải thread episode)",
+      "continuity_out": "→ S030 (cùng bối cảnh khoa hồi sức, khác nhân vật)",
+      "video_prompt": "In a hospital recovery ward, a grown son stands beside a bed, holding his father's hand and weeping quietly. The camera pushes in slowly on the joined hands. Low, muted clinical light fills the room, softened rather than harsh. The grief is plain and unadorned. Neither figure is named, and no specific medical details are shown."
+    },
+    {
+      "prompt_number": 30,
+      "shot_id": "S030",
+      "start_ms": 747254,
+      "end_ms": 754149,
+      "duration_seconds": 6.895,
+      "timeline": {
+        "start": "00:12:27.254",
+        "end": "00:12:34.149"
+      },
+      "covered_beats": [
+        "BEAT_040"
+      ],
+      "covered_obligations": [
+        "OBL_040"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.",
+      "required_source_evidence": "người mẹ thở yếu vẫn hỏi con đã ăn gì",
+      "approved_production_fill": "nội thất phòng bệnh",
+      "forbidden_additions": "không hiển thị nội dung câu hỏi bằng chữ; không đặc tả bệnh lý",
+      "continuity_in": "← S029 (cùng bối cảnh khoa hồi sức, location continuity cục bộ)",
+      "continuity_out": "→ S031",
+      "video_prompt": "In the same ward, an elderly woman lies weak in bed, her lips moving faintly as she asks her child if he has eaten. The camera holds in a static frame, close on her tired face and the son beside her. The same muted clinical light continues. The words themselves are not shown as text — only the quiet effort of asking."
+    },
+    {
+      "prompt_number": 31,
+      "shot_id": "S031",
+      "start_ms": 754149,
+      "end_ms": 762960,
+      "duration_seconds": 8.811,
+      "timeline": {
+        "start": "00:12:34.149",
+        "end": "00:12:42.960"
+      },
+      "covered_beats": [
+        "BEAT_040"
+      ],
+      "covered_obligations": [
+        "OBL_040"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.",
+      "required_source_evidence": "người cha nghiêm khắc cả đời, phút cuối nói lời xin lỗi nhỏ",
+      "approved_production_fill": "nội thất phòng bệnh",
+      "forbidden_additions": "không hiển thị nội dung lời xin lỗi bằng chữ",
+      "continuity_in": "← S030",
+      "continuity_out": "→ S032",
+      "video_prompt": "An elderly man, stern for most of his life, lies in the same ward and speaks softly to someone standing near the bed, his voice barely audible. The shot remains fixed, respectful of the small, private exchange. The light remains low and even. No written words appear on screen to spell out what he says."
+    },
+    {
+      "prompt_number": 32,
+      "shot_id": "S032",
+      "start_ms": 762960,
+      "end_ms": 772154,
+      "duration_seconds": 9.194,
+      "timeline": {
+        "start": "00:12:42.960",
+        "end": "00:12:52.154"
+      },
+      "covered_beats": [
+        "BEAT_040"
+      ],
+      "covered_obligations": [
+        "OBL_040"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.",
+      "required_source_evidence": "sự vắng mặt của một người không kịp đến (chỉ có thể ngụ ý, không hiển thị dương tính)",
+      "approved_production_fill": "nội thất hành lang, ánh sáng",
+      "forbidden_additions": "**không dùng hình ảnh \"ghế trống\" cho cảnh này** — dù chủ đề gần với motif chiếc ghế, đây KHÔNG phải continuity thread T1 và việc mượn hình ảnh ghế ở đây sẽ tạo một sự cộng hưởng ngoài ý định, gây nhầm lẫn continuity (đúng tinh thần chống scene-pool của yêu cầu Phase C — không tái dùng vật thể phụ chỉ vì nó \"tiện\"); chỉ dùng hành lang vắng, không thêm đồ vật biểu tượng nào",
+      "continuity_in": "← S031",
+      "continuity_out": "→ S033",
+      "video_prompt": "A hospital corridor stretches out, empty, no one walking through it. The camera holds in a static, observational frame. The same muted light from the ward continues into the hallway. The stillness suggests someone who did not arrive in time, though nothing explicit confirms this — only an empty passage. No chair or other symbolic object is placed in the corridor."
+    },
+    {
+      "prompt_number": 33,
+      "shot_id": "S033",
+      "start_ms": 772154,
+      "end_ms": 799385,
+      "duration_seconds": 27.231,
+      "timeline": {
+        "start": "00:12:52.154",
+        "end": "00:13:19.385"
+      },
+      "covered_beats": [
+        "BEAT_041",
+        "BEAT_042"
+      ],
+      "covered_obligations": [
+        "OBL_041",
+        "OBL_042"
+      ],
+      "shot_function": "REVEAL",
+      "narration_context": "Đời sống làm ta trì hoãn tình thương bằng những lý do nghe rất hợp lý. Ta bận kiếm tiền. Ta bận lo con. Ta bận trả nợ. Ta bận chứng minh mình đúng. Ta bận giận. Ta bận chờ người kia mở lời trước. Và cứ như vậy, có những chiếc ghế trong nhà lặng lẽ cũ đi.",
+      "required_source_evidence": "chiếc ghế với dấu hiệu hao mòn/cũ đi theo thời gian",
+      "approved_production_fill": "mức độ hao mòn cụ thể",
+      "forbidden_additions": "không hiển thị riêng biệt 6 lý do bận bằng 6 cảnh khác nhau (04B xác nhận không có evidence hình ảnh cho từng lý do)",
+      "continuity_in": "← S008 (cùng ghế, quay lại motif sau một khoảng episode dài — có chức năng narrative mới: đánh dấu thời gian trôi qua do 6 lý do bận rộn)",
+      "continuity_out": "→ S047 (lần tái xuất kế tiếp)",
+      "video_prompt": "The same wooden chair from earlier stands in the same room, now visibly more worn — a thicker layer of dust across the seat, the wood's color slightly faded. Unmoving, the frame observes the passage of time in small details. The light has cooled slightly from its earlier warmth. Nothing else changes in the frame; the wear itself marks how much time has passed."
+    },
+    {
+      "prompt_number": 34,
+      "shot_id": "S034",
+      "start_ms": 799385,
+      "end_ms": 829846,
+      "duration_seconds": 30.462,
+      "timeline": {
+        "start": "00:13:19.385",
+        "end": "00:13:49.846"
+      },
+      "covered_beats": [
+        "BEAT_043",
+        "BEAT_044"
+      ],
+      "covered_obligations": [
+        "OBL_043",
+        "OBL_044"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Khi Kinh Địa Tạng mở ra bằng hình ảnh Đức Phật hướng về thân mẫu, ta có thể quán chiếu rằng đạo hiếu trước hết là sự tỉnh thức trước ân nghĩa. Không phải ân nghĩa để mắc nợ trong sợ hãi. Mà là ân nghĩa để nhận ra thân mạng này không tự nhiên mà có. Ta được sinh ra từ rất nhiều điều kiện.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không thêm hành động/biểu cảm mới cho Đức Phật ngoài đã có",
+      "continuity_in": "← S017 (thread T2)",
+      "continuity_out": "→ S035",
+      "video_prompt": "The same wide, gold-lit hall returns, the teaching figure still visible at a respectful distance exactly as before. The camera does not move, holding steadily on the moment. Nothing new is added to the figure's posture or expression. The even, diffuse light continues unchanged, the scene resting in its earlier stillness."
+    },
+    {
+      "prompt_number": 35,
+      "shot_id": "S035",
+      "start_ms": 829846,
+      "end_ms": 834000,
+      "duration_seconds": 4.154,
+      "timeline": {
+        "start": "00:13:49.846",
+        "end": "00:13:54.000"
+      },
+      "covered_beats": [
+        "BEAT_045"
+      ],
+      "covered_obligations": [
+        "OBL_045"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có thân thể của mẹ. Có công sức của cha. Có chén cơm của người trồng lúa. Có bàn tay của người may áo. Có thầy cô, hàng xóm, người xa lạ, bác sĩ, người quét đường, người giữ một phần thế giới này cho ta sống. Thấy được cha mẹ là bước đầu. Nhưng nếu nhìn sâu, ta sẽ thấy đằng sau cha mẹ là vô số chúng sinh đã nâng đỡ đời mình.",
+      "required_source_evidence": "mẹ, cha (2 trong 9 nhóm) — nguồn nâng đỡ gần nhất",
+      "approved_production_fill": "trang phục, không gian",
+      "forbidden_additions": "không đặc tả danh tính cụ thể",
+      "continuity_in": "—",
+      "continuity_out": "→ S036",
+      "video_prompt": "A mother and father, unnamed and unconnected to any earlier figures, stand together in quiet stillness, simply present in frame. The camera holds in a brief, static portrait composition. Warm, gentle light falls evenly across them. There is no specific action — only their quiet presence, held for a moment."
+    },
+    {
+      "prompt_number": 36,
+      "shot_id": "S036",
+      "start_ms": 834000,
+      "end_ms": 840231,
+      "duration_seconds": 6.231,
+      "timeline": {
+        "start": "00:13:54.000",
+        "end": "00:14:00.231"
+      },
+      "covered_beats": [
+        "BEAT_045"
+      ],
+      "covered_obligations": [
+        "OBL_045"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có thân thể của mẹ. Có công sức của cha. Có chén cơm của người trồng lúa. Có bàn tay của người may áo. Có thầy cô, hàng xóm, người xa lạ, bác sĩ, người quét đường, người giữ một phần thế giới này cho ta sống. Thấy được cha mẹ là bước đầu. Nhưng nếu nhìn sâu, ta sẽ thấy đằng sau cha mẹ là vô số chúng sinh đã nâng đỡ đời mình.",
+      "required_source_evidence": "người trồng lúa, người may áo, thầy cô — nhóm lao động/tri thức trực tiếp phục vụ đời sống",
+      "approved_production_fill": "không gian đồng ruộng, trang phục lao động",
+      "forbidden_additions": "không thêm nghề nghiệp nào ngoài 9 nhóm đã liệt kê ở 04A/04B",
+      "continuity_in": "← S035",
+      "continuity_out": "→ S037",
+      "video_prompt": "A farmer works alone in an open rice field, bent over the crop in steady, practiced motion. A wide, unmoving shot takes in the scale of the field around the single figure. Soft, natural daylight covers the scene. The mood is one of quiet, unnoticed labor."
+    },
+    {
+      "prompt_number": 37,
+      "shot_id": "S037",
+      "start_ms": 840231,
+      "end_ms": 864462,
+      "duration_seconds": 24.231,
+      "timeline": {
+        "start": "00:14:00.231",
+        "end": "00:14:24.462"
+      },
+      "covered_beats": [
+        "BEAT_045"
+      ],
+      "covered_obligations": [
+        "OBL_045"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có thân thể của mẹ. Có công sức của cha. Có chén cơm của người trồng lúa. Có bàn tay của người may áo. Có thầy cô, hàng xóm, người xa lạ, bác sĩ, người quét đường, người giữ một phần thế giới này cho ta sống. Thấy được cha mẹ là bước đầu. Nhưng nếu nhìn sâu, ta sẽ thấy đằng sau cha mẹ là vô số chúng sinh đã nâng đỡ đời mình.",
+      "required_source_evidence": "hàng xóm, người xa lạ, bác sĩ, người quét đường — nhóm cộng đồng rộng hơn",
+      "approved_production_fill": "không gian đường phố, trang phục lao động",
+      "forbidden_additions": "không thêm nhóm người nào ngoài 9 nhóm đã liệt kê",
+      "continuity_in": "← S036",
+      "continuity_out": "→ S038",
+      "video_prompt": "A street sweeper moves slowly along an empty road in the early morning, broom in hand. The camera holds in a static frame, watching the unhurried, repetitive motion. Pale, early morning light lies flat across the street. The mood is humble and unremarkable, a small act of upkeep no one is thanking."
+    },
+    {
+      "prompt_number": 38,
+      "shot_id": "S038",
+      "start_ms": 864462,
+      "end_ms": 909692,
+      "duration_seconds": 45.231,
+      "timeline": {
+        "start": "00:14:24.462",
+        "end": "00:15:09.692"
+      },
+      "covered_beats": [
+        "BEAT_046",
+        "BEAT_047",
+        "BEAT_048"
+      ],
+      "covered_obligations": [
+        "OBL_046",
+        "OBL_047",
+        "OBL_048"
+      ],
+      "shot_function": "CALLBACK",
+      "narration_context": "Tinh thần Đại thừa đi theo hướng ấy. Từ lòng hiếu với một người mẹ, tâm biết ơn có thể mở rộng. Không phải để làm loãng tình thương gia đình, mà để làm nó sâu hơn. Khi ta thật sự hiểu công ơn của một người, ta bắt đầu hiểu rằng bất kỳ ai cũng từng là người được thương, từng có mẹ, từng có nỗi sợ, từng có một chiếc ghế để trở về, hoặc từng mất chiếc ghế ấy. Đó là nơi Địa Tạng Bồ Tát xuất hiện trong mạch cảm xúc của series này.",
+      "required_source_evidence": "cùng chiếc ghế (thread T1), làm điểm neo cho ý \"mở rộng lòng biết ơn\"",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng cảnh đám đông \"mọi chúng sinh\"; không mô tả hình tướng Địa Tạng Bồ Tát (OBL_048 minh thị cấm)",
+      "continuity_in": "← S033",
+      "continuity_out": "→ S047",
+      "video_prompt": "The same worn wooden chair returns once more, unchanged from before, standing quietly in the same room. A locked-off, static shot rests on the room. The light and setting remain exactly as they were. No crowd, no additional figures, and no depiction of any specific religious being are added to the frame — the chair alone carries the moment."
+    },
+    {
+      "prompt_number": 39,
+      "shot_id": "S039",
+      "start_ms": 909692,
+      "end_ms": 958615,
+      "duration_seconds": 48.923,
+      "timeline": {
+        "start": "00:15:09.692",
+        "end": "00:15:58.615"
+      },
+      "covered_beats": [
+        "BEAT_049",
+        "BEAT_050"
+      ],
+      "covered_obligations": [
+        "OBL_049",
+        "OBL_050"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Ở tập trước, ta đã nói về đại nguyện không bỏ rơi chúng sinh trong những nơi tối tăm nhất. Hôm nay, ta thấy một nhánh rất mềm của đại nguyện ấy. Lòng từ bi lớn không mọc lên từ sự lạnh lùng. Nó có thể bắt đầu từ một nỗi thương rất gần. Nỗi thương mẹ. Nỗi nhớ cha. Nỗi đau khi thấy người thân chịu khổ. Rồi từ đó, trái tim học cách nhìn mọi chúng sinh như người thân đã từng đi lạc trong vô minh. Nhưng để lòng hiếu trở thành từ bi, nó phải được thanh lọc khỏi sự ích kỷ.",
+      "required_source_evidence": "thần thái trắc ẩn hướng về gia đình (mẹ/cha) làm điểm khởi đầu của lòng từ bi mở rộng",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không dựng cảnh đám đông \"mọi chúng sinh\"; không mô tả chi tiết \"đại nguyện\" ngoài đã có",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A lone figure sits with a distant, tender expression, gaze drifting somewhere beyond the frame. A locked-off, static shot takes in the whole composition. Soft, warm light rests on their face. The mood is quietly compassionate, turned inward rather than toward any crowd or gathering. No other figures are added to the scene."
+    },
+    {
+      "prompt_number": 40,
+      "shot_id": "S040",
+      "start_ms": 958615,
+      "end_ms": 1000154,
+      "duration_seconds": 41.538,
+      "timeline": {
+        "start": "00:15:58.615",
+        "end": "00:16:40.154"
+      },
+      "covered_beats": [
+        "BEAT_051",
+        "BEAT_052"
+      ],
+      "covered_obligations": [
+        "OBL_051",
+        "OBL_052"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Nếu ta chỉ thương cha mẹ mình mà khinh thường cha mẹ người khác, lòng hiếu ấy còn hẹp. Nếu ta chỉ lo làm đẹp mặt gia đình mình mà chà đạp gia đình khác, lòng hiếu ấy chưa có trí tuệ. Nếu ta chỉ cúng giỗ tổ tiên mình thật lớn nhưng sống bất công với người đang làm việc cho mình, lòng hiếu ấy chưa chạm đến đạo. Hiếu đạo trong đạo Phật không dừng ở việc nhớ người đã khuất. Nó hỏi ta đang sống ra sao.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng cảnh cụ thể cho \"chà đạp gia đình khác\"/\"bất công với người làm việc\" — quá cụ thể so với 04B xác nhận",
+      "continuity_in": "← S039",
+      "continuity_out": "→ S041",
+      "video_prompt": "The same figure remains seated, expression unchanged, gaze still distant. The camera keeps a fixed, unmoving position throughout. The warm light continues without variation. Nothing new enters the frame; the quiet reflection simply continues."
+    },
+    {
+      "prompt_number": 41,
+      "shot_id": "S041",
+      "start_ms": 1000154,
+      "end_ms": 1031077,
+      "duration_seconds": 30.923,
+      "timeline": {
+        "start": "00:16:40.154",
+        "end": "00:17:11.077"
+      },
+      "covered_beats": [
+        "BEAT_053",
+        "BEAT_054",
+        "BEAT_055"
+      ],
+      "covered_obligations": [
+        "OBL_053",
+        "OBL_054",
+        "OBL_055"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Ta có đang tiếp tục gieo những nhân đau khổ mà cha mẹ từng vô tình truyền lại không? Ta có đang nói với con mình bằng chính những câu từng làm mình tổn thương không? Ta có đang biến áp lực thành bạo lực, biến lo lắng thành kiểm soát, biến tình thương thành điều kiện, rồi gọi đó là vì muốn tốt cho con không?",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S040",
+      "continuity_out": "→ S042",
+      "video_prompt": "The same seated figure holds the same distant, tender expression, the shot extending the earlier stillness. The camera remains static. The light and framing are unchanged. No new action interrupts the quiet."
+    },
+    {
+      "prompt_number": 42,
+      "shot_id": "S042",
+      "start_ms": 1031077,
+      "end_ms": 1068000,
+      "duration_seconds": 36.923,
+      "timeline": {
+        "start": "00:17:11.077",
+        "end": "00:17:48.000"
+      },
+      "covered_beats": [
+        "BEAT_056",
+        "BEAT_057"
+      ],
+      "covered_obligations": [
+        "OBL_056",
+        "OBL_057"
+      ],
+      "shot_function": "ESTABLISH",
+      "narration_context": "Có một người cha nhận ra mình đang la con bằng giọng của cha mình ngày trước. Câu nói vừa bật ra, đứa trẻ cúi mặt xuống, và trong khoảnh khắc ấy, ông như nhìn thấy chính mình nhiều năm về trước. Một đứa trẻ cũng từng cúi mặt như vậy. Cũng từng im lặng như vậy. Cũng từng tự hứa lớn lên sẽ không bao giờ nói những lời ấy với con mình. Nhưng rồi vòng lặp vẫn quay.",
+      "required_source_evidence": "người cha la con; đứa trẻ cúi mặt xuống; biểu cảm nhận ra trên gương mặt cha (giữ nguyên qua BEAT_057 — 'vòng lặp vẫn quay' không có evidence riêng, mang bằng giữ nguyên khung căng thẳng)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặt tên nhân vật; không mô tả hành vi bạo lực thể chất; không hiển thị \"đứa trẻ trong quá khứ\" như nhân vật riêng cùng khung hình; không dựng biểu tượng 'vòng lặp' (vòng tròn...) cho phần BEAT_057 vừa sáp nhập",
+      "continuity_in": "S041 (mở đầu thread T3)",
+      "continuity_out": "S043",
+      "video_prompt": "A father raises his voice sharply at his young child in the plain front room of a modest home, the words landing hard. The child flinches and lowers their face. In the same breath, something shifts in the father's own expression — a flicker of recognition, as though he has heard this voice before. A subtle, handheld documentary movement stays close, feeling the tension without exaggerating it. Warm but uneasy lamp light fills the room. No name is given to either figure, no physical strike is shown, and no separate image of the father as a child is inserted into the frame."
+    },
+    {
+      "prompt_number": 43,
+      "shot_id": "S043",
+      "start_ms": 1068000,
+      "end_ms": 1071231,
+      "duration_seconds": 3.231,
+      "timeline": {
+        "start": "00:17:48.000",
+        "end": "00:17:51.231"
+      },
+      "covered_beats": [
+        "BEAT_058"
+      ],
+      "covered_obligations": [
+        "OBL_058"
+      ],
+      "shot_function": "REVEAL",
+      "narration_context": "Cho đến một ngày, ông dừng lại.",
+      "required_source_evidence": "khoảnh khắc \"dừng lại\" — thay đổi tư thế/biểu cảm",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không mô tả nguyên nhân cụ thể khiến ông dừng lại",
+      "continuity_in": "← S042 (T3)",
+      "continuity_out": "→ S044",
+      "video_prompt": "The father goes still, the tension in his shoulders dropping away in an instant. The camera holds in a slow, quiet push toward his face as the stillness settles. The same warm lamp light continues. No explanation is shown for what causes him to stop — only the stopping itself."
+    },
+    {
+      "prompt_number": 44,
+      "shot_id": "S044",
+      "start_ms": 1071231,
+      "end_ms": 1098462,
+      "duration_seconds": 27.231,
+      "timeline": {
+        "start": "00:17:51.231",
+        "end": "00:18:18.462"
+      },
+      "covered_beats": [
+        "BEAT_059"
+      ],
+      "covered_obligations": [
+        "OBL_059"
+      ],
+      "shot_function": "RESOLUTION",
+      "narration_context": "Ông không thể thay đổi tuổi thơ của mình. Không thể bắt quá khứ dịu dàng hơn. Không thể làm cho người cha đã mất quay lại để xin lỗi. Nhưng ông có thể quỳ xuống trước mặt đứa con của mình và nói: ba xin lỗi, câu vừa rồi làm con đau. Ba sẽ học cách nói khác.",
+      "required_source_evidence": "người cha quỳ xuống trước con; đang nói (câu nguyên văn)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không đổi/diễn giải lại câu thoại; không thêm phản ứng của con",
+      "continuity_in": "← S043 (T3)",
+      "continuity_out": "→ S045",
+      "video_prompt": "The father kneels down in front of his child, lowering himself to meet their eyes, and begins to speak gently. The shot settles into a slow, static composition, respectful of the moment. Warm lamp light softens around them both. The child's reaction is not shown — the frame stays with the father's own quiet act of kneeling and speaking."
+    },
+    {
+      "prompt_number": 45,
+      "shot_id": "S045",
+      "start_ms": 1098462,
+      "end_ms": 1117385,
+      "duration_seconds": 18.923,
+      "timeline": {
+        "start": "00:18:18.462",
+        "end": "00:18:37.385"
+      },
+      "covered_beats": [
+        "BEAT_060",
+        "BEAT_061"
+      ],
+      "covered_obligations": [
+        "OBL_060",
+        "OBL_061"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Ở tầng ứng dụng hiện đại, có khi đó là một hình thức báo hiếu rất sâu. Không phải vì ông quên cha mình. Mà vì ông quyết định không truyền tiếp vết thương của cha mình sang thế hệ sau.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S044 (T3)",
+      "continuity_out": "—",
+      "video_prompt": "The father and child remain exactly as they were, the kneeling posture and the quiet unbroken. The shot remains completely still, letting the moment sit. The warm lamp light continues unchanged. Nothing new happens; the moment simply continues to rest after what was said."
+    },
+    {
+      "prompt_number": 46,
+      "shot_id": "S046",
+      "start_ms": 1117385,
+      "end_ms": 1150154,
+      "duration_seconds": 32.769,
+      "timeline": {
+        "start": "00:18:37.385",
+        "end": "00:19:10.154"
+      },
+      "covered_beats": [
+        "BEAT_062"
+      ],
+      "covered_obligations": [
+        "OBL_062"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Có khi nén hương chân thành nhất dành cho tổ tiên không nằm trên bàn thờ. Nó nằm trong khoảnh khắc một người dừng bàn tay nóng giận lại. Dừng một lời mắng nhục. Dừng một thói quen im lặng trừng phạt. Dừng một cơn say. Dừng một cách yêu thương có điều kiện. Dừng một vòng lặp đã đi qua ba đời mà không ai đủ tỉnh để gọi tên.",
+      "required_source_evidence": "hình ảnh ẩn dụ bàn thờ/nén hương (bị phủ định vị trí); một khoảnh khắc \"dừng lại\" chung chung",
+      "approved_production_fill": "không gian, trang phục, chi tiết bàn thờ hậu cảnh",
+      "forbidden_additions": "**không mặc định đây là cùng người cha của S042–S044** — ràng buộc minh thị kế thừa từ 04B; không thêm hành động \"dừng\" nào ngoài phạm vi ý nghĩa chung đã nêu",
+      "continuity_in": "— (chủ thể mới, không nối thread T3)",
+      "continuity_out": "—",
+      "video_prompt": "An unnamed figure's hand stops mid-motion, caught in the instant before a sharp gesture, then lowers slowly. In the far background, softly out of focus, the corner of a modest home altar is barely visible. The camera holds in a static, observational frame. Warm, low light fills the space. This is a different, ordinary person — not the father seen earlier — caught in an anonymous moment of restraint."
+    },
+    {
+      "prompt_number": 47,
+      "shot_id": "S047",
+      "start_ms": 1150154,
+      "end_ms": 1163539,
+      "duration_seconds": 13.385,
+      "timeline": {
+        "start": "00:19:10.154",
+        "end": "00:19:23.539"
+      },
+      "covered_beats": [
+        "BEAT_063"
+      ],
+      "covered_obligations": [
+        "OBL_063"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Điều này không phải một câu kinh để ta gán vào miệng Đức Phật. Đây là cách quán chiếu hiện đại từ tinh thần nhân quả và chuyển hóa.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không thể hiện Đức Phật đang kể câu chuyện S042–S046 như một sự kiện kinh điển — ràng buộc disclaimer áp dụng ngược cho toàn bộ S042-038",
+      "continuity_in": "← S046",
+      "continuity_out": "→ S048",
+      "video_prompt": "The same hand and the same quiet stillness continue, unchanged from the shot before. A still, observational frame holds without moving. The light stays low and warm. Nothing new enters the frame — this is simply a continued pause."
+    },
+    {
+      "prompt_number": 48,
+      "shot_id": "S048",
+      "start_ms": 1163539,
+      "end_ms": 1194000,
+      "duration_seconds": 30.462,
+      "timeline": {
+        "start": "00:19:23.539",
+        "end": "00:19:54.000"
+      },
+      "covered_beats": [
+        "BEAT_064"
+      ],
+      "covered_obligations": [
+        "OBL_064"
+      ],
+      "shot_function": "ESTABLISH",
+      "narration_context": "Nhân quả không chỉ nằm ở chuyện xa xôi sau khi chết. Nhân quả cũng nằm trong bữa cơm tối nay. Một lời nói gieo xuống. Một đứa trẻ nhận lấy. Một thói quen hình thành. Một nỗi sợ đi vào thân thể. Rồi hai mươi năm sau, nó trở thành cách người ấy yêu, cách người ấy giận, cách người ấy làm cha, làm mẹ.",
+      "required_source_evidence": "khoảnh khắc bữa cơm — lời nói được nói ra, một đứa trẻ tiếp nhận",
+      "approved_production_fill": "không gian bếp/bàn ăn, món ăn, trang phục",
+      "forbidden_additions": "không tách rời chuỗi 5 bước nhân quả thành cảnh riêng; không nhân vật cụ thể có tên; không hiển thị \"20 năm sau\" bằng nhân vật trưởng thành cụ thể",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A family sits together at the dinner table tonight, an adult speaking while a child listens, taking the words in. A static, observational wide shot takes in the table. Warm kitchen light fills the room. The mood is ordinary, unremarkable on the surface, the weight of the moment held quietly beneath it. No names are given, and no older, grown version of the child is shown elsewhere in the frame."
+    },
+    {
+      "prompt_number": 49,
+      "shot_id": "S049",
+      "start_ms": 1194000,
+      "end_ms": 1201846,
+      "duration_seconds": 7.846,
+      "timeline": {
+        "start": "00:19:54.000",
+        "end": "00:20:01.846"
+      },
+      "covered_beats": [
+        "BEAT_065"
+      ],
+      "covered_obligations": [
+        "OBL_065"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Nếu hiểu như vậy, ta sẽ thấy hiếu đạo không phải chuyện cũ. Nó đang diễn ra ngay trong cách ta nhắn tin, cách ta nghe điện thoại, cách ta chăm sóc người già, cách ta đặt ranh giới, cách ta nuôi dạy con, cách ta nói lời xin lỗi.",
+      "required_source_evidence": "nhắn tin (1/6 hành vi — \"nghe điện thoại\" chuyển sang mang bằng giọng đọc, xem sửa lỗi bên dưới)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không hiển thị nội dung tin nhắn bằng chữ",
+      "continuity_in": "—",
+      "continuity_out": "→ S050",
+      "video_prompt": "A person types a brief message into their phone, thumbs moving quickly. The camera holds in a static, close composition on the small gesture. Even, neutral light fills the space. No message text is legible on the screen."
+    },
+    {
+      "prompt_number": 50,
+      "shot_id": "S050",
+      "start_ms": 1201846,
+      "end_ms": 1209462,
+      "duration_seconds": 7.615,
+      "timeline": {
+        "start": "00:20:01.846",
+        "end": "00:20:09.462"
+      },
+      "covered_beats": [
+        "BEAT_065"
+      ],
+      "covered_obligations": [
+        "OBL_065"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Nếu hiểu như vậy, ta sẽ thấy hiếu đạo không phải chuyện cũ. Nó đang diễn ra ngay trong cách ta nhắn tin, cách ta nghe điện thoại, cách ta chăm sóc người già, cách ta đặt ranh giới, cách ta nuôi dạy con, cách ta nói lời xin lỗi.",
+      "required_source_evidence": "đặt ranh giới (1/6 hành vi — \"chăm sóc người già\" chuyển sang mang bằng giọng đọc, xem sửa lỗi bên dưới)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "← S049",
+      "continuity_out": "→ S051",
+      "video_prompt": "The same person raises a hand slightly, palm turned outward, a calm and deliberate gesture of setting a boundary. The camera settles into a fixed position and does not shift. The light and setting remain unchanged. The gesture is unhurried, without anger."
+    },
+    {
+      "prompt_number": 51,
+      "shot_id": "S051",
+      "start_ms": 1209462,
+      "end_ms": 1217077,
+      "duration_seconds": 7.615,
+      "timeline": {
+        "start": "00:20:09.462",
+        "end": "00:20:17.077"
+      },
+      "covered_beats": [
+        "BEAT_065"
+      ],
+      "covered_obligations": [
+        "OBL_065"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Nếu hiểu như vậy, ta sẽ thấy hiếu đạo không phải chuyện cũ. Nó đang diễn ra ngay trong cách ta nhắn tin, cách ta nghe điện thoại, cách ta chăm sóc người già, cách ta đặt ranh giới, cách ta nuôi dạy con, cách ta nói lời xin lỗi.",
+      "required_source_evidence": "nuôi dạy con; nói lời xin lỗi",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không thêm hành vi nào ngoài 6 hành vi đã liệt kê ở 04A/04B",
+      "continuity_in": "← S050",
+      "continuity_out": "—",
+      "video_prompt": "An adult crouches down to meet a child's eye level and begins to apologize, voice gentle. The image settles slowly, static and close on the crouch and the quiet exchange. Warm, soft light fills the space. The moment is tender and unresolved, the apology offered without demanding a response."
+    },
+    {
+      "prompt_number": 52,
+      "shot_id": "S052",
+      "start_ms": 1217077,
+      "end_ms": 1259539,
+      "duration_seconds": 42.462,
+      "timeline": {
+        "start": "00:20:17.077",
+        "end": "00:20:59.539"
+      },
+      "covered_beats": [
+        "BEAT_066"
+      ],
+      "covered_obligations": [
+        "OBL_066"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một người mất mẹ khi chưa kịp xin lỗi có thể mang nỗi ân hận rất lâu. Nhưng nỗi ân hận ấy không nhất thiết phải trở thành nhà tù. Nó có thể trở thành lời nhắc. Nếu không còn cơ hội nói trực tiếp với mẹ, người ấy vẫn có thể sống một đời bớt cứng hơn, bớt nóng hơn, bớt vô tâm hơn. Có thể chăm sóc một người già khác bằng sự tử tế. Có thể nói với con mình những lời mà ngày xưa mình chưa kịp nói.",
+      "required_source_evidence": "hành vi chăm sóc người già khác (cử chỉ ấm áp); dấu hiệu ân hận (thần thái trầm lặng) làm điểm khởi đầu",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "None thêm ngoài phạm vi đã liệt kê",
+      "continuity_in": "S051",
+      "continuity_out": "S053",
+      "video_prompt": "A person gently helps an elderly stranger, someone who is not their own parent, adjusting a blanket around the older woman's shoulders with quiet warmth. The camera keeps a fixed wide view, unmoving. Soft, muted daylight fills the room. Beneath the tenderness, a trace of old grief lingers in the caregiver's face. No dialogue is shown, and the two remain unnamed."
+    },
+    {
+      "prompt_number": 53,
+      "shot_id": "S053",
+      "start_ms": 1259539,
+      "end_ms": 1276154,
+      "duration_seconds": 16.615,
+      "timeline": {
+        "start": "00:20:59.539",
+        "end": "00:21:16.154"
+      },
+      "covered_beats": [
+        "BEAT_067",
+        "BEAT_068"
+      ],
+      "covered_obligations": [
+        "OBL_067",
+        "OBL_068"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Người đã mất không cần ta chìm mãi trong tự trách. Nếu có một món quà đẹp để dâng lên ký ức của họ, có lẽ đó là một đời sống đang học cách sáng hơn.",
+      "required_source_evidence": "— (2 luận đề khẳng định, không evidence hình ảnh mới)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "None thêm",
+      "continuity_in": "S052",
+      "continuity_out": "S054",
+      "video_prompt": "The same gentle care continues, the caregiver's hand still resting near the older woman's shoulder. The camera stays motionless, watching quietly. The muted light is unchanged. The moment simply settles, nothing new introduced."
+    },
+    {
+      "prompt_number": 54,
+      "shot_id": "S054",
+      "start_ms": 1276154,
+      "end_ms": 1307077,
+      "duration_seconds": 30.923,
+      "timeline": {
+        "start": "00:21:16.154",
+        "end": "00:21:47.077"
+      },
+      "covered_beats": [
+        "BEAT_069",
+        "BEAT_070"
+      ],
+      "covered_obligations": [
+        "OBL_069",
+        "OBL_070"
+      ],
+      "shot_function": "ESTABLISH",
+      "narration_context": "Ở đây, ta cũng cần nói rõ về nghi lễ. Trong truyền thống Phật giáo, tụng kinh, làm phước, hồi hướng, tưởng niệm người mất đều có vị trí của nó. Những thực hành ấy có thể nâng đỡ tâm người sống, nuôi dưỡng lòng thành, nhắc ta sống thiện lành hơn, và được hiểu trong khung niềm tin Phật giáo về công đức và hồi hướng.",
+      "required_source_evidence": "hành vi tụng kinh (đại diện cho 4 thực hành: tụng kinh/làm phước/hồi hướng/tưởng niệm)",
+      "approved_production_fill": "không gian, trang phục, đạo cụ tối thiểu (không đặc tả tượng Phật/kiến trúc chùa cụ thể nếu 04B không xác nhận)",
+      "forbidden_additions": "không mô tả không gian \"chùa\" cụ thể — 04B minh thị cấm; không tự thêm địa điểm chùa nếu narration không nêu",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A person sits cross-legged in a plain, softly lit room, palms pressed together, reciting quietly. The camera holds in a static, respectful frame. Warm, low light fills the space evenly. No statue, shrine architecture, or temple exterior is shown — only the modest act of practice itself."
+    },
+    {
+      "prompt_number": 55,
+      "shot_id": "S055",
+      "start_ms": 1307077,
+      "end_ms": 1348154,
+      "duration_seconds": 41.077,
+      "timeline": {
+        "start": "00:21:47.077",
+        "end": "00:22:28.154"
+      },
+      "covered_beats": [
+        "BEAT_071",
+        "BEAT_072"
+      ],
+      "covered_obligations": [
+        "OBL_071",
+        "OBL_072"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Nhưng ta không nên biến nghi lễ thành một cái máy bảo đảm kết quả. Không nên nói rằng chỉ cần làm một việc nào đó thì chắc chắn người mất sẽ được chuyển cảnh giới. Không nên dùng nỗi thương người thân để bán sợ hãi. Càng không nên làm cho ai đó tin rằng nếu họ không đủ tiền làm lễ, không đủ thời gian tụng kinh, hoặc không biết nghi thức, thì họ là người con bất hiếu. Lòng thành không đo bằng sự phô trương.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng cảnh minh hoạ \"bán sợ hãi\"/\"nghi lễ như cái máy\" — hành vi bị phê phán, không hình ảnh hoá dương tính",
+      "continuity_in": "← S054",
+      "continuity_out": "→ S056",
+      "video_prompt": "The same figure continues reciting in the same still posture, unchanged from before. The camera remains fixed in place, undisturbed. The warm, low light remains constant. Nothing in the frame suggests urgency, fear, or a promise of guaranteed results — the practice stays plain and unadorned."
+    },
+    {
+      "prompt_number": 56,
+      "shot_id": "S056",
+      "start_ms": 1348154,
+      "end_ms": 1360874,
+      "duration_seconds": 12.72,
+      "timeline": {
+        "start": "00:22:28.154",
+        "end": "00:22:40.874"
+      },
+      "covered_beats": [
+        "BEAT_073"
+      ],
+      "covered_obligations": [
+        "OBL_073"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Một người nghèo thắp một nén hương với tâm lành, rồi từ hôm ấy sống bớt hận thù hơn, có thể đang thực tập hiếu đạo rất sâu. Một người không có bàn thờ lớn, nhưng biết chăm sóc mẹ còn sống bằng một bữa cơm ấm, một buổi đưa đi khám, một cuộc trò chuyện không gắt gỏng, cũng đang thực tập hiếu đạo. Một người không thể gặp lại cha vì quan hệ quá tổn thương, nhưng quyết tâm không biến vết thương đó thành bạo lực với con mình, cũng đang đi trên một con đường rất khó và rất đáng trân trọng.",
+      "required_source_evidence": "người nghèo thắp một nén hương với tâm lành",
+      "approved_production_fill": "không gian, trang phục đơn sơ",
+      "forbidden_additions": "không dựng bàn thờ lớn — narration minh thị đối lập với sự phô trương",
+      "continuity_in": "—",
+      "continuity_out": "→ S057",
+      "video_prompt": "A person of humble, unadorned appearance lights a single stick of incense, nothing elaborate around them. A brief, static close shot catches the small flame. Soft, dim light surrounds the modest gesture. There is no large shrine, no abundance of offerings — only this one quiet act."
+    },
+    {
+      "prompt_number": 57,
+      "shot_id": "S057",
+      "start_ms": 1360874,
+      "end_ms": 1397077,
+      "duration_seconds": 36.203,
+      "timeline": {
+        "start": "00:22:40.874",
+        "end": "00:23:17.077"
+      },
+      "covered_beats": [
+        "BEAT_073"
+      ],
+      "covered_obligations": [
+        "OBL_073"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một người nghèo thắp một nén hương với tâm lành, rồi từ hôm ấy sống bớt hận thù hơn, có thể đang thực tập hiếu đạo rất sâu. Một người không có bàn thờ lớn, nhưng biết chăm sóc mẹ còn sống bằng một bữa cơm ấm, một buổi đưa đi khám, một cuộc trò chuyện không gắt gỏng, cũng đang thực tập hiếu đạo. Một người không thể gặp lại cha vì quan hệ quá tổn thương, nhưng quyết tâm không biến vết thương đó thành bạo lực với con mình, cũng đang đi trên một con đường rất khó và rất đáng trân trọng.",
+      "required_source_evidence": "người chăm mẹ còn sống bằng bữa cơm ấm/đưa đi khám/trò chuyện; người kiềm chế không biến vết thương thành bạo lực với con",
+      "approved_production_fill": "không gian bếp, món ăn",
+      "forbidden_additions": "không thêm ví dụ thứ 4; không đặc tả danh tính cụ thể",
+      "continuity_in": "← S056 (liền kề chủ đề, không phải continuity nhân vật — 2 nhân vật khác nhau trong cùng ví dụ nhóm 3 trường hợp)",
+      "continuity_out": "—",
+      "video_prompt": "A different person prepares a warm bowl of food for their elderly mother, setting it gently on the table before her. The shot remains completely still, holding the composition steady. Warm kitchen light fills the space. The care is plain and ordinary, without display. This is a separate person from the one seen lighting incense a moment before."
+    },
+    {
+      "prompt_number": 58,
+      "shot_id": "S058",
+      "start_ms": 1397077,
+      "end_ms": 1428000,
+      "duration_seconds": 30.923,
+      "timeline": {
+        "start": "00:23:17.077",
+        "end": "00:23:48.000"
+      },
+      "covered_beats": [
+        "BEAT_074",
+        "BEAT_075"
+      ],
+      "covered_obligations": [
+        "OBL_074",
+        "OBL_075"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Đừng để ai dùng chữ hiếu để làm bạn thấy mình không còn đường thở. Hiếu đạo có trí tuệ phải đi cùng từ bi. Từ bi với cha mẹ. Từ bi với người đã mất. Từ bi với người đang chăm sóc. Và từ bi với chính mình, một con người cũng có giới hạn, cũng cần được chữa lành, cũng cần học từng chút một.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S057",
+      "continuity_out": "→ S059",
+      "video_prompt": "The same warm kitchen scene continues, the bowl of food still resting on the table. A quiet, unmoving frame holds on the scene. The light stays warm and even. Nothing new happens in the frame."
+    },
+    {
+      "prompt_number": 59,
+      "shot_id": "S059",
+      "start_ms": 1428000,
+      "end_ms": 1452000,
+      "duration_seconds": 24,
+      "timeline": {
+        "start": "00:23:48.000",
+        "end": "00:24:12.000"
+      },
+      "covered_beats": [
+        "BEAT_076"
+      ],
+      "covered_obligations": [
+        "OBL_076"
+      ],
+      "shot_function": "CALLBACK",
+      "narration_context": "Khi nhìn lại Cung Trời Đao Lợi, ta thấy một hình ảnh rất đẹp. Trên cao là pháp hội. Trong sâu là ký ức về mẹ. Rộng hơn nữa là đại nguyện của Địa Tạng. Từ một mối ân tình rất riêng, cánh cửa mở ra thành lòng thương không biên giới.",
+      "required_source_evidence": "pháp hội tại Cung Trời Đao Lợi (thread T2)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng cảnh riêng cho 'đại nguyện của Địa Tạng'; không tự vẽ hình ảnh địa ngục",
+      "continuity_in": "S058",
+      "continuity_out": "S060",
+      "video_prompt": "The wide, gold-lit hall returns once more, the same distant assembly and teaching figure held in view. The camera holds static, echoing the earlier framing precisely. The diffuse gold-white light continues unchanged. This is a return to reflect on what has already been shown, not a new setting."
+    },
+    {
+      "prompt_number": 60,
+      "shot_id": "S060",
+      "start_ms": 1452000,
+      "end_ms": 1485692,
+      "duration_seconds": 33.692,
+      "timeline": {
+        "start": "00:24:12.000",
+        "end": "00:24:45.692"
+      },
+      "covered_beats": [
+        "BEAT_077",
+        "BEAT_078"
+      ],
+      "covered_obligations": [
+        "OBL_077",
+        "OBL_078"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Đó là điều làm cho Kinh Địa Tạng không bị kẹt trong sợ hãi. Nếu chỉ nhìn địa ngục, ta dễ sợ. Nếu chỉ nhìn nghiệp báo, ta dễ nặng lòng. Nhưng nếu nhìn từ hiếu đạo và đại bi, ta thấy bản kinh đang hỏi một câu khác: giữa những nơi tối tăm nhất, liệu con người còn có thể khơi dậy lòng biết ơn, trách nhiệm và ánh sáng hay không?",
+      "required_source_evidence": "— (luận đề + câu hỏi tu từ khép đoạn, không evidence hình ảnh mới)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không tự vẽ hình ảnh địa ngục ở beat này",
+      "continuity_in": "S059 (T2)",
+      "continuity_out": "S061",
+      "video_prompt": "The same hall continues to hold, unchanged. The camera stays static. The gold-white light remains steady. No new imagery of suffering or torment is introduced — the frame stays exactly as reverent and calm as before."
+    },
+    {
+      "prompt_number": 61,
+      "shot_id": "S061",
+      "start_ms": 1485692,
+      "end_ms": 1516154,
+      "duration_seconds": 30.462,
+      "timeline": {
+        "start": "00:24:45.692",
+        "end": "00:25:16.154"
+      },
+      "covered_beats": [
+        "BEAT_079"
+      ],
+      "covered_obligations": [
+        "OBL_079"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Địa Tạng Bồ Tát không nên được nhìn như một vị thần cai quản cõi âm. Ngài là hình ảnh của một hạnh nguyện. Một lời nhắc rằng không có nơi nào quá tối để lòng từ bi không thể đi vào. Và nếu ta muốn học tinh thần ấy trong gia đình mình, có lẽ ta không cần bắt đầu bằng điều gì lớn lao.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không mô tả hình tướng Địa Tạng Bồ Tát",
+      "continuity_in": "← S060",
+      "continuity_out": "→ S062",
+      "video_prompt": "The frame rests briefly on soft, indistinct light, holding still as one section of the film prepares to shift toward a new idea. The camera stays static. No figure or symbol is defined within this brief pause."
+    },
+    {
+      "prompt_number": 62,
+      "shot_id": "S062",
+      "start_ms": 1516154,
+      "end_ms": 1521231,
+      "duration_seconds": 5.077,
+      "timeline": {
+        "start": "00:25:16.154",
+        "end": "00:25:21.231"
+      },
+      "covered_beats": [
+        "BEAT_080"
+      ],
+      "covered_obligations": [
+        "OBL_080"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Ta có thể bắt đầu bằng một cuộc gọi không vội.",
+      "required_source_evidence": "thực hành nhỏ 1/6: hành vi thực hiện một cuộc gọi điện thoại, không vội vàng (tư thế thư thái)",
+      "approved_production_fill": "không gian",
+      "forbidden_additions": "không đặc tả người gọi/nhận cụ thể",
+      "continuity_in": "—",
+      "continuity_out": "→S063 (chuỗi liền mạch cùng chủ đề \"thực hành nhỏ\", không phải continuity nhân vật)",
+      "video_prompt": "A person makes a phone call, posture relaxed and unhurried, taking their time. A static, close frame rests on the easy, patient gesture. Soft, natural light fills the space. Neither caller nor recipient is identified."
+    },
+    {
+      "prompt_number": 63,
+      "shot_id": "S063",
+      "start_ms": 1521231,
+      "end_ms": 1524000,
+      "duration_seconds": 2.769,
+      "timeline": {
+        "start": "00:25:21.231",
+        "end": "00:25:24.000"
+      },
+      "covered_beats": [
+        "BEAT_081"
+      ],
+      "covered_obligations": [
+        "OBL_081"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một bữa cơm không cáu gắt.",
+      "required_source_evidence": "thực hành nhỏ 2/6: hành vi dùng bữa với thần thái điềm tĩnh (không cáu gắt)",
+      "approved_production_fill": "món ăn, không gian",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "←S062",
+      "continuity_out": "→S064",
+      "video_prompt": "A family sits down to a meal together, unhurried and calm, no tension in the room. The camera holds in a brief static frame. Warm, gentle light fills the table. The mood is simply peaceful."
+    },
+    {
+      "prompt_number": 64,
+      "shot_id": "S064",
+      "start_ms": 1524000,
+      "end_ms": 1529077,
+      "duration_seconds": 5.077,
+      "timeline": {
+        "start": "00:25:24.000",
+        "end": "00:25:29.077"
+      },
+      "covered_beats": [
+        "BEAT_082"
+      ],
+      "covered_obligations": [
+        "OBL_082"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một lời xin lỗi không chờ người kia xin lỗi trước.",
+      "required_source_evidence": "thực hành nhỏ 3/6: hành vi chủ động xin lỗi (cử chỉ/tư thế hướng về đối phương)",
+      "approved_production_fill": "không gian",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "←S063",
+      "continuity_out": "→S065",
+      "video_prompt": "A person turns toward someone nearby and offers an apology first, without waiting to be asked. The shot stays close and still, framing the gesture. Soft, warm light fills the space. The mood is quietly courageous, small but deliberate."
+    },
+    {
+      "prompt_number": 65,
+      "shot_id": "S065",
+      "start_ms": 1529077,
+      "end_ms": 1533231,
+      "duration_seconds": 4.154,
+      "timeline": {
+        "start": "00:25:29.077",
+        "end": "00:25:33.231"
+      },
+      "covered_beats": [
+        "BEAT_083"
+      ],
+      "covered_obligations": [
+        "OBL_083"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một ranh giới được nói bằng giọng bình tĩnh.",
+      "required_source_evidence": "thực hành nhỏ 4/6: hành vi nói với thần thái/tư thế bình tĩnh, không căng thẳng",
+      "approved_production_fill": "không gian",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "←S064",
+      "continuity_out": "→S066",
+      "video_prompt": "A person speaks calmly, setting a boundary in an even, unraised voice. The camera holds static, close on the composed expression. Soft light fills the frame. There is no anger in the gesture, only quiet resolve."
+    },
+    {
+      "prompt_number": 66,
+      "shot_id": "S066",
+      "start_ms": 1533231,
+      "end_ms": 1545692,
+      "duration_seconds": 12.462,
+      "timeline": {
+        "start": "00:25:33.231",
+        "end": "00:25:45.692"
+      },
+      "covered_beats": [
+        "BEAT_084"
+      ],
+      "covered_obligations": [
+        "OBL_084"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Một quyết định đi trị liệu, đi tu học, hoặc tìm sự giúp đỡ, để những gì mình chịu đựng không tiếp tục rơi xuống đời con.",
+      "required_source_evidence": "thực hành nhỏ 5/6: hành vi tìm kiếm/tiếp nhận sự giúp đỡ (một trong ba hình thức: trị liệu/tu học/giúp đỡ)",
+      "approved_production_fill": "không gian (không xác định loại hình cụ thể)",
+      "forbidden_additions": "không xác định hình thức trị liệu/tu học cụ thể",
+      "continuity_in": "←S065",
+      "continuity_out": "→S067",
+      "video_prompt": "A person steps into a plain, welcoming room, seeking help — the exact nature of the support is left unspecified. A static frame follows the small act of walking through the doorway. Warm, gentle light fills the space. The mood is one of quiet courage in asking for support."
+    },
+    {
+      "prompt_number": 67,
+      "shot_id": "S067",
+      "start_ms": 1545692,
+      "end_ms": 1559539,
+      "duration_seconds": 13.846,
+      "timeline": {
+        "start": "00:25:45.692",
+        "end": "00:25:59.539"
+      },
+      "covered_beats": [
+        "BEAT_085"
+      ],
+      "covered_obligations": [
+        "OBL_085"
+      ],
+      "shot_function": "CALLBACK",
+      "narration_context": "Một lần nhìn vào chiếc ghế quen thuộc trong nhà và tự hỏi: nếu một ngày nơi ấy trống đi, điều gì hôm nay mình vẫn còn có thể làm?",
+      "required_source_evidence": "thực hành nhỏ 6/6, Critical: hành vi nhìn vào chiếc ghế; câu hỏi nội tâm không hiển thị trực tiếp",
+      "approved_production_fill": "không gian (kế thừa T1)",
+      "forbidden_additions": "None thêm ngoài ràng buộc T1.",
+      "continuity_in": "←S038 (T1, callback thứ năm)",
+      "continuity_out": "→S068",
+      "video_prompt": "The same wooden chair returns, and a person stands nearby, simply looking at it. The camera holds in a slow, static composition, resting on the quiet act of looking. The familiar warm light of the home fills the frame. Nothing else happens — the moment is entirely contained in the act of noticing the chair."
+    },
+    {
+      "prompt_number": 68,
+      "shot_id": "S068",
+      "start_ms": 1559539,
+      "end_ms": 1572000,
+      "duration_seconds": 12.462,
+      "timeline": {
+        "start": "00:25:59.539",
+        "end": "00:26:12.000"
+      },
+      "covered_beats": [
+        "BEAT_086"
+      ],
+      "covered_obligations": [
+        "OBL_086"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Có một điều rất khó trong hiếu đạo là ta thường chỉ nhận ra sự mong manh của cha mẹ khi họ đã yếu đi quá nhiều.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S067",
+      "continuity_out": "→ S069",
+      "video_prompt": "A still, static shot lingers briefly on soft, unresolved light as one section gives way to the next. The camera stays static. No figure or setting is defined in this short bridging moment."
+    },
+    {
+      "prompt_number": 69,
+      "shot_id": "S069",
+      "start_ms": 1572000,
+      "end_ms": 1592677,
+      "duration_seconds": 20.677,
+      "timeline": {
+        "start": "00:26:12.000",
+        "end": "00:26:32.677"
+      },
+      "covered_beats": [
+        "BEAT_087"
+      ],
+      "covered_obligations": [
+        "OBL_087"
+      ],
+      "shot_function": "ESTABLISH",
+      "narration_context": "Ngày còn trẻ, ta nhìn cha mẹ như những người lúc nào cũng ở đó. Mẹ lúc nào cũng biết bếp còn gì. Cha lúc nào cũng biết sửa một bóng đèn, vá một cánh cửa, đi ra ngoài nắng mưa mà không than. Ta lớn lên trong sự có mặt ấy nên tưởng nó là tự nhiên. Cho đến một ngày, mẹ hỏi đi hỏi lại một câu. Cha không còn nghe rõ. Bàn tay từng rất chắc bỗng run khi cầm chén. Lúc đó, ta mới giật mình thấy người đã từng bồng mình qua bao năm tháng giờ cũng cần được bồng đỡ bằng một giọng nói dịu hơn.",
+      "required_source_evidence": "mẹ biết bếp còn gì, cha sửa bóng đèn/vá cửa (hồi tưởng thời trẻ — hình ảnh cha mẹ \"luôn ở đó\")",
+      "approved_production_fill": "không gian, trang phục, dụng cụ sửa chữa",
+      "forbidden_additions": "không đặc tả bệnh lý",
+      "continuity_in": "—",
+      "continuity_out": "→ S070",
+      "video_prompt": "A father tightens a small screw to fix a light fixture while, unseen just off to the side, his wife moves easily through the kitchen. An observational wide shot stays static, taking in the home. Warm, everyday light fills the space. Both figures move with the easy confidence of people who have always been capable — this is a younger version of them, held in memory. Neither is connected to any other parent figure shown earlier in the film."
+    },
+    {
+      "prompt_number": 70,
+      "shot_id": "S070",
+      "start_ms": 1592677,
+      "end_ms": 1623692,
+      "duration_seconds": 31.015,
+      "timeline": {
+        "start": "00:26:32.677",
+        "end": "00:27:03.692"
+      },
+      "covered_beats": [
+        "BEAT_087"
+      ],
+      "covered_obligations": [
+        "OBL_087"
+      ],
+      "shot_function": "REVEAL",
+      "narration_context": "Ngày còn trẻ, ta nhìn cha mẹ như những người lúc nào cũng ở đó. Mẹ lúc nào cũng biết bếp còn gì. Cha lúc nào cũng biết sửa một bóng đèn, vá một cánh cửa, đi ra ngoài nắng mưa mà không than. Ta lớn lên trong sự có mặt ấy nên tưởng nó là tự nhiên. Cho đến một ngày, mẹ hỏi đi hỏi lại một câu. Cha không còn nghe rõ. Bàn tay từng rất chắc bỗng run khi cầm chén. Lúc đó, ta mới giật mình thấy người đã từng bồng mình qua bao năm tháng giờ cũng cần được bồng đỡ bằng một giọng nói dịu hơn.",
+      "required_source_evidence": "3 dấu hiệu suy yếu hiện tại (hỏi lại nhiều lần/không nghe rõ/tay run khi cầm chén)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả bệnh lý cụ thể (không tên bệnh)",
+      "continuity_in": "← S069 (cùng ví dụ, khác lớp thời gian)",
+      "continuity_out": "→ S071",
+      "video_prompt": "The same two figures appear again, visibly older now, hands less steady. One raises a cup to drink, and it trembles slightly before reaching their lips. The camera holds in a slow, static composition, close on the trembling hand. The same warm domestic light continues, though quieter now. No specific illness is named — only the small, unmistakable sign of frailty."
+    },
+    {
+      "prompt_number": 71,
+      "shot_id": "S071",
+      "start_ms": 1623692,
+      "end_ms": 1673539,
+      "duration_seconds": 49.846,
+      "timeline": {
+        "start": "00:27:03.692",
+        "end": "00:27:53.539"
+      },
+      "covered_beats": [
+        "BEAT_088",
+        "BEAT_089"
+      ],
+      "covered_obligations": [
+        "OBL_088",
+        "OBL_089"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Nhưng nếu chỉ đợi đến lúc cha mẹ yếu, đôi khi lòng hiếu đã biến thành một cuộc chạy đua với thời gian. Vì vậy, tập này không muốn làm ta sợ mất cha mẹ. Nó chỉ muốn mời ta tỉnh lại trước khi quá muộn. Tỉnh lại không phải để hoảng hốt. Tỉnh lại để một bữa cơm tối nay bớt lạnh. Tỉnh lại để một cuộc gọi cuối tuần không còn là nghĩa vụ. Tỉnh lại để khi cha mẹ kể một câu chuyện cũ lần thứ mười, ta có thể nghe bằng lòng nhẫn nại, thay vì cắt ngang vì nghĩ mình đã biết rồi.",
+      "required_source_evidence": "một bữa cơm không lạnh nhạt (1 trong 3 ví dụ \"tỉnh lại\")",
+      "approved_production_fill": "không gian bếp, món ăn",
+      "forbidden_additions": "không dựng hình ảnh \"cuộc đua\"/đồng hồ đếm ngược cho OBL_088",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A family shares a warm meal together at home, without irritation or hurried words. The wide shot stays slow and static, settled on the table. Warm kitchen light fills the room evenly. The mood is gentle and unhurried, deliberately calm rather than anxious. No clock or countdown imagery is placed in the frame."
+    },
+    {
+      "prompt_number": 72,
+      "shot_id": "S072",
+      "start_ms": 1673539,
+      "end_ms": 1720154,
+      "duration_seconds": 46.615,
+      "timeline": {
+        "start": "00:27:53.539",
+        "end": "00:28:40.154"
+      },
+      "covered_beats": [
+        "BEAT_090",
+        "BEAT_091"
+      ],
+      "covered_obligations": [
+        "OBL_090",
+        "OBL_091"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Đối với nhiều người, hiếu đạo bắt đầu bằng sự có mặt. Không phải lúc nào cũng là có mặt bằng thân. Có người ở xa quê. Có người phải làm việc nhiều giờ. Có người sống ở nước ngoài. Có người không đủ điều kiện về thăm thường xuyên. Nhưng có mặt còn là cách ta đặt tâm vào một cuộc trò chuyện. Khi gọi về, ta có thật sự nghe không. Khi gửi tiền, ta có nhớ hỏi mẹ đang cần gì không. Khi đưa cha đi khám, ta có để cha cảm thấy mình là gánh nặng không.",
+      "required_source_evidence": "gọi điện với thái độ chăm chú lắng nghe",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả quốc gia/địa điểm cụ thể cho \"ở nước ngoài\"",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A person far from home speaks on the phone, listening closely, fully attentive to the voice on the other end. The camera holds in a static, close composition on the act of listening. Soft, warm light fills the space. No specific country or location is identified around them."
+    },
+    {
+      "prompt_number": 73,
+      "shot_id": "S073",
+      "start_ms": 1720154,
+      "end_ms": 1761231,
+      "duration_seconds": 41.077,
+      "timeline": {
+        "start": "00:28:40.154",
+        "end": "00:29:21.231"
+      },
+      "covered_beats": [
+        "BEAT_092",
+        "BEAT_093"
+      ],
+      "covered_obligations": [
+        "OBL_092",
+        "OBL_093"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Trong thời đại này, có nhiều người con tưởng mình đang báo hiếu vì không để cha mẹ thiếu tiền. Nhưng cha mẹ đôi khi không thiếu tiền bằng thiếu cảm giác được nhìn thấy. Người già có thể cần thuốc, nhưng họ cũng cần được nói chuyện mà không sợ làm phiền. Họ cần được hỏi ý kiến trong những việc nhỏ. Họ cần biết rằng mình không chỉ là một trách nhiệm tài chính trong điện thoại của con. Và người con cũng cần được nhìn thấy.",
+      "required_source_evidence": "thần thái cô đơn/thiếu kết nối của cha mẹ dù được chu cấp đầy đủ vật chất",
+      "approved_production_fill": "không gian, đạo cụ vật chất (thuốc, quà)",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "An elderly couple sits at home surrounded by neatly arranged medicine and gifts, everything materially provided for, yet their expressions carry a quiet emptiness. The shot settles slowly, static, letting the contrast between abundance and isolation sit. Even, muted light fills the room. Nothing dramatic occurs — only the quiet gap between having enough and being truly seen."
+    },
+    {
+      "prompt_number": 74,
+      "shot_id": "S074",
+      "start_ms": 1761231,
+      "end_ms": 1776369,
+      "duration_seconds": 15.138,
+      "timeline": {
+        "start": "00:29:21.231",
+        "end": "00:29:36.369"
+      },
+      "covered_beats": [
+        "BEAT_094"
+      ],
+      "covered_obligations": [
+        "OBL_094"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có một người chăm sóc mẹ bị bệnh nhiều năm. Ban ngày đi làm. Chiều về nấu ăn. Tối thay thuốc. Đêm nghe tiếng mẹ trở mình là thức dậy. Người ngoài nhìn vào nói: con hiếu quá. Nhưng không ai thấy người ấy nhiều lần ngồi trong nhà tắm, bật nước thật nhỏ để khóc mà không ai nghe. Không ai thấy cảm giác tội lỗi khi trong đầu thoáng qua một ý nghĩ: mình mệt quá, mình muốn được nghỉ.",
+      "required_source_evidence": "1 trong 4 hoạt động chăm sóc (chọn đại diện: thay thuốc buổi tối)",
+      "approved_production_fill": "không gian, trang phục, đạo cụ y tế tối thiểu",
+      "forbidden_additions": "không đặc tả bệnh cụ thể của mẹ; không đặt tên nhân vật",
+      "continuity_in": "—",
+      "continuity_out": "→ S075 (cùng nhân vật, chuyển không gian)",
+      "video_prompt": "A caregiver changes a bandage or medicine for their mother with practiced, tired hands, evening light through the window marking the hour. A still, observational frame takes in the scene. Warm but weary domestic light fills the room. Fatigue and a quiet trace of guilt sit beneath the careful gesture. No specific illness is named, and no other tasks from the day are shown in this frame."
+    },
+    {
+      "prompt_number": 75,
+      "shot_id": "S075",
+      "start_ms": 1776369,
+      "end_ms": 1799077,
+      "duration_seconds": 22.708,
+      "timeline": {
+        "start": "00:29:36.369",
+        "end": "00:29:59.077"
+      },
+      "covered_beats": [
+        "BEAT_094"
+      ],
+      "covered_obligations": [
+        "OBL_094"
+      ],
+      "shot_function": "REVEAL",
+      "narration_context": "Có một người chăm sóc mẹ bị bệnh nhiều năm. Ban ngày đi làm. Chiều về nấu ăn. Tối thay thuốc. Đêm nghe tiếng mẹ trở mình là thức dậy. Người ngoài nhìn vào nói: con hiếu quá. Nhưng không ai thấy người ấy nhiều lần ngồi trong nhà tắm, bật nước thật nhỏ để khóc mà không ai nghe. Không ai thấy cảm giác tội lỗi khi trong đầu thoáng qua một ý nghĩ: mình mệt quá, mình muốn được nghỉ.",
+      "required_source_evidence": "khóc trong nhà tắm, nước chảy thật nhỏ (chi tiết cụ thể narration nêu); ý nghĩ thoáng qua (chỉ ngụ ý qua biểu cảm)",
+      "approved_production_fill": "nội thất nhà tắm",
+      "forbidden_additions": "không hiển thị lời khen \"con hiếu quá\" bằng một nhân vật khác xuất hiện đồng thời trong khung hình — đây là nhận xét từ một thời điểm/góc nhìn khác theo narration",
+      "continuity_in": "← S074 (cùng nhân vật, location continuity cục bộ: từ không gian chăm sóc chung sang nhà tắm riêng)",
+      "continuity_out": "—",
+      "video_prompt": "The same caregiver stands alone in the bathroom, crying quietly, turning the tap to a bare trickle so the sound will not carry. The camera holds in a slow, static composition, respectful of the private moment. Dim, private bathroom light replaces the domestic warmth of the earlier room. No one else is shown in the frame at this same moment — the praise from outside belongs to a different time."
+    },
+    {
+      "prompt_number": 76,
+      "shot_id": "S076",
+      "start_ms": 1799077,
+      "end_ms": 1836462,
+      "duration_seconds": 37.385,
+      "timeline": {
+        "start": "00:29:59.077",
+        "end": "00:30:36.462"
+      },
+      "covered_beats": [
+        "BEAT_095",
+        "BEAT_096"
+      ],
+      "covered_obligations": [
+        "OBL_095",
+        "OBL_096"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Nếu ta giảng hiếu đạo mà không nhìn thấy người chăm sóc, bài giảng ấy chưa đủ từ bi. Một lòng hiếu trưởng thành phải biết hỏi: làm sao để chăm sóc mà không tự hủy hoại. Làm sao để thương mà không tích tụ oán hận. Làm sao để nhờ anh chị em cùng chia sẻ. Làm sao để tìm sự hỗ trợ y tế, tinh thần, cộng đồng, thay vì một mình gánh rồi gọi đó là đạo đức.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S075",
+      "continuity_out": "→ S077",
+      "video_prompt": "The bathroom scene holds, the caregiver now still, breath slowing after the tears. The frame stays fixed, giving the moment room to settle. The dim, private light continues. Nothing new enters the frame; the stillness itself is the point."
+    },
+    {
+      "prompt_number": 77,
+      "shot_id": "S077",
+      "start_ms": 1836462,
+      "end_ms": 1872462,
+      "duration_seconds": 36,
+      "timeline": {
+        "start": "00:30:36.462",
+        "end": "00:31:12.462"
+      },
+      "covered_beats": [
+        "BEAT_097",
+        "BEAT_098"
+      ],
+      "covered_obligations": [
+        "OBL_097",
+        "OBL_098"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Đạo Phật nói nhiều về trung đạo. Trong đời sống gia đình, trung đạo có thể rất cụ thể. Không bỏ mặc cha mẹ. Nhưng cũng không biến mình thành người kiệt sức đến mức mất hết lòng dịu dàng. Không dùng lý do bận rộn để trốn tránh. Nhưng cũng không dùng chữ hiếu để xóa sạch mọi giới hạn của thân tâm. Còn với những gia đình có tổn thương, trung đạo càng cần trí tuệ.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S076",
+      "continuity_out": "→ S078",
+      "video_prompt": "The frame rests on soft, undefined light, holding briefly between two ideas. The camera stays static. No figure or setting is introduced in this short pause."
+    },
+    {
+      "prompt_number": 78,
+      "shot_id": "S078",
+      "start_ms": 1872462,
+      "end_ms": 1908923,
+      "duration_seconds": 36.462,
+      "timeline": {
+        "start": "00:31:12.462",
+        "end": "00:31:48.923"
+      },
+      "covered_beats": [
+        "BEAT_099"
+      ],
+      "covered_obligations": [
+        "OBL_099"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có người thật sự muốn hiếu kính, nhưng mỗi lần trở về nhà là bị nhục mạ, bị kiểm soát, bị kéo lại vào một vùng đau cũ. Có người chỉ cần nghe tiếng chuông điện thoại của cha mẹ là toàn thân căng cứng. Có người đã cố tha thứ nhiều lần, nhưng sự tổn hại vẫn tiếp tục. Với những người ấy, lời khuyên “hãy về đi, cha mẹ mà” có thể trở thành một nhát dao.",
+      "required_source_evidence": "phản ứng căng cứng cơ thể khi nghe chuông điện thoại cha mẹ",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả hình thức nhục mạ/kiểm soát cụ thể; không hình ảnh hoá câu thoại \"hãy về đi, cha mẹ mà\" bằng một nhân vật đang nói câu này",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A person stiffens and glances away as a phone begins to ring nearby, their body drawing inward. The camera holds in a static, close composition on the tension. Even, cool light fills the room. No specific words are shown, and no other figure appears to speak the phrase running through their mind."
+    },
+    {
+      "prompt_number": 79,
+      "shot_id": "S079",
+      "start_ms": 1908923,
+      "end_ms": 1952769,
+      "duration_seconds": 43.846,
+      "timeline": {
+        "start": "00:31:48.923",
+        "end": "00:32:32.769"
+      },
+      "covered_beats": [
+        "BEAT_100",
+        "BEAT_101"
+      ],
+      "covered_obligations": [
+        "OBL_100",
+        "OBL_101"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Hiếu đạo không nên là con đường đưa một người trở lại nguy hiểm. Nếu một mối quan hệ chưa đủ an toàn, thực tập có thể bắt đầu bằng việc không nuôi thù hận trong lòng, nhưng vẫn giữ khoảng cách. Có thể bắt đầu bằng một lời cầu nguyện thầm, nhưng không mở cửa cho bạo lực. Có thể bắt đầu bằng việc nhìn nhận rằng cha mẹ cũng là con người với vô minh và khổ đau của họ, nhưng điều đó không làm cho hành vi gây hại trở thành đúng.",
+      "required_source_evidence": "một khoảng cách vật lý giữa hai người chung chung; tư thế cầu nguyện thầm lặng",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không đặc tả nhân vật cụ thể hay lý do xung đột cụ thể",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "Two figures stand at a careful distance from one another, one with hands folded in a quiet, private gesture, as if praying silently. A slow, static composition takes in the space between them, wide and unhurried. Muted, even light fills the room. No specific identity or history is assigned to either figure — only the distance and the quiet stillness."
+    },
+    {
+      "prompt_number": 80,
+      "shot_id": "S080",
+      "start_ms": 1952769,
+      "end_ms": 1980462,
+      "duration_seconds": 27.692,
+      "timeline": {
+        "start": "00:32:32.769",
+        "end": "00:33:00.462"
+      },
+      "covered_beats": [
+        "BEAT_102",
+        "BEAT_103"
+      ],
+      "covered_obligations": [
+        "OBL_102",
+        "OBL_103"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Đây là điểm rất quan trọng. Thấy được nỗi khổ của người gây tổn thương không có nghĩa là cho phép họ tiếp tục gây tổn thương. Từ bi không phải là mở cửa cho bạo lực. Trí tuệ không phải là chịu đựng đến cạn kiệt. Và hiếu đạo không phải là sự im lặng của người bị thương.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S079",
+      "continuity_out": "→ S081",
+      "video_prompt": "The same two figures remain exactly as they were, the distance between them unchanged. The camera keeps its position steady, without any movement. The light stays muted and even. Nothing new happens in the frame."
+    },
+    {
+      "prompt_number": 81,
+      "shot_id": "S081",
+      "start_ms": 1980462,
+      "end_ms": 2028462,
+      "duration_seconds": 48,
+      "timeline": {
+        "start": "00:33:00.462",
+        "end": "00:33:48.462"
+      },
+      "covered_beats": [
+        "BEAT_104",
+        "BEAT_105"
+      ],
+      "covered_obligations": [
+        "OBL_104",
+        "OBL_105"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Khi nói đến báo hiếu, ta cũng thường quên một chiều khác: cha mẹ cũng có thể báo hiếu với con bằng cách sống tỉnh thức hơn. Nghe có vẻ lạ. Nhưng nếu hiếu là nhớ ân và không phụ lòng nhau, thì cha mẹ cũng có trách nhiệm không nhân danh tình thương để làm con tổn thương. Một người cha biết xin lỗi con không mất đi uy nghiêm. Một người mẹ biết lắng nghe con không mất đi vai trò làm mẹ. Trái lại, sự khiêm cung ấy có thể trở thành bài học đạo đức rất lớn trong gia đình.",
+      "required_source_evidence": "cử chỉ cha xin lỗi con; cử chỉ mẹ lắng nghe con",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A father lowers his head and speaks an apology to his grown child, the gesture plain and unguarded. The camera holds in a slow, static composition, close on the father's bowed head. Warm, soft light fills the room. The moment carries quiet humility rather than performance."
+    },
+    {
+      "prompt_number": 82,
+      "shot_id": "S082",
+      "start_ms": 2028462,
+      "end_ms": 2046923,
+      "duration_seconds": 18.462,
+      "timeline": {
+        "start": "00:33:48.462",
+        "end": "00:34:06.923"
+      },
+      "covered_beats": [
+        "BEAT_106"
+      ],
+      "covered_obligations": [
+        "OBL_106"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Có những đứa trẻ cả đời chỉ chờ một câu: mẹ hiểu là ngày xưa mẹ đã làm con đau. Cha hiểu là cha đã quá nóng. Không phải để kết tội. Mà để vết thương được gọi đúng tên.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không đổi/diễn giải lại 2 câu thoại nguyên văn nếu được trích dẫn",
+      "continuity_in": "← S081",
+      "continuity_out": "→ S083",
+      "video_prompt": "The father remains in the same bowed posture, the room settling into a long, unbroken silence. The shot holds fixed, calm and unhurried. The warm light continues unchanged. Nothing is added to explain or resolve the silence — it simply continues."
+    },
+    {
+      "prompt_number": 83,
+      "shot_id": "S083",
+      "start_ms": 2046923,
+      "end_ms": 2081077,
+      "duration_seconds": 34.154,
+      "timeline": {
+        "start": "00:34:06.923",
+        "end": "00:34:41.077"
+      },
+      "covered_beats": [
+        "BEAT_107"
+      ],
+      "covered_obligations": [
+        "OBL_107"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Nếu một người cha, một người mẹ đang nghe những dòng này, có lẽ bài học hiếu đạo cũng đang hỏi mình: ta đang để lại điều gì trong lòng con. Không phải chỉ là tiền bạc, nhà cửa, bằng cấp, mà là một cách yêu thương. Một cách nói năng. Một cách đối diện lỗi lầm. Một cách xin lỗi. Một cách dừng lại trước khi cơn giận biến thành nghiệp truyền đời.",
+      "required_source_evidence": "khoảnh khắc kiềm chế cơn giận (tư thế/biểu cảm dừng lại)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A parent's hand stops in mid-air, caught just before a sharp, angry gesture. They draw a slow breath, and the hand lowers. Close and unmoving, the shot frames the hand and the breath. Even, quiet light fills the frame. The moment is entirely about restraint, not about what almost happened."
+    },
+    {
+      "prompt_number": 84,
+      "shot_id": "S084",
+      "start_ms": 2081077,
+      "end_ms": 2118000,
+      "duration_seconds": 36.923,
+      "timeline": {
+        "start": "00:34:41.077",
+        "end": "00:35:18.000"
+      },
+      "covered_beats": [
+        "BEAT_108",
+        "BEAT_109"
+      ],
+      "covered_obligations": [
+        "OBL_108",
+        "OBL_109"
+      ],
+      "shot_function": "CONTRAST",
+      "narration_context": "Như vậy, hiếu đạo không chỉ đi từ con lên cha mẹ. Nó là một dòng trách nhiệm hai chiều trong gia đình. Người con học biết ơn. Người cha người mẹ học khiêm cung. Người già học buông bớt kiểm soát. Người trẻ học bớt vô tâm. Mỗi người bớt một chút cố chấp, thì căn nhà bớt một chút địa ngục. Và có lẽ đây là chỗ Kinh Địa Tạng chạm vào đời sống hiện đại rất sâu.",
+      "required_source_evidence": "hình ảnh ẩn dụ \"căn nhà\" ở trạng thái bất hoà (KHÔNG phải cảnh giới siêu hình)",
+      "approved_production_fill": "nội thất, trang phục",
+      "forbidden_additions": "**không thể hiện \"địa ngục\" bằng biểu tượng tôn giáo/siêu nhiên (lửa, quỷ, hình phạt...)** — ràng buộc minh thị kế thừa từ 04A/04B",
+      "continuity_in": "— (liên kết chủ đề, không phải continuity chính thức, với S085 kế tiếp)",
+      "continuity_out": "→ S085",
+      "video_prompt": "Inside an ordinary home, several family members sit apart in their own corners of the room, none of them looking at one another. The camera holds in a slow, static wide shot of the house, taking in the distance between each person. Flat, cool interior light fills the space, giving no warmth. The mood is heavy with quiet estrangement — an ordinary house grown cold, not any otherworldly place. No fire, no demonic imagery, no punishment of any kind appears in the frame."
+    },
+    {
+      "prompt_number": 85,
+      "shot_id": "S085",
+      "start_ms": 2118000,
+      "end_ms": 2137846,
+      "duration_seconds": 19.846,
+      "timeline": {
+        "start": "00:35:18.000",
+        "end": "00:35:37.846"
+      },
+      "covered_beats": [
+        "BEAT_110"
+      ],
+      "covered_obligations": [
+        "OBL_110"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Địa ngục không chỉ là hình ảnh đáng sợ trong kinh. Ở tầng quán chiếu, địa ngục cũng có thể là một căn nhà nơi không ai chịu nghe ai. Là bàn ăn mà mỗi người cầm một nỗi giận. Là căn phòng có người mẹ già nằm đó nhưng các con tranh nhau phần thiệt hơn. Là một đứa trẻ học được rằng tình thương luôn đi kèm điều kiện. Là một người lớn không biết ôm con vì ngày xưa chưa từng được ôm.",
+      "required_source_evidence": "hình ảnh 1-2/5: căn nhà không ai chịu nghe ai; bàn ăn mỗi người cầm một nỗi giận",
+      "approved_production_fill": "không gian, món ăn, trang phục",
+      "forbidden_additions": "không biểu tượng tôn giáo/siêu nhiên",
+      "continuity_in": "← S084 (liên kết chủ đề \"địa ngục hiện đại\")",
+      "continuity_out": "→ S086",
+      "video_prompt": "A family sits around the dinner table in tense silence, each person visibly holding some private anger, no one speaking. The shot stays observational and static, framed across the table. The same flat, cool light continues. Nothing supernatural is present — this is simply a strained, ordinary meal."
+    },
+    {
+      "prompt_number": 86,
+      "shot_id": "S086",
+      "start_ms": 2137846,
+      "end_ms": 2144991,
+      "duration_seconds": 7.145,
+      "timeline": {
+        "start": "00:35:37.846",
+        "end": "00:35:44.991"
+      },
+      "covered_beats": [
+        "BEAT_110"
+      ],
+      "covered_obligations": [
+        "OBL_110"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Địa ngục không chỉ là hình ảnh đáng sợ trong kinh. Ở tầng quán chiếu, địa ngục cũng có thể là một căn nhà nơi không ai chịu nghe ai. Là bàn ăn mà mỗi người cầm một nỗi giận. Là căn phòng có người mẹ già nằm đó nhưng các con tranh nhau phần thiệt hơn. Là một đứa trẻ học được rằng tình thương luôn đi kèm điều kiện. Là một người lớn không biết ôm con vì ngày xưa chưa từng được ôm.",
+      "required_source_evidence": "hình ảnh 3/5: căn phòng có mẹ già nằm đó nhưng con tranh phần thiệt hơn",
+      "approved_production_fill": "nội thất phòng",
+      "forbidden_additions": "không biểu tượng tôn giáo/siêu nhiên",
+      "continuity_in": "← S085",
+      "continuity_out": "→ S087",
+      "video_prompt": "In a nearby room, an elderly mother lies still and quiet while, in the corner, two of her adult children argue in low, bitter voices over something unseen. The camera holds in a static wide shot, keeping the mother and the arguing pair within the same frame. The cool, flat light continues. The tension is entirely domestic and human, with no ritual or symbolic punishment implied."
+    },
+    {
+      "prompt_number": 87,
+      "shot_id": "S087",
+      "start_ms": 2144991,
+      "end_ms": 2157692,
+      "duration_seconds": 12.702,
+      "timeline": {
+        "start": "00:35:44.991",
+        "end": "00:35:57.692"
+      },
+      "covered_beats": [
+        "BEAT_110"
+      ],
+      "covered_obligations": [
+        "OBL_110"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Địa ngục không chỉ là hình ảnh đáng sợ trong kinh. Ở tầng quán chiếu, địa ngục cũng có thể là một căn nhà nơi không ai chịu nghe ai. Là bàn ăn mà mỗi người cầm một nỗi giận. Là căn phòng có người mẹ già nằm đó nhưng các con tranh nhau phần thiệt hơn. Là một đứa trẻ học được rằng tình thương luôn đi kèm điều kiện. Là một người lớn không biết ôm con vì ngày xưa chưa từng được ôm.",
+      "required_source_evidence": "hình ảnh 4-5/5: đứa trẻ học tình thương có điều kiện; người lớn không biết ôm con",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không biểu tượng tôn giáo/siêu nhiên",
+      "continuity_in": "← S086",
+      "continuity_out": "→ S088",
+      "video_prompt": "An adult stands rigid and still while a child waits nearby, arms slightly open as if hoping for an embrace that does not come. The composition stays close and unmoving, centered on the unclosed distance between them. The same cool light continues. Nothing violent or supernatural occurs — only the quiet failure to reach out."
+    },
+    {
+      "prompt_number": 88,
+      "shot_id": "S088",
+      "start_ms": 2157692,
+      "end_ms": 2170154,
+      "duration_seconds": 12.462,
+      "timeline": {
+        "start": "00:35:57.692",
+        "end": "00:36:10.154"
+      },
+      "covered_beats": [
+        "BEAT_111"
+      ],
+      "covered_obligations": [
+        "OBL_111"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Nếu địa ngục có thể bắt đầu từ một tâm đầy sân hận, thì một cõi lành cũng có thể bắt đầu từ một tâm biết dừng.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không biểu tượng tôn giáo/siêu nhiên cho \"địa ngục\"/\"cõi lành\"",
+      "continuity_in": "← S087",
+      "continuity_out": "→ S089",
+      "video_prompt": "The camera holds a fixed position, resting on soft, undefined light, pausing between one idea and its opposite. The camera stays static. No fire, darkness-as-punishment, or symbolic afterlife imagery is shown — only a plain visual pause."
+    },
+    {
+      "prompt_number": 89,
+      "shot_id": "S089",
+      "start_ms": 2170154,
+      "end_ms": 2195539,
+      "duration_seconds": 25.385,
+      "timeline": {
+        "start": "00:36:10.154",
+        "end": "00:36:35.539"
+      },
+      "covered_beats": [
+        "BEAT_112"
+      ],
+      "covered_obligations": [
+        "OBL_112"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Dừng lại trước một lời cay độc. Dừng lại trước một cái tát. Dừng lại trước thói quen so sánh con mình với con người ta. Dừng lại trước việc lấy công lao sinh thành để buộc người khác sống theo ý mình. Dừng lại trước sự vô tâm được ngụy trang bằng chữ bận.",
+      "required_source_evidence": "khoảnh khắc kiềm chế/dừng lại trước một hành vi tiêu cực",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "không thêm hành vi nào ngoài 5 hành vi đã liệt kê; không hiển thị hành vi tiêu cực dương tính (không cảnh đang tát, đang so sánh...)",
+      "continuity_in": "—",
+      "continuity_out": "—",
+      "video_prompt": "A hand freezes in midair, caught in the instant just before a harsh word or gesture would land, and then eases back. A static, close composition frames this single moment of restraint. Soft, even light fills the frame. The harsh act itself is never shown — only the choice to stop before it happens."
+    },
+    {
+      "prompt_number": 90,
+      "shot_id": "S090",
+      "start_ms": 2195539,
+      "end_ms": 2208000,
+      "duration_seconds": 12.462,
+      "timeline": {
+        "start": "00:36:35.539",
+        "end": "00:36:48.000"
+      },
+      "covered_beats": [
+        "BEAT_113"
+      ],
+      "covered_obligations": [
+        "OBL_113"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Mỗi lần dừng như vậy, ta không chỉ cứu một khoảnh khắc. Ta đang cứu một dòng truyền thừa của khổ đau khỏi việc đi xa hơn.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không dựng hình ảnh \"dòng truyền thừa\" bằng biểu tượng phả hệ/cây gia phả",
+      "continuity_in": "← S089",
+      "continuity_out": "→ S091",
+      "video_prompt": "The same hand remains lowered, the stillness continuing unbroken. The camera stays locked in place, patient and still. The light stays even and soft. Nothing new occurs in the frame; the restraint simply continues to hold."
+    },
+    {
+      "prompt_number": 91,
+      "shot_id": "S091",
+      "start_ms": 2208000,
+      "end_ms": 2225077,
+      "duration_seconds": 17.077,
+      "timeline": {
+        "start": "00:36:48.000",
+        "end": "00:37:05.077"
+      },
+      "covered_beats": [
+        "BEAT_114",
+        "BEAT_115",
+        "BEAT_116"
+      ],
+      "covered_obligations": [
+        "OBL_114",
+        "OBL_115",
+        "OBL_116"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Không phải ai cũng còn cha mẹ để gọi về. Không phải ai cũng có một gia đình đủ an toàn để quay lại. Không phải ai cũng có một ký ức êm đềm để nương tựa.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "không gian trung tính (không cửa, không ghế, không điện thoại — tránh mọi motif đã dùng, để không tạo cộng hưởng ngoài ý muốn)",
+      "forbidden_additions": "không dùng lại bất kỳ motif nào đã thiết lập (ghế/cửa/điện thoại) chỉ để lấp khoảng trống hình ảnh cho 3 câu phát biểu này",
+      "continuity_in": "—",
+      "continuity_out": "→ S092",
+      "video_prompt": "A plain, undecorated space sits empty and quiet, without any chair, door, telephone, or other familiar object from earlier in the film. The camera settles into a fixed, wide position. Soft, neutral light fills the space evenly. The mood is contemplative and a little heavy, inviting quiet reflection rather than pointing to any one image."
+    },
+    {
+      "prompt_number": 92,
+      "shot_id": "S092",
+      "start_ms": 2225077,
+      "end_ms": 2240737,
+      "duration_seconds": 15.66,
+      "timeline": {
+        "start": "00:37:05.077",
+        "end": "00:37:20.737"
+      },
+      "covered_beats": [
+        "BEAT_117"
+      ],
+      "covered_obligations": [
+        "OBL_117"
+      ],
+      "shot_function": "RESOLUTION",
+      "narration_context": "Vì vậy, xin đừng nghe tập này như một lời trách. Hãy nghe như một ngọn đèn nhỏ. Nếu cha mẹ còn sống và mối quan hệ còn có thể chăm sóc, hãy chăm sóc bằng sự có mặt thật hơn. Nếu cha mẹ đã mất, hãy biến nỗi nhớ thành một đời sống tử tế hơn. Nếu gia đình từng làm bạn đau, hãy giữ cho mình được an toàn, nhưng đừng để vết thương ấy biến bạn thành người tiếp tục làm đau kẻ khác.",
+      "required_source_evidence": "cử chỉ chăm sóc ấm áp hơn (nhánh 1: cha mẹ còn sống)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "None thêm ngoài phạm vi 3 nhánh.",
+      "continuity_in": "← S091",
+      "continuity_out": "→ S093",
+      "video_prompt": "A person leans in close to an elderly parent, offering a warm, attentive gesture of care, fully present in the moment. The camera holds in a slow, static composition on the closeness between them. Warm, gentle light fills the space. The mood is tender, marked by quiet, genuine presence."
+    },
+    {
+      "prompt_number": 93,
+      "shot_id": "S093",
+      "start_ms": 2240737,
+      "end_ms": 2265231,
+      "duration_seconds": 24.494,
+      "timeline": {
+        "start": "00:37:20.737",
+        "end": "00:37:45.231"
+      },
+      "covered_beats": [
+        "BEAT_117"
+      ],
+      "covered_obligations": [
+        "OBL_117"
+      ],
+      "shot_function": "RESOLUTION",
+      "narration_context": "Vì vậy, xin đừng nghe tập này như một lời trách. Hãy nghe như một ngọn đèn nhỏ. Nếu cha mẹ còn sống và mối quan hệ còn có thể chăm sóc, hãy chăm sóc bằng sự có mặt thật hơn. Nếu cha mẹ đã mất, hãy biến nỗi nhớ thành một đời sống tử tế hơn. Nếu gia đình từng làm bạn đau, hãy giữ cho mình được an toàn, nhưng đừng để vết thương ấy biến bạn thành người tiếp tục làm đau kẻ khác.",
+      "required_source_evidence": "tư thế giữ khoảng cách an toàn nhưng không thù hận (nhánh 3: gia đình từng gây đau — chọn nhánh này làm đại diện thứ hai vì có evidence rõ nhất; nhánh 2 \"biến nỗi nhớ thành đời sống tử tế\" là trạng thái nội tâm dài hạn, khó hình ảnh hoá bằng một khoảnh khắc, mang bằng giọng đọc)",
+      "approved_production_fill": "không gian, trang phục",
+      "forbidden_additions": "None thêm.",
+      "continuity_in": "← S092",
+      "continuity_out": "→ S094",
+      "video_prompt": "A person stands calmly at a careful distance, expression settled and free of resentment. The shot stays still and composed, undisturbed by movement. Soft, even light fills the space. There is no anger in the stillness, only a steady, self-protective calm."
+    },
+    {
+      "prompt_number": 94,
+      "shot_id": "S094",
+      "start_ms": 2265231,
+      "end_ms": 2284616,
+      "duration_seconds": 19.385,
+      "timeline": {
+        "start": "00:37:45.231",
+        "end": "00:38:04.616"
+      },
+      "covered_beats": [
+        "BEAT_118",
+        "BEAT_119",
+        "BEAT_120"
+      ],
+      "covered_obligations": [
+        "OBL_118",
+        "OBL_119",
+        "OBL_120"
+      ],
+      "shot_function": "DEVELOP",
+      "narration_context": "Có những món nợ ân tình không thể trả bằng tiền. Có những mất mát không thể sửa bằng một lễ lớn. Có những lời xin lỗi đến muộn, nhưng vẫn có thể trở thành hạt giống cho một cách sống khác.",
+      "required_source_evidence": "hình ảnh ẩn dụ \"hạt giống\"",
+      "approved_production_fill": "không gian đặt hạt giống (mặt bàn/lòng bàn tay — Production Fill)",
+      "forbidden_additions": "không mở rộng ẩn dụ thành cảnh trồng trọt đầy đủ (đất, tay người trồng, cây nảy mầm) — 04B chỉ xác nhận từ \"hạt giống\"",
+      "continuity_in": "—",
+      "continuity_out": "→ S095",
+      "video_prompt": "A single seed rests still in the center of the frame, held in an open palm or resting on a plain surface. The camera holds in a static, close composition on the seed alone. Soft, muted light falls gently across it. No soil, no planting hands, and no sprouting plant are shown — only the seed itself, quiet with possibility."
+    },
+    {
+      "prompt_number": 95,
+      "shot_id": "S095",
+      "start_ms": 2284616,
+      "end_ms": 2298203,
+      "duration_seconds": 13.588,
+      "timeline": {
+        "start": "00:38:04.616",
+        "end": "00:38:18.203"
+      },
+      "covered_beats": [
+        "BEAT_121"
+      ],
+      "covered_obligations": [
+        "OBL_121"
+      ],
+      "shot_function": "RESOLUTION",
+      "narration_context": "Và có những chiếc ghế trống không còn là lời buộc tội, nếu ta biết ngồi xuống trước nó bằng sự thành thật. Ta có thể thắp một ngọn đèn. Ta có thể chắp tay. Ta có thể nói trong lòng: con không hoàn hảo, cha mẹ cũng không hoàn hảo, nhưng từ hôm nay, con xin học cách sống bớt gây khổ hơn.",
+      "required_source_evidence": "ngồi xuống trước chiếc ghế; thắp một ngọn đèn",
+      "approved_production_fill": "kiểu dáng đèn (đây là lần dùng \"đèn\" thứ ba, ĐỘC LẬP theo sửa đổi 04B — không nối continuity với S028/S092-liên-quan-117)",
+      "forbidden_additions": "không thêm nhang/bàn thờ nếu không được 04A/04B xác nhận ở beat này",
+      "continuity_in": "← S067 (T1, callback tiếp theo — lần thứ sáu)",
+      "continuity_out": "→ S096",
+      "video_prompt": "A person sits down before the same familiar wooden chair and lights a small lamp beside it. Static and unhurried, the shot settles close on the small flame catching. Warm, gentle light spreads from the lamp across the room. The mood is quiet and resolved, neither performative nor elaborate. No incense or altar is added to the scene."
+    },
+    {
+      "prompt_number": 96,
+      "shot_id": "S096",
+      "start_ms": 2298203,
+      "end_ms": 2314154,
+      "duration_seconds": 15.951,
+      "timeline": {
+        "start": "00:38:18.203",
+        "end": "00:38:34.154"
+      },
+      "covered_beats": [
+        "BEAT_121"
+      ],
+      "covered_obligations": [
+        "OBL_121"
+      ],
+      "shot_function": "RESOLUTION",
+      "narration_context": "Và có những chiếc ghế trống không còn là lời buộc tội, nếu ta biết ngồi xuống trước nó bằng sự thành thật. Ta có thể thắp một ngọn đèn. Ta có thể chắp tay. Ta có thể nói trong lòng: con không hoàn hảo, cha mẹ cũng không hoàn hảo, nhưng từ hôm nay, con xin học cách sống bớt gây khổ hơn.",
+      "required_source_evidence": "chắp tay; nói trong lòng (câu nguyên văn — không hiển thị bằng chữ)",
+      "approved_production_fill": "—",
+      "forbidden_additions": "không đổi nội dung câu nói nguyên văn nếu trích dẫn qua giọng đọc; không hiển thị chữ trên màn hình",
+      "continuity_in": "← S095 (T1)",
+      "continuity_out": "→ S097",
+      "video_prompt": "The same person presses their palms together in a simple, quiet gesture before the chair and the lit lamp. The camera holds static, close on the joined hands. The same warm lamp light continues. The moment is private and unhurried, without any spoken words shown as text on screen."
+    },
+    {
+      "prompt_number": 97,
+      "shot_id": "S097",
+      "start_ms": 2314154,
+      "end_ms": 2333077,
+      "duration_seconds": 18.923,
+      "timeline": {
+        "start": "00:38:34.154",
+        "end": "00:38:53.077"
+      },
+      "covered_beats": [
+        "BEAT_122",
+        "BEAT_123"
+      ],
+      "covered_obligations": [
+        "OBL_122",
+        "OBL_123"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Nếu cha mẹ còn ở đây, điều gì bạn vẫn đang chờ một ngày thích hợp mới nói? Và nếu họ đã đi xa, bạn có thể biến nỗi nhớ ấy thành một đời sống tử tế hơn như thế nào?",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "—",
+      "continuity_in": "← S096 (T1)",
+      "continuity_out": "→ S098",
+      "video_prompt": "The same quiet scene continues to hold, the person still before the chair and the lamp, the room settled into silence. A single, unmoving frame holds through the moment. The warm lamp light remains unchanged. Nothing new happens; the stillness simply continues."
+    },
+    {
+      "prompt_number": 98,
+      "shot_id": "S098",
+      "start_ms": 2333077,
+      "end_ms": 2363539,
+      "duration_seconds": 30.462,
+      "timeline": {
+        "start": "00:38:53.077",
+        "end": "00:39:23.539"
+      },
+      "covered_beats": [
+        "BEAT_124"
+      ],
+      "covered_obligations": [
+        "OBL_124"
+      ],
+      "shot_function": "TRANSITION",
+      "narration_context": "Ở tập tiếp theo, chúng ta sẽ tiếp tục đi sâu hơn vào câu hỏi ấy: người sống thật sự có thể làm gì cho người đã mất, và vì sao trong Kinh Địa Tạng, hồi hướng không phải là một giao dịch với thế giới vô hình, mà là một cách chuyển hóa tâm người sống trong ánh sáng của nhân quả và từ bi.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "—",
+      "forbidden_additions": "**không mở rộng/diễn giải trước nội dung tập sau bằng hình ảnh cụ thể** — nội dung này thuộc tập tiếp theo, không phải EP004",
+      "continuity_in": "← S097",
+      "continuity_out": "→ S099",
+      "video_prompt": "The frame fades slowly toward darkness, the warm light dimming gradually rather than cutting away. The shot remains still through the fade. No new setting or figure is introduced — this is only a slow visual close, without hinting at what comes next."
+    },
+    {
+      "prompt_number": 99,
+      "shot_id": "S099",
+      "start_ms": 2363539,
+      "end_ms": 2383385,
+      "duration_seconds": 19.846,
+      "timeline": {
+        "start": "00:39:23.539",
+        "end": "00:39:43.385"
+      },
+      "covered_beats": [
+        "BEAT_125"
+      ],
+      "covered_obligations": [
+        "OBL_125"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Nếu hôm nay trong lòng bạn có hiện lên một gương mặt, một chiếc ghế, một bàn tay, hay một câu chưa kịp nói, hãy giữ nó thật nhẹ. Đừng biến nó thành tội lỗi. Hãy để nó trở thành một lời nhắc.",
+      "required_source_evidence": "một trong 4 khả năng ngang hàng (gương mặt/chiếc ghế/bàn tay/câu chưa kịp nói) — không ưu tiên khả năng nào",
+      "approved_production_fill": "mức độ mờ dần",
+      "forbidden_additions": "không tuyên bố đây là hình ảnh \"chính thức\" duy nhất của 4 khả năng — ràng buộc kế thừa từ 04A/04B",
+      "continuity_in": "← S096 (T1, lần callback cuối)",
+      "continuity_out": "→ S100",
+      "video_prompt": "The same wooden chair reappears once more, softly lit, beginning to fade gently from view. The camera holds in a slow, static composition as the image dims. The warm light grows fainter. This return to the chair is one of several possible closing images, not the only one implied."
+    },
+    {
+      "prompt_number": 100,
+      "shot_id": "S100",
+      "start_ms": 2383385,
+      "end_ms": 2410154,
+      "duration_seconds": 26.769,
+      "timeline": {
+        "start": "00:39:43.385",
+        "end": "00:40:10.154"
+      },
+      "covered_beats": [
+        "BEAT_126",
+        "BEAT_127",
+        "BEAT_128"
+      ],
+      "covered_obligations": [
+        "OBL_126",
+        "OBL_127",
+        "OBL_128"
+      ],
+      "shot_function": "HOLD",
+      "narration_context": "Một lời nhắc rằng tình thương cần được nói khi còn có thể. Một lời nhắc rằng biết ơn cần đi cùng trí tuệ. Và một lời nhắc rằng hiếu đạo sâu nhất không phải là sống trong mặc cảm, mà là sống sao cho từ mình, bớt đi một chút khổ đau truyền tiếp vào thế gian.",
+      "required_source_evidence": "—",
+      "approved_production_fill": "hiệu ứng mờ dần cuối phim",
+      "forbidden_additions": "không phát minh hình ảnh mới cho 3 lời nhắc khép lại — tái sử dụng đúng evidence đã có (chiếc ghế), theo đúng khuyến nghị đã ghi tại OBL_128 trong 04B",
+      "continuity_in": "← S099 (T1)",
+      "continuity_out": "—",
+      "video_prompt": "The chair continues to fade until the frame settles into soft darkness. The shot remains still through the final dissolve. The warm light diminishes gradually to black. No new image is introduced in this closing moment — only the same chair, quietly fading, exactly as it was first seen."
+    }
+  ]
+}

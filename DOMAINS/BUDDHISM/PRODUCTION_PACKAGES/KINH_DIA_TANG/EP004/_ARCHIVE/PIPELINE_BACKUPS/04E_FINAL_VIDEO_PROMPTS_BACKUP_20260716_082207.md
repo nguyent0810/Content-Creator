@@ -1,0 +1,831 @@
+# 04E — Final Video Prompts (EP004)
+
+**Pipeline stage:** Phase E — Final Video Prompt Composition
+**Upstream sources (unmodified):** `04A_SEMANTIC_BEATS.md` (128 beats) → `04B_VISUAL_OBLIGATIONS.md` (128 obligations) → `04C_SHOT_PLAN.md` (100 shots, S001–S100) → `04D_SHOT_TIMING_AND_PRODUCTION_FILL.md` (timing + Production Fill + Domain Approval Gate)
+**Mapping:** Strict 1:1, S001 → Prompt 001 ... S100 → Prompt 100. No shots added, merged, split, or reordered in this phase.
+
+## Methodology
+
+Each `Video prompt` below was composed directly from the corresponding shot's `Required Source Evidence`, `Approved Production Fill`, `Continuity In/Out`, `Mandatory Constraints`, `Forbidden Additions`, and `Shot Function` fields as fixed in 04C/04D. No new narrative content, props, characters, or symbolism was introduced beyond what 04C/04D authorize as Production Fill.
+
+Each `Video prompt` is one natural-English paragraph containing exactly: a specific subject, one visible action, a clear setting, one camera movement/framing, lighting, emotion, the approved continuity note, mandatory constraints, and negative constraints — expressed as prose, not a labeled checklist.
+
+## Timing
+
+- **Total duration: 2410.154s** (inherited unchanged from 04D; timestamps not modified in this phase)
+- **Timing status: `ESTIMATED_FROM_NARRATION`** — word-count-proportional estimate (rate 5222 words / 2410.154s ≈ 0.4616 s/word). This is **not** `AUDIO_ALIGNED`; no real narration audio exists yet. Timing must be re-verified against actual TTS audio before render.
+
+## Domain / Religious Constraints Applied
+
+Full Domain Approval Gate from 04D applied throughout: Tier 1 (Buddha/mother/Đao Lợi — respectful medium/wide framing only, no frontal close-up, no invented dialogue, no historical-accuracy claims, no fantasy spectacle); Địa Tạng Bồ Tát never depicted in any shot (form explicitly withheld per 04B/04D even where the narration references the name); Tier 4 ("hell") rendered strictly as ordinary domestic estrangement/tension — no supernatural hell, no demons, fire, torture, or gore; ritual/altar/incense/lamp imagery used only where 04D confirms narration evidence, never invented, never presented as the sole proof of filial devotion.
+
+## Anti-Repetition Discipline
+
+Where a motif recurs (chair — Continuity Thread T1; the Đao Lợi teaching hall — Thread T2), recurrence is limited to shots where 04C's Continuity In/Out explicitly requires it, and each recurrence carries a distinct narrative function (introduction → passage of time → dissolve/callback, etc.) rather than being an interchangeable repeat. No scene-pool fallback motifs (empty chair used as generic filler, blank note, closed door, phone hesitation, tense family table, support notebook, medicine tray, temple lamp) were used outside of what the Shot Plan requires.
+
+## Status
+
+`PASS_READY_FOR_HUMAN_PROMPT_REVIEW` — see `06_QA_REPORT.md` for full independently-computed QA metrics. This status is explicitly **not** `READY_FOR_RENDER`: timing is estimated (not audio-aligned), and Tier 1 / Tier 4 prompts require human review before any generation run.
+
+---
+
+Prompt 001
+Shot ID: S001
+Timeline: 00:00:00.000 --> 00:00:07.846
+Covered Beats: BEAT_001
+Covered Obligations: OBL_001
+Narration context: Có một chiếc ghế trong nhà mà ta cứ nghĩ lúc nào cũng còn người ngồi đó.
+Video prompt: A single wooden chair stands empty in a modest Vietnamese home, positioned near a window. No one is seated, and no one has just left. The shot is still and unhurried, contemplative in its quiet. Warm late-afternoon light falls softly across the chair, casting a gentle amber tone through the room. The mood is quiet and unresolved, neither sad nor comforting. No text, no logos, no watermarks, no photographs or flowers added near the chair.
+
+Prompt 002
+Shot ID: S002
+Timeline: 00:00:07.846 --> 00:00:16.338
+Covered Beats: BEAT_002
+Covered Obligations: OBL_002
+Narration context: Một chiếc ghế cạnh bàn ăn. Một chiếc ghế gần cửa sổ. Một chiếc ghế nơi mẹ thường ngồi nhặt rau, nơi cha thường ngồi uống trà, nơi có khi ta đi ngang qua rất nhiều lần mà chẳng dừng lại lâu hơn một nhịp thở.
+Video prompt: An elderly woman sits in the same wooden chair, now placed beside a simple dining table, sorting fresh vegetables with unhurried hands. The camera pushes in slowly, settling on the quiet rhythm of her work. Warm kitchen light glows around her, consistent with the late-afternoon tone of the home. Her face is kept generic, not shown in identifying close-up. No other family members appear in the frame.
+
+Prompt 003
+Shot ID: S003
+Timeline: 00:00:16.338 --> 00:00:29.077
+Covered Beats: BEAT_002
+Covered Obligations: OBL_002
+Narration context: Một chiếc ghế cạnh bàn ăn. Một chiếc ghế gần cửa sổ. Một chiếc ghế nơi mẹ thường ngồi nhặt rau, nơi cha thường ngồi uống trà, nơi có khi ta đi ngang qua rất nhiều lần mà chẳng dừng lại lâu hơn một nhịp thở.
+Video prompt: An elderly man sits in the same wooden chair, now placed near a window, drinking tea from a small cup. The camera drifts in a gentle lateral track past the window light toward him. Late-afternoon sun catches the steam rising from the cup. His posture is relaxed, unhurried, a private domestic moment with no urgency. His face stays generic and unnamed, and no other figures share the frame.
+
+Prompt 004
+Shot ID: S004
+Timeline: 00:00:29.077 --> 00:00:52.615
+Covered Beats: BEAT_003, BEAT_004
+Covered Obligations: OBL_003, OBL_004
+Narration context: Ta thường nghĩ mình còn thời gian. Hôm nay bận quá, mai gọi về cũng được. Tuần này nhiều việc quá, tháng sau về thăm cũng chưa muộn. Chỉ cần chuyển khoản đúng ngày, mua thuốc đúng toa, gửi quà đúng dịp, vậy là cũng đã làm tròn bổn phận rồi.
+Video prompt: A grown son sits alone in a plain, softly lit room, completing a bank transfer on his phone. The camera holds in a static composition, close enough to read the quiet efficiency of the gesture without showing any screen text. Even, neutral indoor light fills the space. His expression is unremarkable, practiced, the routine motion of someone fulfilling an obligation rather than reaching out. No visible amount is shown on the phone, and no scene of a phone call or a visit is added — this moment is defined by what does not happen.
+
+Prompt 005
+Shot ID: S005
+Timeline: 00:00:52.615 --> 00:00:59.077
+Covered Beats: BEAT_005
+Covered Obligations: OBL_005
+Narration context: Nhưng đời sống không báo trước ngày nào chiếc ghế ấy trở nên trống.
+Video prompt: The same wooden chair now stands completely empty, no longer beside anyone. A fine layer of dust has begun to settle on the seat. Nothing stirs in the frame; the camera simply watches the stillness. Late-afternoon light has grown dimmer, more amber than before, marking the passage of time. There is no hospital, no funeral, no explanation shown — only the absence itself. No text or logos appear in the frame.
+
+Prompt 006
+Shot ID: S006
+Timeline: 00:00:59.077 --> 00:01:20.769
+Covered Beats: BEAT_006
+Covered Obligations: OBL_006
+Narration context: Và khi nó trống rồi, con người ta mới nhận ra có những câu nói rất ngắn, rất bình thường, vậy mà cả đời vẫn chưa kịp nói. Con ăn rồi. Mẹ khỏe không. Cha có đau chỗ nào không. Con xin lỗi. Con thương cha mẹ.
+Video prompt: The camera remains fixed on the same empty chair, unmoving, as the room holds its silence. The dust and the fading light stay exactly as they were. Nothing changes in the frame; the stillness itself is the subject. A quiet, unresolved heaviness settles over the space, present but not exaggerated by anything happening on screen. No captions, no overlaid words appear anywhere in the shot.
+
+Prompt 007
+Shot ID: S007
+Timeline: 00:01:20.769 --> 00:01:54.000
+Covered Beats: BEAT_007
+Covered Obligations: OBL_007
+Narration context: Kinh Địa Tạng thường được nhiều người nhớ đến qua địa ngục, nghiệp báo, người đã mất, những cảnh giới tối tăm và lời nguyện lớn của Địa Tạng Bồ Tát. Ở những tập trước, chúng ta đã cùng nhau đi qua câu hỏi Địa Tạng là ai, vì sao gọi là Địa Tạng, và vì sao lời nguyện không bỏ rơi chúng sinh lại có sức lay động sâu như vậy.
+Video prompt: The camera continues to hold on the same still, empty chair, the frame unchanged from the shot before it. No new figure, symbol, or object enters. The light stays low and amber, the room silent. Nothing in the image points to hell, karma, or any specific religious figure — this is simply a continued, quiet observation of an empty room.
+
+Prompt 008
+Shot ID: S008
+Timeline: 00:01:54.000 --> 00:02:09.231
+Covered Beats: BEAT_008, BEAT_009
+Covered Obligations: OBL_008, OBL_009
+Narration context: Nhưng hôm nay, ta trở về đầu nguồn của bản kinh. Và điều lạ lùng là, bản kinh thường làm người ta nghĩ đến địa ngục lại mở ra trên một cõi trời.
+Video prompt: The image of the empty chair begins to dissolve slowly into darkness, the same room fading rather than cutting away. The camera holds static as the fade progresses, unhurried and deliberate. The warm amber tone dims gradually toward black. No new setting or figure appears within this shot — it exists only as a slow visual bridge out of the room.
+
+Prompt 009
+Shot ID: S009
+Timeline: 00:02:09.231 --> 00:02:41.077
+Covered Beats: BEAT_010
+Covered Obligations: OBL_010
+Narration context: Theo truyền thống Phật giáo Đại thừa, pháp hội của Kinh Địa Tạng được đặt tại Cung Trời Đao Lợi. Trong mạch trình bày của kinh, Đức Phật thuyết pháp nơi ấy trong liên hệ với thân mẫu của Ngài. Chính bối cảnh đó làm cho Kinh Địa Tạng được nhiều truyền thống Đông Á và Việt Nam tôn kính như một bản kinh gắn liền với hiếu đạo.
+Video prompt: In a vast, softly lit hall suggestive of a heavenly assembly, a serene, dignified figure representing the Buddha is seen from a respectful medium-wide distance, teaching before a small gathering of onlookers kept indistinct in the distance. The camera performs a slow, controlled crane movement, rising gently to take in the scale of the space without approaching the figure's face. Diffuse gold-white light fills the hall evenly, with no harsh beams or dramatic shafts. The atmosphere is reverent and calm. No dialogue is implied, no facial close-up is shown, and the architecture is rendered as softly symbolic rather than a claim of historical accuracy.
+
+Prompt 010
+Shot ID: S010
+Timeline: 00:02:41.077 --> 00:03:19.846
+Covered Beats: BEAT_011, BEAT_012, BEAT_013
+Covered Obligations: OBL_011, OBL_012, OBL_013
+Narration context: Vậy vì sao một bản kinh có nhiều hình ảnh về địa ngục lại bắt đầu từ một hành động báo ân? Vì sao giữa không gian cao rộng của cõi trời, điều chạm đến trái tim con người lại là ký ức về mẹ? Và vì sao bài học hiếu đạo trong đạo Phật không thể bị thu nhỏ thành vài nghi lễ, vài mâm cỗ, vài lần cúng bái, hay một mệnh lệnh bắt người con phải phục tùng trong im lặng?
+Video prompt: The same wide, luminous hall holds still, the teaching figure and the distant gathering unchanged from the shot before. The camera stays static, letting the space breathe. The gold-white light remains steady and even. Nothing new enters the frame — the shot exists to let the reverent atmosphere continue without interruption.
+
+Prompt 011
+Shot ID: S011
+Timeline: 00:03:19.846 --> 00:03:58.154
+Covered Beats: BEAT_014, BEAT_015
+Covered Obligations: OBL_014, OBL_015
+Narration context: Chúng ta hãy đi thật chậm. Đi chậm, vì ở đây có kinh điển. Có truyền thống. Có ký ức gia đình. Có nỗi ân hận của những người đã mất cha mẹ. Có sự mệt mỏi của những người đang chăm sóc cha mẹ già. Có cả vết thương của những người nghe đến hai chữ hiếu đạo là thấy tim mình thắt lại, vì gia đình đối với họ không chỉ có yêu thương, mà còn có những điều rất đau.
+Video prompt: A lone figure sits in a plain, dimly lit room, hands folded loosely, head bowed in quiet stillness. The camera stays perfectly still, taking in the quiet composition. The light is muted and low, neither warm nor cold, giving no strong indication of time of day. The mood is heavy but restrained, the fatigue of an unspecified private grief rather than any one identifiable story. No other figures or symbols are added to explain who this person is.
+
+Prompt 012
+Shot ID: S012
+Timeline: 00:03:58.154 --> 00:04:23.538
+Covered Beats: BEAT_016
+Covered Obligations: OBL_016
+Narration context: Cung Trời Đao Lợi, trong thế giới quan Phật giáo, là một cõi trời. Khi nhắc đến cõi trời, ta rất dễ tưởng tượng ra một nơi xa xôi, rực rỡ, tách khỏi đời sống của con người. Nhưng nếu chỉ nhìn như vậy, ta sẽ bỏ lỡ điểm rất sâu của pháp hội này.
+Video prompt: The same wide, softly lit hall from before holds steady, the teaching figure still visible at a respectful distance. The camera remains static. The space feels close and warm despite its scale, not distant or spectacular. Diffuse gold-white light continues to fill the hall evenly. No ornate or fantastical architecture is introduced — the setting stays as understated as it was first shown.
+
+Prompt 013
+Shot ID: S013
+Timeline: 00:04:23.538 --> 00:04:52.154
+Covered Beats: BEAT_017
+Covered Obligations: OBL_017
+Narration context: Bối cảnh ở cõi trời không làm câu chuyện trở nên xa con người. Ngược lại, nó làm nổi bật một điều rất gần. Dù pháp hội được đặt trong không gian rộng lớn của vũ trụ quan Phật giáo, trung tâm cảm xúc của nó vẫn là lòng biết ơn. Một bậc Giác ngộ vẫn không quên ân nghĩa sinh thành.
+Video prompt: Within the same hall, the teaching figure turns slightly, a quiet gesture extended toward a veiled, indistinct maternal presence just at the edge of the frame. The camera moves in a slow, gentle push, drawing a little closer without ever approaching a frontal close-up of the face. The gold-white light softens further around the gesture. A sense of quiet gratitude settles over the moment. No dialogue is suggested, and no facial detail is resolved on either figure.
+
+Prompt 014
+Shot ID: S014
+Timeline: 00:04:52.154 --> 00:05:25.846
+Covered Beats: BEAT_018, BEAT_019
+Covered Obligations: OBL_018, OBL_019
+Narration context: Điều này cần được hiểu cẩn trọng. Đạo Phật không nói rằng giác ngộ là lạnh lùng. Giác ngộ không phải cắt đứt trái tim khỏi mọi tình nghĩa. Giác ngộ cũng không phải là quên mẹ, quên cha, quên người đã nâng đỡ thân mạng này. Nhưng đạo Phật cũng không nói về tình thương theo nghĩa chấp trước hẹp hòi, bám víu, chiếm hữu hoặc đau khổ vì không thể buông.
+Video prompt: The shot lingers on the same gesture, the teaching figure's hand still extended toward the veiled maternal presence. Nothing in the frame changes. The gold-white light remains soft and constant. The composition simply continues to hold, unhurried, without introducing any new symbol or figure to illustrate the surrounding teaching.
+
+Prompt 015
+Shot ID: S015
+Timeline: 00:05:25.846 --> 00:06:02.308
+Covered Beats: BEAT_020, BEAT_021
+Covered Obligations: OBL_020, OBL_021
+Narration context: Ở đây có một sự phân biệt rất quan trọng. Chấp trước là khi ta bám vào một người như tài sản của mình. Biết ơn là khi ta thấy rõ mình đã nhận ân. Báo ân là khi lòng biết ơn ấy trở thành hành động lành. Từ bi là khi tình thương ấy không dừng lại ở một người thân, mà mở ra với mọi chúng sinh cũng từng khổ đau, cũng từng mong được cứu giúp.
+Video prompt: The frame remains fixed on the same quiet gesture, unchanged from the shot before. The stillness continues, the light constant. No new imagery is introduced to stand in for the ideas being discussed — the shot holds its reverent quiet without illustration.
+
+Prompt 016
+Shot ID: S016
+Timeline: 00:06:02.308 --> 00:06:30.923
+Covered Beats: BEAT_022
+Covered Obligations: OBL_022
+Narration context: Trong ánh sáng đó, hình ảnh Đức Phật thuyết pháp nơi Cung Trời Đao Lợi vì thân mẫu không nên bị hiểu như một câu chuyện tình cảm thông thường. Không phải là một người con còn bị trói buộc bởi nỗi nhớ theo nghĩa thế tục. Mà là một biểu hiện của lòng tri ân đã được trí tuệ soi sáng.
+Video prompt: The view returns to the same wide framing of the hall, the teaching figure once again seen at a respectful medium-wide distance before the gathered assembly, exactly as first established. The camera holds static, deliberately echoing the earlier composition. The same even, gold-white light fills the space. Nothing new is added to the figure's action — this is a return to the same moment, not a new one.
+
+Prompt 017
+Shot ID: S017
+Timeline: 00:06:30.923 --> 00:06:40.615
+Covered Beats: BEAT_023, BEAT_024
+Covered Obligations: OBL_023, OBL_024
+Narration context: Giác ngộ không làm con người quên ân nghĩa. Trí tuệ sâu hơn làm lòng biết ơn trở nên rộng hơn.
+Video prompt: The wide framing of the hall continues to hold, unchanged from the previous shot. The gathering remains distant and still, the light steady. The camera stays static, allowing the scene to rest before the setting shifts away.
+
+Prompt 018
+Shot ID: S018
+Timeline: 00:06:40.615 --> 00:07:12.462
+Covered Beats: BEAT_025
+Covered Obligations: OBL_025
+Narration context: Có lẽ vì vậy mà từ pháp hội này, ta có thể bước vào bài học hiếu đạo một cách khác. Không phải bằng nỗi sợ. Không phải bằng câu hỏi: nếu ta không làm đủ, ta có bị xem là bất hiếu không. Mà bằng một câu hỏi yên lặng hơn: ta đã nhận những gì từ cuộc đời này, và ta đang đáp lại như thế nào?
+Video prompt: The frame is dark, holding briefly on nothing but soft, indistinct light as one scene prepares to give way to the next. The camera stays static through the transition. No figure or setting is defined yet in this brief bridging moment.
+
+Prompt 019
+Shot ID: S019
+Timeline: 00:07:12.462 --> 00:07:46.154
+Covered Beats: BEAT_026
+Covered Obligations: OBL_026
+Narration context: Một người con có thể mỗi tháng gửi tiền về rất đều. Điện thoại báo chuyển khoản thành công. Mẹ nhận được tiền. Cha nhận được thuốc. Mọi thứ bên ngoài có vẻ đầy đủ. Nhưng trong nhiều năm, người con ấy không có nổi một cuộc gọi đủ dài để nghe mẹ kể chuyện đau lưng, nghe cha nói về một buổi chiều mưa, nghe giọng hai người già đi từng chút.
+Video prompt: A young adult stands in a plain interior, phone still held to their ear for only a moment before lowering it, having just ended a call. The camera drifts in a gentle lateral track, observing the small, ordinary gesture. Even, unremarkable indoor light fills the room. The expression is neutral, practiced, someone who has done this many times. Nothing else about the absent parents' lives is shown or implied.
+
+Prompt 020
+Shot ID: S020
+Timeline: 00:07:46.154 --> 00:08:02.308
+Covered Beats: BEAT_027, BEAT_028
+Covered Obligations: OBL_027, OBL_028
+Narration context: Tiền có thể giúp cha mẹ mua thuốc. Nhưng tiền không thể thay ta lắng nghe. Vật chất có thể làm nhẹ một phần đời sống. Nhưng vật chất không thể thay ta có mặt.
+Video prompt: Nothing moves in the frame; the same room holds, the phone now resting on a nearby surface where it was set down. The young adult remains in frame, quiet and still. The light and setting stay exactly as before. Nothing new happens in the shot.
+
+Prompt 021
+Shot ID: S021
+Timeline: 00:08:02.308 --> 00:08:29.538
+Covered Beats: BEAT_029
+Covered Obligations: OBL_029
+Narration context: Có những gia đình làm giỗ rất lớn. Bàn thờ sáng đèn. Mâm cỗ đầy. Khách khứa đông. Nhưng sau bữa ăn, anh em vẫn không nhìn mặt nhau. Những câu nói cũ vẫn đâm vào lòng nhau. Những hiểu lầm vẫn được truyền từ năm này sang năm khác, như một món nợ không ai chịu đặt xuống.
+Video prompt: A crowded ancestral memorial fills a warmly lit room, an altar bright with candles and a table heavy with offerings, guests filling the space. Two brothers stand apart from each other, each looking away, careful not to meet the other's eyes. The camera performs a slow lateral track across the gathering before settling on the two men's distance. The lighting is warm but overly bright, almost theatrical in its abundance. The mood is one of quiet, unresolved tension beneath a surface of ceremony. No specific dialogue or number of guests is fixed in the frame.
+
+Prompt 022
+Shot ID: S022
+Timeline: 00:08:29.538 --> 00:08:58.615
+Covered Beats: BEAT_030, BEAT_031
+Covered Obligations: OBL_030, OBL_031
+Narration context: Nếu hiếu đạo chỉ còn là hình thức, nó rất dễ trở thành một sân khấu. Người sống trình diễn sự nhớ thương trước người đã khuất, nhưng lại tiếp tục làm tổn thương những người còn đang ngồi bên cạnh mình. Và nếu hiếu đạo bị hiểu như phục tùng mù quáng, nó có thể trở thành một gánh nặng rất đau.
+Video prompt: A lone figure stands before a home altar and a framed photograph, performing a memorial gesture with exaggerated formality, movements slightly too composed, too deliberate. The camera holds in a static, observational frame. Warm candlelight flickers gently across the altar. The mood carries a quiet irony, reverence performed rather than felt. No theater setting, no stage lighting is used — the excess is in the gesture alone, within an ordinary domestic space.
+
+Prompt 023
+Shot ID: S023
+Timeline: 00:08:58.615 --> 00:09:35.538
+Covered Beats: BEAT_032
+Covered Obligations: OBL_032
+Narration context: Có những người chăm sóc mẹ già trong nhiều năm. Sáng dậy thay áo, đút cháo, đưa đi khám, lau từng vết đau trên thân thể người mẹ. Nhưng trong lòng họ có mệt mỏi. Có oán giận. Có tủi thân. Có cảm giác cuộc đời mình bị kẹt lại. Rồi họ xấu hổ vì nghĩ rằng một người con hiếu thảo thì không được mệt, không được buồn, không được có lúc muốn trốn đi vài giờ để thở.
+Video prompt: A caregiver kneels beside an elderly woman, spooning porridge to her with patient, practiced care. The camera pushes in slowly, drawing close to the small act of feeding. Soft, warm domestic light fills the modest room. The caregiver's expression carries quiet fatigue beneath the tenderness. No specific illness is shown, and no other caregiving tasks are staged in this same shot.
+
+Prompt 024
+Shot ID: S024
+Timeline: 00:09:35.538 --> 00:10:01.846
+Covered Beats: BEAT_033
+Covered Obligations: OBL_033
+Narration context: Nếu bạn là một người như vậy, xin hãy nghe thật rõ. Mệt mỏi không làm bạn thành người bất hiếu. Kiệt sức không có nghĩa là bạn thiếu thương. Người chăm sóc cũng cần được chăm sóc. Lòng hiếu có trí tuệ không bắt con người đốt cạn chính mình rồi gọi đó là tình thương.
+Video prompt: The same caregiver now pauses, hand resting still, breathing out slowly in a brief moment of rest. The shot stays close and unmoving, resting on this stillness. The warm domestic light is unchanged. Nothing else happens — this is simply the exhale after effort.
+
+Prompt 025
+Shot ID: S025
+Timeline: 00:10:01.846 --> 00:10:40.615
+Covered Beats: BEAT_034, BEAT_035
+Covered Obligations: OBL_034, OBL_035
+Narration context: Cũng có những người nghe đến chữ cha, chữ mẹ, là trong lòng không hiện lên hình ảnh ấm áp. Có thể tuổi thơ của họ có bạo lực. Có sự lạnh lùng. Có những câu nói làm tổn thương kéo dài nhiều năm. Có những lần bị bỏ mặc. Có những vết thương mà người ngoài không thấy, nên người ngoài nói rất dễ: thôi, cha mẹ mà, bỏ qua đi. Nhưng đạo hiếu không nên được dùng để bịt miệng nỗi đau.
+Video prompt: A person sits alone in a plain room, body faintly tensed, eyes lowered at the mention of the words "mother" and "father." The camera does not move, resting on the full scene. The light is neutral and even, without warmth. The mood is guarded, quietly defensive. No details of past harm are shown, and no other figure is placed in the frame to voice any dismissive remark.
+
+Prompt 026
+Shot ID: S026
+Timeline: 00:10:40.615 --> 00:11:18.462
+Covered Beats: BEAT_036
+Covered Obligations: OBL_036
+Narration context: Hiếu đạo trong ánh sáng của từ bi và trí tuệ không bắt một người phải quay lại nơi không an toàn. Không bắt họ phải cho phép tổn thương tiếp tục. Không bắt họ phải gọi sự chịu đựng là đức hạnh. Có khi một người giữ khoảng cách là để không nuôi thêm hận thù. Có khi một ranh giới bình an là cách duy nhất để cả hai bên không tiếp tục tạo thêm nghiệp đau khổ cho nhau.
+Video prompt: Two figures stand facing each other in a plain room. One steps back, a single deliberate pace, raising a hand gently to mark the distance without hostility. The camera holds in a slow, static composition, watching the space between them settle. The light is even and unremarkable. There is no physical struggle, no raised voices implied — only a calm, chosen boundary.
+
+Prompt 027
+Shot ID: S027
+Timeline: 00:11:18.462 --> 00:11:51.231
+Covered Beats: BEAT_037, BEAT_038
+Covered Obligations: OBL_037, OBL_038
+Narration context: Điều này không làm mất đi lòng biết ơn. Nó làm lòng biết ơn trở nên thật hơn. Biết ơn không có nghĩa là phủ nhận điều đã xảy ra. Tôn trọng không có nghĩa là để người khác tiếp tục làm hại mình. Chăm sóc không có nghĩa là đánh mất thân tâm của chính mình. Và tha thứ, nếu có, cũng không thể bị ép bằng một lời giảng.
+Video prompt: The two figures remain exactly where they settled, the distance between them unchanged. The camera stays perfectly still, resting on the quiet scene. Their posture softens slightly, tension easing without either one stepping closer. The light stays even. Nothing new occurs in the frame; the moment simply continues to rest.
+
+Prompt 028
+Shot ID: S028
+Timeline: 00:11:51.231 --> 00:12:13.846
+Covered Beats: BEAT_039
+Covered Obligations: OBL_039
+Narration context: Ở đây, bài học hiếu đạo của Kinh Địa Tạng cần được nghe bằng một trái tim trưởng thành. Nó không phải cây roi để đánh vào người con. Nó là ngọn đèn để soi lại mối quan hệ giữa ân nghĩa, trách nhiệm, nghiệp và sự chuyển hóa.
+Video prompt: A small oil lamp burns steadily in a dim, quiet space, its flame neither flickering nor dimming. The image is still and quiet, close on the warm, even glow. Soft amber light spreads gently outward from the flame. The mood is calm and steady, quietly reassuring. No whip, no violent gesture, and no additional symbolic objects are placed near the lamp.
+
+Prompt 029
+Shot ID: S029
+Timeline: 00:12:13.846 --> 00:12:27.254
+Covered Beats: BEAT_040
+Covered Obligations: OBL_040
+Narration context: Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.
+Video prompt: In a hospital recovery ward, a grown son stands beside a bed, holding his father's hand and weeping quietly. The camera pushes in slowly on the joined hands. Low, muted clinical light fills the room, softened rather than harsh. The grief is plain and unadorned. Neither figure is named, and no specific medical details are shown.
+
+Prompt 030
+Shot ID: S030
+Timeline: 00:12:27.254 --> 00:12:34.149
+Covered Beats: BEAT_040
+Covered Obligations: OBL_040
+Narration context: Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.
+Video prompt: In the same ward, an elderly woman lies weak in bed, her lips moving faintly as she asks her child if he has eaten. The camera holds in a static frame, close on her tired face and the son beside her. The same muted clinical light continues. The words themselves are not shown as text — only the quiet effort of asking.
+
+Prompt 031
+Shot ID: S031
+Timeline: 00:12:34.149 --> 00:12:42.960
+Covered Beats: BEAT_040
+Covered Obligations: OBL_040
+Narration context: Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.
+Video prompt: An elderly man, stern for most of his life, lies in the same ward and speaks softly to someone standing near the bed, his voice barely audible. The shot remains fixed, respectful of the small, private exchange. The light remains low and even. No written words appear on screen to spell out what he says.
+
+Prompt 032
+Shot ID: S032
+Timeline: 00:12:42.960 --> 00:12:52.154
+Covered Beats: BEAT_040
+Covered Obligations: OBL_040
+Narration context: Một bác sĩ trong khoa hồi sức từng chứng kiến rất nhiều cuộc chia tay. Có người con đứng bên giường bệnh, chỉ biết nắm tay cha mà khóc. Có người mẹ thở rất yếu, nhưng vẫn cố hỏi con đã ăn gì chưa. Có người cha cả đời nghiêm khắc, đến phút cuối mới nói được một câu xin lỗi rất nhỏ. Cũng có những người không kịp đến. Không phải vì không thương, mà vì cứ tưởng mình còn ngày mai.
+Video prompt: A hospital corridor stretches out, empty, no one walking through it. The camera holds in a static, observational frame. The same muted light from the ward continues into the hallway. The stillness suggests someone who did not arrive in time, though nothing explicit confirms this — only an empty passage. No chair or other symbolic object is placed in the corridor.
+
+Prompt 033
+Shot ID: S033
+Timeline: 00:12:52.154 --> 00:13:19.385
+Covered Beats: BEAT_041, BEAT_042
+Covered Obligations: OBL_041, OBL_042
+Narration context: Đời sống làm ta trì hoãn tình thương bằng những lý do nghe rất hợp lý. Ta bận kiếm tiền. Ta bận lo con. Ta bận trả nợ. Ta bận chứng minh mình đúng. Ta bận giận. Ta bận chờ người kia mở lời trước. Và cứ như vậy, có những chiếc ghế trong nhà lặng lẽ cũ đi.
+Video prompt: The same wooden chair from earlier stands in the same room, now visibly more worn — a thicker layer of dust across the seat, the wood's color slightly faded. Unmoving, the frame observes the passage of time in small details. The light has cooled slightly from its earlier warmth. Nothing else changes in the frame; the wear itself marks how much time has passed.
+
+Prompt 034
+Shot ID: S034
+Timeline: 00:13:19.385 --> 00:13:49.846
+Covered Beats: BEAT_043, BEAT_044
+Covered Obligations: OBL_043, OBL_044
+Narration context: Khi Kinh Địa Tạng mở ra bằng hình ảnh Đức Phật hướng về thân mẫu, ta có thể quán chiếu rằng đạo hiếu trước hết là sự tỉnh thức trước ân nghĩa. Không phải ân nghĩa để mắc nợ trong sợ hãi. Mà là ân nghĩa để nhận ra thân mạng này không tự nhiên mà có. Ta được sinh ra từ rất nhiều điều kiện.
+Video prompt: The same wide, gold-lit hall returns, the teaching figure still visible at a respectful distance exactly as before. The camera does not move, holding steadily on the moment. Nothing new is added to the figure's posture or expression. The even, diffuse light continues unchanged, the scene resting in its earlier stillness.
+
+Prompt 035
+Shot ID: S035
+Timeline: 00:13:49.846 --> 00:13:54.000
+Covered Beats: BEAT_045
+Covered Obligations: OBL_045
+Narration context: Có thân thể của mẹ. Có công sức của cha. Có chén cơm của người trồng lúa. Có bàn tay của người may áo. Có thầy cô, hàng xóm, người xa lạ, bác sĩ, người quét đường, người giữ một phần thế giới này cho ta sống. Thấy được cha mẹ là bước đầu. Nhưng nếu nhìn sâu, ta sẽ thấy đằng sau cha mẹ là vô số chúng sinh đã nâng đỡ đời mình.
+Video prompt: A mother and father, unnamed and unconnected to any earlier figures, stand together in quiet stillness, simply present in frame. The camera holds in a brief, static portrait composition. Warm, gentle light falls evenly across them. There is no specific action — only their quiet presence, held for a moment.
+
+Prompt 036
+Shot ID: S036
+Timeline: 00:13:54.000 --> 00:14:00.231
+Covered Beats: BEAT_045
+Covered Obligations: OBL_045
+Narration context: Có thân thể của mẹ. Có công sức của cha. Có chén cơm của người trồng lúa. Có bàn tay của người may áo. Có thầy cô, hàng xóm, người xa lạ, bác sĩ, người quét đường, người giữ một phần thế giới này cho ta sống. Thấy được cha mẹ là bước đầu. Nhưng nếu nhìn sâu, ta sẽ thấy đằng sau cha mẹ là vô số chúng sinh đã nâng đỡ đời mình.
+Video prompt: A farmer works alone in an open rice field, bent over the crop in steady, practiced motion. A wide, unmoving shot takes in the scale of the field around the single figure. Soft, natural daylight covers the scene. The mood is one of quiet, unnoticed labor.
+
+Prompt 037
+Shot ID: S037
+Timeline: 00:14:00.231 --> 00:14:24.462
+Covered Beats: BEAT_045
+Covered Obligations: OBL_045
+Narration context: Có thân thể của mẹ. Có công sức của cha. Có chén cơm của người trồng lúa. Có bàn tay của người may áo. Có thầy cô, hàng xóm, người xa lạ, bác sĩ, người quét đường, người giữ một phần thế giới này cho ta sống. Thấy được cha mẹ là bước đầu. Nhưng nếu nhìn sâu, ta sẽ thấy đằng sau cha mẹ là vô số chúng sinh đã nâng đỡ đời mình.
+Video prompt: A street sweeper moves slowly along an empty road in the early morning, broom in hand. The camera holds in a static frame, watching the unhurried, repetitive motion. Pale, early morning light lies flat across the street. The mood is humble and unremarkable, a small act of upkeep no one is thanking.
+
+Prompt 038
+Shot ID: S038
+Timeline: 00:14:24.462 --> 00:15:09.692
+Covered Beats: BEAT_046, BEAT_047, BEAT_048
+Covered Obligations: OBL_046, OBL_047, OBL_048
+Narration context: Tinh thần Đại thừa đi theo hướng ấy. Từ lòng hiếu với một người mẹ, tâm biết ơn có thể mở rộng. Không phải để làm loãng tình thương gia đình, mà để làm nó sâu hơn. Khi ta thật sự hiểu công ơn của một người, ta bắt đầu hiểu rằng bất kỳ ai cũng từng là người được thương, từng có mẹ, từng có nỗi sợ, từng có một chiếc ghế để trở về, hoặc từng mất chiếc ghế ấy. Đó là nơi Địa Tạng Bồ Tát xuất hiện trong mạch cảm xúc của series này.
+Video prompt: The same worn wooden chair returns once more, unchanged from before, standing quietly in the same room. A locked-off, static shot rests on the room. The light and setting remain exactly as they were. No crowd, no additional figures, and no depiction of any specific religious being are added to the frame — the chair alone carries the moment.
+
+Prompt 039
+Shot ID: S039
+Timeline: 00:15:09.692 --> 00:15:58.615
+Covered Beats: BEAT_049, BEAT_050
+Covered Obligations: OBL_049, OBL_050
+Narration context: Ở tập trước, ta đã nói về đại nguyện không bỏ rơi chúng sinh trong những nơi tối tăm nhất. Hôm nay, ta thấy một nhánh rất mềm của đại nguyện ấy. Lòng từ bi lớn không mọc lên từ sự lạnh lùng. Nó có thể bắt đầu từ một nỗi thương rất gần. Nỗi thương mẹ. Nỗi nhớ cha. Nỗi đau khi thấy người thân chịu khổ. Rồi từ đó, trái tim học cách nhìn mọi chúng sinh như người thân đã từng đi lạc trong vô minh. Nhưng để lòng hiếu trở thành từ bi, nó phải được thanh lọc khỏi sự ích kỷ.
+Video prompt: A lone figure sits with a distant, tender expression, gaze drifting somewhere beyond the frame. A locked-off, static shot takes in the whole composition. Soft, warm light rests on their face. The mood is quietly compassionate, turned inward rather than toward any crowd or gathering. No other figures are added to the scene.
+
+Prompt 040
+Shot ID: S040
+Timeline: 00:15:58.615 --> 00:16:40.154
+Covered Beats: BEAT_051, BEAT_052
+Covered Obligations: OBL_051, OBL_052
+Narration context: Nếu ta chỉ thương cha mẹ mình mà khinh thường cha mẹ người khác, lòng hiếu ấy còn hẹp. Nếu ta chỉ lo làm đẹp mặt gia đình mình mà chà đạp gia đình khác, lòng hiếu ấy chưa có trí tuệ. Nếu ta chỉ cúng giỗ tổ tiên mình thật lớn nhưng sống bất công với người đang làm việc cho mình, lòng hiếu ấy chưa chạm đến đạo. Hiếu đạo trong đạo Phật không dừng ở việc nhớ người đã khuất. Nó hỏi ta đang sống ra sao.
+Video prompt: The same figure remains seated, expression unchanged, gaze still distant. The camera keeps a fixed, unmoving position throughout. The warm light continues without variation. Nothing new enters the frame; the quiet reflection simply continues.
+
+Prompt 041
+Shot ID: S041
+Timeline: 00:16:40.154 --> 00:17:11.077
+Covered Beats: BEAT_053, BEAT_054, BEAT_055
+Covered Obligations: OBL_053, OBL_054, OBL_055
+Narration context: Ta có đang tiếp tục gieo những nhân đau khổ mà cha mẹ từng vô tình truyền lại không? Ta có đang nói với con mình bằng chính những câu từng làm mình tổn thương không? Ta có đang biến áp lực thành bạo lực, biến lo lắng thành kiểm soát, biến tình thương thành điều kiện, rồi gọi đó là vì muốn tốt cho con không?
+Video prompt: The same seated figure holds the same distant, tender expression, the shot extending the earlier stillness. The camera remains static. The light and framing are unchanged. No new action interrupts the quiet.
+
+Prompt 042
+Shot ID: S042
+Timeline: 00:17:11.077 --> 00:17:48.000
+Covered Beats: BEAT_056, BEAT_057
+Covered Obligations: OBL_056, OBL_057
+Narration context: Có một người cha nhận ra mình đang la con bằng giọng của cha mình ngày trước. Câu nói vừa bật ra, đứa trẻ cúi mặt xuống, và trong khoảnh khắc ấy, ông như nhìn thấy chính mình nhiều năm về trước. Một đứa trẻ cũng từng cúi mặt như vậy. Cũng từng im lặng như vậy. Cũng từng tự hứa lớn lên sẽ không bao giờ nói những lời ấy với con mình. Nhưng rồi vòng lặp vẫn quay.
+Video prompt: A father raises his voice sharply at his young child in the plain front room of a modest home, the words landing hard. The child flinches and lowers their face. In the same breath, something shifts in the father's own expression — a flicker of recognition, as though he has heard this voice before. A subtle, handheld documentary movement stays close, feeling the tension without exaggerating it. Warm but uneasy lamp light fills the room. No name is given to either figure, no physical strike is shown, and no separate image of the father as a child is inserted into the frame.
+
+Prompt 043
+Shot ID: S043
+Timeline: 00:17:48.000 --> 00:17:51.231
+Covered Beats: BEAT_058
+Covered Obligations: OBL_058
+Narration context: Cho đến một ngày, ông dừng lại.
+Video prompt: The father goes still, the tension in his shoulders dropping away in an instant. The camera holds in a slow, quiet push toward his face as the stillness settles. The same warm lamp light continues. No explanation is shown for what causes him to stop — only the stopping itself.
+
+Prompt 044
+Shot ID: S044
+Timeline: 00:17:51.231 --> 00:18:18.462
+Covered Beats: BEAT_059
+Covered Obligations: OBL_059
+Narration context: Ông không thể thay đổi tuổi thơ của mình. Không thể bắt quá khứ dịu dàng hơn. Không thể làm cho người cha đã mất quay lại để xin lỗi. Nhưng ông có thể quỳ xuống trước mặt đứa con của mình và nói: ba xin lỗi, câu vừa rồi làm con đau. Ba sẽ học cách nói khác.
+Video prompt: The father kneels down in front of his child, lowering himself to meet their eyes, and begins to speak gently. The shot settles into a slow, static composition, respectful of the moment. Warm lamp light softens around them both. The child's reaction is not shown — the frame stays with the father's own quiet act of kneeling and speaking.
+
+Prompt 045
+Shot ID: S045
+Timeline: 00:18:18.462 --> 00:18:37.385
+Covered Beats: BEAT_060, BEAT_061
+Covered Obligations: OBL_060, OBL_061
+Narration context: Ở tầng ứng dụng hiện đại, có khi đó là một hình thức báo hiếu rất sâu. Không phải vì ông quên cha mình. Mà vì ông quyết định không truyền tiếp vết thương của cha mình sang thế hệ sau.
+Video prompt: The father and child remain exactly as they were, the kneeling posture and the quiet unbroken. The shot remains completely still, letting the moment sit. The warm lamp light continues unchanged. Nothing new happens; the moment simply continues to rest after what was said.
+
+Prompt 046
+Shot ID: S046
+Timeline: 00:18:37.385 --> 00:19:10.154
+Covered Beats: BEAT_062
+Covered Obligations: OBL_062
+Narration context: Có khi nén hương chân thành nhất dành cho tổ tiên không nằm trên bàn thờ. Nó nằm trong khoảnh khắc một người dừng bàn tay nóng giận lại. Dừng một lời mắng nhục. Dừng một thói quen im lặng trừng phạt. Dừng một cơn say. Dừng một cách yêu thương có điều kiện. Dừng một vòng lặp đã đi qua ba đời mà không ai đủ tỉnh để gọi tên.
+Video prompt: An unnamed figure's hand stops mid-motion, caught in the instant before a sharp gesture, then lowers slowly. In the far background, softly out of focus, the corner of a modest home altar is barely visible. The camera holds in a static, observational frame. Warm, low light fills the space. This is a different, ordinary person — not the father seen earlier — caught in an anonymous moment of restraint.
+
+Prompt 047
+Shot ID: S047
+Timeline: 00:19:10.154 --> 00:19:23.539
+Covered Beats: BEAT_063
+Covered Obligations: OBL_063
+Narration context: Điều này không phải một câu kinh để ta gán vào miệng Đức Phật. Đây là cách quán chiếu hiện đại từ tinh thần nhân quả và chuyển hóa.
+Video prompt: The same hand and the same quiet stillness continue, unchanged from the shot before. A still, observational frame holds without moving. The light stays low and warm. Nothing new enters the frame — this is simply a continued pause.
+
+Prompt 048
+Shot ID: S048
+Timeline: 00:19:23.539 --> 00:19:54.000
+Covered Beats: BEAT_064
+Covered Obligations: OBL_064
+Narration context: Nhân quả không chỉ nằm ở chuyện xa xôi sau khi chết. Nhân quả cũng nằm trong bữa cơm tối nay. Một lời nói gieo xuống. Một đứa trẻ nhận lấy. Một thói quen hình thành. Một nỗi sợ đi vào thân thể. Rồi hai mươi năm sau, nó trở thành cách người ấy yêu, cách người ấy giận, cách người ấy làm cha, làm mẹ.
+Video prompt: A family sits together at the dinner table tonight, an adult speaking while a child listens, taking the words in. A static, observational wide shot takes in the table. Warm kitchen light fills the room. The mood is ordinary, unremarkable on the surface, the weight of the moment held quietly beneath it. No names are given, and no older, grown version of the child is shown elsewhere in the frame.
+
+Prompt 049
+Shot ID: S049
+Timeline: 00:19:54.000 --> 00:20:01.846
+Covered Beats: BEAT_065
+Covered Obligations: OBL_065
+Narration context: Nếu hiểu như vậy, ta sẽ thấy hiếu đạo không phải chuyện cũ. Nó đang diễn ra ngay trong cách ta nhắn tin, cách ta nghe điện thoại, cách ta chăm sóc người già, cách ta đặt ranh giới, cách ta nuôi dạy con, cách ta nói lời xin lỗi.
+Video prompt: A person types a brief message into their phone, thumbs moving quickly. The camera holds in a static, close composition on the small gesture. Even, neutral light fills the space. No message text is legible on the screen.
+
+Prompt 050
+Shot ID: S050
+Timeline: 00:20:01.846 --> 00:20:09.462
+Covered Beats: BEAT_065
+Covered Obligations: OBL_065
+Narration context: Nếu hiểu như vậy, ta sẽ thấy hiếu đạo không phải chuyện cũ. Nó đang diễn ra ngay trong cách ta nhắn tin, cách ta nghe điện thoại, cách ta chăm sóc người già, cách ta đặt ranh giới, cách ta nuôi dạy con, cách ta nói lời xin lỗi.
+Video prompt: The same person raises a hand slightly, palm turned outward, a calm and deliberate gesture of setting a boundary. The camera settles into a fixed position and does not shift. The light and setting remain unchanged. The gesture is unhurried, without anger.
+
+Prompt 051
+Shot ID: S051
+Timeline: 00:20:09.462 --> 00:20:17.077
+Covered Beats: BEAT_065
+Covered Obligations: OBL_065
+Narration context: Nếu hiểu như vậy, ta sẽ thấy hiếu đạo không phải chuyện cũ. Nó đang diễn ra ngay trong cách ta nhắn tin, cách ta nghe điện thoại, cách ta chăm sóc người già, cách ta đặt ranh giới, cách ta nuôi dạy con, cách ta nói lời xin lỗi.
+Video prompt: An adult crouches down to meet a child's eye level and begins to apologize, voice gentle. The image settles slowly, static and close on the crouch and the quiet exchange. Warm, soft light fills the space. The moment is tender and unresolved, the apology offered without demanding a response.
+
+Prompt 052
+Shot ID: S052
+Timeline: 00:20:17.077 --> 00:20:59.539
+Covered Beats: BEAT_066
+Covered Obligations: OBL_066
+Narration context: Một người mất mẹ khi chưa kịp xin lỗi có thể mang nỗi ân hận rất lâu. Nhưng nỗi ân hận ấy không nhất thiết phải trở thành nhà tù. Nó có thể trở thành lời nhắc. Nếu không còn cơ hội nói trực tiếp với mẹ, người ấy vẫn có thể sống một đời bớt cứng hơn, bớt nóng hơn, bớt vô tâm hơn. Có thể chăm sóc một người già khác bằng sự tử tế. Có thể nói với con mình những lời mà ngày xưa mình chưa kịp nói.
+Video prompt: A person gently helps an elderly stranger, someone who is not their own parent, adjusting a blanket around the older woman's shoulders with quiet warmth. The camera keeps a fixed wide view, unmoving. Soft, muted daylight fills the room. Beneath the tenderness, a trace of old grief lingers in the caregiver's face. No dialogue is shown, and the two remain unnamed.
+
+Prompt 053
+Shot ID: S053
+Timeline: 00:20:59.539 --> 00:21:16.154
+Covered Beats: BEAT_067, BEAT_068
+Covered Obligations: OBL_067, OBL_068
+Narration context: Người đã mất không cần ta chìm mãi trong tự trách. Nếu có một món quà đẹp để dâng lên ký ức của họ, có lẽ đó là một đời sống đang học cách sáng hơn.
+Video prompt: The same gentle care continues, the caregiver's hand still resting near the older woman's shoulder. The camera stays motionless, watching quietly. The muted light is unchanged. The moment simply settles, nothing new introduced.
+
+Prompt 054
+Shot ID: S054
+Timeline: 00:21:16.154 --> 00:21:47.077
+Covered Beats: BEAT_069, BEAT_070
+Covered Obligations: OBL_069, OBL_070
+Narration context: Ở đây, ta cũng cần nói rõ về nghi lễ. Trong truyền thống Phật giáo, tụng kinh, làm phước, hồi hướng, tưởng niệm người mất đều có vị trí của nó. Những thực hành ấy có thể nâng đỡ tâm người sống, nuôi dưỡng lòng thành, nhắc ta sống thiện lành hơn, và được hiểu trong khung niềm tin Phật giáo về công đức và hồi hướng.
+Video prompt: A person sits cross-legged in a plain, softly lit room, palms pressed together, reciting quietly. The camera holds in a static, respectful frame. Warm, low light fills the space evenly. No statue, shrine architecture, or temple exterior is shown — only the modest act of practice itself.
+
+Prompt 055
+Shot ID: S055
+Timeline: 00:21:47.077 --> 00:22:28.154
+Covered Beats: BEAT_071, BEAT_072
+Covered Obligations: OBL_071, OBL_072
+Narration context: Nhưng ta không nên biến nghi lễ thành một cái máy bảo đảm kết quả. Không nên nói rằng chỉ cần làm một việc nào đó thì chắc chắn người mất sẽ được chuyển cảnh giới. Không nên dùng nỗi thương người thân để bán sợ hãi. Càng không nên làm cho ai đó tin rằng nếu họ không đủ tiền làm lễ, không đủ thời gian tụng kinh, hoặc không biết nghi thức, thì họ là người con bất hiếu. Lòng thành không đo bằng sự phô trương.
+Video prompt: The same figure continues reciting in the same still posture, unchanged from before. The camera remains fixed in place, undisturbed. The warm, low light remains constant. Nothing in the frame suggests urgency, fear, or a promise of guaranteed results — the practice stays plain and unadorned.
+
+Prompt 056
+Shot ID: S056
+Timeline: 00:22:28.154 --> 00:22:40.874
+Covered Beats: BEAT_073
+Covered Obligations: OBL_073
+Narration context: Một người nghèo thắp một nén hương với tâm lành, rồi từ hôm ấy sống bớt hận thù hơn, có thể đang thực tập hiếu đạo rất sâu. Một người không có bàn thờ lớn, nhưng biết chăm sóc mẹ còn sống bằng một bữa cơm ấm, một buổi đưa đi khám, một cuộc trò chuyện không gắt gỏng, cũng đang thực tập hiếu đạo. Một người không thể gặp lại cha vì quan hệ quá tổn thương, nhưng quyết tâm không biến vết thương đó thành bạo lực với con mình, cũng đang đi trên một con đường rất khó và rất đáng trân trọng.
+Video prompt: A person of humble, unadorned appearance lights a single stick of incense, nothing elaborate around them. A brief, static close shot catches the small flame. Soft, dim light surrounds the modest gesture. There is no large shrine, no abundance of offerings — only this one quiet act.
+
+Prompt 057
+Shot ID: S057
+Timeline: 00:22:40.874 --> 00:23:17.077
+Covered Beats: BEAT_073
+Covered Obligations: OBL_073
+Narration context: Một người nghèo thắp một nén hương với tâm lành, rồi từ hôm ấy sống bớt hận thù hơn, có thể đang thực tập hiếu đạo rất sâu. Một người không có bàn thờ lớn, nhưng biết chăm sóc mẹ còn sống bằng một bữa cơm ấm, một buổi đưa đi khám, một cuộc trò chuyện không gắt gỏng, cũng đang thực tập hiếu đạo. Một người không thể gặp lại cha vì quan hệ quá tổn thương, nhưng quyết tâm không biến vết thương đó thành bạo lực với con mình, cũng đang đi trên một con đường rất khó và rất đáng trân trọng.
+Video prompt: A different person prepares a warm bowl of food for their elderly mother, setting it gently on the table before her. The shot remains completely still, holding the composition steady. Warm kitchen light fills the space. The care is plain and ordinary, without display. This is a separate person from the one seen lighting incense a moment before.
+
+Prompt 058
+Shot ID: S058
+Timeline: 00:23:17.077 --> 00:23:48.000
+Covered Beats: BEAT_074, BEAT_075
+Covered Obligations: OBL_074, OBL_075
+Narration context: Đừng để ai dùng chữ hiếu để làm bạn thấy mình không còn đường thở. Hiếu đạo có trí tuệ phải đi cùng từ bi. Từ bi với cha mẹ. Từ bi với người đã mất. Từ bi với người đang chăm sóc. Và từ bi với chính mình, một con người cũng có giới hạn, cũng cần được chữa lành, cũng cần học từng chút một.
+Video prompt: The same warm kitchen scene continues, the bowl of food still resting on the table. A quiet, unmoving frame holds on the scene. The light stays warm and even. Nothing new happens in the frame.
+
+Prompt 059
+Shot ID: S059
+Timeline: 00:23:48.000 --> 00:24:12.000
+Covered Beats: BEAT_076
+Covered Obligations: OBL_076
+Narration context: Khi nhìn lại Cung Trời Đao Lợi, ta thấy một hình ảnh rất đẹp. Trên cao là pháp hội. Trong sâu là ký ức về mẹ. Rộng hơn nữa là đại nguyện của Địa Tạng. Từ một mối ân tình rất riêng, cánh cửa mở ra thành lòng thương không biên giới.
+Video prompt: The wide, gold-lit hall returns once more, the same distant assembly and teaching figure held in view. The camera holds static, echoing the earlier framing precisely. The diffuse gold-white light continues unchanged. This is a return to reflect on what has already been shown, not a new setting.
+
+Prompt 060
+Shot ID: S060
+Timeline: 00:24:12.000 --> 00:24:45.692
+Covered Beats: BEAT_077, BEAT_078
+Covered Obligations: OBL_077, OBL_078
+Narration context: Đó là điều làm cho Kinh Địa Tạng không bị kẹt trong sợ hãi. Nếu chỉ nhìn địa ngục, ta dễ sợ. Nếu chỉ nhìn nghiệp báo, ta dễ nặng lòng. Nhưng nếu nhìn từ hiếu đạo và đại bi, ta thấy bản kinh đang hỏi một câu khác: giữa những nơi tối tăm nhất, liệu con người còn có thể khơi dậy lòng biết ơn, trách nhiệm và ánh sáng hay không?
+Video prompt: The same hall continues to hold, unchanged. The camera stays static. The gold-white light remains steady. No new imagery of suffering or torment is introduced — the frame stays exactly as reverent and calm as before.
+
+Prompt 061
+Shot ID: S061
+Timeline: 00:24:45.692 --> 00:25:16.154
+Covered Beats: BEAT_079
+Covered Obligations: OBL_079
+Narration context: Địa Tạng Bồ Tát không nên được nhìn như một vị thần cai quản cõi âm. Ngài là hình ảnh của một hạnh nguyện. Một lời nhắc rằng không có nơi nào quá tối để lòng từ bi không thể đi vào. Và nếu ta muốn học tinh thần ấy trong gia đình mình, có lẽ ta không cần bắt đầu bằng điều gì lớn lao.
+Video prompt: The frame rests briefly on soft, indistinct light, holding still as one section of the film prepares to shift toward a new idea. The camera stays static. No figure or symbol is defined within this brief pause.
+
+Prompt 062
+Shot ID: S062
+Timeline: 00:25:16.154 --> 00:25:21.231
+Covered Beats: BEAT_080
+Covered Obligations: OBL_080
+Narration context: Ta có thể bắt đầu bằng một cuộc gọi không vội.
+Video prompt: A person makes a phone call, posture relaxed and unhurried, taking their time. A static, close frame rests on the easy, patient gesture. Soft, natural light fills the space. Neither caller nor recipient is identified.
+
+Prompt 063
+Shot ID: S063
+Timeline: 00:25:21.231 --> 00:25:24.000
+Covered Beats: BEAT_081
+Covered Obligations: OBL_081
+Narration context: Một bữa cơm không cáu gắt.
+Video prompt: A family sits down to a meal together, unhurried and calm, no tension in the room. The camera holds in a brief static frame. Warm, gentle light fills the table. The mood is simply peaceful.
+
+Prompt 064
+Shot ID: S064
+Timeline: 00:25:24.000 --> 00:25:29.077
+Covered Beats: BEAT_082
+Covered Obligations: OBL_082
+Narration context: Một lời xin lỗi không chờ người kia xin lỗi trước.
+Video prompt: A person turns toward someone nearby and offers an apology first, without waiting to be asked. The shot stays close and still, framing the gesture. Soft, warm light fills the space. The mood is quietly courageous, small but deliberate.
+
+Prompt 065
+Shot ID: S065
+Timeline: 00:25:29.077 --> 00:25:33.231
+Covered Beats: BEAT_083
+Covered Obligations: OBL_083
+Narration context: Một ranh giới được nói bằng giọng bình tĩnh.
+Video prompt: A person speaks calmly, setting a boundary in an even, unraised voice. The camera holds static, close on the composed expression. Soft light fills the frame. There is no anger in the gesture, only quiet resolve.
+
+Prompt 066
+Shot ID: S066
+Timeline: 00:25:33.231 --> 00:25:45.692
+Covered Beats: BEAT_084
+Covered Obligations: OBL_084
+Narration context: Một quyết định đi trị liệu, đi tu học, hoặc tìm sự giúp đỡ, để những gì mình chịu đựng không tiếp tục rơi xuống đời con.
+Video prompt: A person steps into a plain, welcoming room, seeking help — the exact nature of the support is left unspecified. A static frame follows the small act of walking through the doorway. Warm, gentle light fills the space. The mood is one of quiet courage in asking for support.
+
+Prompt 067
+Shot ID: S067
+Timeline: 00:25:45.692 --> 00:25:59.539
+Covered Beats: BEAT_085
+Covered Obligations: OBL_085
+Narration context: Một lần nhìn vào chiếc ghế quen thuộc trong nhà và tự hỏi: nếu một ngày nơi ấy trống đi, điều gì hôm nay mình vẫn còn có thể làm?
+Video prompt: The same wooden chair returns, and a person stands nearby, simply looking at it. The camera holds in a slow, static composition, resting on the quiet act of looking. The familiar warm light of the home fills the frame. Nothing else happens — the moment is entirely contained in the act of noticing the chair.
+
+Prompt 068
+Shot ID: S068
+Timeline: 00:25:59.539 --> 00:26:12.000
+Covered Beats: BEAT_086
+Covered Obligations: OBL_086
+Narration context: Có một điều rất khó trong hiếu đạo là ta thường chỉ nhận ra sự mong manh của cha mẹ khi họ đã yếu đi quá nhiều.
+Video prompt: A still, static shot lingers briefly on soft, unresolved light as one section gives way to the next. The camera stays static. No figure or setting is defined in this short bridging moment.
+
+Prompt 069
+Shot ID: S069
+Timeline: 00:26:12.000 --> 00:26:32.677
+Covered Beats: BEAT_087
+Covered Obligations: OBL_087
+Narration context: Ngày còn trẻ, ta nhìn cha mẹ như những người lúc nào cũng ở đó. Mẹ lúc nào cũng biết bếp còn gì. Cha lúc nào cũng biết sửa một bóng đèn, vá một cánh cửa, đi ra ngoài nắng mưa mà không than. Ta lớn lên trong sự có mặt ấy nên tưởng nó là tự nhiên. Cho đến một ngày, mẹ hỏi đi hỏi lại một câu. Cha không còn nghe rõ. Bàn tay từng rất chắc bỗng run khi cầm chén. Lúc đó, ta mới giật mình thấy người đã từng bồng mình qua bao năm tháng giờ cũng cần được bồng đỡ bằng một giọng nói dịu hơn.
+Video prompt: A father tightens a small screw to fix a light fixture while, unseen just off to the side, his wife moves easily through the kitchen. An observational wide shot stays static, taking in the home. Warm, everyday light fills the space. Both figures move with the easy confidence of people who have always been capable — this is a younger version of them, held in memory. Neither is connected to any other parent figure shown earlier in the film.
+
+Prompt 070
+Shot ID: S070
+Timeline: 00:26:32.677 --> 00:27:03.692
+Covered Beats: BEAT_087
+Covered Obligations: OBL_087
+Narration context: Ngày còn trẻ, ta nhìn cha mẹ như những người lúc nào cũng ở đó. Mẹ lúc nào cũng biết bếp còn gì. Cha lúc nào cũng biết sửa một bóng đèn, vá một cánh cửa, đi ra ngoài nắng mưa mà không than. Ta lớn lên trong sự có mặt ấy nên tưởng nó là tự nhiên. Cho đến một ngày, mẹ hỏi đi hỏi lại một câu. Cha không còn nghe rõ. Bàn tay từng rất chắc bỗng run khi cầm chén. Lúc đó, ta mới giật mình thấy người đã từng bồng mình qua bao năm tháng giờ cũng cần được bồng đỡ bằng một giọng nói dịu hơn.
+Video prompt: The same two figures appear again, visibly older now, hands less steady. One raises a cup to drink, and it trembles slightly before reaching their lips. The camera holds in a slow, static composition, close on the trembling hand. The same warm domestic light continues, though quieter now. No specific illness is named — only the small, unmistakable sign of frailty.
+
+Prompt 071
+Shot ID: S071
+Timeline: 00:27:03.692 --> 00:27:53.539
+Covered Beats: BEAT_088, BEAT_089
+Covered Obligations: OBL_088, OBL_089
+Narration context: Nhưng nếu chỉ đợi đến lúc cha mẹ yếu, đôi khi lòng hiếu đã biến thành một cuộc chạy đua với thời gian. Vì vậy, tập này không muốn làm ta sợ mất cha mẹ. Nó chỉ muốn mời ta tỉnh lại trước khi quá muộn. Tỉnh lại không phải để hoảng hốt. Tỉnh lại để một bữa cơm tối nay bớt lạnh. Tỉnh lại để một cuộc gọi cuối tuần không còn là nghĩa vụ. Tỉnh lại để khi cha mẹ kể một câu chuyện cũ lần thứ mười, ta có thể nghe bằng lòng nhẫn nại, thay vì cắt ngang vì nghĩ mình đã biết rồi.
+Video prompt: A family shares a warm meal together at home, without irritation or hurried words. The wide shot stays slow and static, settled on the table. Warm kitchen light fills the room evenly. The mood is gentle and unhurried, deliberately calm rather than anxious. No clock or countdown imagery is placed in the frame.
+
+Prompt 072
+Shot ID: S072
+Timeline: 00:27:53.539 --> 00:28:40.154
+Covered Beats: BEAT_090, BEAT_091
+Covered Obligations: OBL_090, OBL_091
+Narration context: Đối với nhiều người, hiếu đạo bắt đầu bằng sự có mặt. Không phải lúc nào cũng là có mặt bằng thân. Có người ở xa quê. Có người phải làm việc nhiều giờ. Có người sống ở nước ngoài. Có người không đủ điều kiện về thăm thường xuyên. Nhưng có mặt còn là cách ta đặt tâm vào một cuộc trò chuyện. Khi gọi về, ta có thật sự nghe không. Khi gửi tiền, ta có nhớ hỏi mẹ đang cần gì không. Khi đưa cha đi khám, ta có để cha cảm thấy mình là gánh nặng không.
+Video prompt: A person far from home speaks on the phone, listening closely, fully attentive to the voice on the other end. The camera holds in a static, close composition on the act of listening. Soft, warm light fills the space. No specific country or location is identified around them.
+
+Prompt 073
+Shot ID: S073
+Timeline: 00:28:40.154 --> 00:29:21.231
+Covered Beats: BEAT_092, BEAT_093
+Covered Obligations: OBL_092, OBL_093
+Narration context: Trong thời đại này, có nhiều người con tưởng mình đang báo hiếu vì không để cha mẹ thiếu tiền. Nhưng cha mẹ đôi khi không thiếu tiền bằng thiếu cảm giác được nhìn thấy. Người già có thể cần thuốc, nhưng họ cũng cần được nói chuyện mà không sợ làm phiền. Họ cần được hỏi ý kiến trong những việc nhỏ. Họ cần biết rằng mình không chỉ là một trách nhiệm tài chính trong điện thoại của con. Và người con cũng cần được nhìn thấy.
+Video prompt: An elderly couple sits at home surrounded by neatly arranged medicine and gifts, everything materially provided for, yet their expressions carry a quiet emptiness. The shot settles slowly, static, letting the contrast between abundance and isolation sit. Even, muted light fills the room. Nothing dramatic occurs — only the quiet gap between having enough and being truly seen.
+
+Prompt 074
+Shot ID: S074
+Timeline: 00:29:21.231 --> 00:29:36.369
+Covered Beats: BEAT_094
+Covered Obligations: OBL_094
+Narration context: Có một người chăm sóc mẹ bị bệnh nhiều năm. Ban ngày đi làm. Chiều về nấu ăn. Tối thay thuốc. Đêm nghe tiếng mẹ trở mình là thức dậy. Người ngoài nhìn vào nói: con hiếu quá. Nhưng không ai thấy người ấy nhiều lần ngồi trong nhà tắm, bật nước thật nhỏ để khóc mà không ai nghe. Không ai thấy cảm giác tội lỗi khi trong đầu thoáng qua một ý nghĩ: mình mệt quá, mình muốn được nghỉ.
+Video prompt: A caregiver changes a bandage or medicine for their mother with practiced, tired hands, evening light through the window marking the hour. A still, observational frame takes in the scene. Warm but weary domestic light fills the room. Fatigue and a quiet trace of guilt sit beneath the careful gesture. No specific illness is named, and no other tasks from the day are shown in this frame.
+
+Prompt 075
+Shot ID: S075
+Timeline: 00:29:36.369 --> 00:29:59.077
+Covered Beats: BEAT_094
+Covered Obligations: OBL_094
+Narration context: Có một người chăm sóc mẹ bị bệnh nhiều năm. Ban ngày đi làm. Chiều về nấu ăn. Tối thay thuốc. Đêm nghe tiếng mẹ trở mình là thức dậy. Người ngoài nhìn vào nói: con hiếu quá. Nhưng không ai thấy người ấy nhiều lần ngồi trong nhà tắm, bật nước thật nhỏ để khóc mà không ai nghe. Không ai thấy cảm giác tội lỗi khi trong đầu thoáng qua một ý nghĩ: mình mệt quá, mình muốn được nghỉ.
+Video prompt: The same caregiver stands alone in the bathroom, crying quietly, turning the tap to a bare trickle so the sound will not carry. The camera holds in a slow, static composition, respectful of the private moment. Dim, private bathroom light replaces the domestic warmth of the earlier room. No one else is shown in the frame at this same moment — the praise from outside belongs to a different time.
+
+Prompt 076
+Shot ID: S076
+Timeline: 00:29:59.077 --> 00:30:36.462
+Covered Beats: BEAT_095, BEAT_096
+Covered Obligations: OBL_095, OBL_096
+Narration context: Nếu ta giảng hiếu đạo mà không nhìn thấy người chăm sóc, bài giảng ấy chưa đủ từ bi. Một lòng hiếu trưởng thành phải biết hỏi: làm sao để chăm sóc mà không tự hủy hoại. Làm sao để thương mà không tích tụ oán hận. Làm sao để nhờ anh chị em cùng chia sẻ. Làm sao để tìm sự hỗ trợ y tế, tinh thần, cộng đồng, thay vì một mình gánh rồi gọi đó là đạo đức.
+Video prompt: The bathroom scene holds, the caregiver now still, breath slowing after the tears. The frame stays fixed, giving the moment room to settle. The dim, private light continues. Nothing new enters the frame; the stillness itself is the point.
+
+Prompt 077
+Shot ID: S077
+Timeline: 00:30:36.462 --> 00:31:12.462
+Covered Beats: BEAT_097, BEAT_098
+Covered Obligations: OBL_097, OBL_098
+Narration context: Đạo Phật nói nhiều về trung đạo. Trong đời sống gia đình, trung đạo có thể rất cụ thể. Không bỏ mặc cha mẹ. Nhưng cũng không biến mình thành người kiệt sức đến mức mất hết lòng dịu dàng. Không dùng lý do bận rộn để trốn tránh. Nhưng cũng không dùng chữ hiếu để xóa sạch mọi giới hạn của thân tâm. Còn với những gia đình có tổn thương, trung đạo càng cần trí tuệ.
+Video prompt: The frame rests on soft, undefined light, holding briefly between two ideas. The camera stays static. No figure or setting is introduced in this short pause.
+
+Prompt 078
+Shot ID: S078
+Timeline: 00:31:12.462 --> 00:31:48.923
+Covered Beats: BEAT_099
+Covered Obligations: OBL_099
+Narration context: Có người thật sự muốn hiếu kính, nhưng mỗi lần trở về nhà là bị nhục mạ, bị kiểm soát, bị kéo lại vào một vùng đau cũ. Có người chỉ cần nghe tiếng chuông điện thoại của cha mẹ là toàn thân căng cứng. Có người đã cố tha thứ nhiều lần, nhưng sự tổn hại vẫn tiếp tục. Với những người ấy, lời khuyên “hãy về đi, cha mẹ mà” có thể trở thành một nhát dao.
+Video prompt: A person stiffens and glances away as a phone begins to ring nearby, their body drawing inward. The camera holds in a static, close composition on the tension. Even, cool light fills the room. No specific words are shown, and no other figure appears to speak the phrase running through their mind.
+
+Prompt 079
+Shot ID: S079
+Timeline: 00:31:48.923 --> 00:32:32.769
+Covered Beats: BEAT_100, BEAT_101
+Covered Obligations: OBL_100, OBL_101
+Narration context: Hiếu đạo không nên là con đường đưa một người trở lại nguy hiểm. Nếu một mối quan hệ chưa đủ an toàn, thực tập có thể bắt đầu bằng việc không nuôi thù hận trong lòng, nhưng vẫn giữ khoảng cách. Có thể bắt đầu bằng một lời cầu nguyện thầm, nhưng không mở cửa cho bạo lực. Có thể bắt đầu bằng việc nhìn nhận rằng cha mẹ cũng là con người với vô minh và khổ đau của họ, nhưng điều đó không làm cho hành vi gây hại trở thành đúng.
+Video prompt: Two figures stand at a careful distance from one another, one with hands folded in a quiet, private gesture, as if praying silently. A slow, static composition takes in the space between them, wide and unhurried. Muted, even light fills the room. No specific identity or history is assigned to either figure — only the distance and the quiet stillness.
+
+Prompt 080
+Shot ID: S080
+Timeline: 00:32:32.769 --> 00:33:00.462
+Covered Beats: BEAT_102, BEAT_103
+Covered Obligations: OBL_102, OBL_103
+Narration context: Đây là điểm rất quan trọng. Thấy được nỗi khổ của người gây tổn thương không có nghĩa là cho phép họ tiếp tục gây tổn thương. Từ bi không phải là mở cửa cho bạo lực. Trí tuệ không phải là chịu đựng đến cạn kiệt. Và hiếu đạo không phải là sự im lặng của người bị thương.
+Video prompt: The same two figures remain exactly as they were, the distance between them unchanged. The camera keeps its position steady, without any movement. The light stays muted and even. Nothing new happens in the frame.
+
+Prompt 081
+Shot ID: S081
+Timeline: 00:33:00.462 --> 00:33:48.462
+Covered Beats: BEAT_104, BEAT_105
+Covered Obligations: OBL_104, OBL_105
+Narration context: Khi nói đến báo hiếu, ta cũng thường quên một chiều khác: cha mẹ cũng có thể báo hiếu với con bằng cách sống tỉnh thức hơn. Nghe có vẻ lạ. Nhưng nếu hiếu là nhớ ân và không phụ lòng nhau, thì cha mẹ cũng có trách nhiệm không nhân danh tình thương để làm con tổn thương. Một người cha biết xin lỗi con không mất đi uy nghiêm. Một người mẹ biết lắng nghe con không mất đi vai trò làm mẹ. Trái lại, sự khiêm cung ấy có thể trở thành bài học đạo đức rất lớn trong gia đình.
+Video prompt: A father lowers his head and speaks an apology to his grown child, the gesture plain and unguarded. The camera holds in a slow, static composition, close on the father's bowed head. Warm, soft light fills the room. The moment carries quiet humility rather than performance.
+
+Prompt 082
+Shot ID: S082
+Timeline: 00:33:48.462 --> 00:34:06.923
+Covered Beats: BEAT_106
+Covered Obligations: OBL_106
+Narration context: Có những đứa trẻ cả đời chỉ chờ một câu: mẹ hiểu là ngày xưa mẹ đã làm con đau. Cha hiểu là cha đã quá nóng. Không phải để kết tội. Mà để vết thương được gọi đúng tên.
+Video prompt: The father remains in the same bowed posture, the room settling into a long, unbroken silence. The shot holds fixed, calm and unhurried. The warm light continues unchanged. Nothing is added to explain or resolve the silence — it simply continues.
+
+Prompt 083
+Shot ID: S083
+Timeline: 00:34:06.923 --> 00:34:41.077
+Covered Beats: BEAT_107
+Covered Obligations: OBL_107
+Narration context: Nếu một người cha, một người mẹ đang nghe những dòng này, có lẽ bài học hiếu đạo cũng đang hỏi mình: ta đang để lại điều gì trong lòng con. Không phải chỉ là tiền bạc, nhà cửa, bằng cấp, mà là một cách yêu thương. Một cách nói năng. Một cách đối diện lỗi lầm. Một cách xin lỗi. Một cách dừng lại trước khi cơn giận biến thành nghiệp truyền đời.
+Video prompt: A parent's hand stops in mid-air, caught just before a sharp, angry gesture. They draw a slow breath, and the hand lowers. Close and unmoving, the shot frames the hand and the breath. Even, quiet light fills the frame. The moment is entirely about restraint, not about what almost happened.
+
+Prompt 084
+Shot ID: S084
+Timeline: 00:34:41.077 --> 00:35:18.000
+Covered Beats: BEAT_108, BEAT_109
+Covered Obligations: OBL_108, OBL_109
+Narration context: Như vậy, hiếu đạo không chỉ đi từ con lên cha mẹ. Nó là một dòng trách nhiệm hai chiều trong gia đình. Người con học biết ơn. Người cha người mẹ học khiêm cung. Người già học buông bớt kiểm soát. Người trẻ học bớt vô tâm. Mỗi người bớt một chút cố chấp, thì căn nhà bớt một chút địa ngục. Và có lẽ đây là chỗ Kinh Địa Tạng chạm vào đời sống hiện đại rất sâu.
+Video prompt: Inside an ordinary home, several family members sit apart in their own corners of the room, none of them looking at one another. The camera holds in a slow, static wide shot of the house, taking in the distance between each person. Flat, cool interior light fills the space, giving no warmth. The mood is heavy with quiet estrangement — an ordinary house grown cold, not any otherworldly place. No fire, no demonic imagery, no punishment of any kind appears in the frame.
+
+Prompt 085
+Shot ID: S085
+Timeline: 00:35:18.000 --> 00:35:37.846
+Covered Beats: BEAT_110
+Covered Obligations: OBL_110
+Narration context: Địa ngục không chỉ là hình ảnh đáng sợ trong kinh. Ở tầng quán chiếu, địa ngục cũng có thể là một căn nhà nơi không ai chịu nghe ai. Là bàn ăn mà mỗi người cầm một nỗi giận. Là căn phòng có người mẹ già nằm đó nhưng các con tranh nhau phần thiệt hơn. Là một đứa trẻ học được rằng tình thương luôn đi kèm điều kiện. Là một người lớn không biết ôm con vì ngày xưa chưa từng được ôm.
+Video prompt: A family sits around the dinner table in tense silence, each person visibly holding some private anger, no one speaking. The shot stays observational and static, framed across the table. The same flat, cool light continues. Nothing supernatural is present — this is simply a strained, ordinary meal.
+
+Prompt 086
+Shot ID: S086
+Timeline: 00:35:37.846 --> 00:35:44.991
+Covered Beats: BEAT_110
+Covered Obligations: OBL_110
+Narration context: Địa ngục không chỉ là hình ảnh đáng sợ trong kinh. Ở tầng quán chiếu, địa ngục cũng có thể là một căn nhà nơi không ai chịu nghe ai. Là bàn ăn mà mỗi người cầm một nỗi giận. Là căn phòng có người mẹ già nằm đó nhưng các con tranh nhau phần thiệt hơn. Là một đứa trẻ học được rằng tình thương luôn đi kèm điều kiện. Là một người lớn không biết ôm con vì ngày xưa chưa từng được ôm.
+Video prompt: In a nearby room, an elderly mother lies still and quiet while, in the corner, two of her adult children argue in low, bitter voices over something unseen. The camera holds in a static wide shot, keeping the mother and the arguing pair within the same frame. The cool, flat light continues. The tension is entirely domestic and human, with no ritual or symbolic punishment implied.
+
+Prompt 087
+Shot ID: S087
+Timeline: 00:35:44.991 --> 00:35:57.692
+Covered Beats: BEAT_110
+Covered Obligations: OBL_110
+Narration context: Địa ngục không chỉ là hình ảnh đáng sợ trong kinh. Ở tầng quán chiếu, địa ngục cũng có thể là một căn nhà nơi không ai chịu nghe ai. Là bàn ăn mà mỗi người cầm một nỗi giận. Là căn phòng có người mẹ già nằm đó nhưng các con tranh nhau phần thiệt hơn. Là một đứa trẻ học được rằng tình thương luôn đi kèm điều kiện. Là một người lớn không biết ôm con vì ngày xưa chưa từng được ôm.
+Video prompt: An adult stands rigid and still while a child waits nearby, arms slightly open as if hoping for an embrace that does not come. The composition stays close and unmoving, centered on the unclosed distance between them. The same cool light continues. Nothing violent or supernatural occurs — only the quiet failure to reach out.
+
+Prompt 088
+Shot ID: S088
+Timeline: 00:35:57.692 --> 00:36:10.154
+Covered Beats: BEAT_111
+Covered Obligations: OBL_111
+Narration context: Nếu địa ngục có thể bắt đầu từ một tâm đầy sân hận, thì một cõi lành cũng có thể bắt đầu từ một tâm biết dừng.
+Video prompt: The camera holds a fixed position, resting on soft, undefined light, pausing between one idea and its opposite. The camera stays static. No fire, darkness-as-punishment, or symbolic afterlife imagery is shown — only a plain visual pause.
+
+Prompt 089
+Shot ID: S089
+Timeline: 00:36:10.154 --> 00:36:35.539
+Covered Beats: BEAT_112
+Covered Obligations: OBL_112
+Narration context: Dừng lại trước một lời cay độc. Dừng lại trước một cái tát. Dừng lại trước thói quen so sánh con mình với con người ta. Dừng lại trước việc lấy công lao sinh thành để buộc người khác sống theo ý mình. Dừng lại trước sự vô tâm được ngụy trang bằng chữ bận.
+Video prompt: A hand freezes in midair, caught in the instant just before a harsh word or gesture would land, and then eases back. A static, close composition frames this single moment of restraint. Soft, even light fills the frame. The harsh act itself is never shown — only the choice to stop before it happens.
+
+Prompt 090
+Shot ID: S090
+Timeline: 00:36:35.539 --> 00:36:48.000
+Covered Beats: BEAT_113
+Covered Obligations: OBL_113
+Narration context: Mỗi lần dừng như vậy, ta không chỉ cứu một khoảnh khắc. Ta đang cứu một dòng truyền thừa của khổ đau khỏi việc đi xa hơn.
+Video prompt: The same hand remains lowered, the stillness continuing unbroken. The camera stays locked in place, patient and still. The light stays even and soft. Nothing new occurs in the frame; the restraint simply continues to hold.
+
+Prompt 091
+Shot ID: S091
+Timeline: 00:36:48.000 --> 00:37:05.077
+Covered Beats: BEAT_114, BEAT_115, BEAT_116
+Covered Obligations: OBL_114, OBL_115, OBL_116
+Narration context: Không phải ai cũng còn cha mẹ để gọi về. Không phải ai cũng có một gia đình đủ an toàn để quay lại. Không phải ai cũng có một ký ức êm đềm để nương tựa.
+Video prompt: A plain, undecorated space sits empty and quiet, without any chair, door, telephone, or other familiar object from earlier in the film. The camera settles into a fixed, wide position. Soft, neutral light fills the space evenly. The mood is contemplative and a little heavy, inviting quiet reflection rather than pointing to any one image.
+
+Prompt 092
+Shot ID: S092
+Timeline: 00:37:05.077 --> 00:37:20.737
+Covered Beats: BEAT_117
+Covered Obligations: OBL_117
+Narration context: Vì vậy, xin đừng nghe tập này như một lời trách. Hãy nghe như một ngọn đèn nhỏ. Nếu cha mẹ còn sống và mối quan hệ còn có thể chăm sóc, hãy chăm sóc bằng sự có mặt thật hơn. Nếu cha mẹ đã mất, hãy biến nỗi nhớ thành một đời sống tử tế hơn. Nếu gia đình từng làm bạn đau, hãy giữ cho mình được an toàn, nhưng đừng để vết thương ấy biến bạn thành người tiếp tục làm đau kẻ khác.
+Video prompt: A person leans in close to an elderly parent, offering a warm, attentive gesture of care, fully present in the moment. The camera holds in a slow, static composition on the closeness between them. Warm, gentle light fills the space. The mood is tender, marked by quiet, genuine presence.
+
+Prompt 093
+Shot ID: S093
+Timeline: 00:37:20.737 --> 00:37:45.231
+Covered Beats: BEAT_117
+Covered Obligations: OBL_117
+Narration context: Vì vậy, xin đừng nghe tập này như một lời trách. Hãy nghe như một ngọn đèn nhỏ. Nếu cha mẹ còn sống và mối quan hệ còn có thể chăm sóc, hãy chăm sóc bằng sự có mặt thật hơn. Nếu cha mẹ đã mất, hãy biến nỗi nhớ thành một đời sống tử tế hơn. Nếu gia đình từng làm bạn đau, hãy giữ cho mình được an toàn, nhưng đừng để vết thương ấy biến bạn thành người tiếp tục làm đau kẻ khác.
+Video prompt: A person stands calmly at a careful distance, expression settled and free of resentment. The shot stays still and composed, undisturbed by movement. Soft, even light fills the space. There is no anger in the stillness, only a steady, self-protective calm.
+
+Prompt 094
+Shot ID: S094
+Timeline: 00:37:45.231 --> 00:38:04.616
+Covered Beats: BEAT_118, BEAT_119, BEAT_120
+Covered Obligations: OBL_118, OBL_119, OBL_120
+Narration context: Có những món nợ ân tình không thể trả bằng tiền. Có những mất mát không thể sửa bằng một lễ lớn. Có những lời xin lỗi đến muộn, nhưng vẫn có thể trở thành hạt giống cho một cách sống khác.
+Video prompt: A single seed rests still in the center of the frame, held in an open palm or resting on a plain surface. The camera holds in a static, close composition on the seed alone. Soft, muted light falls gently across it. No soil, no planting hands, and no sprouting plant are shown — only the seed itself, quiet with possibility.
+
+Prompt 095
+Shot ID: S095
+Timeline: 00:38:04.616 --> 00:38:18.203
+Covered Beats: BEAT_121
+Covered Obligations: OBL_121
+Narration context: Và có những chiếc ghế trống không còn là lời buộc tội, nếu ta biết ngồi xuống trước nó bằng sự thành thật. Ta có thể thắp một ngọn đèn. Ta có thể chắp tay. Ta có thể nói trong lòng: con không hoàn hảo, cha mẹ cũng không hoàn hảo, nhưng từ hôm nay, con xin học cách sống bớt gây khổ hơn.
+Video prompt: A person sits down before the same familiar wooden chair and lights a small lamp beside it. Static and unhurried, the shot settles close on the small flame catching. Warm, gentle light spreads from the lamp across the room. The mood is quiet and resolved, neither performative nor elaborate. No incense or altar is added to the scene.
+
+Prompt 096
+Shot ID: S096
+Timeline: 00:38:18.203 --> 00:38:34.154
+Covered Beats: BEAT_121
+Covered Obligations: OBL_121
+Narration context: Và có những chiếc ghế trống không còn là lời buộc tội, nếu ta biết ngồi xuống trước nó bằng sự thành thật. Ta có thể thắp một ngọn đèn. Ta có thể chắp tay. Ta có thể nói trong lòng: con không hoàn hảo, cha mẹ cũng không hoàn hảo, nhưng từ hôm nay, con xin học cách sống bớt gây khổ hơn.
+Video prompt: The same person presses their palms together in a simple, quiet gesture before the chair and the lit lamp. The camera holds static, close on the joined hands. The same warm lamp light continues. The moment is private and unhurried, without any spoken words shown as text on screen.
+
+Prompt 097
+Shot ID: S097
+Timeline: 00:38:34.154 --> 00:38:53.077
+Covered Beats: BEAT_122, BEAT_123
+Covered Obligations: OBL_122, OBL_123
+Narration context: Nếu cha mẹ còn ở đây, điều gì bạn vẫn đang chờ một ngày thích hợp mới nói? Và nếu họ đã đi xa, bạn có thể biến nỗi nhớ ấy thành một đời sống tử tế hơn như thế nào?
+Video prompt: The same quiet scene continues to hold, the person still before the chair and the lamp, the room settled into silence. A single, unmoving frame holds through the moment. The warm lamp light remains unchanged. Nothing new happens; the stillness simply continues.
+
+Prompt 098
+Shot ID: S098
+Timeline: 00:38:53.077 --> 00:39:23.539
+Covered Beats: BEAT_124
+Covered Obligations: OBL_124
+Narration context: Ở tập tiếp theo, chúng ta sẽ tiếp tục đi sâu hơn vào câu hỏi ấy: người sống thật sự có thể làm gì cho người đã mất, và vì sao trong Kinh Địa Tạng, hồi hướng không phải là một giao dịch với thế giới vô hình, mà là một cách chuyển hóa tâm người sống trong ánh sáng của nhân quả và từ bi.
+Video prompt: The frame fades slowly toward darkness, the warm light dimming gradually rather than cutting away. The shot remains still through the fade. No new setting or figure is introduced — this is only a slow visual close, without hinting at what comes next.
+
+Prompt 099
+Shot ID: S099
+Timeline: 00:39:23.539 --> 00:39:43.385
+Covered Beats: BEAT_125
+Covered Obligations: OBL_125
+Narration context: Nếu hôm nay trong lòng bạn có hiện lên một gương mặt, một chiếc ghế, một bàn tay, hay một câu chưa kịp nói, hãy giữ nó thật nhẹ. Đừng biến nó thành tội lỗi. Hãy để nó trở thành một lời nhắc.
+Video prompt: The same wooden chair reappears once more, softly lit, beginning to fade gently from view. The camera holds in a slow, static composition as the image dims. The warm light grows fainter. This return to the chair is one of several possible closing images, not the only one implied.
+
+Prompt 100
+Shot ID: S100
+Timeline: 00:39:43.385 --> 00:40:10.154
+Covered Beats: BEAT_126, BEAT_127, BEAT_128
+Covered Obligations: OBL_126, OBL_127, OBL_128
+Narration context: Một lời nhắc rằng tình thương cần được nói khi còn có thể. Một lời nhắc rằng biết ơn cần đi cùng trí tuệ. Và một lời nhắc rằng hiếu đạo sâu nhất không phải là sống trong mặc cảm, mà là sống sao cho từ mình, bớt đi một chút khổ đau truyền tiếp vào thế gian.
+Video prompt: The chair continues to fade until the frame settles into soft darkness. The shot remains still through the final dissolve. The warm light diminishes gradually to black. No new image is introduced in this closing moment — only the same chair, quietly fading, exactly as it was first seen.
+

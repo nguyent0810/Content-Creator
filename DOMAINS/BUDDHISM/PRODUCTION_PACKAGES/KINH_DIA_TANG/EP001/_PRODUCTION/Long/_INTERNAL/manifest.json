@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_BUD_KDT_EP001",
+  "episode_id": "EP_BUD_KDT_001",
+  "domain_id": "BUD",
+  "series_id": "SB_BUD_001",
+  "title": "Địa Tạng Bồ Tát Là Ai? Giải Mã Danh Hiệu, Biểu Tượng Và Đại Nguyện Bị Hiểu Lầm Nhiều Nhất Trong Kinh Điển",
+  "language": "vi",
+  "version": "0.1.0",
+  "content_status": "READY_FOR_TTS_HANDOFF",
+  "canonical_master": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+  "tts_output": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+  "word_count": 4249,
+  "qa_status": "PASS_WITH_ADVISORIES",
+  "master_to_tts_coverage_percentage": 100,
+  "normalization_count": 0,
+  "external_processes": {
+    "voice_render": "OUT_OF_SCOPE",
+    "video_render": "OUT_OF_SCOPE",
+    "publish": "OUT_OF_SCOPE"
+  },
+  "dependencies": [
+    {
+      "asset_id": "BUD_GUIDE",
+      "path": "DOMAINS/BUDDHISM/BUDDHIST_GUIDE.md",
+      "scope": "shared_domain_dependency"
+    },
+    {
+      "asset_id": "KP_BUD_001",
+      "path": "DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "knowledge_dependency"
+    },
+    {
+      "asset_id": "CK_BUD_001",
+      "path": "DOMAINS/BUDDHISM/CREATIVE_KNOWLEDGE/CK_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "creative_dependency"
+    },
+    {
+      "asset_id": "SB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/SERIES_BIBLES/SB_BUD_001_Kinh_Dia_Tang.md",
+      "scope": "series_dependency"
+    },
+    {
+      "asset_id": "CB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md",
+      "scope": "character_dependency"
+    }
+  ],
+  "active_internal_assets": [
+    "_INTERNAL/01_RESEARCH_BRIEF.md",
+    "_INTERNAL/02_EPISODE_PLANNER.md",
+    "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+    "_INTERNAL/06_QA_REPORT.md"
+  ],
+  "archived_assets": [],
+  "updated_at": "2026-07-16T12:30:00+07:00"
+}

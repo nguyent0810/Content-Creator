@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Subtitle Segment Set",
+  "type": "object",
+  "required": ["schema_version", "package_id", "episode_id", "source_asset_id", "timing_status", "segments"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "package_id": {"type": "string"},
+    "episode_id": {"type": "string"},
+    "source_asset_id": {"type": "string"},
+    "timing_status": {"enum": ["AWAITING_AUDIO_ALIGNMENT", "ESTIMATED_TIMING", "ALIGNED", "BLOCKED"]},
+    "segments": {"type": "array", "items": {"$ref": "#/$defs/segment"}}
+  },
+  "$defs": {
+    "segment": {
+      "type": "object",
+      "required": ["segment_id", "source_paragraph_id", "text", "line_break_hint", "target_max_characters_per_line", "hard_max_characters_per_line", "max_lines", "timing_status", "start_ms", "end_ms"],
+      "properties": {
+        "segment_id": {"type": "string"},
+        "source_paragraph_id": {"type": "string"},
+        "text": {"type": "string"},
+        "line_break_hint": {"type": "array", "items": {"type": "string"}},
+        "target_max_characters_per_line": {"type": "integer"},
+        "hard_max_characters_per_line": {"type": "integer"},
+        "max_lines": {"type": "integer"},
+        "timing_status": {"enum": ["AWAITING_AUDIO_ALIGNMENT", "ESTIMATED_TIMING", "ALIGNED", "BLOCKED"]},
+        "start_ms": {"type": ["integer", "null"]},
+        "end_ms": {"type": ["integer", "null"]}
+      }
+    }
+  }
+}

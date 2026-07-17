@@ -1,0 +1,37 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_BUD_KDT_EP005_SHORT_21",
+  "episode_id": "EP_BUD_KDT_005_SHORT_21",
+  "domain_id": "BUD",
+  "series_id": "SB_BUD_001",
+  "title": "Có người dưng từng giúp bạn đúng một lần trên đường, rồi không bao giờ gặp lại nữa.",
+  "language": "vi",
+  "version": "0.1.0",
+  "content_status": "READY_FOR_TTS_HANDOFF",
+  "content_format": "SHORT",
+  "short_mode": "Modern Application",
+  "derived_from_episode": "PKG_BUD_KDT_EP005",
+  "canonical_master": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+  "tts_output": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+  "word_count": 104,
+  "qa_status": "PASS_WITH_ADVISORIES",
+  "master_to_tts_coverage_percentage": 100.0,
+  "normalization_count": 0,
+  "external_processes": {
+    "voice_render": "OUT_OF_SCOPE",
+    "video_render": "OUT_OF_SCOPE",
+    "publish": "OUT_OF_SCOPE"
+  },
+  "dependencies": [
+    {
+      "asset_id": "CB_BUD_001",
+      "path": "DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md",
+      "scope": "character_dependency"
+    }
+  ],
+  "active_internal_assets": [
+    "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md"
+  ],
+  "archived_assets": [],
+  "updated_at": "2026-07-16T14:30:00+07:00"
+}
