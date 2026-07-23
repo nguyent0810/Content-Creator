@@ -100,7 +100,7 @@ While verifying the above, found that `CK_CL_001`'s own "Ghi chú biên tập qu
 
 ## (d) Anything unfixable requiring human judgment
 
-1. **James E. Doxtator's age (Ep11 / `KP_CL_004`) — needs urgent human fact-check, outside this review's mandate to fix.** `KP_CL_004` and the Season Plan both list "James E. Doxtator (Milwaukee, 16/1/1988)" among Dahmer's *adult, nameable* victims, with no minor flag. Public reporting on this case widely documents Doxtator as approximately 14 years old at time of death (Wikipedia-tier at minimum, but a widely repeated figure). If that age is correct, this is a §6 exception-free violation sitting inside `KP_CL_004` (which then propagates into the Season Plan, which sources its named-victim list directly from that KP). This reviewer did not independently re-verify the primary sourcing per this domain's task split (other reviewers are checking KP-level sourcing in parallel), and `KP_CL_004` is not one of the two documents this task authorized fixing. **Recommend an immediate, priority fact-check of Doxtator's age against tier 1-2 sources before `KP_CL_004` or any script naming him proceeds to production; if confirmed a minor, both `KP_CL_004` and this Season Plan's Ep11 Field 5 need the same name-removal transform applied here for the 14-year-old survivor.**
+1. **RESOLVED 2026-07-23 — James E. Doxtator's age, fact-checked via real WebSearch (not memory):** confirmed born 1/3/1973, died 16/1/1988 → **14 years old** at time of death, a minor. `KP_CL_004`'s own QA pass (`_QA_REPORT_KP_CL_004.md`) independently found and fixed this same issue inside that packet. The Season Plan's Ep11 Field 5 (the one place this reviewer's task did not originally have authorization/confirmation to fix) has now been corrected to remove Doxtator's name and flag him as the case's second, separate minor victim (distinct from the 27/5/1991 survivor). No remaining trace of his name exists anywhere in `SEASON_01_PRODUCTION_PLAN.md` as of this update.
 2. **Ep8 (Bundy) "§5-tương-đương" labeling** — a stylistic/precision question about which section a secondary risk should cite; flagged as advisory above, left for a human editorial pass rather than fixed unilaterally since it is not blocking and multiple valid rewordings exist.
 3. **KP_CL_002 vs. KP_CL_005 "bị can" vs. "bị cáo" terminology** for the Năm Cam defendants — a cross-KP terminology question for whoever owns `GLOSSARY/DOMAIN_GLOSSARY.md` alignment; not an SB/Season Plan issue and not fixed here.
 
@@ -113,6 +113,6 @@ While verifying the above, found that `CK_CL_001`'s own "Ghi chú biên tập qu
 | Ep11 minor-victim naming (Season Plan) | CL-QA-005 | Blocking | **Fixed** |
 | SB_CL_001 minor-victim naming (Advanced viewer line) | CL-QA-005 | Blocking | **Fixed** |
 | CK_CL_001 editorial note naming two minors | CL-QA-005 | Blocking | **Fixed** |
-| Doxtator age/minor-status question | CL-QA-005 (contingent) | Potentially blocking, unverified | **Flagged for human fact-check** |
+| Doxtator age/minor-status question | CL-QA-005 | Blocking | **Fixed (fact-checked 2026-07-23, confirmed age 14, name removed)** |
 | Ep8 "§5-tương-đương" phrasing | CL-QA-011-adjacent | Advisory | Flagged, not fixed |
 | KP_CL_002/005 "bị can"/"bị cáo" drift | CL-QA-011 | Advisory | Flagged, not fixed |

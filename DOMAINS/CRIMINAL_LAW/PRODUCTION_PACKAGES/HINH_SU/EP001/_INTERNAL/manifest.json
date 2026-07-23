@@ -1,0 +1,58 @@
+{
+  "schema_version": "2.0",
+  "package_id": "PKG_CL_HS_EP001",
+  "episode_id": "EP001",
+  "domain_id": "CL",
+  "series_id": "SB_CL_001",
+  "title": "Ranh Giới Cốt Lõi Của Kênh: Vì Sao Chúng Tôi Không Gọi Ai Là Hung Thủ Trước Khi Tòa Tuyên Án",
+  "language": "vi",
+  "version": "0.1.1",
+  "content_status": "READY_FOR_TTS_HANDOFF",
+  "canonical_master": "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+  "tts_output": "OUTPUT/03_AUDIO_SCRIPT_TTS.txt",
+  "word_count": 5894,
+  "qa_status": "PASS",
+  "master_to_tts_coverage_percentage": 100,
+  "normalization_count": 0,
+  "external_processes": {
+    "voice_render": "OUT_OF_SCOPE",
+    "video_render": "OUT_OF_SCOPE",
+    "publish": "OUT_OF_SCOPE"
+  },
+  "dependencies": [
+    {
+      "asset_id": "ARCH_DOMAINS_CRIMINAL_LAW_DOMAIN_GUIDE_MD",
+      "path": "DOMAINS/CRIMINAL_LAW/DOMAIN_GUIDE.md",
+      "scope": "shared_domain_dependency"
+    },
+    {
+      "asset_id": "KP_CL_001",
+      "path": "DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_001_Luat_Hinh_Su.md",
+      "scope": "knowledge_dependency"
+    },
+    {
+      "asset_id": "KP_CL_002",
+      "path": "DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_002_An_Da_Xu.md",
+      "scope": "knowledge_dependency"
+    },
+    {
+      "asset_id": "SB_CL_001",
+      "path": "DOMAINS/CRIMINAL_LAW/SERIES_BIBLES/SB_CL_001_Hinh_Su.md",
+      "scope": "series_dependency"
+    },
+    {
+      "asset_id": "CK_CL_001",
+      "path": "DOMAINS/CRIMINAL_LAW/CREATIVE_KNOWLEDGE/CK_CL_001_Hinh_Su.md",
+      "scope": "creative_dependency"
+    }
+  ],
+  "active_internal_assets": [
+    "_INTERNAL/01_RESEARCH_BRIEF.md",
+    "_INTERNAL/02_EPISODE_PLANNER.md",
+    "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
+    "_INTERNAL/06_QA_REPORT.md",
+    "_INTERNAL/REVIEW_SUMMARY.md"
+  ],
+  "archived_assets": [],
+  "updated_at": "2026-07-24T09:00:00+07:00"
+}
