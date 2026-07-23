@@ -40,7 +40,7 @@ CATEGORY:
 Education (27)
 
 PLAYLIST:
-Giải Mã Kinh Địa Tạng
+<this series' playlist name — e.g. "Giải Mã Kinh Địa Tạng" for the Buddhism series; use the actual series name from the relevant Series Bible, never copy this example literally for a different domain>
 
 SUGGESTED THUMBNAIL TEXT:
 <3-6 words, honest curiosity hook, no threat/countdown framing — this is the text that would appear ON the thumbnail image, not the video title restated>
@@ -61,7 +61,7 @@ Per-row rules:
 - `description`: keyword + context in the first 125 chars, ends with hashtags per the rule above.
 - `tags`: 5-8 comma-separated keyword phrases (distinct field from hashtags-in-description).
 - `privacy`: `public`.
-- `playlist`: `Giải Mã Kinh Địa Tạng - Shorts`.
+- `playlist`: `<this series' playlist name> - Shorts` — e.g. `Giải Mã Kinh Địa Tạng - Shorts` for the Buddhism series; substitute the actual series name for the domain being produced.
 - `categoryId`: `27`.
 - `scheduleTime`: a default suggested cadence (commonly 1 Short/day starting a few days out), explicitly flagged in the delivery message as a placeholder the user must adjust to their real calendar — never presented as a committed schedule.
 - `thumbnail`: `<N>_Short_<NN>_thumb.jpg` placeholder.

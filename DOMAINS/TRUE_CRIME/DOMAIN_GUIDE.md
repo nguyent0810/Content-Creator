@@ -1,10 +1,10 @@
 ﻿# True Crime Domain Guide
 
-Status: planned. This is a placeholder structure only. Do not generate domain claims, Knowledge Packets, cases, sources, professional advice, or content until research and human review are complete.
+Status: **deprecated/folded into `CL` (2026-07-22)** — see `DOMAINS/CRIMINAL_LAW/DOMAIN_GUIDE.md`, this domain's governance now lives there (Pillars 2-5). This placeholder is kept for registry-history continuity only. Do not generate content under this domain.
 
 ## Boundaries
-TODO_RESEARCH_REQUIRED.
+Superseded — see `DOMAINS/CRIMINAL_LAW/DOMAIN_GUIDE.md`.
 
 ## Safety
-HUMAN_REVIEW_REQUIRED.
+Superseded — see `DOMAINS/CRIMINAL_LAW/DOMAIN_GUIDE.md`.
 

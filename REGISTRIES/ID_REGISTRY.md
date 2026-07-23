@@ -3,6 +3,18 @@
 | Current ID | Old IDs | Domain | Asset type | Canonical path | Status | Uniqueness validation |
 |---|---|---|---|---|---|---|
 | KP_BUD_001 | KP_001_Kinh_Dia_Tang | BUD | Knowledge Packet | DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md | active | PASS |
+| KP_FS_001 | none | FS | Knowledge Packet | DOMAINS/FENG_SHUI/KNOWLEDGE_PACKETS/KP_FS_001_Phong_Thuy.md | active | PASS |
+| KP_FS_002 | none | FS | Knowledge Packet | DOMAINS/FENG_SHUI/KNOWLEDGE_PACKETS/KP_FS_002_Tu_Vi.md | active | PASS |
+| CK_FS_001 | none | FS | Creative Knowledge | DOMAINS/FENG_SHUI/CREATIVE_KNOWLEDGE/CK_FS_001_Tu_Vi_Phong_Thuy.md | active | PASS |
+| SB_FS_001 | none | FS | Series Bible | DOMAINS/FENG_SHUI/SERIES_BIBLES/SB_FS_001_Tu_Vi_Phong_Thuy.md | active | PASS |
+| EP015_016_CASE_STUDY_HOUSE | none | FS | Creative Knowledge (episode-specific) | DOMAINS/FENG_SHUI/CREATIVE_KNOWLEDGE/EP015_016_CASE_STUDY_HOUSE.md | active | PASS |
+| KP_CL_001 | none | CL | Knowledge Packet | DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_001_Luat_Hinh_Su.md | active | PASS |
+| KP_CL_002 | none | CL | Knowledge Packet | DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_002_An_Da_Xu.md | active | PASS |
+| KP_CL_003 | none | CL | Knowledge Packet | DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_003_Vu_An_Chua_Loi_Giai.md | active | PASS |
+| KP_CL_004 | none | CL | Knowledge Packet | DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_004_Chan_Dung_Sat_Nhan.md | active | PASS |
+| KP_CL_005 | none | CL | Knowledge Packet | DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_005_To_Chuc_Toi_Pham.md | active | PASS |
+| CK_CL_001 | none | CL | Creative Knowledge | DOMAINS/CRIMINAL_LAW/CREATIVE_KNOWLEDGE/CK_CL_001_Hinh_Su.md | active | PASS |
+| SB_CL_001 | none | CL | Series Bible | DOMAINS/CRIMINAL_LAW/SERIES_BIBLES/SB_CL_001_Hinh_Su.md | active | PASS |
 | CK_BUD_001 | CK_001_Kinh_Dia_Tang | BUD | Creative Knowledge | DOMAINS/BUDDHISM/CREATIVE_KNOWLEDGE/CK_BUD_001_Kinh_Dia_Tang.md | active | PASS |
 | SB_BUD_001 | SERIES_BIBLE_Kinh_Dia_Tang | BUD | Series Bible | DOMAINS/BUDDHISM/SERIES_BIBLES/SB_BUD_001_Kinh_Dia_Tang.md | active | PASS |
 | CB_BUD_001 | CHARACTER_BIBLE_Dia_Tang_Bo_Tat | BUD | Character Bible | DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md | active | PASS |

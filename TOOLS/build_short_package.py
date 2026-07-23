@@ -9,11 +9,6 @@ import sys
 from pathlib import Path
 
 FRONTMATTER_FIELDS = ["asset_id", "episode_id", "package_id", "domain_id", "series_id", "short_mode"]
-CHARACTER_DEPENDENCY = {
-    "asset_id": "CB_BUD_001",
-    "path": "DOMAINS/BUDDHISM/CHARACTER_BIBLES/CB_BUD_001_Dia_Tang_Bo_Tat.md",
-    "scope": "character_dependency",
-}
 
 
 def parse_frontmatter(text):
@@ -32,7 +27,7 @@ def derive_title(narration):
     return first_sentence.strip()
 
 
-def build(pkg: Path, derived_from_episode: str):
+def build(pkg: Path, derived_from_episode: str, extra_dependency=None):
     master_path = pkg / "_INTERNAL" / "03_AUDIO_SCRIPT_MASTER.md"
     text = master_path.read_text(encoding="utf-8-sig")
     fm = parse_frontmatter(text)
@@ -70,7 +65,7 @@ def build(pkg: Path, derived_from_episode: str):
             "video_render": "OUT_OF_SCOPE",
             "publish": "OUT_OF_SCOPE",
         },
-        "dependencies": [CHARACTER_DEPENDENCY],
+        "dependencies": [extra_dependency] if extra_dependency else [],
         "active_internal_assets": [
             "_INTERNAL/03_AUDIO_SCRIPT_MASTER.md",
         ],
@@ -106,16 +101,24 @@ _INTERNAL/03_AUDIO_SCRIPT_MASTER.md
 
 def main():
     if len(sys.argv) < 3:
-        print("usage: build_short_package.py <parent_dir_of_short_packages> <derived_from_episode_package_id> [short_dir_glob]")
+        print("usage: build_short_package.py <parent_dir_of_short_packages> <derived_from_episode_package_id> "
+              "[short_dir_glob] [dependency_asset_id:dependency_path:dependency_scope]")
+        print("  dependencies default to an empty list (the derived_from_episode field already tracks the Long-form "
+              "source) — pass the optional 4th argument only if this domain has a genuinely shared reference asset "
+              "every Short in the batch depends on, e.g. a character bible or a single core Knowledge Packet.")
         return 1
     parent = Path(sys.argv[1])
     derived_from_episode = sys.argv[2]
     glob_pattern = sys.argv[3] if len(sys.argv) > 3 else "*_SHORT_*"
+    extra_dependency = None
+    if len(sys.argv) > 4:
+        asset_id, path, scope = sys.argv[4].split(":", 2)
+        extra_dependency = {"asset_id": asset_id, "path": path, "scope": scope}
     for pkg in sorted(parent.glob(glob_pattern)):
         if not (pkg / "_INTERNAL" / "03_AUDIO_SCRIPT_MASTER.md").exists():
             print(f"SKIP {pkg.name}: no 03_AUDIO_SCRIPT_MASTER.md yet")
             continue
-        word_count, title = build(pkg, derived_from_episode)
+        word_count, title = build(pkg, derived_from_episode, extra_dependency)
         print(f"OK {pkg.name}: {word_count} words — {title}")
     return 0
 
