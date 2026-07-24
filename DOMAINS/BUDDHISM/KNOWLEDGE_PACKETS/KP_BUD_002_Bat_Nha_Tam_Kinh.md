@@ -92,7 +92,7 @@ Bát Nhã Tâm Kinh (Bát Nhã Ba La Mật Đa Tâm Kinh, Ma Ha Bát Nhã Ba La 
 - 般若波羅蜜多心經 (Bát-nhã-ba-la-mật-đa Tâm kinh)
 - 心經 (Tâm Kinh, Xīnjīng) — tên gọi tắt phổ biến nhất
 - Bản dịch Huyền Trang: Đại Tạng Kinh Taishō ký hiệu T251 (649 CN)
-- Bản dịch trước đó của Cưu Ma La Thập: Taishō T250 (khoảng 402–412 CN)
+- Bản dịch trước đó của Cưu Ma La Thập (khoảng 402–412 CN) — research draft nguồn không xác nhận ký hiệu Taishō cụ thể cho bản dịch này; không dùng số hiệu catalog chưa được đối chiếu độc lập cho tới khi có nguồn xác minh, theo `BUDDHIST_GUIDE.md` §30 ("Never invent textual locations, chapter numbers, translators, or dates")
 
 ## English
 
@@ -140,7 +140,7 @@ Về triết học, ngộ nhận phổ biến nhất mà packet này trang bị 
 
 | Tier | Loại nguồn | Ví dụ trong packet này |
 |---|---|---|
-| 1 | Canonical — bản dịch Hán được công nhận rộng rãi | Bản Huyền Trang T251 (649 CN), bản Cưu Ma La Thập T250 |
+| 1 | Canonical — bản dịch Hán được công nhận rộng rãi | Bản Huyền Trang T251 (649 CN), bản Cưu Ma La Thập (khoảng 402–412 CN, ký hiệu Taishō cụ thể chưa được xác minh trong research draft nguồn) |
 | 2 | Truyền thống/chú giải | Cách diễn giải 5 cụm từ thần chú theo Ngũ Đạo (một số truyền thống Tây Tạng); quy gán "hệ thống hóa bởi Long Thọ" |
 | 3 | Học thuật lịch sử | Edward Conze (niên đại, tỷ lệ trùng lặp với văn hệ Bát Nhã lớn hơn); Jan Nattier và Jayarava Attwood (giả thuyết Hán→Phạn); Fukui Fumimasa, Harada Waso, Ishii Kōsei, Vũ Thế Ngọc (phản biện) |
 | 4 | Giáo viên/dịch giả đương đại | Diễn giải phổ thông về Tính Không (Lion's Roar, Buddha Weekly); các bài giảng giải tiếng Việt (giacngo.vn) |
