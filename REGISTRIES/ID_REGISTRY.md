@@ -3,6 +3,8 @@
 | Current ID | Old IDs | Domain | Asset type | Canonical path | Status | Uniqueness validation |
 |---|---|---|---|---|---|---|
 | KP_BUD_001 | KP_001_Kinh_Dia_Tang | BUD | Knowledge Packet | DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_001_Kinh_Dia_Tang.md | active | PASS |
+| KP_BUD_002 | none | BUD | Knowledge Packet | DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_002_Bat_Nha_Tam_Kinh.md | active | PASS |
+| KP_BUD_003 | none | BUD | Knowledge Packet | DOMAINS/BUDDHISM/KNOWLEDGE_PACKETS/KP_BUD_003_Kinh_A_Di_Da_Tinh_Do.md | active | PASS |
 | KP_FS_001 | none | FS | Knowledge Packet | DOMAINS/FENG_SHUI/KNOWLEDGE_PACKETS/KP_FS_001_Phong_Thuy.md | active | PASS |
 | KP_FS_002 | none | FS | Knowledge Packet | DOMAINS/FENG_SHUI/KNOWLEDGE_PACKETS/KP_FS_002_Tu_Vi.md | active | PASS |
 | CK_FS_001 | none | FS | Creative Knowledge | DOMAINS/FENG_SHUI/CREATIVE_KNOWLEDGE/CK_FS_001_Tu_Vi_Phong_Thuy.md | active | PASS |

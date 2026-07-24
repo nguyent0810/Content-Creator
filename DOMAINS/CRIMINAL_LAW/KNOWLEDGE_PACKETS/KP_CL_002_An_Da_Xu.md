@@ -3,20 +3,21 @@ schema_version: 1.0
 packet_id: KP_CL_002
 domain_id: CL
 canonical_owner: DOMAINS/CRIMINAL_LAW
-canonical_topic: Án Đã Xử / Phá Án — Bốn vụ án nền tảng cho Pillar 2 (Năm Cam, Lê Văn Luyện, Cát Tường, O.J. Simpson)
+canonical_topic: Án Đã Xử / Phá Án — Sáu vụ án nền tảng cho Pillar 2 (Năm Cam, Lê Văn Luyện, Cát Tường, O.J. Simpson, Vụ thảm sát Bình Phước, Casey Anthony)
 vietnamese_display_name: Án Đã Xử (Phá Án)
 english_working_title: Solved True Crime — Foundational Case Studies
 object_type: Knowledge Packet
 status: draft-pending-human-review
-version: 0.1
-language: Tiếng Việt (chính), chú thích tiếng Anh cho thuật ngữ luật Hoa Kỳ ở vụ O.J. Simpson
+version: 0.2
+language: Tiếng Việt (chính), chú thích tiếng Anh cho thuật ngữ luật Hoa Kỳ ở các vụ O.J. Simpson và Casey Anthony
 risk_level: critical
 risk_reasons:
-  - Presumption-of-innocence / net-impression test (`DOMAIN_GUIDE.md` §4) — đặc biệt nghiêm trọng ở vụ O.J. Simpson (trắng án hình sự vs. trách nhiệm dân sự)
-  - Victim dignity & minor-victim non-naming (`DOMAIN_GUIDE.md` §6) — bắt buộc ở vụ Lê Văn Luyện
+  - Presumption-of-innocence / net-impression test (`DOMAIN_GUIDE.md` §4) — đặc biệt nghiêm trọng ở vụ O.J. Simpson (trắng án hình sự vs. trách nhiệm dân sự) và vụ Casey Anthony (trắng án hình sự trước niềm tin công chúng gần như đồng thuận ngược lại)
+  - Victim dignity & minor-victim non-naming (`DOMAIN_GUIDE.md` §6) — bắt buộc ở vụ Lê Văn Luyện, vụ thảm sát Bình Phước (hai nạn nhân vị thành niên + một em bé sống sót), và vụ Casey Anthony (nạn nhân là bé gái 2 tuổi, tên không được nêu dù đã trở thành danh xưng gắn liền với vụ án trên toàn cầu)
   - Organized-crime non-glorification / no operational detail (`DOMAIN_GUIDE.md` §8) — vụ Năm Cam
-  - Single-sourced/chưa xác minh đầy đủ chi tiết phụ (mức án phụ Đào Quang Khánh, ngày phúc thẩm Lê Văn Luyện) — cần gắn nhãn độ tin cậy đúng, không nâng thành sự thật đã xác lập
-  - Jurisdiction precision (`DOMAIN_GUIDE.md` §2) — vụ O.J. Simpson diễn ra dưới luật Hoa Kỳ/common law, không được ngầm suy ra tương đương tố tụng Việt Nam
+  - Single-sourced/chưa xác minh đầy đủ chi tiết phụ (mức án phụ Đào Quang Khánh, ngày phúc thẩm Lê Văn Luyện, tình trạng hiện tại của Trần Đình Thoại, số liệu khảo sát dư luận vụ Casey Anthony) — cần gắn nhãn độ tin cậy đúng, không nâng thành sự thật đã xác lập
+  - Jurisdiction precision (`DOMAIN_GUIDE.md` §2) — vụ O.J. Simpson và vụ Casey Anthony diễn ra dưới luật Hoa Kỳ/common law, không được ngầm suy ra tương đương tố tụng Việt Nam
+  - Unproven allegation against a living person (`DOMAIN_GUIDE.md` §4/§5) — cáo buộc xâm hại tình dục của bên bào chữa nhắm vào George Anthony (cha của Casey Anthony) trong vụ Casey Anthony, bị chính ông phủ nhận, chưa từng được chứng minh
 required_qa:
   - Domain QA (Hình Sự) — `DOMAIN_QA/DOMAIN_QA_POLICY.md`
   - Research QA
@@ -26,9 +27,10 @@ required_qa:
 dependencies:
   - DOMAINS/CRIMINAL_LAW/DOMAIN_GUIDE.md
   - DOMAINS/CRIMINAL_LAW/SOURCES/RESEARCH_DRAFT_AN_DA_XU.md
+  - DOMAINS/CRIMINAL_LAW/SOURCES/RESEARCH_DRAFT_AN_DA_XU_BATCH2.md
   - DOMAINS/CRIMINAL_LAW/GLOSSARY/DOMAIN_GLOSSARY.md
-source_lineage: Tổng hợp toàn bộ `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md` (research date 2026-07-23). Không có nguồn bổ sung nào được đưa vào ngoài research draft này; mọi nhãn độ tin cậy trong packet giữ nguyên đúng như research draft, không được nâng cấp.
-confidence_level: mixed — xem nhãn độ tin cậy riêng ở từng vụ án bên dưới; không có vụ nào trong bốn vụ có nội dung mâu thuẫn nghiêm trọng về sự kiện cốt lõi, nhưng một số chi tiết phụ vẫn ở mức single-sourced/cần xác minh thêm (xem "Ghi chú tổng hợp cho biên tập viên")
+source_lineage: Tổng hợp `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md` (research date 2026-07-23, bốn vụ án gốc) và `SOURCES/RESEARCH_DRAFT_AN_DA_XU_BATCH2.md` (research date 2026-07-24, hai vụ án bổ sung: Vụ thảm sát Bình Phước, Casey Anthony). Không có nguồn bổ sung nào được đưa vào ngoài hai research draft này; mọi nhãn độ tin cậy trong packet giữ nguyên đúng như research draft, không được nâng cấp.
+confidence_level: mixed — xem nhãn độ tin cậy riêng ở từng vụ án bên dưới; không có vụ nào trong sáu vụ có nội dung mâu thuẫn nghiêm trọng về sự kiện cốt lõi, nhưng một số chi tiết phụ vẫn ở mức single-sourced/cần xác minh thêm (xem "Ghi chú tổng hợp cho biên tập viên")
 QA_status: draft creative-knowledge asset — chưa qua Domain QA / Research QA / Safety QA chính thức; KHÔNG dùng trực tiếp làm kịch bản sản xuất trước khi human review
 ---
 
@@ -40,16 +42,16 @@ QA_status: draft creative-knowledge asset — chưa qua Domain QA / Research QA 
 |---|---|
 | Packet ID | KP_CL_002 |
 | Domain ID | CL (Hình Sự) |
-| Canonical Topic | Án Đã Xử / Phá Án — 4 vụ án nền tảng: Năm Cam, Lê Văn Luyện, Cát Tường, O.J. Simpson |
+| Canonical Topic | Án Đã Xử / Phá Án — 6 vụ án nền tảng: Năm Cam, Lê Văn Luyện, Cát Tường, O.J. Simpson, Vụ thảm sát Bình Phước, Casey Anthony |
 | Object Type | Knowledge Packet |
 | Status | draft-pending-human-review |
-| Version | 0.1 |
+| Version | 0.2 |
 | Risk Level | Critical |
 | Dùng cho | Pillar 2 (Án Đã Xử/Phá Án) season episodes; vụ Năm Cam có giá trị dùng kép cho Pillar 5 (Tổ Chức Tội Phạm, tương lai `KP_CL_005`); vụ Lê Văn Luyện có giá trị dùng kép cho Pillar 1 (Luật Hình Sự, tuổi chịu trách nhiệm hình sự) |
 | Required QA | Domain QA (Hình Sự), Research QA, Safety QA, Legal-accuracy QA, Brand QA |
-| Dependencies | `DOMAIN_GUIDE.md`, `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md`, `GLOSSARY/DOMAIN_GLOSSARY.md` |
+| Dependencies | `DOMAIN_GUIDE.md`, `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md`, `SOURCES/RESEARCH_DRAFT_AN_DA_XU_BATCH2.md`, `GLOSSARY/DOMAIN_GLOSSARY.md` |
 
-**Lưu ý trạng thái quan trọng:** Đây là Knowledge Packet nền tảng đầu tiên của Pillar 2 trong domain Hình Sự, tổng hợp từ một research draft duy nhất (`RESEARCH_DRAFT_AN_DA_XU.md`, research date 2026-07-23, trạng thái gốc "Draft for Knowledge Packet ingestion"). Packet này **không thay thế** yêu cầu Domain QA chính thức — nó là bước tổng hợp trung gian bắt buộc trước khi nội dung có thể chuyển sang sản xuất kịch bản, đúng tinh thần đã áp dụng cho `KP_FS_001` và `KP_BUD_001`. Mọi nhãn độ tin cậy và cờ khoảng-trống-nguồn (gap-flag) trong research draft được **giữ nguyên, không nâng cấp** khi đưa vào packet này.
+**Lưu ý trạng thái quan trọng:** Đây là Knowledge Packet nền tảng của Pillar 2 trong domain Hình Sự, tổng hợp ban đầu từ một research draft duy nhất (`RESEARCH_DRAFT_AN_DA_XU.md`, research date 2026-07-23, trạng thái gốc "Draft for Knowledge Packet ingestion") và mở rộng (version 0.2) bằng một batch nghiên cứu bổ sung (`RESEARCH_DRAFT_AN_DA_XU_BATCH2.md`, research date 2026-07-24) thêm hai vụ án: Vụ thảm sát Bình Phước và Casey Anthony. Packet này **không thay thế** yêu cầu Domain QA chính thức — nó là bước tổng hợp trung gian bắt buộc trước khi nội dung có thể chuyển sang sản xuất kịch bản, đúng tinh thần đã áp dụng cho `KP_FS_001` và `KP_BUD_001`. Mọi nhãn độ tin cậy và cờ khoảng-trống-nguồn (gap-flag) trong cả hai research draft được **giữ nguyên, không nâng cấp** khi đưa vào packet này.
 
 ---
 
@@ -57,22 +59,30 @@ QA_status: draft creative-knowledge asset — chưa qua Domain QA / Research QA 
 
 ## Phạm vi packet
 
-Bốn vụ án hình sự đã có bản án/phán quyết cuối cùng (bản án có hiệu lực pháp luật, không còn kháng cáo/kháng nghị đang treo tại thời điểm nghiên cứu — 2026-07-23), dùng làm nền tảng cho Pillar 2 (Án Đã Xử/Phá Án):
+Sáu vụ án hình sự đã có bản án/phán quyết cuối cùng (bản án/phán quyết có hiệu lực pháp luật, không còn kháng cáo/kháng nghị đang treo tại thời điểm nghiên cứu tương ứng), dùng làm nền tảng cho Pillar 2 (Án Đã Xử/Phá Án):
 
 1. **Vụ án Năm Cam (Trương Văn Cam) và đồng phạm** — Việt Nam, 2001-2004.
 2. **Vụ án Lê Văn Luyện** — thảm sát tiệm vàng Ngọc Bích, Bắc Giang, Việt Nam, 2011.
 3. **Vụ án thẩm mỹ viện Cát Tường** — Hà Nội, Việt Nam, 2013-2015.
 4. **Vụ án O.J. Simpson** — Hoa Kỳ (bang California), phiên hình sự 1995 và phiên dân sự 1996-1997.
+5. **Vụ thảm sát Bình Phước (Nguyễn Hải Dương và đồng phạm)** — Việt Nam, 2015-2018 (từ ngày xảy ra án đến ngày thi hành án cuối cùng).
+6. **Vụ án Casey Anthony** — Hoa Kỳ (bang Florida), 2008-2013 (từ khi phát hiện mất tích đến phán quyết phúc thẩm cuối cùng).
 
-Ba vụ đầu xảy ra dưới hệ thống pháp luật Việt Nam; vụ thứ tư xảy ra dưới hệ thống pháp luật Hoa Kỳ (common law, có bồi thẩm đoàn) — mọi nội dung kịch bản hóa từ vụ O.J. Simpson phải nêu rõ jurisdiction này trước khi phát biểu bất kỳ khái niệm thủ tục nào, đúng `DOMAIN_GUIDE.md` §2.
+Bốn vụ đầu (1-3, 5) xảy ra dưới hệ thống pháp luật Việt Nam; hai vụ (4, 6) xảy ra dưới hệ thống pháp luật Hoa Kỳ (common law, có bồi thẩm đoàn) — mọi nội dung kịch bản hóa từ vụ O.J. Simpson hoặc vụ Casey Anthony phải nêu rõ jurisdiction này trước khi phát biểu bất kỳ khái niệm thủ tục nào, đúng `DOMAIN_GUIDE.md` §2.
 
 ## Ghi chú áp dụng toàn văn kiện (§6 — không nêu tên nạn nhân vị thành niên)
 
-Vụ Lê Văn Luyện có hai nạn nhân là trẻ vị thành niên (một cháu bé khoảng 18 tháng tuổi tử vong, một cháu bé khoảng 8 tuổi bị thương). Đúng theo `DOMAIN_GUIDE.md` §6 ("không bao giờ nêu tên nạn nhân vị thành niên" — quy tắc không có ngoại lệ, áp dụng bất kể chi tiết đã từng xuất hiện công khai trên báo chí), packet này **chủ động không nêu tên** hai cháu bé, kể cả khi tên các cháu đã từng được báo chí thời điểm 2011 công khai rộng rãi — chỉ mô tả bằng vai trò/quan hệ gia đình/độ tuổi (ví dụ: "ba nạn nhân trong gia đình chủ tiệm vàng," "cháu bé út khoảng 18 tháng tuổi," "cháu bé khoảng 8 tuổi bị thương"). Không có thông tin địa chỉ/liên hệ hiện tại của bất kỳ gia đình nạn nhân nào được đưa vào tài liệu này.
+Ba vụ án trong packet này có nạn nhân vị thành niên, và quy tắc "không bao giờ nêu tên nạn nhân vị thành niên" (`DOMAIN_GUIDE.md` §6 — không có ngoại lệ, áp dụng bất kể chi tiết đã từng xuất hiện công khai trên báo chí hay mức độ nổi tiếng toàn cầu của tên) được áp dụng thống nhất cho cả ba:
+
+- **Vụ Lê Văn Luyện:** hai nạn nhân là trẻ vị thành niên (một cháu bé khoảng 18 tháng tuổi tử vong, một cháu bé khoảng 8 tuổi bị thương) — packet **chủ động không nêu tên**, chỉ mô tả bằng vai trò/quan hệ gia đình/độ tuổi (ví dụ: "ba nạn nhân trong gia đình chủ tiệm vàng," "cháu bé út khoảng 18 tháng tuổi," "cháu bé khoảng 8 tuổi bị thương").
+- **Vụ thảm sát Bình Phước:** hai nạn nhân tử vong là trẻ vị thành niên (con trai út khoảng 15 tuổi, một cháu trai họ hàng khoảng 14 tuổi) cộng thêm một em bé khoảng 18 tháng tuổi sống sót — packet **chủ động không nêu tên** cả ba, dù tên đã xuất hiện công khai rộng rãi trên báo chí Việt Nam năm 2015; chỉ mô tả bằng quan hệ gia đình/độ tuổi ước tính.
+- **Vụ Casey Anthony:** nạn nhân là con gái hai tuổi của Casey Anthony — dù tên cháu bé đã trở thành một phần gắn liền với cách vụ án được biết đến trên truyền thông quốc tế, packet **không nêu tên cháu ở bất kỳ đâu**, chỉ gọi là "con gái của Casey Anthony"/"cháu bé"/"nạn nhân nhỏ tuổi." Đúng như research draft batch 2 nhấn mạnh: mức độ nổi tiếng toàn cầu của tên một nạn nhân vị thành niên **không phải là căn cứ để miễn trừ** quy tắc §6.
+
+Không có thông tin địa chỉ/liên hệ hiện tại của bất kỳ gia đình nạn nhân nào (Việt Nam hay Hoa Kỳ) được đưa vào tài liệu này.
 
 ## Ghi chú áp dụng toàn văn kiện (§4 — net-impression test)
 
-Mọi phần "Script-ready material" bên dưới được viết để giữ nguyên hook/kịch tính của từng vụ án; mọi phần "Production cautions" là nơi ranh giới `DOMAIN_GUIDE.md` được thực thi cụ thể. Theo đúng tinh thần §14 (Transform First), không có vụ nào trong bốn vụ cần bị từ chối hay làm nhạt bớt — chỉ cần đúng khung ngôn ngữ pháp lý và đúng cấu trúc trần thuật.
+Mọi phần "Script-ready material" bên dưới được viết để giữ nguyên hook/kịch tính của từng vụ án; mọi phần "Production cautions" là nơi ranh giới `DOMAIN_GUIDE.md` được thực thi cụ thể. Theo đúng tinh thần §14 (Transform First), không có vụ nào trong sáu vụ cần bị từ chối hay làm nhạt bớt — chỉ cần đúng khung ngôn ngữ pháp lý và đúng cấu trúc trần thuật.
 
 ---
 
@@ -80,9 +90,10 @@ Mọi phần "Script-ready material" bên dưới được viết để giữ ng
 
 | Source | Mô tả | Tier / Độ tin cậy | Hướng dẫn sử dụng |
 |---|---|---|---|
-| `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md` | Nghiên cứu gốc cho cả 4 vụ án (Năm Cam, Lê Văn Luyện, Cát Tường, O.J. Simpson), dựa trên báo chí điều tra trong nước (VnExpress, CAND, Tuổi Trẻ, VietNamNet, Dân Trí, VTV...) và nguồn tiếng Anh uy tín (Britannica, History.com, CNN, NBC News, ESPN, FindLaw...) | Tier 1-2 cho hầu hết sự kiện thủ tục cốt lõi (bản án, ngày tháng, mức án); một số chi tiết phụ chỉ Tier 2-3/single-sourced (xem từng vụ) | Nguồn duy nhất và bắt buộc cho packet này; không được bổ sung chi tiết nào ngoài research draft này mà chưa qua vòng nghiên cứu bổ sung riêng |
+| `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md` | Nghiên cứu gốc cho 4 vụ án đầu (Năm Cam, Lê Văn Luyện, Cát Tường, O.J. Simpson), dựa trên báo chí điều tra trong nước (VnExpress, CAND, Tuổi Trẻ, VietNamNet, Dân Trí, VTV...) và nguồn tiếng Anh uy tín (Britannica, History.com, CNN, NBC News, ESPN, FindLaw...) | Tier 1-2 cho hầu hết sự kiện thủ tục cốt lõi (bản án, ngày tháng, mức án); một số chi tiết phụ chỉ Tier 2-3/single-sourced (xem từng vụ) | Nguồn bắt buộc cho 4 vụ án đầu; không được bổ sung chi tiết nào ngoài research draft này mà chưa qua vòng nghiên cứu bổ sung riêng |
+| `SOURCES/RESEARCH_DRAFT_AN_DA_XU_BATCH2.md` | Nghiên cứu bổ sung (research date 2026-07-24) cho 2 vụ án mới (Vụ thảm sát Bình Phước, Casey Anthony), dựa trên báo chí trong nước (VnExpress, Tuổi Trẻ, Thanh Niên, VietNamNet, CAND, PLO, Công Lý, Người Lao Động) và nguồn tiếng Anh uy tín (ABC News, NPR, CBS News, NBC News, CNN, Police1, Oxygen, Crime Museum, Fox News) | Tier 1-2 cho sự kiện thủ tục cốt lõi của cả hai vụ; một số chi tiết phụ chỉ Tier 2-3/single-sourced (xem từng vụ) | Nguồn bắt buộc cho 2 vụ án bổ sung; không được bổ sung chi tiết nào ngoài research draft này mà chưa qua vòng nghiên cứu bổ sung riêng |
 
-Không có khoảng trống nguồn ở cấp "sự kiện cốt lõi" (bản án, mức án, ngày thi hành) cho cả 4 vụ — nhưng có các khoảng trống ở cấp chi tiết phụ, liệt kê trong "Ghi chú tổng hợp cho biên tập viên" ở cuối packet và trong "Production cautions" của từng vụ liên quan.
+Không có khoảng trống nguồn ở cấp "sự kiện cốt lõi" (bản án/phán quyết, mức án, ngày thi hành) cho cả 6 vụ — nhưng có các khoảng trống ở cấp chi tiết phụ, liệt kê trong "Ghi chú tổng hợp cho biên tập viên" ở cuối packet và trong "Production cautions" của từng vụ liên quan.
 
 ---
 
@@ -229,14 +240,97 @@ Vụ án là một trong những phiên tòa được theo dõi nhiều nhất l
 
 ---
 
+## Vụ thảm sát Bình Phước — Nguyễn Hải Dương và đồng phạm (2015)
+
+### Knowledge function
+
+Đây là vụ án có giá trị riêng biệt trong packet để minh họa một nguyên tắc dễ bị bỏ qua khi tường thuật một tội ác do nhiều người cùng thực hiện: **đồng phạm không đồng nghĩa đồng mức trách nhiệm.** Ba bị cáo trong cùng một vụ án nhận ba mức án khác nhau rõ rệt (tử hình – tử hình – 16 năm tù) tùy theo vai trò thực tế của từng người, và một kịch bản gộp chung "các hung thủ" thành một khối duy nhất vừa sai sự thật vừa vi phạm net-impression test (`DOMAIN_GUIDE.md` §4) đối với riêng bị cáo có vai trò nhẹ hơn — người đã rút lui trước khi vụ giết người xảy ra. Đây cũng là vụ án thứ hai trong toàn bộ packet (sau Lê Văn Luyện) có nạn nhân vị thành niên, và là vụ đầu tiên có thêm một người sống sót vị thành niên (một em bé) cần được ẩn danh theo cùng nguyên tắc §6.
+
+### Primary concepts
+
+- Sáng **7/7/2015**, tại một căn biệt thự ở xã Minh Hưng, huyện Chơn Thành, tỉnh Bình Phước: sáu người trong gia đình ông Lê Văn Mỹ (giám đốc một công ty chế biến gỗ) bị sát hại. Thủ phạm chính, **Nguyễn Hải Dương**, là bạn trai cũ của con gái lớn nhà ông Mỹ; động cơ theo hồ sơ vụ án là "hận tình" (bị gia đình bạn gái cũ phản đối/chia tay) kết hợp ý định cướp tài sản.
+- Sáu nạn nhân tử vong: ông Lê Văn Mỹ (48 tuổi), vợ ông (tên xuất hiện với hai cách viết khác nhau giữa các nguồn — "Lê Thị Ánh Nga"/"Nguyễn Lê Thị Ánh Nga", 42 tuổi, cần xác minh thêm nếu kịch bản cần trích tên đầy đủ chính xác), con gái lớn Lê Thị Ánh Linh (22 tuổi, bạn gái cũ của Dương), một cháu gái họ hàng (nữ sinh vừa thi tốt nghiệp THPT, 18 tuổi — độ tuổi được xác nhận trực tiếp qua một bài báo chuyên đề, nên thuộc phạm vi có thể nêu theo §6 vì đã thành niên; tuy nhiên nghiên cứu gốc không cung cấp tên riêng cho nạn nhân này, nên tài liệu này mô tả bằng vai trò/độ tuổi thay vì suy đoán một cái tên), và **hai nạn nhân vị thành niên** — con trai út của ông Mỹ (khoảng 15 tuổi) và một cháu trai họ hàng (khoảng 14 tuổi, người mở cổng cho hung thủ). Một em bé khoảng 18 tháng tuổi sống sót vì một trong hai hung thủ đã không ra tay với em.
+- **Không nêu tên hai nạn nhân vị thành niên và em bé sống sót** — chỉ mô tả bằng quan hệ gia đình/độ tuổi ước tính, đúng §6 (xem "Ghi chú áp dụng toàn văn kiện" ở đầu packet).
+- Nguyễn Hải Dương bị bắt **10/7/2015** (trong vòng khoảng 80 giờ kể từ khi phát hiện vụ án, dựa trên dấu vân tay, mẫu máu, dữ liệu điện thoại); đồng phạm **Vũ Văn Tiến** bị bắt cùng ngày tại TP.HCM; nghi can thứ ba, **Trần Đình Thoại**, bị bắt khoảng đầu/giữa tháng 8/2015 (một số nguồn ghi 10/8/2015).
+- **Ba vai trò khác biệt rõ rệt — điểm quan trọng nhất cần giữ chính xác, không được gộp chung thành "các hung thủ":**
+  - **Nguyễn Hải Dương** — chủ mưu, trực tiếp thực hiện phần lớn/toàn bộ hành vi giết người theo cáo trạng và tường thuật phiên tòa.
+  - **Vũ Văn Tiến** — đồng phạm trực tiếp có mặt tại hiện trường, khống chế/giữ nạn nhân trong khi Dương ra tay; bị tuyên cùng mức án tử hình như Dương.
+  - **Trần Đình Thoại** — vai trò khác biệt rõ rệt: theo hồ sơ vụ án, từng đồng ý tham gia kế hoạch và có hành vi hỗ trợ vật chất (một số nguồn nêu cụ thể là mua dao cho Dương), nhưng **rút lui, không có mặt/không trực tiếp thực hiện hành vi giết người tại hiện trường** đêm xảy ra án — vì vậy chỉ bị truy tố và xét xử ở mức án thấp hơn nhiều, không phải tử hình.
+- **Sơ thẩm (17/12/2015, TAND tỉnh Bình Phước):** Nguyễn Hải Dương — tử hình (giết người + cướp tài sản); Vũ Văn Tiến — tử hình (giết người + cướp tài sản); Trần Đình Thoại — 16 năm tù (13 năm giết người + 3 năm cướp tài sản). Cả ba buộc bồi thường dân sự khoảng 480 triệu đồng cho gia đình nạn nhân.
+- Nguyễn Hải Dương **không kháng cáo**, chấp nhận bản án tử hình (một số nguồn ghi ông nộp đơn xin sớm thi hành án cuối tháng 3/2016, nhưng đơn này không có giá trị pháp lý vì tử tù không có quyền tự quyết định thời điểm thi hành án). Vũ Văn Tiến và Trần Đình Thoại đều kháng cáo xin giảm nhẹ. **Phúc thẩm (18/7/2016, Tòa án Cấp cao tại TP.HCM):** bác toàn bộ kháng cáo, y án tử hình Vũ Văn Tiến và y án 16 năm tù Trần Đình Thoại; bản án của Nguyễn Hải Dương có hiệu lực theo cơ chế không kháng cáo.
+- **Thi hành án:** Nguyễn Hải Dương — tiêm thuốc độc, 7 giờ sáng **17/11/2017**, tại một cơ sở ở huyện Phú Giáo, tỉnh Bình Dương. Vũ Văn Tiến — tiêm thuốc độc, khoảng 4 giờ sáng **20/9/2018**, tại Bình Phước. Trần Đình Thoại — đang thụ án 16 năm tù; **không tìm thấy thông tin đã kiểm chứng** về việc giảm án/ra tù sớm tính đến thời điểm nghiên cứu (2026-07-24).
+- **Trạng thái pháp lý:** cả ba bị cáo đều có bản án đã có hiệu lực pháp luật, không còn kháng cáo/kháng nghị đang treo (Dương: không kháng cáo, bản án sơ thẩm có hiệu lực; Tiến và Thoại: bản án phúc thẩm 18/7/2016 là chung thẩm); không có nguồn nào cho thấy giám đốc thẩm/tái thẩm được mở lại. Đủ điều kiện Format 1 (`DOMAIN_GUIDE.md` §4a) đối với cả ba người — có thể nêu tên và mô tả là người đã bị kết án, đúng vai trò riêng của từng người. **Không áp dụng cho hai nạn nhân vị thành niên và em bé sống sót — không được nêu tên theo §6.**
+
+### Narrative detail
+
+Vụ án được phát hiện sáng 7/7/2015 khi người làm công phát hiện các thi thể; tốc độ phá án — xác định và bắt giữ chủ mưu trong khoảng 80 giờ dựa trên dấu vân tay, mẫu máu và dữ liệu điện thoại — là một mạch tự sự có thật, giàu kịch tính mà không cần thêm thắt. Nhưng phần quan trọng nhất về mặt biên tập không phải là tốc độ phá án mà là cách ba bị cáo, cùng bị xét xử trong một vụ án, bước ra khỏi phiên tòa với ba số phận khác nhau hoàn toàn: hai người bị tuyên và thi hành án tử hình cách nhau gần một năm, người thứ ba — người đã rút lui trước đêm xảy ra án — nhận 16 năm tù. Sự khác biệt này không phải là một chi tiết phụ có thể lược bỏ để đơn giản hóa câu chuyện; nó chính là bài học pháp luật cốt lõi của vụ án này, tương tự cách Điều 74 BLHS 1999 là bài học cốt lõi của vụ Lê Văn Luyện. Phiên sơ thẩm và phúc thẩm không ghi nhận tranh chấp nào về việc ba bị cáo có tội hay không, hay về kết quả cuối cùng của vụ án; toàn bộ diễn biến tố tụng — từ khởi tố đến hai lần thi hành án tử hình cách nhau gần một năm — đã khép lại về mặt pháp lý.
+
+### Script-ready material
+
+- Khung tự sự "một hiện trường, ba số phận" — mở đầu bằng tốc độ phá án (80 giờ), sau đó tách rõ ba tuyến vai trò và ba kết cục pháp lý khác nhau, thay vì gộp chung thành một cao trào duy nhất.
+- Trường hợp Trần Đình Thoại là chất liệu giá trị cho lớp legal/procedural: minh họa cụ thể việc pháp luật phân biệt mức độ trách nhiệm hình sự dựa trên hành vi thực tế (rút lui trước khi tội ác xảy ra), không dựa trên việc "có mặt trong kế hoạch ban đầu."
+- Chi tiết em bé khoảng 18 tháng tuổi sống sót vì một trong hai hung thủ không ra tay — có thể nêu như một sự kiện đã xác lập, nhưng không mô tả danh tính, hoàn cảnh sống hiện tại, hay bất kỳ chi tiết nhận dạng nào của em (em vẫn là một người thật đang lớn lên).
+- Khoảng cách thời gian giữa hai lần thi hành án tử hình (17/11/2017 và 20/9/2018, cách nhau gần một năm dù cùng tuyên án một ngày) là một chi tiết thủ tục có thật, có thể dùng để giải thích cho khán giả rằng thi hành án tử hình ở Việt Nam không diễn ra đồng thời cho các đồng phạm dù cùng mức án.
+
+### Production cautions
+
+- **Yêu cầu cấu trúc quan trọng nhất:** trong mọi bản dựng kịch bản, ba bị cáo phải được nhắc đến bằng tên và vai trò riêng xuyên suốt — không dùng cụm "các hung thủ"/"bọn chúng" để gộp chung ba người, đặc biệt không được để Trần Đình Thoại bị cuốn vào ấn tượng "đồng phạm giết người trực tiếp" như hai người kia (vi phạm net-impression test, `DOMAIN_GUIDE.md` §4, đối với riêng ông ta).
+- **`DOMAIN_GUIDE.md` §6 (không có ngoại lệ):** tuyệt đối không nêu tên hai nạn nhân vị thành niên và em bé sống sót, không mô tả chi tiết nhận dạng nào ngoài vai trò/quan hệ gia đình/độ tuổi ước tính — áp dụng bất kể tên cả ba đã từng xuất hiện công khai trên báo chí năm 2015. Không dựng lại/tường thuật chi tiết graphic về khoảnh khắc các nạn nhân bị sát hại — sự kiện và hậu quả pháp lý mang trọng lượng tự sự, không phải chi tiết đau thương được dựng lại (§9).
+- **Độ tin cậy cần lưu ý:** phân chia vai trò cụ thể của Trần Đình Thoại (mua dao, rút lui khỏi hiện trường) ở mức tin cậy trung bình-cao — xác nhận qua tổng hợp nhiều bài báo nhưng chưa đối chiếu trực tiếp với văn bản bản án gốc; nên diễn đạt "theo hồ sơ vụ án được báo chí công bố," không khẳng định như trích dẫn nguyên văn bản án. Tên đầy đủ của người vợ nạn nhân có hai cách viết khác nhau giữa các nguồn — cần xác minh thêm nếu kịch bản cần trích tên chính xác. Độ tuổi của cháu gái họ hàng 18 tuổi có sai lệch nhỏ về năm sinh giữa các nguồn, nhưng độ tuổi 18 (thành niên) được một bài báo chuyên đề xác nhận trực tiếp nên tài liệu này xử lý nạn nhân này là người thành niên.
+- **Khoảng trống nguồn:** tình trạng hiện tại của Trần Đình Thoại (đã ra tù/giảm án hay chưa, tính đến 2026) — không tìm thấy nguồn cập nhật trong nghiên cứu này; nếu kịch bản cần nêu tình trạng hiện tại của ông, phải xác minh thêm trước, không suy đoán.
+
+---
+
+## Vụ án Casey Anthony (Hoa Kỳ, bang Florida, 2008-2011)
+
+### Knowledge function
+
+Đây là vụ án đối lập trực tiếp — và là bài học đồng hành bắt buộc tham chiếu — với vụ **O.J. Simpson** đã có ở trên trong packet này. Nếu vụ Simpson minh họa cấu trúc "hai phán quyết khác tầng" (trắng án hình sự + chịu trách nhiệm dân sự) trong bối cảnh dư luận Mỹ khi đó bị chia rẽ, thì vụ Casey Anthony minh họa chiều ngược lại: gần như toàn bộ công luận Mỹ theo dõi vụ án tin chắc bị cáo có tội giết con, nhưng bồi thẩm đoàn hình sự vẫn tuyên **trắng án hoàn toàn** đối với các tội danh giết người — không có một tầng phán quyết dân sự đối trọng nào như vụ Simpson để "cân bằng" kết quả trong mắt công chúng. Cùng với vụ Simpson, đây là cặp bài học so sánh luật giá trị nhất trong packet về khoảng cách giữa niềm tin công chúng và tiêu chuẩn chứng minh pháp lý "beyond a reasonable doubt" (không còn nghi ngờ hợp lý) — và là ví dụ thứ hai trong packet về nguyên tắc double jeopardy của luật Mỹ, áp dụng theo chiều ngược với vụ Simpson: ở đây, double jeopardy bảo vệ một người đã được trắng án khỏi bị xử lại cùng tội danh, bất kể niềm tin của công chúng.
+
+### Primary concepts
+
+- **Bối cảnh:** xảy ra dưới hệ thống pháp luật Hoa Kỳ, bang Florida — thông luật (common law), có bồi thẩm đoàn (jury), khái niệm không tồn tại trong tố tụng hình sự Việt Nam. Phải nêu rõ jurisdiction này trước khi phát biểu bất kỳ khái niệm thủ tục nào (`DOMAIN_GUIDE.md` §2).
+- Con gái hai tuổi của Casey Anthony (**không nêu tên ở bất kỳ đâu trong mục này, đúng §6 — gọi là "con gái của Casey Anthony"/"cháu bé"/"nạn nhân nhỏ tuổi" xuyên suốt**) được nhìn thấy lần cuối còn sống ngày **16/6/2008**. Bà ngoại cháu bé (Cindy Anthony) trình báo mất tích với cảnh sát ngày **15/7/2008** — khoảng một tháng sau — sau khi phát hiện Casey Anthony không báo cáo và có nhiều lời khai không nhất quán, gồm khai cháu bé bị một người giữ trẻ có tên hư cấu bắt cóc; người giữ trẻ này sau đó được xác định là không tồn tại.
+- Ngày **17/7/2008**, một con chó nghiệp vụ phát hiện dấu vết mùi phân hủy tử thi trong cốp xe ô tô của Casey Anthony. Casey Anthony bị bắt ngày **14/10/2008** với các cáo buộc ban đầu: bỏ mặc trẻ em (child neglect), khai báo gian dối, cản trở điều tra. Ngày **11/12/2008**, hài cốt của cháu bé được tìm thấy trong khu vực cây cối gần nhà ông bà ngoại, đã phân hủy nhiều tháng; hộp sọ có băng dính quanh vùng mũi/miệng/hàm.
+- Bên công tố cáo buộc Casey Anthony làm cháu bé bất tỉnh bằng chloroform, sau đó dùng băng dính bịt đường thở khiến cháu bé tử vong ngạt thở, rồi vứt xác. Một trong những bằng chứng gây tranh cãi nhất tại phiên tòa: lịch sử tìm kiếm từ khóa "chloroform" trên máy tính gia đình (một chuyên gia phần mềm trình bày 84 lần tìm kiếm) — nhưng mẹ của Casey Anthony, bà Cindy Anthony, sau đó khai trước tòa rằng chính bà mới là người tìm kiếm từ khóa này (liên quan đến việc chó nhà bà ăn phải lá cây có chất diệp lục), không phải Casey Anthony — một chi tiết pháp y/nhân chứng gây tranh cãi lớn về độ tin cậy của bằng chứng buộc tội.
+- **Lưu ý §4/§5 bắt buộc:** trong tuyên bố mở đầu phiên tòa, luật sư bào chữa Jose Baez đưa ra giả thuyết cháu bé chết đuối do tai nạn trong hồ bơi của ông bà ngoại, và cáo buộc Casey Anthony từng bị chính cha mình (George Anthony) xâm hại tình dục thời thơ ấu — được mô tả là nguyên nhân dẫn đến "cơ chế đối phó" khiến bà nói dối trong gần ba năm. **George Anthony đã phủ nhận hoàn toàn** cả việc liên quan đến cái chết của cháu bé, việc phi tang thi thể, lẫn cáo buộc xâm hại tình dục; không có nhân chứng nào, kể cả chính George Anthony, xác nhận cáo buộc này, và một bức thư tuyệt mệnh trước đó của ông (viết trong giai đoạn khủng hoảng tâm lý riêng, tháng 1/2009) không hề nhắc đến nội dung này. **Đây là một tuyên bố chưa được chứng minh của bên bào chữa, bị chính người bị cáo buộc phủ nhận, không có bằng chứng/nhân chứng xác nhận — tuyệt đối không được trình bày như một sự thật đã xác lập trong bất kỳ kịch bản nào; nếu nhắc đến, phải giữ nguyên khung "cáo buộc của luật sư bào chữa, bị phủ nhận."**
+- Bên công tố ban đầu (tháng 12/2008) thông báo sẽ không truy tố tử hình, nhưng đến tháng 4/2009 đã đảo ngược quyết định, chính thức tìm kiếm án tử hình; quá trình tuyển chọn bồi thẩm đoàn (bắt đầu 9/5/2011) áp dụng tiêu chuẩn "đủ điều kiện xét xử tử hình" (death-qualified jury).
+- Phiên tòa diễn ra tại Florida, Thẩm phán Belvin Perry chủ tọa, kéo dài khoảng 6 tuần. Ngày **5/7/2011**, sau khoảng 10 giờ 40 phút nghị án, bồi thẩm đoàn tuyên **trắng án (not guilty)** đối với ba tội danh nghiêm trọng nhất — giết người cấp độ một, ngược đãi trẻ em nghiêm trọng, ngộ sát nghiêm trọng trẻ em — và **có tội (guilty)** đối với bốn tội danh nhẹ hơn: cung cấp thông tin sai sự thật cho cơ quan thực thi pháp luật, liên quan đến các lời khai gian dối về người giữ trẻ hư cấu và các tình tiết khác trong điều tra ban đầu.
+- **Tuyên án:** đối với bốn tội danh khai báo gian dối, thẩm phán tuyên phạt tổng cộng 4 năm tù giam (mức tối đa, cộng dồn) và phạt tiền 1.000 USD mỗi tội (tổng 4.000 USD). Do đã bị tạm giam gần ba năm chờ xét xử (tính trừ vào thời gian thụ án) cùng giảm trừ vì cải tạo tốt, Casey Anthony được trả tự do ngày **17/7/2011** — chỉ vài ngày sau khi tuyên án.
+- **Phúc thẩm:** Casey Anthony kháng cáo bốn tội danh khai báo gian dối (không kháng cáo phần trắng án vì đó là kết quả có lợi cho bà). Ngày **25/1/2013**, Tòa Phúc thẩm Khu vực 5 của Florida tuyên hủy 2 trong 4 tội danh khai báo gian dối vì vi phạm nguyên tắc double jeopardy — tòa nhận định luật không có ý định trừng phạt riêng biệt cho từng lời khai sai trong cùng một buổi thẩm vấn. Kết quả cuối cùng: còn lại 2 tội danh khai báo gian dối bị kết án (thay vì 4). Không tìm thấy nguồn nào cho thấy phán quyết này sau đó bị kháng nghị lên cấp cao hơn hoặc bị đảo ngược.
+- **Trạng thái pháp lý tổng thể:** nhánh giết người — trắng án có hiệu lực, không thể bị xử lại cùng tội danh theo nguyên tắc double jeopardy; nhánh khai báo gian dối — đã thụ án xong, kết quả phúc thẩm 25/1/2013 (còn 2/4 tội danh) là kết quả cuối cùng được tìm thấy trong nghiên cứu này. **Về mặt hình sự, Casey Anthony không phải là người đã bị kết án giết con** — tuyệt đối không được viết kịch bản theo hướng ngầm khẳng định điều ngược lại bằng tông giọng, cấu trúc, tiêu đề, hay thumbnail (net-impression test), dù dư luận Mỹ đương thời và nhiều năm sau đó vẫn có một bộ phận lớn công chúng tin bà có tội (số liệu khảo sát cụ thể chưa được tài liệu này xác minh trực tiếp qua nguồn gốc — xem ghi chú độ tin cậy).
+
+### Narrative detail
+
+Từ góc độ biên tập, giá trị lớn nhất của vụ án này nằm ở khoảng cách giữa hai câu chuyện chạy song song: câu chuyện dư luận (gần như đồng thuận rằng Casey Anthony đã giết con mình, được củng cố bởi gần ba năm nói dối về người giữ trẻ hư cấu, hành vi không báo mất tích trong một tháng, và các chi tiết pháp y gây sốc như dấu vết phân hủy trong cốp xe) và câu chuyện pháp lý (bồi thẩm đoàn kết luận công tố không chứng minh được tội giết người "vượt quá nghi ngờ hợp lý," một phần vì chính bằng chứng "tìm kiếm chloroform" — trụ cột của lập luận buộc tội — bị chính mẹ của bị cáo làm suy yếu ngay tại tòa). Đây không phải là một vụ án nơi có sự mơ hồ về sự kiện cốt lõi (bồi thẩm đoàn tuyên trắng án là một sự kiện không tranh cãi); sự tranh cãi nằm hoàn toàn ở tầng xã hội — liệu kết quả đó có "đúng" hay không — một tranh luận xã hội, không phải một tranh chấp về sự kiện pháp lý đã xảy ra. Giả thuyết chết đuối do tai nạn của bên bào chữa và cáo buộc xâm hại tình dục nhắm vào George Anthony là hai yếu tố then chốt trong chiến lược bào chữa nhằm tạo ra nghi ngờ hợp lý, nhưng cả hai đều chưa từng được chứng minh là sự thật — tòa án không đưa ra kết luận về việc cháu bé chết đuối do tai nạn hay bị giết, chỉ kết luận công tố chưa chứng minh được tội giết người.
+
+### Script-ready material
+
+- Khung "bài học đồng hành với vụ O.J. Simpson" — dùng trực tiếp làm cầu nối trong kịch bản: "Nếu vụ Simpson là một vụ án nơi dư luận bị chia rẽ, thì đây là vụ án nơi cả nước Mỹ gần như đồng lòng tin có tội — nhưng luật pháp lại nói khác." Đây là hook so sánh luật tự nhiên, không cần thêm thắt.
+- Chi tiết "84 lần tìm kiếm chloroform" và cú lật ngược tại tòa khi mẹ của bị cáo nhận mình mới là người tìm kiếm — một khoảnh khắc kịch tính có thật, minh họa cụ thể cách một bằng chứng tưởng như quyết định có thể sụp đổ trước tòa.
+- Cấu trúc tập phim gợi ý: mở đầu bằng sự mất tích và các lời khai gian dối (gần ba năm nói dối) → hành trình điều tra và phát hiện hài cốt → phiên tòa và bằng chứng gây tranh cãi → trắng án 5/7/2011 và phản ứng dư luận → chốt lại bằng khung "double jeopardy nghĩa là gì" và tham chiếu chéo tới vụ O.J. Simpson để khép lại bài học so sánh luật của cả hai vụ án.
+- Khi thiết kế tiêu đề/thumbnail: dùng "Casey Anthony" (người trưởng thành, đã bị xét xử công khai) làm danh xưng chính của tập, không dùng tên cháu bé.
+
+### Production cautions
+
+- **`DOMAIN_GUIDE.md` §6 (không có ngoại lệ, kể cả khi tên nạn nhân nổi tiếng toàn cầu):** tuyệt đối không nêu tên cháu bé ở bất kỳ đâu trong kịch bản — kể cả trong tiêu đề, mô tả video, thumbnail, hay khi trích dẫn nguồn. Chỉ dùng "con gái của Casey Anthony," "cháu bé," "nạn nhân nhỏ tuổi." Việc tên cháu đã trở thành một phần không thể tách rời của cách vụ án được biết đến trên truyền thông quốc tế **không phải là căn cứ để miễn trừ** quy tắc này.
+- **Đây là ranh giới §4/§5 quan trọng nhất của mục này:** cáo buộc xâm hại tình dục nhắm vào George Anthony (cha của Casey Anthony, một người còn sống) do luật sư bào chữa đưa ra **phải luôn đi kèm khung "cáo buộc chưa chứng minh, bị chính ông phủ nhận, không có nhân chứng xác nhận"** mỗi khi được nhắc đến — không được trần thuật như sự thật đã xác lập theo bất kỳ chiều nào (không khẳng định đúng, cũng không cần thiết phải khẳng định sai — chỉ trình bày đúng như những gì hồ sơ thể hiện: một cáo buộc bị phủ nhận, chưa từng được chứng minh).
+- **Net-impression test:** không được để tông giọng, cấu trúc, tiêu đề, hay nhịp kịch bản ngầm khẳng định "Casey Anthony đã giết con mình" — kể cả khi tường thuật lại niềm tin của dư luận Mỹ đương thời, phải luôn giữ rõ ràng đây là niềm tin công chúng, không phải kết luận pháp lý; bản án trắng án là sự kiện pháp lý duy nhất được xác lập.
+- **Độ tin cậy cần lưu ý:** ngày bắt đầu chính xác của phiên tòa (một số nguồn tổng hợp ghi 24/5/2011) chưa được xác minh trực tiếp qua hồ sơ tòa án — mức tin cậy trung bình. Số liệu khảo sát dư luận Mỹ tin Casey Anthony có tội sau trắng án được nhiều nguồn nhắc đến định tính nhưng **chưa được xác minh trực tiếp qua nguồn khảo sát gốc** — không trích dẫn con số phần trăm cụ thể trong kịch bản trước khi xác minh thêm. Tình trạng còn sống/đã mất hiện tại của George Anthony **chưa được xác minh trực tiếp** trong nghiên cứu này — cần kiểm tra lại nếu kịch bản cần nêu tình trạng hiện tại của ông.
+- **Khoảng trống nguồn:** không tìm thấy thông tin về việc có xảy ra giám đốc thẩm/tái thẩm hay bất kỳ thủ tục pháp lý nào khác sau phán quyết phúc thẩm 25/1/2013 — tạm coi đây là điểm kết thúc tố tụng cuối cùng đã biết, nhưng không khẳng định tuyệt đối không còn diễn biến nào khác.
+
+---
+
 # Ghi chú tổng hợp cho biên tập viên (carry-forward từ research draft)
 
-1. Cả bốn vụ án đều đã có bản án/phán quyết cuối cùng, không còn kháng cáo/kháng nghị đang treo tại thời điểm nghiên cứu (2026-07-23) — đủ điều kiện Format 1 (`DOMAIN_GUIDE.md` §4a) để nêu tên người bị kết án, **ngoại trừ** trường hợp O.J. Simpson về mặt hình sự (trắng án, không phải bị kết án) — luôn trình bày đúng hai tầng phán quyết khác nhau, không gộp chung (xem Production cautions của mục Simpson).
-2. Vụ Lê Văn Luyện là vụ duy nhất trong bốn vụ có nạn nhân vị thành niên — packet này chủ động ẩn danh theo §6 và phải giữ nguyên nguyên tắc này ở mọi bản dựng kịch bản phát sinh từ packet, dù tên các cháu bé đã từng được công khai trên báo chí trước đây.
+1. Cả sáu vụ án đều đã có bản án/phán quyết cuối cùng, không còn kháng cáo/kháng nghị đang treo tại thời điểm nghiên cứu tương ứng (2026-07-23 cho bốn vụ đầu; 2026-07-24 cho hai vụ bổ sung) — đủ điều kiện Format 1 (`DOMAIN_GUIDE.md` §4a) để nêu tên người bị kết án, **ngoại trừ** hai trường hợp trắng án hình sự: O.J. Simpson (trắng án hình sự + chịu trách nhiệm dân sự — hai tầng phán quyết khác nhau) và Casey Anthony (trắng án hình sự đối với tội giết người, chỉ kết tội các tội danh khai báo gian dối nhẹ hơn) — cả hai đều phải luôn trình bày đúng trạng thái pháp lý thực tế, không gộp chung thành "có tội" (xem Production cautions của từng mục).
+2. Ba vụ trong sáu vụ có nạn nhân vị thành niên cần ẩn danh theo §6 — packet này chủ động ẩn danh cả ba trường hợp và phải giữ nguyên nguyên tắc này ở mọi bản dựng kịch bản phát sinh từ packet, dù tên các nạn nhân đã từng được công khai trên báo chí hoặc đã trở thành danh xưng nổi tiếng toàn cầu: (a) vụ Lê Văn Luyện — hai nạn nhân vị thành niên; (b) vụ thảm sát Bình Phước — hai nạn nhân vị thành niên và một em bé sống sót; (c) vụ Casey Anthony — nạn nhân là một bé gái 2 tuổi, trường hợp khó ẩn danh nhất trong toàn bộ packet vì tên cháu đã trở thành một phần gắn liền với cách vụ án được biết đến quốc tế, nhưng quy tắc §6 vẫn áp dụng không có ngoại lệ.
 3. Vụ Năm Cam có giá trị dùng kép cho Pillar 2 và Pillar 5 (tương lai `KP_CL_005`) — phần "cấu trúc tổ chức" trong mục Năm Cam ở trên **cố ý không đi sâu**; khi `KP_CL_005` được viết, đó mới là nơi triển khai đầy đủ mô hình vận hành/cấu trúc tổ chức, dưới khung QA riêng của §8.
 4. Vụ Lê Văn Luyện có giá trị giáo dục pháp luật cao nhất (Pillar 1 chồng lấn) nhờ minh họa cụ thể về Điều 74 BLHS 1999 — nên khai thác như một case study độc lập khi xây Knowledge Packet Pillar 1 về tuổi chịu trách nhiệm hình sự.
-5. Vụ O.J. Simpson là tài liệu so sánh luật tốt nhất trong bốn vụ nhưng cũng là vụ **dễ vi phạm §4 nhất** nếu biên tập không cẩn thận — rủi ro lớn nhất là kịch bản vô tình ngầm khẳng định "Simpson đã giết người" bằng cách trích câu phúc thẩm dân sự tách khỏi ngữ cảnh, hoặc bằng tông giọng/cấu trúc kịch bản (net-impression test). Không có nguồn nào trong nghiên cứu gốc cho thấy Simpson từng bị kết án hình sự.
-6. Các điểm "độ tin cậy trung bình/single-sourced" cần xác minh thêm trước khi một kịch bản phát biểu như sự thật đã xác lập: (a) vai trò chi tiết của từng cán bộ tha hóa trong vụ Năm Cam; (b) ngày phúc thẩm chính xác trong vụ Lê Văn Luyện; (c) phân chia mức án cụ thể và ngày ra tù trước hạn của Đào Quang Khánh trong vụ Cát Tường; (d) câu trích dẫn nguyên văn của tòa phúc thẩm dân sự trong vụ Simpson. Không có vụ nào trong bốn vụ có mâu thuẫn nghiêm trọng giữa các nguồn về sự kiện cốt lõi (bản án, mức án, ngày tháng chính) — các điểm nêu trên đều là chi tiết phụ.
+5. Vụ O.J. Simpson là tài liệu so sánh luật tốt nhất trong sáu vụ nhưng cũng là vụ **dễ vi phạm §4 nhất** nếu biên tập không cẩn thận — rủi ro lớn nhất là kịch bản vô tình ngầm khẳng định "Simpson đã giết người" bằng cách trích câu phúc thẩm dân sự tách khỏi ngữ cảnh, hoặc bằng tông giọng/cấu trúc kịch bản (net-impression test). Không có nguồn nào trong nghiên cứu gốc cho thấy Simpson từng bị kết án hình sự.
+6. Vụ thảm sát Bình Phước là ví dụ rõ nhất trong packet về nguyên tắc "đồng phạm không đồng nghĩa đồng mức trách nhiệm" — ba bị cáo (Nguyễn Hải Dương, Vũ Văn Tiến, Trần Đình Thoại) có ba vai trò và ba mức án khác nhau rõ rệt (tử hình – tử hình – 16 năm tù), tuyệt đối không được gộp chung thành "các hung thủ" trong bất kỳ kịch bản nào; đặc biệt vai trò hạn chế hơn của Trần Đình Thoại (rút lui, không trực tiếp giết người) phải luôn được giữ tách biệt để tránh vi phạm §4 net-impression test đối với riêng ông ta.
+7. Vụ Casey Anthony là bài học đồng hành, đối lập chiều hướng với vụ O.J. Simpson — thay vì dư luận chia rẽ (Simpson), đây là trường hợp dư luận gần như đồng thuận tin có tội nhưng luật không kết tội; hai vụ nên được tham chiếu chéo lẫn nhau khi khai thác kịch bản. Vụ này còn chứa một cáo buộc xâm hại tình dục nhắm vào một người còn sống (George Anthony) do luật sư bào chữa đưa ra, chưa từng được chứng minh và bị chính người đó phủ nhận — rủi ro §4/§5 lớn nhất của vụ án này, luôn phải đi kèm khung "cáo buộc của bên bào chữa, bị phủ nhận, không có bằng chứng xác nhận."
+8. Các điểm "độ tin cậy trung bình/single-sourced" cần xác minh thêm trước khi một kịch bản phát biểu như sự thật đã xác lập: (a) vai trò chi tiết của từng cán bộ tha hóa trong vụ Năm Cam; (b) ngày phúc thẩm chính xác trong vụ Lê Văn Luyện; (c) phân chia mức án cụ thể và ngày ra tù trước hạn của Đào Quang Khánh trong vụ Cát Tường; (d) câu trích dẫn nguyên văn của tòa phúc thẩm dân sự trong vụ Simpson; (e) cách viết tên đầy đủ của người vợ nạn nhân và tình trạng hiện tại của Trần Đình Thoại trong vụ Bình Phước; (f) ngày bắt đầu chính xác của phiên tòa và số liệu khảo sát dư luận cụ thể trong vụ Casey Anthony. Không có vụ nào trong sáu vụ có mâu thuẫn nghiêm trọng giữa các nguồn về sự kiện cốt lõi (bản án/phán quyết, mức án, ngày tháng chính) — các điểm nêu trên đều là chi tiết phụ.
 
 ---
 
@@ -247,5 +341,5 @@ Vụ án là một trong những phiên tòa được theo dõi nhiều nhất l
 | Asset ID | KP_CL_002 |
 | Domain | CL (Hình Sự) |
 | Dùng cho | Pillar 2 (Án Đã Xử/Phá Án) season episodes |
-| Phụ thuộc | `DOMAIN_GUIDE.md` + `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md` |
+| Phụ thuộc | `DOMAIN_GUIDE.md` + `SOURCES/RESEARCH_DRAFT_AN_DA_XU.md` + `SOURCES/RESEARCH_DRAFT_AN_DA_XU_BATCH2.md` |
 | Trạng thái | draft creative-knowledge asset — chưa qua QA chính thức |

@@ -4,14 +4,14 @@ packet_id: KP_CL_005
 domain_id: CL
 asset_id: KP_CL_005
 canonical_owner: DOMAINS/CRIMINAL_LAW
-canonical_topic: Tổ Chức Tội Phạm — Lịch sử, Cấu trúc và Sự Sụp Đổ của 5 Tổ Chức Tội Phạm Có Tổ Chức Tiêu Biểu
+canonical_topic: Tổ Chức Tội Phạm — Lịch sử, Cấu trúc và Sự Sụp Đổ của 7 Tổ Chức Tội Phạm Có Tổ Chức Tiêu Biểu
 vietnamese_display_name: Tổ Chức Tội Phạm (Pillar 5 — Hình Sự)
 english_working_title: Organized Crime — Foundational Knowledge Packet for Pillar 5
 object_type: Knowledge Packet
 status: draft-pending-human-review
-version: 0.1
-language: Tiếng Việt (chính), chú thích Anh/Ý/Nhật/Trung/Tây Ban Nha cho thuật ngữ gốc
-primary_tradition_context: Năm tổ chức tội phạm có tổ chức được tư liệu hóa rộng rãi qua nguồn tier 1-3 — Cosa Nostra (Ý), Yakuza (Nhật Bản), Hội Tam Hoàng/Triads (Hong Kong/Trung Quốc), băng nhóm Năm Cam (Việt Nam), Cartel Medellín (Colombia)
+version: 0.2
+language: Tiếng Việt (chính), chú thích Anh/Ý/Nhật/Trung/Tây Ban Nha/Tây Ban Nha-Mỹ Latinh cho thuật ngữ gốc
+primary_tradition_context: Bảy tổ chức tội phạm có tổ chức được tư liệu hóa rộng rãi qua nguồn tier 1-3 — Cosa Nostra (Ý), Yakuza (Nhật Bản), Hội Tam Hoàng/Triads (Hong Kong/Trung Quốc), băng nhóm Năm Cam (Việt Nam), Cartel Medellín (Colombia), MS-13/Mara Salvatrucha (El Salvador/Hoa Kỳ), Camorra (Ý)
 risk_level: critical
 risk_reasons:
   - Non-glorification & no-operational-detail boundary (`DOMAIN_GUIDE.md` §8) — rủi ro cao nhất của toàn domain
@@ -19,6 +19,7 @@ risk_reasons:
   - Nguy cơ lãng mạn hóa đặc biệt cao ở Pablo Escobar/Cartel Medellín do ảnh hưởng truyền thông đại chúng (Narcos)
   - Truyền thuyết dân gian "phản Thanh phục Minh" dễ bị trình bày nhầm thành sử liệu (Hội Tam Hoàng)
   - Băng Năm Cam liên quan cán bộ nhà nước tha hóa — cần cross-reference đúng với KP_CL_002 để không lặp/mâu thuẫn tường thuật vụ án
+  - MS-13 là rủi ro dạng mới, khác bản chất "lãng mạn hóa": nguy cơ chính trị hóa/giật gân theo cả hai chiều của cuộc tranh luận nhập cư Mỹ 2016-2026 — cần tiểu mục "Cảnh báo chính trị hóa/giật gân" riêng, bắt buộc mang theo nguyên vẹn (mục 6)
 required_qa:
   - Domain QA (Hình Sự) — DOMAIN_QA/DOMAIN_QA_POLICY.md
   - Research QA
@@ -28,14 +29,15 @@ required_qa:
 dependencies:
   - DOMAINS/CRIMINAL_LAW/DOMAIN_GUIDE.md (đặc biệt §4a Format 3, §8)
   - DOMAINS/CRIMINAL_LAW/SOURCES/RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md
+  - DOMAINS/CRIMINAL_LAW/SOURCES/RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md (MS-13 & Camorra, research date 2026-07-24)
   - DOMAINS/CRIMINAL_LAW/KNOWLEDGE_PACKETS/KP_CL_002_An_Da_Xu.md (cross-reference cho case Năm Cam — ĐÃ TỒN TẠI kể từ 2026-07-23; số liệu 155 bị can/bị cáo, 24 tội danh, 21 cán bộ nhà nước đã được đối chiếu và khớp, xem "Cập nhật trạng thái" ở Packet Control và `_QA_REPORT_KP_CL_005.md`)
   - DOMAINS/CRIMINAL_LAW/GLOSSARY/DOMAIN_GLOSSARY.md
-source_lineage: Tổng hợp 1 research draft (RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md, research date 2026-07-23) diễn giải lại bằng lời riêng sau khi đối chiếu nhiều nguồn qua WebSearch thực tế. Độ tin cậy hỗn hợp, gắn nhãn riêng theo từng mục — xem "Ghi chú độ tin cậy" cuối mỗi Topic Section.
+source_lineage: Tổng hợp 2 research draft — (1) RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md (research date 2026-07-23, 5 tổ chức gốc); (2) RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md (research date 2026-07-24, MS-13 & Camorra) — diễn giải lại bằng lời riêng sau khi đối chiếu nhiều nguồn qua WebSearch thực tế. Độ tin cậy hỗn hợp, gắn nhãn riêng theo từng mục — xem "Ghi chú độ tin cậy" cuối mỗi Topic Section.
 confidence_level: mixed — xem nhãn độ tin cậy riêng ở từng mục
 terminology: Xem GLOSSARY/DOMAIN_GLOSSARY.md — thuật ngữ "Tổ chức tội phạm" và "Hội Tam Hoàng (Triads)" đã có mục riêng; packet này không đặt thêm thuật ngữ mới ngoài glossary hiện có
 claims: Xem từng Topic Section — mỗi tuyên bố cụ thể gắn nhãn độ tin cậy tại nguồn
-cautions: Xem "Production cautions" trong mỗi Topic Section — đặc biệt §8 (non-glorification/no-operational-detail) và §4a Format 3 (individual-guilt-not-transferred)
-QA_status: draft — chưa qua Domain QA / Research QA / Safety QA chính thức; KHÔNG dùng trực tiếp làm kịch bản sản xuất trước khi human review
+cautions: Xem "Production cautions" trong mỗi Topic Section — đặc biệt §8 (non-glorification/no-operational-detail) và §4a Format 3 (individual-guilt-not-transferred); mục 6 (MS-13) có thêm tiểu mục bắt buộc riêng "Cảnh báo chính trị hóa/giật gân"
+QA_status: draft — chưa qua Domain QA / Research QA / Safety QA chính thức cho phần mở rộng (mục 6-7); KHÔNG dùng trực tiếp làm kịch bản sản xuất trước khi human review
 compatibility_aliases: [KP_TO_CHUC_TOI_PHAM_001, Organized Crime KP, Pillar 5 KP]
 review_cadence: Hàng năm, và bất kỳ khi nào phát hiện nguồn mới, tiền lệ QA mới liên quan §8, hoặc khi KP_CL_002 được viết (cần rà soát lại phần cross-reference Năm Cam)
 ---
@@ -48,19 +50,21 @@ review_cadence: Hàng năm, và bất kỳ khi nào phát hiện nguồn mới, 
 |---|---|
 | Packet ID | KP_CL_005 |
 | Domain ID | CL |
-| Canonical Topic | Tổ Chức Tội Phạm — Lịch sử, Cấu trúc và Sự Sụp Đổ của 5 Tổ Chức Tội Phạm Có Tổ Chức Tiêu Biểu |
+| Canonical Topic | Tổ Chức Tội Phạm — Lịch sử, Cấu trúc và Sự Sụp Đổ của 7 Tổ Chức Tội Phạm Có Tổ Chức Tiêu Biểu |
 | Vietnamese Display Name | Tổ Chức Tội Phạm (Pillar 5 — Hình Sự) |
 | Object Type | Knowledge Packet |
 | Status | draft-pending-human-review |
-| Version | 0.1 |
+| Version | 0.2 |
 | Language | Tiếng Việt (chính), chú thích gốc nước ngoài cho thuật ngữ |
-| Primary Tradition Context | Cosa Nostra (Ý), Yakuza (Nhật Bản), Hội Tam Hoàng/Triads (Hong Kong/Trung Quốc), băng nhóm Năm Cam (Việt Nam), Cartel Medellín (Colombia) |
+| Primary Tradition Context | Cosa Nostra (Ý), Yakuza (Nhật Bản), Hội Tam Hoàng/Triads (Hong Kong/Trung Quốc), băng nhóm Năm Cam (Việt Nam), Cartel Medellín (Colombia), MS-13/Mara Salvatrucha (El Salvador/Hoa Kỳ), Camorra (Ý) |
 | Risk Level | **Critical** — mức rủi ro cao nhất domain, vì đây là pillar mà §8 (Non-Glorification & No-Operational-Detail) áp dụng trực tiếp và nặng nhất |
 | Required QA | Domain QA, Research QA, Safety QA (§8), Historical QA, Brand QA |
-| Dependencies | `DOMAIN_GUIDE.md` §4a Format 3 + §8, `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md`, `KP_CL_002_An_Da_Xu.md` (cross-ref, xem cảnh báo dưới) |
+| Dependencies | `DOMAIN_GUIDE.md` §4a Format 3 + §8, `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md`, `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md`, `KP_CL_002_An_Da_Xu.md` (cross-ref, xem cảnh báo dưới) |
 | Review Cadence | Hàng năm; ngay khi có nguồn mới hoặc khi KP_CL_002 được viết |
 
 **Cập nhật trạng thái (2026-07-23, sau khi soạn):** `KP_CL_002_An_Da_Xu.md` nay đã được soạn xong. Đã đối chiếu lại: mục 4 (Băng nhóm Năm Cam) dưới đây và KP_CL_002's phần Năm Cam khớp số liệu (155 bị can/bị cáo, 24 tội danh, 21 cán bộ nhà nước xử lý) — không phát hiện mâu thuẫn. Cross-reference giữ nguyên như thiết kế: mục này chỉ tập trung cấu trúc tổ chức + mạng lưới cán bộ tha hóa, `KP_CL_002` giữ narrative vụ án/phiên tòa đầy đủ.
+
+**Cập nhật trạng thái (2026-07-24, mở rộng batch 2 — version 0.1 → 0.2):** Bổ sung hai mục Topic Section mới, **mục 6 (MS-13/Mara Salvatrucha)** và **mục 7 (Camorra, Naples)**, tổng hợp từ `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md` (research date 2026-07-24). Roster của packet nay là 7 tổ chức (trước đó 5). Không tổ chức nào trong hai mục mới vi phạm ranh giới §8 (không chi tiết vận hành, không mô tả hình xăm/phù hiệu nhận dạng được). Mục 6 mang theo đầy đủ, nguyên vẹn tiểu mục bắt buộc "Cảnh báo chính trị hóa/giật gân" từ research draft — xem cảnh báo riêng trong mục đó. Hai mục mới **chưa qua Domain QA / Research QA / Safety QA chính thức** — cùng trạng thái draft-pending-human-review như 5 mục gốc.
 
 Đây là Knowledge Packet đầu tiên của Pillar 5 domain Hình Sự, tổng hợp từ `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md`. `DOMAIN_QA/DOMAIN_QA_POLICY.md` của domain này cần áp dụng đầy đủ trước khi packet chuyển sang trạng thái `active` cho sản xuất kịch bản, đúng tinh thần đã thiết lập ở `KP_FS_001` và `DOMAIN_MANIFEST.md`.
 
@@ -68,7 +72,7 @@ review_cadence: Hàng năm, và bất kỳ khi nào phát hiện nguồn mới, 
 
 # Nguyên tắc bao trùm (áp dụng cho cả 5 mục dưới đây)
 
-Theo `DOMAIN_GUIDE.md` §8, **trọng tâm tường thuật bắt buộc của mọi tổ chức trong packet này là hậu quả/sự sụp đổ** — không phải lối sống, sự giàu có, hay tường thuật kiểu "vươn lên" thiếu vế "sụp đổ" tương xứng. Đây không phải màu sắc tùy chọn: mục "Narrative detail" và "Script-ready material" của mỗi tổ chức **bắt buộc** phải mang theo nhịp hậu quả/giải thể như một phần cấu trúc, không phải một đoạn có thể lược bỏ khi biên tập kịch bản.
+Áp dụng cho cả 7 mục dưới đây (5 mục gốc + mục 6 MS-13 và mục 7 Camorra bổ sung 2026-07-24). Theo `DOMAIN_GUIDE.md` §8, **trọng tâm tường thuật bắt buộc của mọi tổ chức trong packet này là hậu quả/sự sụp đổ** — không phải lối sống, sự giàu có, hay tường thuật kiểu "vươn lên" thiếu vế "sụp đổ" tương xứng. Đây không phải màu sắc tùy chọn: mục "Narrative detail" và "Script-ready material" của mỗi tổ chức **bắt buộc** phải mang theo nhịp hậu quả/giải thể như một phần cấu trúc, không phải một đoạn có thể lược bỏ khi biên tập kịch bản.
 
 Theo `DOMAIN_GUIDE.md` §4a Format 3: mỗi tổ chức dưới đây đủ điều kiện được nêu tên vì designation "tổ chức tội phạm" đến từ nguồn tier-1/tier-2 (phán quyết tư pháp, luật định danh, hoặc báo chí điều tra uy tín) — nhưng **việc nêu tên tổ chức không bao giờ cấp phép nêu tên một cá nhân thành viên chưa bị kết án cuối cùng là có tội về một hành vi cụ thể**. Bất kỳ cá nhân nào được nhắc đến ngoài phạm vi một bản án đã có hiệu lực pháp luật vẫn phải áp dụng đầy đủ ngôn ngữ hedged theo §4 (bị tình nghi/bị can/bị cáo).
 
@@ -90,19 +94,19 @@ Tổ Chức Tội Phạm (Organized Crime) — Pillar 5 của domain Hình Sự.
 
 ## Related Terms
 
-Cosa Nostra, Mafia, omertà, pentiti, Yakuza, oyabun/kobun, bōryokudan, Hội Tam Hoàng, Triad, Thiên Địa Hội, cartel, Trương Văn Cam/Năm Cam, tập đoàn tội phạm, bảo kê.
+Cosa Nostra, Mafia, omertà, pentiti, Yakuza, oyabun/kobun, bōryokudan, Hội Tam Hoàng, Triad, Thiên Địa Hội, cartel, Trương Văn Cam/Năm Cam, tập đoàn tội phạm, bảo kê, MS-13, Mara Salvatrucha, clique/clica, Palabrero, IIRIRA, mano dura, chế độ ngoại lệ, Camorra, clan Casalesi, Roberto Saviano, Gomorra, Phiên tòa Spartacus.
 
 ## Keywords
 
-Tổ chức tội phạm, mafia, Cosa Nostra, Sicilia, Maxi Trial, Falcone, Borsellino, Yakuza, oyabun, kobun, Bōtaihō, Hội Tam Hoàng, Triads, Thiên Địa Hội, 14K, Organized and Serious Crimes Ordinance, Năm Cam, Trương Văn Cam, tập đoàn tội phạm, Cartel Medellín, Pablo Escobar, Search Bloc, Narcos, phản khung lãng mạn hóa.
+Tổ chức tội phạm, mafia, Cosa Nostra, Sicilia, Maxi Trial, Falcone, Borsellino, Yakuza, oyabun, kobun, Bōtaihō, Hội Tam Hoàng, Triads, Thiên Địa Hội, 14K, Organized and Serious Crimes Ordinance, Năm Cam, Trương Văn Cam, tập đoàn tội phạm, Cartel Medellín, Pablo Escobar, Search Bloc, Narcos, phản khung lãng mạn hóa, MS-13, Mara Salvatrucha, Pico-Union Los Angeles, IIRIRA 1996, clique, Palabrero, RICO, mano dura, Nayib Bukele, CECOT, chế độ ngoại lệ, cảnh báo chính trị hóa/giật gân, Camorra, Naples, clan Casalesi, Roberto Saviano, Gomorra, Phiên tòa Spartacus.
 
 ---
 
 # Historical Background (tổng quan liên tổ chức)
 
-Năm tổ chức trong packet này hình thành trong những bối cảnh lịch sử-xã hội rất khác nhau — nhà nước Ý mới thống nhất còn yếu ở Sicilia thế kỷ 19; các nhóm bên lề xã hội thời Mạc phủ Tokugawa; hội tương trợ dân gian Phúc Kiến thế kỷ 18; khoảng trống quản lý đô thị TP.HCM thời kỳ đổi mới; nền kinh tế buôn lậu lâu đời của Colombia — nhưng có một mẫu số chung mà `DOMAIN_GUIDE.md` §8 yêu cầu làm khung phân tích xuyên suốt: **mỗi tổ chức lấp một khoảng trống quyền lực/quản lý nhà nước tại một thời điểm cụ thể, và mỗi tổ chức đều có một quá trình bị nhà nước/nội bộ dẹp bỏ hoặc suy yếu được ghi chép tốt**. Đây là lăng kính phân tích-lịch sử-xã hội bắt buộc, không phải một chuỗi "5 câu chuyện phiêu lưu tội phạm".
+Bảy tổ chức trong packet này hình thành trong những bối cảnh lịch sử-xã hội rất khác nhau — nhà nước Ý mới thống nhất còn yếu ở Sicilia thế kỷ 19; các nhóm bên lề xã hội thời Mạc phủ Tokugawa; hội tương trợ dân gian Phúc Kiến thế kỷ 18; khoảng trống quản lý đô thị TP.HCM thời kỳ đổi mới; nền kinh tế buôn lậu lâu đời của Colombia; nội chiến El Salvador và một làn sóng tị nạn tại Mỹ, sau đó bị chính sách trục xuất "xuất khẩu" ngược về Trung Mỹ; hệ thống nhà tù Naples cuối thế kỷ 18 — nhưng có một mẫu số chung mà `DOMAIN_GUIDE.md` §8 yêu cầu làm khung phân tích xuyên suốt: **mỗi tổ chức lấp một khoảng trống quyền lực/quản lý nhà nước (hoặc, với MS-13, một khoảng trống bảo vệ cộng đồng nhập cư) tại một thời điểm cụ thể, và mỗi tổ chức đều có một quá trình bị nhà nước/nội bộ dẹp bỏ hoặc suy yếu được ghi chép tốt — kể cả khi, như với Camorra, quá trình đó mới thành công ở cấp từng clan cụ thể chứ chưa dẹp bỏ toàn bộ mạng lưới**. Đây là lăng kính phân tích-lịch sử-xã hội bắt buộc, không phải một chuỗi "7 câu chuyện phiêu lưu tội phạm".
 
-Mọi jurisdiction phải được nêu rõ khi dựng kịch bản (`DOMAIN_GUIDE.md` §2): Ý (dân luật, hệ tòa 2-3 cấp + Tòa Phá án), Nhật Bản, Hong Kong (thông luật thời thuộc địa Anh, nay là Đặc khu Hành chính Trung Quốc), Việt Nam (dân luật, 2 cấp xét xử sơ thẩm/phúc thẩm), Colombia/Mỹ (hệ phối hợp song phương, DEA hỗ trợ). Không được ngầm hiểu khái niệm tố tụng của nước này áp dụng cho nước khác.
+Mọi jurisdiction phải được nêu rõ khi dựng kịch bản (`DOMAIN_GUIDE.md` §2): Ý (dân luật, hệ tòa 2-3 cấp + Tòa Phá án — áp dụng cho cả Cosa Nostra và Camorra), Nhật Bản, Hong Kong (thông luật thời thuộc địa Anh, nay là Đặc khu Hành chính Trung Quốc), Việt Nam (dân luật, 2 cấp xét xử sơ thẩm/phúc thẩm), Colombia/Mỹ (hệ phối hợp song phương, DEA hỗ trợ), El Salvador (dân luật; riêng giai đoạn "chế độ ngoại lệ" từ 2022 tạm ngưng một số quyền hiến định — cần nêu rõ đây là tình trạng pháp lý đặc biệt, không phải thủ tục tố tụng thông thường) và Mỹ liên bang (các vụ án RICO nhắm vào MS-13). Không được ngầm hiểu khái niệm tố tụng của nước này áp dụng cho nước khác.
 
 ---
 
@@ -112,6 +116,7 @@ Mọi jurisdiction phải được nêu rõ khi dựng kịch bản (`DOMAIN_GUI
 |---|---|---|---|
 | `SOURCES/RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md` | Nghiên cứu nền cho cả 5 tổ chức: nguồn gốc, cấu trúc, hậu quả/giải thể, cảnh báo lãng mạn hóa (Escobar) | Hỗn hợp — Tier 1-2 cho số liệu tố tụng/luật định/sự kiện đã kiểm chứng chéo; Tier 3 cho truyền thuyết dân gian/chi tiết tường thuật báo chí điều tra dài kỳ | Nguồn chính duy nhất cho packet này; mọi claim giữ nguyên nhãn độ tin cậy gốc, không được làm phẳng |
 | `KP_CL_002_An_Da_Xu.md` (đã tồn tại kể từ 2026-07-23) | Chứa tường thuật case/phiên tòa "Trương Văn Cam và đồng phạm" đầy đủ (Pillar 2) | Tier 1-2 cho số liệu tố tụng cốt lõi, kế thừa từ `RESEARCH_DRAFT_AN_DA_XU.md` | Mục 4 dưới đây chỉ tập trung cấu trúc tổ chức + mạng lưới cán bộ tha hóa, cross-reference KP_CL_002 cho narrative vụ án/phiên tòa; đã đối chiếu số liệu 155 bị can/bị cáo, 24 tội danh, 21 cán bộ nhà nước — khớp, không mâu thuẫn (xem "Cập nhật trạng thái" ở Packet Control) |
+| `SOURCES/RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md` (research date 2026-07-24) | Nghiên cứu nền cho MS-13 và Camorra: nguồn gốc, cơ chế trục xuất/xuyên quốc gia hóa, cấu trúc, mano dura, cảnh báo chính trị hóa (MS-13); nguồn gốc, cấu trúc compare/contrast với Cosa Nostra, Saviano/Gomorra, Phiên tòa Spartacus (Camorra) | Hỗn hợp — Tier 1 cho số liệu tố tụng/luật định/sự kiện chính phủ (CRS, DOJ, Federal Register, DIA); Tier 2-3 cho báo chí điều tra, học thuật, fact-checking (InSight Crime, PolitiFact, ACAMS, University of Bath) | Nguồn chính cho mục 6 (MS-13) và mục 7 (Camorra); mọi claim giữ nguyên nhãn độ tin cậy gốc, không được làm phẳng — đặc biệt tiểu mục "Cảnh báo chính trị hóa/giật gân" của MS-13 phải mang theo nguyên vẹn |
 
 ## Source Priority Hierarchy (tái hiện từ `DOMAIN_GUIDE.md` §3)
 
@@ -128,6 +133,10 @@ Mọi jurisdiction phải được nêu rõ khi dựng kịch bản (`DOMAIN_GUI
 - Vai trò/mức độ liên hệ chính thức của "Los Pepes" với Cartel Cali/lực lượng an ninh nhà nước Colombia trong quá trình truy bắt Escobar — độ tin cậy trung bình-cao nhưng còn nhiều góc nhìn gây tranh cãi, chưa hoàn toàn xác nhận chính thức ở mọi chi tiết.
 - Số liệu quy mô hoạt động Cartel Medellín (80% cocaine vào Mỹ, ~15 tấn/ngày, ~100 triệu USD/ngày) là ước tính của cơ quan thực thi pháp luật thời kỳ đó, không phải số liệu kiểm toán độc lập — cần trình bày kèm "ước tính".
 - Truyền thuyết "phản Thanh phục Minh" của Thiên Địa Hội — độ tin cậy thấp/mang tính dân gian, xem cảnh báo riêng trong mục Hội Tam Hoàng.
+- Số liệu trục xuất cụ thể liên quan MS-13 (20.000 người 2000-2004 vs. gần 130.000 người 2001-2010) đến từ hai ước tính khác nguồn/phạm vi thời gian — cần nêu cả hai kèm nguồn, không chọn một số duy nhất (xem mục 6).
+- Số liệu người chết trong trại giam El Salvador dưới "chế độ ngoại lệ" dao động 261-517 người tùy nguồn/thời điểm thống kê — chưa có con số chốt được mọi tổ chức nhân quyền đồng thuận (xem mục 6).
+- Mức độ tranh luận học thuật về "hierarchical in form but fragmented in practice" của MS-13 — một số nghiên cứu 2025 cho rằng mạng lưới có thể liên kết chặt hơn nhận định phổ biến trước đây; chưa có đồng thuận học thuật cuối cùng (xem mục 6).
+- Mốc thời gian cụ thể của việc Saviano sống dưới bảo vệ vũ trang (một số nguồn nêu "tám năm", nhiều nguồn khác xác nhận việc bảo vệ vẫn tiếp diễn tới gần hiện tại) — nguồn không đồng nhất về một con số năm chính xác (xem mục 7).
 
 ---
 
@@ -172,7 +181,7 @@ Cosa Nostra là ví dụ kinh điển nhất để dạy khán giả một nguy�
 
 ### Knowledge function
 
-Yakuza là ví dụ duy nhất trong 5 tổ chức từng tồn tại bán công khai, được xã hội "dung thứ" trong phần lớn lịch sử hiện đại — một điểm giáo dục quý giá để dạy khán giả phân biệt "được dung thứ" với "được chấp nhận đạo đức", và để minh họa cách một nhà nước chuyển từ khoan dung sang trấn áp có hệ thống bằng công cụ luật pháp dân sự (không chỉ hình sự).
+Yakuza là ví dụ duy nhất trong 7 tổ chức từng tồn tại bán công khai, được xã hội "dung thứ" trong phần lớn lịch sử hiện đại — một điểm giáo dục quý giá để dạy khán giả phân biệt "được dung thứ" với "được chấp nhận đạo đức", và để minh họa cách một nhà nước chuyển từ khoan dung sang trấn áp có hệ thống bằng công cụ luật pháp dân sự (không chỉ hình sự).
 
 ### Primary concepts
 
@@ -268,7 +277,7 @@ Băng nhóm Năm Cam là ví dụ duy nhất trong 5 tổ chức xảy ra tại 
 
 ### Knowledge function
 
-Cartel Medellín/Pablo Escobar là **trường hợp rủi ro lãng mạn hóa cao nhất trong cả 5 tổ chức**, do ảnh hưởng của các sản phẩm giải trí đại chúng (đặc biệt loạt phim Netflix "Narcos"). Đây là mục đòi hỏi một tầng phòng vệ biên tập bổ sung ngoài khung 5 phần thông thường — xem "Cảnh báo lãng mạn hóa" riêng bên dưới, tách biệt khỏi "Production cautions" chung.
+Cartel Medellín/Pablo Escobar là **trường hợp rủi ro lãng mạn hóa cao nhất trong cả 7 tổ chức của packet này**, do ảnh hưởng của các sản phẩm giải trí đại chúng (đặc biệt loạt phim Netflix "Narcos") — MS-13 (mục 6) mang một rủi ro khác về bản chất (chính trị hóa/giật gân, không phải lãng mạn hóa), xem mục đó. Đây là mục đòi hỏi một tầng phòng vệ biên tập bổ sung ngoài khung 5 phần thông thường — xem "Cảnh báo lãng mạn hóa" riêng bên dưới, tách biệt khỏi "Production cautions" chung.
 
 ### Primary concepts
 
@@ -309,14 +318,100 @@ Cartel Medellín/Pablo Escobar là **trường hợp rủi ro lãng mạn hóa c
 
 ---
 
+## 6. MS-13 (Mara Salvatrucha) — El Salvador / Hoa Kỳ
+
+### Knowledge function
+
+MS-13 là tổ chức duy nhất trong packet này không hình thành từ một khoảng trống quyền lực nhà nước nội tại, mà từ một làn sóng tị nạn chiến tranh tại một quốc gia thứ ba (Mỹ), sau đó bị "xuất khẩu" ngược về quê hương qua một cơ chế chính sách nhập cư cụ thể, có thể kiểm chứng — Đạo luật IIRIRA năm 1996. Bài học sư phạm cốt lõi: một tổ chức tội phạm xuyên quốc gia có thể hình thành từ sự giao thoa giữa chấn thương chiến tranh, thất bại hòa nhập cộng đồng nhập cư, và một quyết định chính sách công cụ thể — không phải một "bản chất" gán sẵn cho bất kỳ nhóm dân cư nào. Đây cũng là tổ chức duy nhất trong packet đòi hỏi một tầng phòng vệ biên tập thứ hai ngoài khung 5 phần và §8: **chống chính trị hóa/giật gân** — đối xứng ngược với "Cảnh báo lãng mạn hóa" của Cartel Medellín (mục 5): ở Escobar, rủi ro là khiến tổ chức trông hấp dẫn; ở MS-13, rủi ro là biến tập phim thành công cụ minh họa cho một luận điểm chính trị đảng phái Mỹ về nhập cư, theo bất kỳ chiều nào của cuộc tranh luận đó.
+
+### Primary concepts
+
+- Hình thành đầu thập niên 1980 tại khu Pico-Union, Los Angeles, bởi người tị nạn/nhập cư El Salvador chạy trốn nội chiến El Salvador (1979/1980-1992, chính phủ vs. FMLN) — ước tính khoảng 900.000 người bị di dời trong cuộc nội chiến này. Nhóm hình thành ban đầu mang tính tự vệ cộng đồng đồng hương trước sự thù địch của các băng nhóm gốc Mexico/Mỹ-Latin, Mỹ gốc Phi đã tồn tại từ trước tại khu vực. **Bối cảnh nguồn gốc này phải luôn xuất hiện trong kịch bản — không phải để biện minh, mà vì đây là bối cảnh lịch sử cần thiết thường bị lược bỏ trong tường thuật giật gân.** Độ tin cậy cao (khớp Britannica, Wikipedia, InSight Crime, CRS).
+- Tên gọi: "Mara" (tiếng lóng El Salvador chỉ "băng nhóm") + "Salvatrucha" (ghép "Salva" + tiếng lóng "trucha" nghĩa "cảnh giác/tinh ranh"). Đầu thập niên 1990, liên minh với Mexican Mafia (Sureños) trong hệ thống nhà tù California — từ đó có số "13" gắn với tên gọi.
+- **Cơ chế trục xuất 1996 (IIRIRA) → xuyên quốc gia hóa** — chuỗi nhân-quả chính sách công cụ thể, độ tin cậy cao (CRS tier 1, InSight Crime, VoxDev): Đạo luật *Illegal Immigration Reform and Immigrant Responsibility Act* (IIRIRA) 1996 mở rộng đáng kể diện trục xuất người nước ngoài có tiền án hình sự. Ước tính dao động giữa các nguồn — cần nêu cả hai, gắn nguồn, không chọn một số duy nhất: khoảng 20.000 người có tiền án bị trục xuất về Trung Mỹ giai đoạn 2000-2004 theo một ước tính; theo CRS, gần 130.000 công dân nước ngoài bị trục xuất về Trung Mỹ vì lý do hình sự giai đoạn 2001-2010. Nhiều người bị trục xuất về một El Salvador vừa ra khỏi nội chiến, thể chế còn yếu, không có mạng lưới tái hòa nhập, đã tái tạo cấu trúc "clique" học được ở Mỹ ngay tại quê nhà — khung đúng cho kịch bản: một trường hợp giáo dục về hệ quả chính sách nhập cư/hình sự không lường trước, không phải để đổ lỗi đơn giản.
+- Cấu trúc: mạng lưới **"clica"/"clique"** phân tán theo địa bàn, mỗi clique tự chủ tài chính/nhân sự ở mức độ cao; trong tù (đặc biệt El Salvador) mỗi clique có "shot-caller"/**"Palabrero"**, hỗ trợ bởi các vị trí khác — nêu ở mức khái quát vai trò tổ chức, không đi sâu cơ chế vận hành nội bộ. Criminology mô tả MS-13 là "hierarchical in form but fragmented in practice" — độ tin cậy cao (CRS, InSight Crime, Orion Policy Institute, học thuật ResearchGate); có tranh luận học thuật nhỏ (2025) về mức độ liên kết mạng lưới thực sự — cần gắn nhãn "đang có tranh luận học thuật về mức độ," không khẳng định tuyệt đối một chiều.
+- Ứng phó pháp lý Mỹ: nhiều vụ án liên bang dùng đạo luật RICO nhắm vào cấu trúc lãnh đạo MS-13 theo từng clique/khu vực cụ thể (ví dụ Las Vegas 2024 — ba bị cáo kết án liên quan chuỗi 9 vụ giết người 2017-2018; Massachusetts từ 2016; California) — khác Maxi Trial của Cosa Nostra (mục 1) ở chỗ đây là nhiều vụ án riêng lẻ qua nhiều năm/khu vực tài phán, không phải một đại án duy nhất "đánh sập" toàn mạng lưới. Độ tin cậy cao cho từng vụ án cụ thể (nguồn DOJ, tier 1).
+
+### Narrative detail
+
+**Phần trọng tâm bắt buộc (§8), và đồng thời là phần nhạy cảm chính trị nhất trong packet — jurisdiction phải luôn nêu rõ (El Salvador, dân luật; Mỹ, liên bang) theo `DOMAIN_GUIDE.md` §2. Cảnh báo bắt buộc: đây là chủ đề đang diễn ra (ongoing), không phải lịch sử đã khép lại — mọi con số cần gắn mốc thời gian rõ ràng.** Từ tháng 3/2022, Tổng thống El Salvador Nayib Bukele ban bố "chế độ ngoại lệ" (régimen de excepción/state of exception), tạm ngưng một số quyền hiến định, nới lỏng quy định bắt giữ — gia hạn liên tục hàng chục lần đến 2024-2025; xây dựng CECOT (Terrorism Confinement Center) — nhà tù được truyền thông mô tả có sức chứa tới 40.000 người. **Số liệu an ninh (theo chính phủ El Salvador, cần gắn ngày công bố):** tỷ lệ giết người giảm mạnh, từ 53,1/100.000 dân (2018) xuống mức báo cáo 1,9/100.000 dân (2024) — giảm hơn 98% giai đoạn 2015-2024 theo số liệu cảnh sát El Salvador; khoảng 84.000-118.000 người bị giam giữ vì cáo buộc liên quan tổ chức tội phạm tính đến đầu 2025 (số liệu dao động theo nguồn/thời điểm); Bukele nhận tỷ lệ ủng hộ rất cao trong khảo sát dư luận (một khảo sát CID Gallup ghi nhận khoảng 95%). **Song song, tài liệu hóa tốt bởi Human Rights Watch, Amnesty International, WOLA, Cristosal:** bắt giữ hàng loạt/tùy tiện, nhiều trường hợp bị giam giữ chỉ vì hình xăm, nơi cư trú thu nhập thấp, hoặc "biểu hiện lo lắng" khi bị hỏi — không phải bằng chứng phạm tội cụ thể; báo cáo tra tấn, thiếu ăn, điều kiện giam giữ vô nhân đạo, và số người chết trong trại giam dao động 261-517 người tùy thời điểm/nguồn thống kê, phần lớn — theo một tổ chức giám sát — chưa từng bị kết án bất kỳ tội danh nào. **Khung đúng, bắt buộc cho kịch bản: đây là một cuộc tranh luận thực sự, chưa có hồi kết đồng thuận, giữa hiệu quả an ninh định lượng được và cái giá nhân quyền tài liệu hóa được — không phải một câu chuyện "thành công tuyệt đối" hay "thất bại tuyệt đối" theo một chiều. Cả hai vế của tranh luận đều phải xuất hiện, đúng tinh thần `DOMAIN_GUIDE.md` §5 (trình bày đầy đủ các luồng ý kiến, không chỉ chọn một chiều).**
+
+### Script-ready material
+
+- Cấu trúc "chuỗi nhân-quả chính sách công" (nội chiến → tị nạn → nhóm tự vệ cộng đồng → IIRIRA 1996 → xuyên quốc gia hóa) — mạch kể giáo dục mạnh, trung lập chính trị, không cần dựng thêm kịch tính.
+- Đối lập "hierarchical in form but fragmented in practice" — điểm sửa hiểu lầm phổ biến (MS-13 không phải một "đế chế" có chỉ huy trung ương thống nhất, mà một mạng lưới clique tự chủ).
+- mano dura/chế độ ngoại lệ như một hồi kết **mở**, không đóng — vừa có số liệu an ninh ấn tượng, vừa có cái giá nhân quyền tài liệu hóa tốt — chất liệu tự nhiên cho kết cấu "tranh luận hai chiều," thay vì một kết luận đơn phương.
+
+### Cảnh báo chính trị hóa/giật gân
+
+**Đây là tiểu mục bắt buộc riêng cho tổ chức này** khi Knowledge Packet hóa nội dung — song song, không thay thế, "Cảnh báo lãng mạn hóa" của Cartel Medellín ở mục 5, nhưng đối xứng ngược: rủi ro ở đây là **chính trị hóa/giật gân**, không phải lãng mạn hóa. MS-13 là tổ chức tội phạm có tổ chức bị chính trị hóa nhiều nhất trong diễn ngôn công chúng Mỹ giai đoạn 2016-2026, theo cả hai hướng: (a) phóng đại quy mô/mối đe dọa để phục vụ luận điểm chính sách nhập cư, và (b) một số tiếng nói khác giảm thiểu quy mô thiệt hại thực tế để phản bác luận điểm (a). Kênh này không đứng về phía nào của cuộc tranh luận chính sách nhập cư Mỹ — chỉ trình bày sự kiện đã kiểm chứng.
+
+- **Fact-check đã xác nhận (PolitiFact, AP Fact Check — tier 2 fact-checking uy tín):** nhiều tuyên bố chính trị giai đoạn 2017-2018 về MS-13 bị các tổ chức fact-check đánh giá là gây hiểu lầm hoặc sai lệch cụ thể — tuyên bố băng nhóm đang "gia tăng mạnh" không khớp số liệu FBI (quy mô tại Mỹ được ước tính ổn định quanh mức ~10.000 thành viên liên tục từ khoảng 2005 đến nay); tuyên bố phần lớn thành viên là người nhập cư bất hợp pháp không khớp (nhiều nguồn, gồm nghiên cứu được PolitiFact trích dẫn, ghi nhận phần lớn thành viên MS-13 tại Mỹ hiện nay là công dân Mỹ sinh ra tại Mỹ, không phải người mới nhập cư); tuyên bố cụ thể về số lượng bị trục xuất "hàng nghìn người" được PolitiFact xếp hạng "Mostly False" vì không có số liệu xác minh được cho riêng thành viên MS-13.
+- **Về quy mô thực tế (đối chiếu nhiều nguồn, luôn gắn "ước tính," không chọn một con số tuyệt đối):** ước tính tại Mỹ dao động 8.000-10.000 thành viên (dưới 1% tổng số ~1,4 triệu thành viên băng nhóm tại Mỹ theo một ước tính 2018); ước tính toàn cầu dao động rộng hơn nhiều — từ khoảng 30.000-50.000 đến 50.000-70.000 tùy nguồn/phương pháp đếm.
+- **Diễn biến chính trị hóa tiếp theo (2025, đang diễn ra, chưa khép lại):** ngày 20/2/2025, Bộ Ngoại giao Mỹ chính thức định danh MS-13 là "Tổ chức Khủng bố Nước ngoài" (Foreign Terrorist Organization) và "Cá nhân/Tổ chức Khủng bố Toàn cầu được Chỉ định Đặc biệt" (Specially Designated Global Terrorist) — cùng đợt với Tren de Aragua và một số cartel Mexico. Nhiều nhà nghiên cứu tội phạm học và chính sách (được CNN, AULA Blog/American University, Council on Foreign Relations trích dẫn — đây là quan điểm chuyên gia được báo chí/tổ chức nghiên cứu ghi nhận, không phải kết luận của kênh) cho rằng gọi MS-13 là "tổ chức khủng bố" là mô tả không chính xác về mặt học thuật — MS-13 theo các học giả này là "tổ chức tội phạm xuyên quốc gia" (transnational criminal organization), hoạt động vì lợi ích kinh tế/lãnh thổ, không phải mục tiêu chính trị/ý thức hệ như định nghĩa khủng bố học thuật thông thường yêu cầu. Một chuyên gia được CNN trích dẫn còn lưu ý nghịch lý thời điểm: MS-13 tại chính El Salvador — nơi từng là thành trì mạnh nhất — đã bị dẹp bỏ phần lớn bởi chính chiến dịch mano dura của Bukele, khiến việc định danh khủng bố ở thời điểm 2025 bị một số nhà quan sát cho là chọn thời điểm kỳ lạ. **Đây là tranh luận học thuật/chính sách đang mở, chưa có kết luận đồng thuận — phải trình bày như tranh luận đang diễn ra, nhiều phía, không chọn phe.**
+- **Hướng dẫn phản khung cụ thể cho biên kịch tương lai (bắt buộc, không phải tùy chọn):**
+  1. Luôn phân biệt rõ ba tầng thông tin trong kịch bản: (a) sự kiện/số liệu đã kiểm chứng chéo (quy mô ước tính, cấu trúc clique, các vụ RICO, chính sách mano dura và số liệu an ninh/nhân quyền của nó); (b) tuyên bố chính trị đã bị fact-check xác định là sai/gây hiểu lầm (không lặp lại như sự thật); (c) tranh luận học thuật/chính sách đang mở (ví dụ định danh khủng bố có phù hợp không) — trình bày như tranh luận đang diễn ra, có nhiều phía, không chọn phe.
+  2. **Không** dùng khung "làn sóng nhập cư mang theo tội phạm" như một kết luận của kịch bản — đây là khung diễn ngôn chính trị đã bị nhiều fact-checker tier 2 xác định là không khớp dữ liệu nhân khẩu học thực tế của tổ chức (đa số thành viên hiện là công dân Mỹ sinh tại Mỹ).
+  3. **Không** dùng khung ngược lại là giảm thiểu/phủ nhận thiệt hại thực tế mà MS-13 gây ra (các vụ giết người, tống tiền, buôn ma túy đã có bản án — đây là sự thật đã kiểm chứng, không phải hư cấu chính trị) — cân bằng đúng mức, không đi từ thái cực giật gân sang thái cực xóa nhòa hậu quả thật.
+  4. Trọng tâm tường thuật nên đặt ở: (a) bối cảnh xã hội-lịch sử hình thành (nội chiến, tị nạn, hòa nhập thất bại), (b) cơ chế chính sách trục xuất dẫn tới xuyên quốc gia hóa (bài học chính sách công có giá trị giáo dục cao, trung lập chính trị), (c) hậu quả pháp lý/xã hội đã kiểm chứng (RICO, mano dura và các mặt được-mất của nó) — tránh biến tập phim thành một luận điểm ủng hộ/phản đối bất kỳ đảng phái hay chính sách nhập cư cụ thể nào của Mỹ.
+  5. Đúng theo `DOMAIN_GUIDE.md` §4a Format 3 và §4: designation "tổ chức tội phạm" của MS-13 đủ điều kiện nêu tên tổ chức (tier 1: bản án RICO, cơ quan hành pháp Mỹ, DOJ) — nhưng không cấp phép quy kết bất kỳ cá nhân cụ thể nào (kể cả nghi phạm bị bắt tại El Salvador dưới chế độ ngoại lệ, nhiều người trong đó *chưa từng bị kết án* theo chính báo cáo nhân quyền) là có tội nếu chưa có bản án cuối cùng. Đây là điểm giao thoa nhạy cảm giữa §4 và §8 cần cảnh giác đặc biệt khi nói về các đợt bắt giữ hàng loạt ở El Salvador.
+
+### Production cautions
+
+- **Thực thi §8:** không mô tả chi tiết vận hành clique/tuyển mộ/hệ thống liên lạc nội bộ theo cách có thể học theo — chỉ mô tả cấu trúc ở mức khái quát tổ chức học lịch sử-xã hội. **Không mô tả hình dạng/nội dung hình xăm cụ thể**, dù nguồn phổ thông/truyền thông thường nhắc tới hình xăm như đặc điểm nhận dạng phổ biến của MS-13 — packet này chủ động không mô tả, giữ nguyên giới hạn đã đặt ra trong research draft gốc.
+- **Thực thi §4a Format 3 + §4:** MS-13 đủ điều kiện nêu tên tổ chức (designation tier 1 từ bản án RICO/DOJ); nhưng cá nhân bị bắt/bị tình nghi tại El Salvador dưới chế độ ngoại lệ — đặc biệt phần lớn chưa qua xét xử theo chính báo cáo nhân quyền — phải giữ nguyên ngôn ngữ hedged (bị tình nghi/bị can), không bao giờ gọi là "tội phạm" nếu chưa có bản án cuối cùng.
+- **Bắt buộc mang theo tiểu mục "Cảnh báo chính trị hóa/giật gân" ở trên nguyên vẹn, không rút gọn hay làm mềm đi**, mỗi khi packet này được dùng làm nền cho kịch bản — không phải phần có thể lược bỏ để "gọn nội dung," tương tự cách "Cảnh báo lãng mạn hóa" của Escobar không thể lược bỏ (mục 5).
+- Nhãn độ tin cậy: nguồn gốc LA/nội chiến El Salvador — cao (khớp nhiều nguồn tier 2-3 độc lập); cơ chế trục xuất 1996 IIRIRA → xuyên quốc gia hóa — cao (CRS tier 1, InSight Crime, VoxDev); số liệu trục xuất cụ thể (20.000 vs 130.000) — trung bình-cao (hai ước tính khác nguồn/phạm vi thời gian, cần nêu rõ cả hai); cấu trúc clique phân tán — cao (có tranh luận nhỏ về mức độ liên kết mạng lưới thực sự); các vụ RICO cụ thể — cao (nguồn DOJ trực tiếp, tier 1); số liệu mano dura/chế độ ngoại lệ (an ninh) — cao nhưng biến động theo thời điểm (số liệu chính phủ El Salvador); số liệu vi phạm nhân quyền mano dura — cao nhưng dao động giữa các nguồn (HRW/Amnesty/WOLA/Cristosal); fact-check tuyên bố chính trị 2018 — cao (PolitiFact/AP, tier 2); định danh khủng bố 2025 và phản biện học thuật — cao cho sự kiện đã xảy ra (Federal Register, tier 1), tranh luận học thuật vẫn mở; quy mô thành viên toàn cầu — trung bình (ước tính dao động rộng 30.000-70.000 tùy nguồn, luôn gắn "ước tính").
+
+---
+
+## 7. Camorra (Naples, Ý)
+
+### Knowledge function
+
+Camorra là cơ hội compare/contrast mạnh nhất trong packet này, khai thác trực tiếp việc Cosa Nostra đã được kể ở mục 1: cùng được xếp vào nhóm "mafia kiểu Ý," nhưng hai tổ chức hình thành ở hai vùng khác nhau (Naples/Campania vs. Sicilia), trong bối cảnh lịch sử-xã hội khác nhau, và quan trọng nhất — với hai kiến trúc tổ chức đối lập nhau: kim tự tháp tập trung (Cosa Nostra, "Ủy ban"/Commissione) so với mạng lưới ngang phân tán (Camorra, hơn 100 clan độc lập). Đây là điểm giáo dục xuyên suốt của toàn mục, đúng tinh thần "phân tích-lịch sử-xã hội" mà §8 yêu cầu cho cả pillar — không phải một "phần hai" của Cosa Nostra, mà một tổ chức riêng biệt được kể tốt nhất *thông qua* sự đối chiếu đó.
+
+### Primary concepts
+
+- Gốc rễ được ghi nhận từ cuối thế kỷ 18, khiến Camorra **cổ xưa hơn Cosa Nostra** (Cosa Nostra hình thành thế kỷ 19, đã mô tả ở mục 1) — theo đa số nhà sử học, hình thành từ các băng nhóm trong hệ thống nhà tù Naples, ngay trước thời kỳ thống nhất nước Ý (1861). Có giả thuyết bên lề (**độ tin cậy thấp**, mang tính suy đoán lịch sử) về liên hệ xa với Tây Ban Nha thế kỷ 15 — chỉ nêu như một giả thuyết nếu cần, không phải khẳng định chính. Camorra và Cosa Nostra là **hai tổ chức riêng biệt, hình thành ở hai vùng khác nhau của Ý, không phải một tổ chức chia nhánh từ tổ chức kia** — dù cả hai cùng được xếp vào nhóm "mafia kiểu Ý" với 'Ndrangheta (Calabria) trong phân loại học thuật/báo chí hiện đại. Độ tin cậy cao cho niên đại tương đối và bối cảnh nhà tù Naples (Britannica, ACAMS); thấp cho giả thuyết gốc Tây Ban Nha.
+- **Cấu trúc — điểm compare/contrast cốt lõi của toàn mục:** Cosa Nostra (mục 1) là kim tự tháp — soldati → capo-decina → gia đình (cosca/famiglia) → Ủy ban (Commissione/Cupola) điều phối liên gia đình, có cơ chế phân xử tranh chấp nội bộ. Camorra **không có một cơ quan điều phối trung ương duy nhất tương đương** — là mạng lưới hàng trăm "clan" độc lập (nhiều nguồn ước tính hơn 100 nhóm hoạt động ở các thời điểm khác nhau), mỗi clan tự chủ về tài chính, nhân sự, địa bàn, vận hành song song, không có cơ chế phân xử tranh chấp cấp trên. Ví von thường dùng: Cosa Nostra như "kim tự tháp," Camorra như "mạng lưới ngang/hỗn loạn" — phản ánh đúng địa lý đô thị chằng chịt của Naples. **Hệ quả giáo dục trực tiếp:** vì thiếu cơ chế phân xử tập trung, xung đột giữa các clan Camorra về địa bàn/thị phần thường xuyên leo thang thành bạo lực trực diện giữa các clan (không nêu chi tiết kỹ thuật bạo lực) — khác Cosa Nostra, nơi Ủy ban về lý thuyết có vai trò kiềm chế xung đột nội bộ giữa các gia đình. Độ tin cậy cao — một trong những điểm ít gây tranh cãi nhất trong toàn bộ tư liệu về hai tổ chức này.
+- Hoạt động kinh tế được tài liệu hóa (nêu ở mức khái quát lịch sử, không mô tả cơ chế vận hành cụ thể): buôn lậu ma túy, hàng giả/hàng nhái, tống tiền ("bảo kê"), cho vay nặng lãi, đổ trộm chất thải độc hại, buôn lậu thuốc lá, cờ bạc phi pháp, tham nhũng chính trị — đặc biệt **rửa tiền qua đầu tư vào ngành kinh doanh hợp pháp** (nhà hàng, xây dựng, bất động sản, vận tải), nhiều nguồn xác nhận đây là đặc điểm nổi bật của Camorra so với các tổ chức tội phạm khác. Độ tin cậy cao (ACAMS, understandingitaly.com, nhiều báo chí độc lập).
+- Mức độ "ăn sâu" xã hội: một số clan kiểm soát gần như toàn bộ đời sống kinh tế của một khu phố cụ thể tại Naples qua tống tiền doanh nghiệp nhỏ và cho vay nặng lãi — một số nghiên cứu mô tả điều này như việc mạng lưới clan "hòa trộn tính bất hợp pháp với vẻ ngoài của nghĩa vụ công dân," tức lấp một phần khoảng trống quản lý nhà nước ở một số khu vực. **Cảnh báo biên tập quan trọng:** đặc điểm này **không được trình bày theo hướng lãng mạn hóa** (kiểu "Camorra giúp đỡ người nghèo") — đây là hiện tượng tội phạm học có tài liệu, cùng khung phân tích "tổ chức tội phạm lấp khoảng trống nhà nước" đã dùng cho cả 5 tổ chức gốc của packet này, không phải một đặc điểm đáng ngưỡng mộ. Độ tin cậy trung bình-cao (chủ yếu báo chí điều tra dài kỳ và nghiên cứu xã hội học, tier 2-3, mang tính diễn giải hơn số liệu định lượng cứng).
+
+### Narrative detail
+
+**Phần trọng tâm bắt buộc (§8) — đối xứng trực tiếp với Maxi Trial của Cosa Nostra ở mục 1.** Từ 1/7/1998 đến phán quyết cuối cùng 19/6/2008, **"Phiên tòa Spartacus" (Processo Spartacus)** — một loạt phiên xử kéo dài hơn 10 năm — nhắm trực diện vào clan Casalesi thuộc Camorra. Kết quả: 36 thành viên clan bị truy tố về một loạt tội giết người và tội danh khác; toàn bộ bị cáo bị tuyên có tội; **16 người lãnh án chung thân** (bao gồm các thủ lĩnh clan cấp cao), 14 người khác nhận án từ 2 đến 30 năm tù. Phiên tòa phơi bày quy mô kinh tế của clan Casalesi — độc chiếm thị trường xi măng/xây dựng, đổ trộm chất thải, mở rộng hoạt động (buôn ma túy, vũ khí, chất thải độc hại, mại dâm) ra ngoài biên giới Ý tới Đông Âu — nêu ở mức khái quát lịch sử-tư pháp, không mô tả cơ chế cụ thể. Đây là ví dụ tư pháp tốt, đối xứng với Maxi Trial của Cosa Nostra: cùng khung "nhà nước pháp quyền, dù chậm, cuối cùng dùng chính hệ thống tư pháp để lột trần và giam giữ một mạng lưới tội phạm quy mô lớn."
+
+Song song, và **là điểm neo cảm xúc bắt buộc thứ hai của mục này** — vai trò tương tự Falcone/Borsellino ở mục 1, nhưng với một khác biệt quan trọng cần nêu rõ (nhân vật này còn sống, cái giá vẫn đang tiếp diễn, không phải một cái kết đã khép lại): nhà báo/nhà văn **Roberto Saviano** (sinh 1979, quê Casal di Principe gần Naples — chính là địa bàn hoạt động của clan Casalesi) xuất bản sách **"Gomorra"** năm 2006 (Mondadori) — kết hợp báo chí điều tra và văn chương, dựa trên hồ sơ tòa án thực tế và trải nghiệm cá nhân của tác giả (5 năm nghiên cứu). Sách trở thành best-seller quốc tế; bản chuyển thể điện ảnh cùng tên (đạo diễn Matteo Garrone) đoạt Grand Prix tại Cannes 2008, là đại diện chính thức của Ý tại Oscar năm đó, sau đó có thêm phiên bản phim truyền hình nhiều mùa. **Hậu quả thực tế đối với tác giả — phần bắt buộc phải kể cùng thành công của sách/phim, không tách rời:** sau khi sách gây tiếng vang, Saviano nhận được đe dọa tính mạng nghiêm trọng, được xác nhận qua nguồn tin cảnh sát/điều tra — có thông tin cho rằng thủ lĩnh clan Casalesi từng chỉ đạo việc này. Từ năm 2006, Saviano phải sống dưới sự bảo vệ vũ trang liên tục — mốc thời gian nêu linh hoạt ("từ 2006 đến nhiều năm sau"/"cho tới nay theo nhiều nguồn"), không chốt một con số năm duy nhất vì nguồn không đồng nhất; ông từng phải rời Ý một thời gian để tìm nơi trú ẩn an toàn hơn. Khung đúng cho kịch bản: một nhà báo trả giá cá nhân rất lớn — có thật, không phải hư cấu, một phần vẫn đang tiếp diễn — để phơi bày sự thật về một tổ chức tội phạm, phù hợp làm điểm neo cảm xúc/hồi kết cho tập phim.
+
+**Ghi chú trung thực bắt buộc về hiện trạng:** khác 4/5 tổ chức gốc trong packet này (vốn đã được xử lý dứt điểm hoặc suy giảm rõ rệt), Camorra **không phải một tổ chức đã kết thúc** — nhiều nguồn học thuật/báo chí gần đây (The Conversation, EU Today, University of Bath) mô tả Camorra vẫn đang hoạt động tích cực, kể cả mở rộng hiện diện ra một số nước châu Âu. Khung "sụp đổ" ở mục này phải áp dụng cho **từng clan cụ thể đã bị xét xử** (Casalesi qua Spartacus), không được khái quát hóa thành "Camorra nói chung đã bị dẹp bỏ" — đây là điểm cần trình bày trung thực, không thỏa hiệp với khuôn mẫu "rise-and-fall" gọn gàng chỉ vì nó dễ kể hơn.
+
+### Script-ready material
+
+- Compare/contrast mở đầu tự nhiên, tận dụng trực tiếp mục 1 đã có sẵn trong packet: "Cosa Nostra có một Ủy ban phân xử tranh chấp; Camorra thì không" — hook giáo dục mạnh, không cần dựng thêm kịch tính.
+- Saviano/Gomorra — nhân vật thật, hậu quả thật, điểm neo cảm xúc/hồi kết tự nhiên tương tự Falcone/Borsellino ở mục 1, nhưng khác biệt vì Saviano còn sống và vẫn đang trả giá ở hiện tại — cần trình bày với sự tôn trọng tương xứng, không kịch tính hóa quá mức một tình huống đang diễn ra ngoài đời thật.
+- Số liệu Spartacus (36 bị cáo, 16 án chung thân, 14 án 2-30 năm, hơn 10 năm tố tụng) — dữ liệu ấn tượng, an toàn dùng nguyên văn vì nguồn tier 1-2 (DIA, Wikipedia, France 24/AFP).
+- Ghi chú "vẫn đang hoạt động tích cực" như một kết thúc mở trung thực — tránh cảm giác giả tạo "đã xong," đồng thời tự thân đã đủ hấp dẫn mà không cần thêm kịch tính.
+
+### Production cautions
+
+- **Thực thi §8:** không mô tả chi tiết vận hành cụ thể của tống tiền/cho vay nặng lãi/rửa tiền/đổ trộm chất thải/buôn lậu — chỉ nêu ở mức khái quát lịch sử như đã làm ở Primary concepts. Đặc điểm "ăn sâu xã hội" **không được** trình bày theo hướng lãng mạn hóa kiểu "Camorra giúp đỡ cộng đồng" — luôn gắn kèm khung phân tích "lấp khoảng trống nhà nước" trong cùng đoạn, không phải một đặc điểm đáng ngưỡng mộ, đúng tinh thần đã áp dụng cho cả 5 tổ chức gốc trong packet.
+- **Thực thi §4a Format 3 + §4:** designation "tổ chức tội phạm mafia kiểu Ý" cho Camorra/clan Casalesi đến từ phán quyết tư pháp Ý (Spartacus, tier 1) — đủ điều kiện nêu tên tổ chức và 36 bị cáo đã bị kết án cuối cùng trong Spartacus (Format 1). Nhưng nêu tên tổ chức không cấp phép gọi bất kỳ thành viên/associate nào ngoài phạm vi các bị cáo đã kết án cuối cùng là "có tội" — cá nhân khác được nhắc tới (kể cả nghi phạm mới) vẫn cần ngôn ngữ hedged theo §4 nếu chưa có bản án cuối cùng.
+- Trọng tâm tường thuật luôn giữ song song Spartacus + Saviano — hai nhịp hậu quả/tiếp diễn không thể lược bỏ để "dành thời lượng cho phần cấu trúc/mạng lưới kinh tế" của tổ chức.
+- Nhãn độ tin cậy: niên đại cổ xưa hơn Cosa Nostra/gốc nhà tù Naples — cao (Britannica, ACAMS, nhiều nguồn cross-check); giả thuyết gốc Tây Ban Nha thế kỷ 15 — thấp, chỉ nêu bên lề, cần gắn nhãn; cấu trúc phân tán/clan độc lập vs. Ủy ban Cosa Nostra — cao, điểm ít tranh cãi nhất trong tư liệu về hai tổ chức; hoạt động kinh tế/rửa tiền qua kinh doanh hợp pháp — cao (ACAMS, understandingitaly.com, nhiều báo chí); mức độ "ăn sâu" xã hội Naples — trung bình-cao (diễn giải xã hội học, tier 2-3, cần cẩn trọng tránh lãng mạn hóa); Saviano/Gomorra — sách, phim, đe dọa, bảo vệ vũ trang — cao (khớp nhiều nguồn tier 2-3 độc lập: Wikipedia, Literary Review, BBC, Collider, PBS Frontline; mốc thời gian bảo vệ cụ thể hơi dao động giữa nguồn); Phiên tòa Spartacus — số liệu, kết quả — cao (khớp Wikipedia, France 24, Taipei Times/AFP, DIA tier 1-2); tình trạng Camorra hiện tại (vẫn hoạt động) — trung bình-cao (báo chí gần đây — The Conversation, EU Today — cần gắn mốc thời gian, tránh khái quát hóa "đã kết thúc").
+
+---
+
 # Ghi chú tổng hợp cho biên tập viên
 
-1. **Điểm chung bắt buộc của cả 5 mục:** mỗi tổ chức có một câu chuyện sụp đổ/hậu quả được ghi chép tốt, có thể kể hấp dẫn mà không cần chi tiết vận hành — trọng tâm luôn là "nhà nước/pháp luật/nội bộ tổ chức đã đánh sập nó như thế nào," không phải "tổ chức đã hoạt động trơn tru ra sao."
+1. **Điểm chung bắt buộc của cả 7 mục:** mỗi tổ chức có một câu chuyện sụp đổ/hậu quả được ghi chép tốt, có thể kể hấp dẫn mà không cần chi tiết vận hành — trọng tâm luôn là "nhà nước/pháp luật/nội bộ tổ chức đã đánh sập nó như thế nào," không phải "tổ chức đã hoạt động trơn tru ra sao." (Ngoại lệ trung thực: Camorra, mục 7 — quá trình đó mới thành công ở cấp từng clan cụ thể, không phải toàn mạng lưới; xem ghi chú số 7 dưới đây.)
 2. **Escobar/Cartel Medellín là trường hợp rủi ro cao nhất** về lãng mạn hóa — có tiểu mục "Cảnh báo lãng mạn hóa" riêng, không chỉ dựa vào hedge câu chữ.
 3. **Năm Cam là trường hợp duy nhất xảy ra tại Việt Nam** và có bản án đã có hiệu lực pháp luật (Format 1) — nhưng mục này của packet **chủ động không lặp lại** narrative vụ án đã/sẽ có ở KP_CL_002, chỉ tập trung cấu trúc tổ chức + mạng lưới cán bộ tha hóa; **cần rà soát cross-reference khi KP_CL_002 được viết**.
 4. **Hội Tam Hoàng** cần gắn nhãn "truyền thuyết dân gian" nhất quán cho câu chuyện "phản Thanh phục Minh" — không bao giờ trình bày như sử liệu xác thực.
-5. **Không có nội dung nào trong packet này** vi phạm ranh giới cấm của `DOMAIN_GUIDE.md` §8: không có chi tiết vận hành đủ để làm theo (chiêu mộ/rửa tiền/buôn lậu/né tránh pháp luật/liên lạc mật mã); không có mô tả/tái hiện phù hiệu băng đảng theo cách nhận dạng được. Toàn bộ nội dung dừng ở lớp lịch sử-xã hội-cấu trúc phân tích-hậu quả pháp lý.
+5. **Không có nội dung nào trong packet này** vi phạm ranh giới cấm của `DOMAIN_GUIDE.md` §8: không có chi tiết vận hành đủ để làm theo (chiêu mộ/rửa tiền/buôn lậu/né tránh pháp luật/liên lạc mật mã); không có mô tả/tái hiện phù hiệu băng đảng hoặc hình xăm theo cách nhận dạng được — bao gồm cả MS-13 (mục 6), dù nguồn phổ thông thường nhắc tới hình xăm như đặc điểm nhận dạng. Toàn bộ nội dung dừng ở lớp lịch sử-xã hội-cấu trúc phân tích-hậu quả pháp lý.
 6. **Jurisdiction phải luôn được nêu rõ** khi dựng kịch bản (`DOMAIN_GUIDE.md` §2) — xem Historical Background.
+7. **MS-13 (mục 6) là trường hợp rủi ro cao nhất về chính trị hóa/giật gân** — một dạng rủi ro mới, khác bản chất với lãng mạn hóa (Escobar) hay truyền thuyết-nhầm-thành-sử-liệu (Hội Tam Hoàng). Tiểu mục "Cảnh báo chính trị hóa/giật gân" của mục 6 **phải được mang theo nguyên vẹn, không rút gọn**, mỗi khi packet được dùng làm nền kịch bản — cùng mức bắt buộc như "Cảnh báo lãng mạn hóa" của Escobar.
+8. **Camorra (mục 7) là cơ hội compare/contrast chính với Cosa Nostra (mục 1)** — cấu trúc mạng lưới ngang (hơn 100 clan độc lập) đối lập với cấu trúc kim tự tháp/Ủy ban của Cosa Nostra; đồng thời là tổ chức duy nhất trong packet mà khung "sụp đổ" chỉ áp dụng đúng ở cấp từng clan (Casalesi qua Phiên tòa Spartacus), không phải toàn bộ tổ chức — Camorra vẫn được nhiều nguồn mô tả là đang hoạt động tích cực tính đến thời điểm nghiên cứu (2026).
 
 ---
 
@@ -331,15 +426,17 @@ Khi packet này được truy xuất, hệ thống nên đính kèm các cảnh 
 - Truyền thuyết "phản Thanh phục Minh" (Hội Tam Hoàng) là folklore/disputed, không phải sử liệu.
 - Escobar/Cartel Medellín bắt buộc có counter-framing chống lãng mạn hóa, trung tâm hóa góc nhìn nạn nhân Colombia.
 - Mục Năm Cam chỉ nói cấu trúc tổ chức + cán bộ tha hóa; narrative vụ án/phiên tòa thuộc `KP_CL_002_An_Da_Xu.md` — packet đó **đã tồn tại** (kể từ 2026-07-23) và cross-reference số liệu đã được xác nhận khớp (155 bị can/bị cáo, 24 tội danh, 21 cán bộ nhà nước).
-- Domain QA Policy chính thức của domain CL cần áp dụng đầy đủ trước khi packet chuyển `active`.
+- Mục MS-13 (mục 6) bắt buộc kèm theo tiểu mục "Cảnh báo chính trị hóa/giật gân" nguyên vẹn — không chọn phe trong tranh luận chính sách nhập cư Mỹ; định danh FTO 2025 và phản biện học thuật là tranh luận đang mở, chưa có kết luận đồng thuận.
+- Mục Camorra (mục 7) bắt buộc giữ song song hai nhịp hậu quả: Phiên tòa Spartacus (clan Casalesi) và cái giá cá nhân thực tế của Roberto Saviano; không khái quát hóa "Camorra đã bị dẹp bỏ" — tổ chức vẫn được nhiều nguồn mô tả là đang hoạt động.
+- Domain QA Policy chính thức của domain CL cần áp dụng đầy đủ trước khi packet chuyển `active` — bao gồm cả hai mục mở rộng (6-7), hiện **chưa qua QA chính thức**.
 
 ---
 
 # Packet Completion Notes
 
-Packet này tổng hợp toàn bộ `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md` (research date 2026-07-23) thành một Knowledge Packet có cấu trúc thống nhất, giữ nguyên mọi cảnh báo/nhãn độ tin cậy/cờ dị bản đã ghi trong nguồn gốc — không có tuyên bố nào trong research draft bị lược bỏ hoặc làm phẳng. Đây là draft phù hợp làm nền tri thức nội bộ cho các bước tiếp theo (Creative Knowledge, Series Bible, Character Bible, kịch bản Pillar 5), **không phải nội dung sẵn sàng công chiếu**.
+Packet này ban đầu tổng hợp toàn bộ `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md` (research date 2026-07-23, 5 tổ chức gốc) thành một Knowledge Packet có cấu trúc thống nhất, giữ nguyên mọi cảnh báo/nhãn độ tin cậy/cờ dị bản đã ghi trong nguồn gốc. **Mở rộng 2026-07-24 (version 0.2):** bổ sung mục 6 (MS-13) và mục 7 (Camorra) từ `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md`, cùng chuẩn cấu trúc 5 phần và cùng mức độ giữ nguyên nhãn độ tin cậy/cờ dị bản — không có tuyên bố nào trong cả hai research draft bị lược bỏ hoặc làm phẳng. Đây là draft phù hợp làm nền tri thức nội bộ cho các bước tiếp theo (Creative Knowledge, Series Bible, Character Bible, kịch bản Pillar 5), **không phải nội dung sẵn sàng công chiếu**.
 
-Packet cần trước khi nâng trạng thái `active`: (1) Domain QA Policy chính thức của domain CL áp dụng và ký duyệt, đặc biệt hạng mục §8 Non-Glorification/No-Operational-Detail — **độc lập QA đã thực hiện 2026-07-23, xem `_QA_REPORT_KP_CL_005.md`; chờ human sign-off cuối cùng**; (2) ~~`KP_CL_002_An_Da_Xu.md` được soạn và cross-reference ở mục Năm Cam được xác nhận/khớp~~ — **hoàn tất 2026-07-23:** đã soạn xong và số liệu đã đối chiếu khớp (155 bị can/bị cáo, 24 tội danh, 21 cán bộ nhà nước); (3) rà soát bổ sung các "Khoảng trống nguồn" đã liệt kê, đặc biệt vai trò Los Pepes và số liệu ước tính quy mô Cartel Medellín — vẫn còn mở, cần human judgment (xem QA report).
+Packet cần trước khi nâng trạng thái `active`: (1) Domain QA Policy chính thức của domain CL áp dụng và ký duyệt, đặc biệt hạng mục §8 Non-Glorification/No-Operational-Detail — **độc lập QA đã thực hiện 2026-07-23 cho 5 mục gốc, xem `_QA_REPORT_KP_CL_005.md`; mục 6-7 (bổ sung 2026-07-24) chưa qua vòng QA này, cần chạy lại/mở rộng QA report trước khi packet toàn bộ chuyển `active`**; (2) ~~`KP_CL_002_An_Da_Xu.md` được soạn và cross-reference ở mục Năm Cam được xác nhận/khớp~~ — **hoàn tất 2026-07-23:** đã soạn xong và số liệu đã đối chiếu khớp (155 bị can/bị cáo, 24 tội danh, 21 cán bộ nhà nước); (3) rà soát bổ sung các "Khoảng trống nguồn" đã liệt kê, đặc biệt vai trò Los Pepes và số liệu ước tính quy mô Cartel Medellín, cũng như các khoảng trống mới của batch 2 (số liệu trục xuất MS-13, số người chết mano dura, mốc thời gian bảo vệ Saviano) — vẫn còn mở, cần human judgment (xem QA report).
 
 # Final Packet Use Boundary
 
@@ -347,13 +444,14 @@ Các agent tương lai phải coi packet này là một tài sản tri thức đ
 
 Mọi sản phẩm phái sinh phải giữ được các ranh giới sau:
 
-1. Trọng tâm tường thuật luôn là hậu quả/sụp đổ — không có "rise" thiếu "fall" tương xứng (§8).
-2. Không chi tiết vận hành đủ để làm theo, không tái hiện phù hiệu/biểu tượng nhận dạng được (§8).
+1. Trọng tâm tường thuật luôn là hậu quả/sụp đổ — không có "rise" thiếu "fall" tương xứng (§8); với Camorra (mục 7), khung này áp dụng ở cấp từng clan cụ thể, không khái quát hóa thành toàn tổ chức đã kết thúc.
+2. Không chi tiết vận hành đủ để làm theo, không tái hiện phù hiệu/biểu tượng/hình xăm nhận dạng được (§8).
 3. Nêu tên tổ chức không cấp phép nêu tên cá nhân chưa bị kết án cuối cùng là có tội (§4a Format 3, §4).
 4. Escobar/Cartel Medellín luôn đi kèm counter-framing chống lãng mạn hóa, trung tâm hóa nạn nhân.
 5. Mục Năm Cam không lặp lại narrative vụ án thuộc phạm vi KP_CL_002.
+6. MS-13 (mục 6) luôn đi kèm nguyên vẹn tiểu mục "Cảnh báo chính trị hóa/giật gân" — không chọn phe trong tranh luận chính sách nhập cư Mỹ, theo bất kỳ chiều nào.
 
-Nếu một sản phẩm đầu ra tương lai không thể giữ được năm ranh giới này, nó phải được sửa lại, nâng cấp xét duyệt, hoặc từ chối trước khi công chiếu.
+Nếu một sản phẩm đầu ra tương lai không thể giữ được sáu ranh giới này, nó phải được sửa lại, nâng cấp xét duyệt, hoặc từ chối trước khi công chiếu.
 
 ---
 
@@ -364,5 +462,6 @@ Nếu một sản phẩm đầu ra tương lai không thể giữ được năm 
 | Asset ID | KP_CL_005 |
 | Domain | CL (Hình Sự — Criminal Law) |
 | Dùng cho | Pillar 5 (Tổ Chức Tội Phạm) season episodes |
-| Phụ thuộc | `DOMAIN_GUIDE.md` + `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md` + cross-reference `KP_CL_002_An_Da_Xu.md` (chưa tồn tại tại thời điểm soạn — cần rà soát khi được viết) |
-| Trạng thái | draft creative-knowledge asset — chưa qua QA chính thức |
+| Phụ thuộc | `DOMAIN_GUIDE.md` + `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM.md` + `RESEARCH_DRAFT_TO_CHUC_TOI_PHAM_BATCH2.md` + cross-reference `KP_CL_002_An_Da_Xu.md` (đã tồn tại kể từ 2026-07-23, số liệu Năm Cam đã đối chiếu khớp) |
+| Trạng thái | draft creative-knowledge asset — chưa qua QA chính thức (mục 6-7 mới bổ sung 2026-07-24, chưa qua vòng QA nào) |
+| Version | 0.2 (2026-07-24 — mở rộng thêm mục 6 MS-13, mục 7 Camorra; roster từ 5 lên 7 tổ chức) |
